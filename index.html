@@ -86,6 +86,15 @@
       color: var(--accent2);
     }
 
+    .new-pulse {
+      animation: pulseInk 1.8s ease-in-out infinite;
+    }
+
+    @keyframes pulseInk {
+      0%, 100% { box-shadow: 0 0 0 rgba(209,60,47,0); }
+      50% { box-shadow: 0 0 0 6px rgba(209,60,47,0.12); }
+    }
+
     .hero {
       padding: 24px;
       margin-bottom: 16px;
@@ -279,6 +288,12 @@
       border-radius: 20px;
       padding: 16px;
       box-shadow: 6px 6px 0 rgba(17,17,17,0.14);
+      scroll-margin-top: 90px;
+    }
+
+    .card.is-new {
+      border-color: var(--accent2);
+      background: linear-gradient(135deg, rgba(255,250,242,0.96), rgba(255,236,229,0.98));
     }
 
     .card-top {
@@ -328,6 +343,12 @@
       border: 2px solid var(--border);
       font-family: var(--mono);
       background: #fffaf2;
+    }
+
+    .new-chip {
+      color: #fffaf2;
+      background: var(--accent2);
+      border-color: var(--accent2);
     }
 
     .buy { color: #0f9f57; background: rgba(15,159,87,0.12); }
@@ -380,6 +401,29 @@
       gap: 10px;
       flex-wrap: wrap;
       margin-top: 14px;
+    }
+
+    .sticky-mobile-bar {
+      display: none;
+      position: fixed;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      z-index: 20;
+      padding: 10px;
+      border: 2px solid var(--border);
+      border-radius: 18px;
+      background: rgba(255,250,242,0.96);
+      box-shadow: 0 10px 26px rgba(17,17,17,0.18);
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+      backdrop-filter: blur(12px);
+    }
+
+    .sticky-mobile-bar button {
+      padding: 12px 10px;
+      font-size: 12px;
+      box-shadow: none;
     }
 
     .card-actions a,
@@ -443,17 +487,21 @@
 
     @media (max-width: 700px) {
       .grid, .stats, .toolbar, .card-priority, .mobile-primary-actions, .opportunity-strip { grid-template-columns: 1fr; }
-      .wrap { padding: 12px 8px 24px; }
+      .wrap { padding: 12px 8px 92px; }
       .hero, .panel { padding: 14px; border-radius: 18px; }
       .topbar { padding: 10px 12px; }
       h1 { font-size: 32px; }
       .sub { font-size: 14px; }
       .hero-actions { display: none; }
       .mobile-primary-actions { display: grid; }
+      .sticky-mobile-bar { display: grid; }
       .title { font-size: 20px; }
-      .card { padding: 14px; }
-      .metric { padding: 10px; }
-      .metric .value { font-size: 17px; }
+      .card { padding: 13px; border-radius: 18px; }
+      .card-top { margin-bottom: 10px; }
+      .quick-meta { gap: 6px; }
+      .quick-pill { padding: 5px 8px; font-size: 11px; }
+      .metric { padding: 9px; }
+      .metric .value { font-size: 16px; }
       .toolbar { top: 6px; gap: 8px; padding: 8px; }
       .card-actions { flex-direction: column; }
       .card-actions a, .card-actions button { width: 100%; }
@@ -552,6 +600,11 @@
           <p id="summaryText" class="copy">Load a scan report to generate the summary block.</p>
         </section>
       </div>
+    </div>
+    <div class="sticky-mobile-bar">
+      <button id="jumpToTopBtn" class="secondary" type="button">Top</button>
+      <button id="jumpToNewBtn" type="button">New</button>
+      <button id="mobileFilterBuyBtn" class="secondary" type="button">BUY</button>
     </div>
   </div>
 
@@ -659,7 +712,10 @@ Generated: 2026-04-19T13:36:41.124Z
       recommendationFilter: document.getElementById('recommendationFilter'),
       sortSelect: document.getElementById('sortSelect'),
       riskFilter: document.getElementById('riskFilter'),
-      nextScanCountdown: document.getElementById('nextScanCountdown')
+      nextScanCountdown: document.getElementById('nextScanCountdown'),
+      jumpToTopBtn: document.getElementById('jumpToTopBtn'),
+      jumpToNewBtn: document.getElementById('jumpToNewBtn'),
+      mobileFilterBuyBtn: document.getElementById('mobileFilterBuyBtn')
     };
 
     let currentData = null;
@@ -791,7 +847,7 @@ Generated: 2026-04-19T13:36:41.124Z
         const recClass = (card.recommendation || 'WATCH').toLowerCase();
         const rankClass = `rank${card.gradeRank || 'B'}`;
         return `
-          <article class="card">
+          <article class="card ${card.isNew ? 'is-new new-pulse' : ''}" id="card-${escapeAttr(card.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase())}">
             <div class="card-top">
               <div>
                 <div class="title">${escapeHtml(card.name)}</div>
@@ -803,6 +859,7 @@ Generated: 2026-04-19T13:36:41.124Z
                 </div>
               </div>
               <div class="chips">
+                ${card.isNew ? '<span class="chip new-chip">NEW</span>' : ''}
                 <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
                 <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
               </div>
@@ -842,6 +899,7 @@ Generated: 2026-04-19T13:36:41.124Z
       `;
 
       els.opportunityStrip.innerHTML = visibleCards.slice(0, 3).map((card, index) => `
+        <div class="opportunity-card ${card.isNew ? 'new-pulse' : ''}">
         <div class="opportunity-card">
           <div class="kicker">${index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check'}</div>
           <div class="headline">${escapeHtml(card.name)}</div>
@@ -954,6 +1012,21 @@ Generated: 2026-04-19T13:36:41.124Z
     els.riskFilter.addEventListener('change', rerenderCurrent);
 
     els.loadSampleBtn.addEventListener('click', () => loadReportText(SAMPLE_REPORT));
+
+    els.jumpToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    els.jumpToNewBtn.addEventListener('click', () => {
+      const nextNew = document.querySelector('.card.is-new');
+      if (nextNew) nextNew.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    els.mobileFilterBuyBtn.addEventListener('click', () => {
+      els.recommendationFilter.value = els.recommendationFilter.value === 'BUY' ? 'ALL' : 'BUY';
+      els.mobileFilterBuyBtn.textContent = els.recommendationFilter.value === 'BUY' ? 'ALL' : 'BUY';
+      rerenderCurrent();
+    });
 
     els.reportFile.addEventListener('change', async (event) => {
       const file = event.target.files?.[0];
