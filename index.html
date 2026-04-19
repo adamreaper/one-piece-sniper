@@ -169,6 +169,25 @@
       line-height: 1.6;
     }
 
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .toolbar input, .toolbar select {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--text);
+      padding: 12px 14px;
+      font: inherit;
+    }
+
+    .toolbar input::placeholder { color: #9db2c6; }
+
     .cards {
       display: grid;
       gap: 14px;
@@ -293,11 +312,11 @@
 
     @media (max-width: 1120px) {
       .hero, .layout { grid-template-columns: 1fr; }
-      .grid { grid-template-columns: 1fr 1fr; }
+      .grid, .toolbar { grid-template-columns: 1fr 1fr; }
     }
 
     @media (max-width: 700px) {
-      .grid, .stats { grid-template-columns: 1fr; }
+      .grid, .stats, .toolbar { grid-template-columns: 1fr; }
       .wrap { padding: 16px 12px 32px; }
       .hero, .panel { padding: 16px; }
     }
@@ -337,6 +356,27 @@
       <section class="panel">
         <h2>Live target board</h2>
         <p class="copy">This mirrors the hybrid cron output, but in a format that’s easier to scan fast. All prices are all-in shipped totals.</p>
+        <div class="toolbar">
+          <input id="searchInput" type="search" placeholder="Filter by card, seller, title, or risk text" />
+          <select id="recommendationFilter">
+            <option value="ALL">All recommendations</option>
+            <option value="BUY">BUY only</option>
+            <option value="WATCH">WATCH only</option>
+            <option value="PASS">PASS only</option>
+          </select>
+          <select id="sortSelect">
+            <option value="spread">Sort by spread</option>
+            <option value="margin">Sort by margin vs target</option>
+            <option value="totalAsc">Sort by lowest all-in</option>
+            <option value="probability">Sort by PSA 10 probability</option>
+            <option value="confidence">Sort by confidence</option>
+          </select>
+          <select id="riskFilter">
+            <option value="ALL">All risk levels</option>
+            <option value="clean">Hide flagged listings</option>
+            <option value="flagged">Only flagged listings</option>
+          </select>
+        </div>
         <div id="cards" class="cards"></div>
       </section>
 
@@ -461,8 +501,14 @@ Generated: 2026-04-19T13:36:41.124Z
       copySummaryBtn: document.getElementById('copySummaryBtn'),
       notes: document.getElementById('notes'),
       saveNotesBtn: document.getElementById('saveNotesBtn'),
-      clearNotesBtn: document.getElementById('clearNotesBtn')
+      clearNotesBtn: document.getElementById('clearNotesBtn'),
+      searchInput: document.getElementById('searchInput'),
+      recommendationFilter: document.getElementById('recommendationFilter'),
+      sortSelect: document.getElementById('sortSelect'),
+      riskFilter: document.getElementById('riskFilter')
     };
+
+    let currentData = null;
 
     function money(n) {
       const num = Number(n || 0);
@@ -536,7 +582,46 @@ Generated: 2026-04-19T13:36:41.124Z
       return result;
     }
 
+    function getVisibleCards(data) {
+      const search = (els.searchInput.value || '').trim().toLowerCase();
+      const rec = els.recommendationFilter.value;
+      const risk = els.riskFilter.value;
+      const sort = els.sortSelect.value;
+
+      let cards = [...(data.cards || [])];
+
+      if (search) {
+        cards = cards.filter(card => {
+          const hay = [card.name, card.title, card.seller, card.psa9Risk, ...(card.riskFlags || [])].join(' ').toLowerCase();
+          return hay.includes(search);
+        });
+      }
+
+      if (rec !== 'ALL') {
+        cards = cards.filter(card => (card.recommendation || 'WATCH') === rec);
+      }
+
+      if (risk === 'clean') {
+        cards = cards.filter(card => !(card.riskFlags || []).length);
+      } else if (risk === 'flagged') {
+        cards = cards.filter(card => (card.riskFlags || []).length);
+      }
+
+      const sorters = {
+        spread: (a, b) => (b.spread || 0) - (a.spread || 0),
+        margin: (a, b) => (b.margin || 0) - (a.margin || 0),
+        totalAsc: (a, b) => (a.total || 0) - (b.total || 0),
+        probability: (a, b) => (b.probability || 0) - (a.probability || 0),
+        confidence: (a, b) => (b.confidence || 0) - (a.confidence || 0)
+      };
+
+      cards.sort(sorters[sort] || sorters.spread);
+      return cards;
+    }
+
     function render(data) {
+      currentData = data;
+      const visibleCards = getVisibleCards(data);
       const cards = data.cards || [];
       const buyCount = cards.filter(c => c.recommendation === 'BUY').length;
       const watchCount = cards.filter(c => c.recommendation === 'WATCH').length;
@@ -548,7 +633,7 @@ Generated: 2026-04-19T13:36:41.124Z
       els.bestSpread.textContent = money(bestSpread);
       els.lastUpdated.textContent = data.generated ? `Last scan: ${new Date(data.generated).toLocaleString()}` : 'Last scan unavailable';
 
-      els.cards.innerHTML = cards.map(card => {
+      els.cards.innerHTML = visibleCards.map(card => {
         const recClass = (card.recommendation || 'WATCH').toLowerCase();
         const rankClass = `rank${card.gradeRank || 'B'}`;
         return `
@@ -587,7 +672,7 @@ Generated: 2026-04-19T13:36:41.124Z
         `;
       }).join('');
 
-      const top = cards[0];
+      const top = visibleCards[0] || cards[0];
       els.snapshot.innerHTML = `
         <div class="mini-item"><div class="mono muted">Cron target</div><div>One Piece PSA Scout Adaptive</div></div>
         <div class="mini-item"><div class="mono muted">Report source</div><div>${escapeHtml(data.generated || 'Manual load')}</div></div>
@@ -595,7 +680,7 @@ Generated: 2026-04-19T13:36:41.124Z
         <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
       `;
 
-      const summaryLines = cards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'} at ${money(card.total)} all-in, buy-under ${money(card.buyUnder)}, spread ${money(card.spread)}.`);
+      const summaryLines = visibleCards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'} at ${money(card.total)} all-in, buy-under ${money(card.buyUnder)}, spread ${money(card.spread)}.`);
       els.summaryText.textContent = summaryLines.length
         ? summaryLines.join(' ')
         : 'No parsed card data yet.';
@@ -619,6 +704,15 @@ Generated: 2026-04-19T13:36:41.124Z
       render(parsed);
       localStorage.setItem('onePieceSniperReport', text);
     }
+
+    function rerenderCurrent() {
+      if (currentData) render(currentData);
+    }
+
+    els.searchInput.addEventListener('input', rerenderCurrent);
+    els.recommendationFilter.addEventListener('change', rerenderCurrent);
+    els.sortSelect.addEventListener('change', rerenderCurrent);
+    els.riskFilter.addEventListener('change', rerenderCurrent);
 
     els.loadSampleBtn.addEventListener('click', () => loadReportText(SAMPLE_REPORT));
 
