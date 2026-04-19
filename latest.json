@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-19T20:30:26.414Z",
-  "updatedAt": "2026-04-19T20:30:53.892Z",
-  "newListingCount": 1,
+  "generatedAt": "2026-04-19T23:50:59.322Z",
+  "updatedAt": "2026-04-19T23:51:26.482Z",
+  "newListingCount": 0,
   "alertCount": 0,
   "tracked": [
     "Nami OP09-070",
@@ -23,8 +23,8 @@
       "code": "OP09-070",
       "priority": "core",
       "rawMarket": 51.36,
-      "psa10Market": 392.5,
-      "buyUnder": 60,
+      "psa10Market": 230,
+      "buyUnder": 55,
       "psa9Risk": "weak protection",
       "isNew": false,
       "shouldAlert": false,
@@ -43,17 +43,18 @@
         "gradeRank": "D",
         "probability": 48,
         "confidence": 53,
-        "expectedProfit": 26,
-        "submitProfit": 8,
+        "expectedProfit": -11,
+        "submitProfit": -22,
         "submitReady": false,
-        "offerSuggestion": "Offer around $21",
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
           "surface: possible issue",
           "limited photos: 2"
         ]
-      }
+      },
+      "pricingSource": "manual_recent_psa_sales"
     },
     {
       "name": "Boa Hancock ST03-013",
@@ -78,10 +79,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 52,
+        "probability": 50,
         "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -21,
+        "expectedProfit": -13,
+        "submitProfit": -22,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
@@ -89,7 +90,8 @@
           "edges: minor wear",
           "limited photos: 2"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     },
     {
       "name": "Perona OP10-092",
@@ -125,7 +127,8 @@
           "edges: visible wear",
           "surface: possible issue"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     },
     {
       "name": "Nico Robin OP09-062",
@@ -135,7 +138,7 @@
       "psa10Market": 155,
       "buyUnder": 55,
       "psa9Risk": "ugly downside if it 9s",
-      "isNew": true,
+      "isNew": false,
       "shouldAlert": false,
       "listingKey": "v1|298227792882|0",
       "best": {
@@ -161,7 +164,8 @@
           "edges: minor wear",
           "limited photos: 3"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     }
   ],
   "coreCards": [
@@ -170,8 +174,8 @@
       "code": "OP09-070",
       "priority": "core",
       "rawMarket": 51.36,
-      "psa10Market": 392.5,
-      "buyUnder": 60,
+      "psa10Market": 230,
+      "buyUnder": 55,
       "psa9Risk": "weak protection",
       "isNew": false,
       "shouldAlert": false,
@@ -190,17 +194,18 @@
         "gradeRank": "D",
         "probability": 48,
         "confidence": 53,
-        "expectedProfit": 26,
-        "submitProfit": 8,
+        "expectedProfit": -11,
+        "submitProfit": -22,
         "submitReady": false,
-        "offerSuggestion": "Offer around $21",
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
           "surface: possible issue",
           "limited photos: 2"
         ]
-      }
+      },
+      "pricingSource": "manual_recent_psa_sales"
     },
     {
       "name": "Boa Hancock ST03-013",
@@ -225,10 +230,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 52,
+        "probability": 50,
         "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -21,
+        "expectedProfit": -13,
+        "submitProfit": -22,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
@@ -236,7 +241,8 @@
           "edges: minor wear",
           "limited photos: 2"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     },
     {
       "name": "Perona OP10-092",
@@ -272,7 +278,8 @@
           "edges: visible wear",
           "surface: possible issue"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     }
   ],
   "experimentalCards": [
@@ -284,7 +291,7 @@
       "psa10Market": 155,
       "buyUnder": 55,
       "psa9Risk": "ugly downside if it 9s",
-      "isNew": true,
+      "isNew": false,
       "shouldAlert": false,
       "listingKey": "v1|298227792882|0",
       "best": {
@@ -310,7 +317,8 @@
           "edges: minor wear",
           "limited photos: 3"
         ]
-      }
+      },
+      "pricingSource": "fallback"
     }
   ],
   "staleTargets": []
