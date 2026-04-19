@@ -907,7 +907,6 @@ Generated: 2026-04-19T13:36:41.124Z
 
       els.opportunityStrip.innerHTML = visibleCards.slice(0, 3).map((card, index) => `
         <div class="opportunity-card ${card.isNew ? 'new-pulse' : ''}">
-        <div class="opportunity-card">
           <div class="kicker">${index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check'}</div>
           <div class="headline">${escapeHtml(card.name)}</div>
           <div class="subline">${escapeHtml(card.recommendation || 'WATCH')} • ${money(card.total)} all-in • spread ${money(card.spread)} • confidence ${card.confidence || 0}%</div>

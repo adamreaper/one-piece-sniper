@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-19T15:21:38.422Z",
-  "updatedAt": "2026-04-19T15:21:43.747Z",
+  "generatedAt": "2026-04-19T16:33:27.879Z",
+  "updatedAt": "2026-04-19T16:33:33.715Z",
   "newListingCount": 0,
   "tracked": [
     "Nami OP09-070",
@@ -121,5 +121,6 @@
         ]
       }
     }
-  ]
+  ],
+  "staleTargets": []
 }
