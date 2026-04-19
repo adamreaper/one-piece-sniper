@@ -966,6 +966,7 @@ Generated: 2026-04-19T13:36:41.124Z
       const visibleCards = getVisibleCards(data);
       const cards = data.cards || [];
       const bestSpread = cards.length ? Math.max(...cards.map(c => c.spread || 0)) : 0;
+      const submitReadyCards = cards.filter(card => card.submitReady);
 
       els.trackedCount.textContent = String(data.tracked.length || cards.length || 0);
       els.coreCount.textContent = String((data.coreCards || cards.filter(c => c.priority === 'core')).length);
@@ -992,18 +993,21 @@ Generated: 2026-04-19T13:36:41.124Z
         <div class="mini-item"><div class="mono muted">Top card by spread</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
         <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
         <div class="mini-item"><div class="mono muted">New listings this run</div><div>${escapeHtml(String(data.newListingCount ?? 0))}</div></div>
+        <div class="mini-item"><div class="mono muted">Submission-ready now</div><div>${submitReadyCards.length ? escapeHtml(submitReadyCards.map(card => card.name).join(', ')) : 'None'}</div></div>
         <div class="mini-item"><div class="mono muted">No live listing now</div><div>${data.staleTargets?.length ? escapeHtml(data.staleTargets.join(', ')) : 'None'}</div></div>
       `;
 
-      els.opportunityStrip.innerHTML = visibleCards.slice(0, 3).map((card, index) => `
+      const opportunityCards = submitReadyCards.length ? submitReadyCards.slice(0, 3) : visibleCards.slice(0, 3);
+      els.opportunityStrip.innerHTML = opportunityCards.map((card, index) => `
         <div class="opportunity-card ${card.isNew ? 'new-pulse' : ''}">
-          <div class="kicker">${index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check'}</div>
+          <div class="kicker">${submitReadyCards.length ? (index === 0 ? 'Submission-ready now' : index === 1 ? 'Next strongest submit' : 'Fast check') : (index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check')}</div>
           <div class="headline">${escapeHtml(card.name)}</div>
           <div class="subline">${escapeHtml(card.recommendation || 'WATCH')} • ${card.submitReady ? 'submit-ready' : 'not submit-ready'} • ${money(card.total)} all-in • submit profit ${money(card.submitProfit)} • confidence ${card.confidence || 0}%</div>
         </div>
       `).join('');
 
-      const summaryLines = visibleCards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'}, submit-ready ${card.submitReady ? 'YES' : 'NO'}, ${money(card.total)} all-in, submit profit ${money(card.submitProfit)}.`);
+      const summaryPool = submitReadyCards.length ? submitReadyCards.slice(0, 3) : visibleCards.slice(0, 3);
+      const summaryLines = summaryPool.map(card => `${card.name}: ${card.recommendation || 'WATCH'}, submit-ready ${card.submitReady ? 'YES' : 'NO'}, ${money(card.total)} all-in, submit profit ${money(card.submitProfit)}.`);
       els.summaryText.textContent = summaryLines.length
         ? summaryLines.join(' ')
         : 'No parsed card data yet.';
