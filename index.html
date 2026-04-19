@@ -902,6 +902,7 @@ Generated: 2026-04-19T13:36:41.124Z
         <div class="mini-item"><div class="mono muted">Top card by spread</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
         <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
         <div class="mini-item"><div class="mono muted">New listings this run</div><div>${escapeHtml(String(data.newListingCount ?? 0))}</div></div>
+        <div class="mini-item"><div class="mono muted">No live listing now</div><div>${data.staleTargets?.length ? escapeHtml(data.staleTargets.join(', ')) : 'None'}</div></div>
       `;
 
       els.opportunityStrip.innerHTML = visibleCards.slice(0, 3).map((card, index) => `
@@ -964,6 +965,7 @@ Generated: 2026-04-19T13:36:41.124Z
         generated: payload.generatedAt || payload.updatedAt || '',
         tracked: payload.tracked || cards.map(card => card.name),
         cards,
+        staleTargets: payload.staleTargets || [],
         source: 'json-feed',
         newListingCount: payload.newListingCount || 0
       };
