@@ -283,6 +283,44 @@
 
     .toolbar input::placeholder { color: #9db2c6; }
 
+    .board-group {
+      margin-bottom: 20px;
+    }
+
+    .board-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 0 0 12px;
+      padding: 12px 14px;
+      border: 2px solid rgba(17,17,17,0.22);
+      border-radius: 16px;
+      background: rgba(255,250,242,0.74);
+    }
+
+    .board-head.core {
+      background: linear-gradient(135deg, rgba(255,250,242,0.96), rgba(248,231,214,0.95));
+      border-color: rgba(17,17,17,0.35);
+    }
+
+    .board-head.experimental {
+      background: rgba(255,250,242,0.55);
+      border-style: dashed;
+    }
+
+    .board-title {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .board-copy {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
     .cards {
       display: grid;
       gap: 14px;
@@ -358,9 +396,11 @@
     }
 
     .buy { color: #0f9f57; background: rgba(15,159,87,0.12); }
-    .watch { color: #b45309; background: rgba(217,119,6,0.12); }
+    .watch, .manual-review { color: #b45309; background: rgba(217,119,6,0.12); }
     .pass { color: #b91c1c; background: rgba(192,38,45,0.12); }
-    .rankA, .rankB, .rankD { color: var(--text); background: rgba(17,17,17,0.06); }
+    .rankA, .rankB, .rankC, .rankD { color: var(--text); background: rgba(17,17,17,0.06); }
+    .core-chip { background: rgba(17,17,17,0.08); }
+    .experimental-chip { background: rgba(209,60,47,0.12); color: var(--accent2); }
 
     .card-priority {
       display: grid;
@@ -549,8 +589,8 @@
       <div>
         <div class="stats">
           <div class="stat"><div class="label">Tracked cards</div><div class="value" id="trackedCount">0</div></div>
-          <div class="stat"><div class="label">Buy signals</div><div class="value" id="buyCount">0</div></div>
-          <div class="stat"><div class="label">Watch signals</div><div class="value" id="watchCount">0</div></div>
+          <div class="stat"><div class="label">Core board</div><div class="value" id="coreCount">0</div></div>
+          <div class="stat"><div class="label">Experimental</div><div class="value" id="experimentalCount">0</div></div>
           <div class="stat"><div class="label">Best spread</div><div class="value" id="bestSpread">$0</div></div>
         </div>
         <div class="opportunity-strip" id="opportunityStrip"></div>
@@ -700,8 +740,8 @@ Generated: 2026-04-19T13:36:41.124Z
     const els = {
       cards: document.getElementById('cards'),
       trackedCount: document.getElementById('trackedCount'),
-      buyCount: document.getElementById('buyCount'),
-      watchCount: document.getElementById('watchCount'),
+      coreCount: document.getElementById('coreCount'),
+      experimentalCount: document.getElementById('experimentalCount'),
       bestSpread: document.getElementById('bestSpread'),
       summaryText: document.getElementById('summaryText'),
       snapshot: document.getElementById('snapshot'),
@@ -835,64 +875,107 @@ Generated: 2026-04-19T13:36:41.124Z
       return cards;
     }
 
+    function renderCard(card) {
+      const recClass = (card.recommendation || 'WATCH').toLowerCase();
+      const rankClass = `rank${card.gradeRank || 'B'}`;
+      const priorityClass = card.priority === 'core' ? 'core-chip' : 'experimental-chip';
+      const priorityLabel = card.priority === 'core' ? 'CORE' : 'EXPERIMENTAL';
+      return `
+        <article class="card ${card.isNew ? 'is-new new-pulse' : ''}" id="card-${escapeAttr(card.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase())}">
+          <div class="card-top">
+            <div>
+              <div class="title">${escapeHtml(card.name)}</div>
+              <div class="muted">${escapeHtml(card.title || '')}</div>
+              <div class="quick-meta">
+                <span class="quick-pill">Seller: ${escapeHtml(card.seller || 'Unknown')}</span>
+                <span class="quick-pill">Cond: ${escapeHtml(card.condition || 'Unknown')}</span>
+                <span class="quick-pill">Odds: ${card.probability || 0}%</span>
+              </div>
+            </div>
+            <div class="chips">
+              ${card.isNew ? '<span class="chip new-chip">NEW</span>' : ''}
+              <span class="chip ${priorityClass}">${priorityLabel}</span>
+              <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
+              <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
+            </div>
+          </div>
+          <div class="card-priority">
+            <div class="metric primary"><div class="label">Recommendation</div><div class="value">${escapeHtml(card.recommendation || 'WATCH')}</div></div>
+            <div class="metric primary"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
+            <div class="metric primary"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
+            <div class="metric primary"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
+          </div>
+          <div class="grid">
+            <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
+            <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
+            <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
+            <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
+            <div class="metric"><div class="label">Margin vs target</div><div class="value">${money(card.margin)}</div></div>
+            <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
+          </div>
+          <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
+          ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
+          ${card.riskFlags && card.riskFlags.length ? `<ul class="risk-list">${card.riskFlags.map(flag => `<li>${escapeHtml(flag)}</li>`).join('')}</ul>` : ''}
+          <div class="card-actions">
+            <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button class="link-btn" type="button">Open listing</button></a>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderBoardSection(title, copy, cards, tone) {
+      if (!cards.length) {
+        return `
+          <section class="board-group">
+            <div class="board-head ${tone}">
+              <div>
+                <div class="board-title">${title}</div>
+                <div class="board-copy">${copy}</div>
+              </div>
+              <div class="quick-pill">0 cards</div>
+            </div>
+          </section>
+        `;
+      }
+
+      return `
+        <section class="board-group">
+          <div class="board-head ${tone}">
+            <div>
+              <div class="board-title">${title}</div>
+              <div class="board-copy">${copy}</div>
+            </div>
+            <div class="quick-pill">${cards.length} card${cards.length === 1 ? '' : 's'}</div>
+          </div>
+          <div class="cards">
+            ${cards.map(renderCard).join('')}
+          </div>
+        </section>
+      `;
+    }
+
     function render(data) {
       currentData = data;
       const visibleCards = getVisibleCards(data);
       const cards = data.cards || [];
-      const buyCount = cards.filter(c => c.recommendation === 'BUY').length;
-      const watchCount = cards.filter(c => c.recommendation === 'WATCH').length;
       const bestSpread = cards.length ? Math.max(...cards.map(c => c.spread || 0)) : 0;
 
       els.trackedCount.textContent = String(data.tracked.length || cards.length || 0);
-      els.buyCount.textContent = String(buyCount);
-      els.watchCount.textContent = String(watchCount);
+      els.coreCount.textContent = String((data.coreCards || cards.filter(c => c.priority === 'core')).length);
+      els.experimentalCount.textContent = String((data.experimentalCards || cards.filter(c => c.priority !== 'core')).length);
       els.bestSpread.textContent = money(bestSpread);
       els.lastUpdated.textContent = data.generated ? `Last scan: ${new Date(data.generated).toLocaleString()}` : 'Last scan unavailable';
 
-      els.cards.innerHTML = visibleCards.map(card => {
-        const recClass = (card.recommendation || 'WATCH').toLowerCase();
-        const rankClass = `rank${card.gradeRank || 'B'}`;
-        return `
-          <article class="card ${card.isNew ? 'is-new new-pulse' : ''}" id="card-${escapeAttr(card.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase())}">
-            <div class="card-top">
-              <div>
-                <div class="title">${escapeHtml(card.name)}</div>
-                <div class="muted">${escapeHtml(card.title || '')}</div>
-                <div class="quick-meta">
-                  <span class="quick-pill">Seller: ${escapeHtml(card.seller || 'Unknown')}</span>
-                  <span class="quick-pill">Cond: ${escapeHtml(card.condition || 'Unknown')}</span>
-                  <span class="quick-pill">Odds: ${card.probability || 0}%</span>
-                </div>
-              </div>
-              <div class="chips">
-                ${card.isNew ? '<span class="chip new-chip">NEW</span>' : ''}
-                <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
-                <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
-              </div>
-            </div>
-            <div class="card-priority">
-              <div class="metric primary"><div class="label">Recommendation</div><div class="value">${escapeHtml(card.recommendation || 'WATCH')}</div></div>
-              <div class="metric primary"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
-              <div class="metric primary"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
-              <div class="metric primary"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
-            </div>
-            <div class="grid">
-              <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
-              <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
-              <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
-              <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
-              <div class="metric"><div class="label">Margin vs target</div><div class="value">${money(card.margin)}</div></div>
-              <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
-            </div>
-            <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
-            ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
-            ${card.riskFlags && card.riskFlags.length ? `<ul class="risk-list">${card.riskFlags.map(flag => `<li>${escapeHtml(flag)}</li>`).join('')}</ul>` : ''}
-            <div class="card-actions">
-              <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button class="link-btn" type="button">Open listing</button></a>
-            </div>
-          </article>
-        `;
-      }).join('');
+      if (!visibleCards.length) {
+        els.cards.innerHTML = `<div class="card"><div class="title">No cards match the current filters.</div><p class="copy">Try clearing the search or switching filters.</p></div>`;
+      } else {
+        const coreCards = visibleCards.filter(card => card.priority === 'core');
+        const experimentalCards = visibleCards.filter(card => card.priority !== 'core');
+        els.cards.innerHTML = [
+          renderBoardSection('Core board', 'Main sniper lane. This is the profit-first board and should stay tight.', coreCards, 'core'),
+          renderBoardSection('Experimental watchlist', 'Test lane for secondary names. Useful for learning, not for muddying the main signal.', experimentalCards, 'experimental')
+        ].join('');
+      }
 
       const top = visibleCards[0] || cards[0];
       els.snapshot.innerHTML = `
@@ -936,6 +1019,7 @@ Generated: 2026-04-19T13:36:41.124Z
       const cards = (payload.cards || []).map(card => ({
         name: card.name,
         title: card.best?.title || '',
+        priority: card.priority || 'core',
         rawMarket: card.rawMarket,
         psa10Market: card.psa10Market,
         buyUnder: card.buyUnder,
@@ -963,7 +1047,11 @@ Generated: 2026-04-19T13:36:41.124Z
       return {
         generated: payload.generatedAt || payload.updatedAt || '',
         tracked: payload.tracked || cards.map(card => card.name),
+        coreTracked: payload.coreTracked || cards.filter(card => card.priority === 'core').map(card => card.name),
+        experimentalTracked: payload.experimentalTracked || cards.filter(card => card.priority !== 'core').map(card => card.name),
         cards,
+        coreCards: payload.coreCards ? payload.coreCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority === 'core'),
+        experimentalCards: payload.experimentalCards ? payload.experimentalCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority !== 'core'),
         staleTargets: payload.staleTargets || [],
         source: 'json-feed',
         newListingCount: payload.newListingCount || 0
