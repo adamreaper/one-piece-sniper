@@ -75,6 +75,17 @@
       letter-spacing: 0.08em;
     }
 
+    .topbar-stack {
+      display: grid;
+      gap: 4px;
+    }
+
+    .countdown {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent2);
+    }
+
     .hero {
       padding: 24px;
       margin-bottom: 16px;
@@ -389,7 +400,10 @@
 <body>
   <div class="wrap">
     <div class="topbar">
-      <div>ONE PIECE SNIPER // MANGA OPS BOARD</div>
+      <div class="topbar-stack">
+        <div>ONE PIECE SNIPER // MANGA OPS BOARD</div>
+        <div id="nextScanCountdown" class="countdown">Next scan in --:--:--</div>
+      </div>
       <div id="lastUpdated">Waiting for scan data</div>
     </div>
 
@@ -574,7 +588,8 @@ Generated: 2026-04-19T13:36:41.124Z
       searchInput: document.getElementById('searchInput'),
       recommendationFilter: document.getElementById('recommendationFilter'),
       sortSelect: document.getElementById('sortSelect'),
-      riskFilter: document.getElementById('riskFilter')
+      riskFilter: document.getElementById('riskFilter'),
+      nextScanCountdown: document.getElementById('nextScanCountdown')
     };
 
     let currentData = null;
@@ -822,6 +837,33 @@ Generated: 2026-04-19T13:36:41.124Z
       localStorage.setItem('onePieceSniperLatestJson', JSON.stringify(payload));
     }
 
+    const SCAN_INTERVAL_MS = 6 * 60 * 60 * 1000;
+
+    function formatCountdown(ms) {
+      const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+      const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+      const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+      const seconds = String(totalSeconds % 60).padStart(2, '0');
+      return `${hours}:${minutes}:${seconds}`;
+    }
+
+    function updateCountdown() {
+      const generated = currentData?.generated ? new Date(currentData.generated).getTime() : null;
+      if (!generated || Number.isNaN(generated)) {
+        els.nextScanCountdown.textContent = 'Next scan in --:--:--';
+        return;
+      }
+
+      const nextRun = generated + SCAN_INTERVAL_MS;
+      const remaining = nextRun - Date.now();
+      if (remaining <= 0) {
+        els.nextScanCountdown.textContent = 'Next scan due now';
+        return;
+      }
+
+      els.nextScanCountdown.textContent = `Next scan in ${formatCountdown(remaining)}`;
+    }
+
     function rerenderCurrent() {
       if (currentData) render(currentData);
     }
@@ -896,6 +938,8 @@ Generated: 2026-04-19T13:36:41.124Z
     }
 
     bootDashboard();
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
   </script>
 </body>
 </html>
