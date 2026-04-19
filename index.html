@@ -6,19 +6,19 @@
   <title>One Piece Sniper Dashboard</title>
   <style>
     :root {
-      --bg: #071018;
-      --bg2: #0d1724;
-      --panel: rgba(13, 23, 36, 0.92);
-      --panel2: rgba(18, 30, 47, 0.96);
-      --border: rgba(91, 212, 255, 0.18);
-      --text: #eef7ff;
-      --muted: #8ea6bc;
-      --accent: #5bd4ff;
-      --accent2: #8b5cf6;
-      --good: #22c55e;
-      --warn: #f59e0b;
-      --bad: #ef4444;
-      --shadow: 0 24px 60px rgba(0, 0, 0, 0.38);
+      --bg: #f3efe4;
+      --bg2: #dfd7c7;
+      --panel: rgba(255, 252, 245, 0.94);
+      --panel2: rgba(249, 244, 232, 0.98);
+      --border: rgba(17, 17, 17, 0.75);
+      --text: #111111;
+      --muted: #51483d;
+      --accent: #111111;
+      --accent2: #d13c2f;
+      --good: #0f9f57;
+      --warn: #d97706;
+      --bad: #c0262d;
+      --shadow: 0 18px 40px rgba(17, 17, 17, 0.16);
       --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     }
 
@@ -27,8 +27,9 @@
       margin: 0;
       font-family: Inter, Segoe UI, Arial, sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(91,212,255,0.12), transparent 22%),
-        radial-gradient(circle at top right, rgba(139,92,246,0.14), transparent 22%),
+        radial-gradient(circle at top left, rgba(17,17,17,0.06), transparent 20%),
+        radial-gradient(circle at bottom right, rgba(209,60,47,0.08), transparent 22%),
+        repeating-linear-gradient(135deg, rgba(17,17,17,0.025) 0 2px, transparent 2px 8px),
         linear-gradient(180deg, var(--bg), var(--bg2));
       color: var(--text);
       min-height: 100vh;
@@ -42,10 +43,21 @@
 
     .topbar, .hero, .panel {
       background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 24px;
+      border: 3px solid var(--border);
+      border-radius: 22px;
       box-shadow: var(--shadow);
       backdrop-filter: blur(14px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .topbar::before, .hero::before, .panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(135deg, rgba(17,17,17,0.025) 0 1px, transparent 1px 9px);
+      pointer-events: none;
+      opacity: 0.55;
     }
 
     .topbar {
@@ -58,7 +70,9 @@
       flex-wrap: wrap;
       font-family: var(--mono);
       font-size: 12px;
-      color: #cdefff;
+      color: var(--text);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
 
     .hero {
@@ -73,13 +87,15 @@
       display: inline-flex;
       padding: 8px 12px;
       border-radius: 999px;
-      border: 1px solid var(--border);
-      color: #d9f5ff;
+      border: 2px solid var(--border);
+      color: var(--text);
+      background: #fff;
       font-size: 12px;
       font-family: var(--mono);
       text-transform: uppercase;
       letter-spacing: 0.08em;
       margin-bottom: 14px;
+      box-shadow: 4px 4px 0 rgba(17,17,17,0.18);
     }
 
     h1 {
@@ -111,18 +127,19 @@
     }
 
     button, .file-label {
-      border: 1px solid var(--border);
-      background: linear-gradient(135deg, rgba(91,212,255,0.15), rgba(139,92,246,0.12));
-      color: white;
+      border: 2px solid var(--border);
+      background: #111111;
+      color: #fffaf2;
       border-radius: 14px;
       padding: 12px 14px;
       cursor: pointer;
-      font-weight: 700;
+      font-weight: 800;
+      box-shadow: 4px 4px 0 rgba(17,17,17,0.18);
     }
 
     button.secondary, .file-label.secondary {
-      background: rgba(255,255,255,0.03);
-      color: #d7ebff;
+      background: #fffaf2;
+      color: var(--text);
     }
 
     input[type="file"] { display: none; }
@@ -137,7 +154,8 @@
       padding: 16px;
       border-radius: 18px;
       background: var(--panel2);
-      border: 1px solid var(--border);
+      border: 2px solid var(--border);
+      box-shadow: 4px 4px 0 rgba(17,17,17,0.12);
     }
 
     .stat .label {
@@ -201,10 +219,11 @@
     }
 
     .card {
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,0.03);
+      border: 2px solid var(--border);
+      background: rgba(255,250,242,0.92);
       border-radius: 20px;
       padding: 16px;
+      box-shadow: 6px 6px 0 rgba(17,17,17,0.14);
     }
 
     .card-top {
@@ -235,14 +254,15 @@
       font-weight: 800;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      border: 1px solid var(--border);
+      border: 2px solid var(--border);
       font-family: var(--mono);
+      background: #fffaf2;
     }
 
-    .buy { color: #d8ffde; background: rgba(34,197,94,0.14); }
-    .watch { color: #fff0c9; background: rgba(245,158,11,0.14); }
-    .pass { color: #ffd3d8; background: rgba(239,68,68,0.14); }
-    .rankA, .rankB, .rankD { color: #d6f5ff; background: rgba(91,212,255,0.1); }
+    .buy { color: #0f9f57; background: rgba(15,159,87,0.12); }
+    .watch { color: #b45309; background: rgba(217,119,6,0.12); }
+    .pass { color: #b91c1c; background: rgba(192,38,45,0.12); }
+    .rankA, .rankB, .rankD { color: var(--text); background: rgba(17,17,17,0.06); }
 
     .card-priority {
       display: grid;
@@ -261,8 +281,8 @@
     .metric {
       border-radius: 14px;
       padding: 12px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: rgba(255,255,255,0.42);
+      border: 2px solid rgba(17,17,17,0.22);
     }
 
     .metric .label {
@@ -280,7 +300,7 @@
     }
 
     .metric.primary {
-      background: rgba(91,212,255,0.08);
+      background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(248,231,214,0.95));
       border-color: var(--border);
     }
 
@@ -320,8 +340,8 @@
     .mini-item {
       padding: 12px;
       border-radius: 16px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: rgba(255,250,242,0.82);
+      border: 2px solid rgba(17,17,17,0.22);
     }
 
     .muted { color: var(--muted); }
@@ -330,8 +350,8 @@
     textarea {
       width: 100%;
       min-height: 140px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid var(--border);
+      background: rgba(255,250,242,0.82);
+      border: 2px solid var(--border);
       border-radius: 16px;
       color: var(--text);
       padding: 14px;
@@ -369,17 +389,17 @@
 <body>
   <div class="wrap">
     <div class="topbar">
-      <div>ONE PIECE SNIPER // CRON DASHBOARD</div>
+      <div>ONE PIECE SNIPER // MANGA OPS BOARD</div>
       <div id="lastUpdated">Waiting for scan data</div>
     </div>
 
     <section class="hero">
       <div>
-        <div class="eyebrow">Raw to PSA 10 Ops</div>
-        <h1>One Piece Sniper Dashboard</h1>
+        <div class="eyebrow">Manga Mode // Raw to PSA 10 Ops</div>
+        <h1>One Piece Sniper Manga Dashboard</h1>
         <p class="sub">
-          Local dashboard for the hybrid One Piece cron. It reads the markdown scan report, ranks live targets,
-          surfaces buy-under math, and gives you a clean board for deciding what deserves manual photo review.
+          Manga-styled ops board for the hybrid One Piece cron. It reads the scan feed, ranks live targets,
+          surfaces buy-under math, and keeps the most important decisions feeling like comic panels instead of spreadsheets.
         </p>
         <div class="hero-actions">
           <label class="file-label" for="reportFile">Load scan report</label>
