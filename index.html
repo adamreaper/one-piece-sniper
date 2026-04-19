@@ -103,6 +103,13 @@
       margin-top: 18px;
     }
 
+    .mobile-primary-actions {
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 14px 0 16px;
+    }
+
     button, .file-label {
       border: 1px solid var(--border);
       background: linear-gradient(135deg, rgba(91,212,255,0.15), rgba(139,92,246,0.12));
@@ -237,6 +244,13 @@
     .pass { color: #ffd3d8; background: rgba(239,68,68,0.14); }
     .rankA, .rankB, .rankD { color: #d6f5ff; background: rgba(91,212,255,0.1); }
 
+    .card-priority {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -263,6 +277,23 @@
     .metric .value {
       font-size: 18px;
       font-weight: 700;
+    }
+
+    .metric.primary {
+      background: rgba(91,212,255,0.08);
+      border-color: var(--border);
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .card-actions a,
+    .card-actions button {
+      flex: 1 1 180px;
     }
 
     .notes, .risk-list {
@@ -316,9 +347,22 @@
     }
 
     @media (max-width: 700px) {
-      .grid, .stats, .toolbar { grid-template-columns: 1fr; }
-      .wrap { padding: 16px 12px 32px; }
-      .hero, .panel { padding: 16px; }
+      .grid, .stats, .toolbar, .card-priority, .mobile-primary-actions { grid-template-columns: 1fr; }
+      .wrap { padding: 14px 10px 28px; }
+      .hero, .panel { padding: 14px; border-radius: 18px; }
+      .topbar { padding: 10px 12px; }
+      h1 { font-size: 34px; }
+      .sub { font-size: 14px; }
+      .hero-actions { display: none; }
+      .mobile-primary-actions { display: grid; }
+      .title { font-size: 20px; }
+      .card { padding: 14px; }
+      .metric { padding: 10px; }
+      .metric .value { font-size: 17px; }
+      .card-actions { flex-direction: column; }
+      .card-actions a, .card-actions button { width: 100%; }
+      .right-stack { gap: 12px; }
+      textarea { min-height: 120px; }
     }
   </style>
 </head>
@@ -342,6 +386,10 @@
           <input id="reportFile" type="file" accept=".md,text/markdown,text/plain" />
           <button id="loadSampleBtn" type="button">Load current sample</button>
           <button id="copySummaryBtn" class="secondary" type="button">Copy quick summary</button>
+        </div>
+        <div class="mobile-primary-actions">
+          <label class="file-label" for="reportFile">Load report</label>
+          <button id="mobileCopySummaryBtn" class="secondary" type="button">Copy summary</button>
         </div>
       </div>
       <div class="stats">
@@ -499,6 +547,7 @@ Generated: 2026-04-19T13:36:41.124Z
       reportFile: document.getElementById('reportFile'),
       loadSampleBtn: document.getElementById('loadSampleBtn'),
       copySummaryBtn: document.getElementById('copySummaryBtn'),
+      mobileCopySummaryBtn: document.getElementById('mobileCopySummaryBtn'),
       notes: document.getElementById('notes'),
       saveNotesBtn: document.getElementById('saveNotesBtn'),
       clearNotesBtn: document.getElementById('clearNotesBtn'),
@@ -648,14 +697,17 @@ Generated: 2026-04-19T13:36:41.124Z
                 <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
               </div>
             </div>
+            <div class="card-priority">
+              <div class="metric primary"><div class="label">Recommendation</div><div class="value">${escapeHtml(card.recommendation || 'WATCH')}</div></div>
+              <div class="metric primary"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
+              <div class="metric primary"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
+              <div class="metric primary"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
+            </div>
             <div class="grid">
               <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
               <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
-              <div class="metric"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
-              <div class="metric"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
               <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
               <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
-              <div class="metric"><div class="label">Projected spread</div><div class="value">${money(card.spread)}</div></div>
               <div class="metric"><div class="label">Margin vs target</div><div class="value">${money(card.margin)}</div></div>
               <div class="metric"><div class="label">PSA 10 odds</div><div class="value">${card.probability || 0}%</div></div>
               <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
@@ -665,7 +717,7 @@ Generated: 2026-04-19T13:36:41.124Z
             <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
             ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
             ${card.riskFlags && card.riskFlags.length ? `<ul class="risk-list">${card.riskFlags.map(flag => `<li>${escapeHtml(flag)}</li>`).join('')}</ul>` : ''}
-            <div class="hero-actions" style="margin-top:12px;">
+            <div class="card-actions">
               <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button type="button">Open listing</button></a>
             </div>
           </article>
@@ -723,17 +775,20 @@ Generated: 2026-04-19T13:36:41.124Z
       loadReportText(text);
     });
 
-    els.copySummaryBtn.addEventListener('click', async () => {
+    async function copySummary(buttonEl, defaultText) {
       const text = els.summaryText.textContent || '';
       try {
         await navigator.clipboard.writeText(text);
-        els.copySummaryBtn.textContent = 'Copied';
-        setTimeout(() => els.copySummaryBtn.textContent = 'Copy quick summary', 1200);
+        buttonEl.textContent = 'Copied';
+        setTimeout(() => buttonEl.textContent = defaultText, 1200);
       } catch {
-        els.copySummaryBtn.textContent = 'Copy failed';
-        setTimeout(() => els.copySummaryBtn.textContent = 'Copy quick summary', 1200);
+        buttonEl.textContent = 'Copy failed';
+        setTimeout(() => buttonEl.textContent = defaultText, 1200);
       }
-    });
+    }
+
+    els.copySummaryBtn.addEventListener('click', () => copySummary(els.copySummaryBtn, 'Copy quick summary'));
+    els.mobileCopySummaryBtn.addEventListener('click', () => copySummary(els.mobileCopySummaryBtn, 'Copy summary'));
 
     els.saveNotesBtn.addEventListener('click', () => {
       localStorage.setItem('onePieceSniperNotes', els.notes.value || '');
