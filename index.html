@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Piece Sniper Dashboard</title>
+  <style>
+    :root {
+      --bg: #071018;
+      --bg2: #0d1724;
+      --panel: rgba(13, 23, 36, 0.92);
+      --panel2: rgba(18, 30, 47, 0.96);
+      --border: rgba(91, 212, 255, 0.18);
+      --text: #eef7ff;
+      --muted: #8ea6bc;
+      --accent: #5bd4ff;
+      --accent2: #8b5cf6;
+      --good: #22c55e;
+      --warn: #f59e0b;
+      --bad: #ef4444;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.38);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(91,212,255,0.12), transparent 22%),
+        radial-gradient(circle at top right, rgba(139,92,246,0.14), transparent 22%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+
+    .topbar, .hero, .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar {
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: #cdefff;
+    }
+
+    .hero {
+      padding: 24px;
+      margin-bottom: 16px;
+      display: grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap: 16px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: #d9f5ff;
+      font-size: 12px;
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 5vw, 60px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+    }
+
+    .sub {
+      margin-top: 12px;
+      color: var(--muted);
+      line-height: 1.65;
+      max-width: 760px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    button, .file-label {
+      border: 1px solid var(--border);
+      background: linear-gradient(135deg, rgba(91,212,255,0.15), rgba(139,92,246,0.12));
+      color: white;
+      border-radius: 14px;
+      padding: 12px 14px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button.secondary, .file-label.secondary {
+      background: rgba(255,255,255,0.03);
+      color: #d7ebff;
+    }
+
+    input[type="file"] { display: none; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .stat {
+      padding: 16px;
+      border-radius: 18px;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+    }
+
+    .stat .label {
+      color: var(--muted);
+      font-size: 11px;
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .stat .value {
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.8fr) minmax(320px, 0.9fr);
+      gap: 16px;
+    }
+
+    .panel {
+      padding: 18px;
+    }
+
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+
+    .copy {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .cards {
+      display: grid;
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      border-radius: 20px;
+      padding: 16px;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid var(--border);
+      font-family: var(--mono);
+    }
+
+    .buy { color: #d8ffde; background: rgba(34,197,94,0.14); }
+    .watch { color: #fff0c9; background: rgba(245,158,11,0.14); }
+    .pass { color: #ffd3d8; background: rgba(239,68,68,0.14); }
+    .rankA, .rankB, .rankD { color: #d6f5ff; background: rgba(91,212,255,0.1); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .metric {
+      border-radius: 14px;
+      padding: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .metric .label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-family: var(--mono);
+      margin-bottom: 6px;
+    }
+
+    .metric .value {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .notes, .risk-list {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .risk-list {
+      margin: 10px 0 0;
+      padding-left: 18px;
+    }
+
+    .right-stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mini-item {
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .muted { color: var(--muted); }
+    .mono { font-family: var(--mono); }
+
+    textarea {
+      width: 100%;
+      min-height: 140px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      color: var(--text);
+      padding: 14px;
+      resize: vertical;
+      font: inherit;
+    }
+
+    a { color: var(--accent); }
+
+    @media (max-width: 1120px) {
+      .hero, .layout { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 700px) {
+      .grid, .stats { grid-template-columns: 1fr; }
+      .wrap { padding: 16px 12px 32px; }
+      .hero, .panel { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>ONE PIECE SNIPER // CRON DASHBOARD</div>
+      <div id="lastUpdated">Waiting for scan data</div>
+    </div>
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Raw to PSA 10 Ops</div>
+        <h1>One Piece Sniper Dashboard</h1>
+        <p class="sub">
+          Local dashboard for the hybrid One Piece cron. It reads the markdown scan report, ranks live targets,
+          surfaces buy-under math, and gives you a clean board for deciding what deserves manual photo review.
+        </p>
+        <div class="hero-actions">
+          <label class="file-label" for="reportFile">Load scan report</label>
+          <input id="reportFile" type="file" accept=".md,text/markdown,text/plain" />
+          <button id="loadSampleBtn" type="button">Load current sample</button>
+          <button id="copySummaryBtn" class="secondary" type="button">Copy quick summary</button>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="label">Tracked cards</div><div class="value" id="trackedCount">0</div></div>
+        <div class="stat"><div class="label">Buy signals</div><div class="value" id="buyCount">0</div></div>
+        <div class="stat"><div class="label">Watch signals</div><div class="value" id="watchCount">0</div></div>
+        <div class="stat"><div class="label">Best spread</div><div class="value" id="bestSpread">$0</div></div>
+      </div>
+    </section>
+
+    <div class="layout">
+      <section class="panel">
+        <h2>Live target board</h2>
+        <p class="copy">This mirrors the hybrid cron output, but in a format that’s easier to scan fast. All prices are all-in shipped totals.</p>
+        <div id="cards" class="cards"></div>
+      </section>
+
+      <div class="right-stack">
+        <section class="panel">
+          <h2>Cron snapshot</h2>
+          <div class="mini-list" id="snapshot"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Quick notes</h2>
+          <p class="copy">Use this for what to check next, seller notes, or photo review reminders. Saves locally in the browser.</p>
+          <textarea id="notes" placeholder="Example: Nami listing looks viable, verify back corners and centering before sending offer."></textarea>
+          <div class="hero-actions" style="margin-top:12px;">
+            <button id="saveNotesBtn" type="button">Save notes</button>
+            <button id="clearNotesBtn" class="secondary" type="button">Clear notes</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Quick summary</h2>
+          <p id="summaryText" class="copy">Load a scan report to generate the summary block.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SAMPLE_REPORT = `# One Piece Hybrid Scan
+Generated: 2026-04-19T13:36:41.124Z
+
+## Current top tracked cards
+- Nami OP09-070
+- Boa Hancock ST03-013
+- Perona OP10-092
+- Sabo OP10-049
+
+## Nami OP09-070
+- Raw market: $51.36
+- PSA 10 market: $392.50
+- Buy-under threshold: $60.00
+- PSA 9 risk: weak protection
+- Best live listing price: $50.00
+- Shipping: $0.00
+- Best live listing total: $50.00
+- Seller: bigteddykev
+- Condition: Ungraded
+- Recommendation: WATCH
+- Grade rank: B
+- PSA 10 probability: 55%
+- Confidence: 40%
+- Risk flags: The specified legacy item Id was not found.
+- Link: https://www.ebay.com/itm/198288168854?_skw=%22Nami+OP09-070%22+one+piece&hash=item2e2ae55796:g:7rAAAeSwaZBp4dbV
+- Title: One Piece- Nami OP09-070 AA
+
+## Boa Hancock ST03-013
+- Raw market: $25.28
+- PSA 10 market: $188.75
+- Buy-under threshold: $28.00
+- PSA 9 risk: real downside
+- Best live listing price: $37.99
+- Shipping: $0.00
+- Best live listing total: $37.99
+- Seller: trainerscornertcg_15
+- Condition: Ungraded
+- Recommendation: WATCH
+- Grade rank: B
+- PSA 10 probability: 55%
+- Confidence: 40%
+- Risk flags: The specified legacy item Id was not found.
+- Link: https://www.ebay.com/itm/287281460559?_skw=%22ST03-013%22+boa+hancock+card&hash=item42e34f354f:g:SkUAAeSwFd5p5MuX
+- Title: Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece
+
+## Perona OP10-092
+- Raw market: $6.80
+- PSA 10 market: $103.49
+- Buy-under threshold: $8.00
+- PSA 9 risk: 9 kills most edge
+- Best live listing price: $7.00
+- Shipping: $0.00
+- Best live listing total: $7.00
+- Seller: dgjelo55
+- Condition: Ungraded
+- Recommendation: WATCH
+- Grade rank: B
+- PSA 10 probability: 55%
+- Confidence: 40%
+- Risk flags: The specified legacy item Id was not found.
+- Link: https://www.ebay.com/itm/198292783399?_skw=%22OP10-092%22+perona+card&hash=item2e2b2bc127:g:Hr4AAeSw13Zp5DB0
+- Title: One Piece CCG Royal Blood Perona Card OP10-092 Near Mint Condition 💎💎💎
+
+## Sabo OP10-049
+- Raw market: $8.19
+- PSA 10 market: $89.12
+- Buy-under threshold: $8.00
+- PSA 9 risk: thin protection
+- Best live listing price: $1.97
+- Shipping: $4.99
+- Best live listing total: $6.96
+- Seller: tcgbycomc
+- Condition: Ungraded
+- Recommendation: WATCH
+- Grade rank: B
+- PSA 10 probability: 55%
+- Confidence: 40%
+- Risk flags: The specified legacy item Id was not found.
+- Link: https://www.ebay.com/itm/318142861917?_skw=%22Sabo+OP10-049%22+one+piece&hash=item4a12cad25d:g:AaEAAeSweUpp3JTM
+- Title: 2025 One Piece Card Game: Royal Blood OP10 English R Sabo #OP10-049
+`;
+
+    const els = {
+      cards: document.getElementById('cards'),
+      trackedCount: document.getElementById('trackedCount'),
+      buyCount: document.getElementById('buyCount'),
+      watchCount: document.getElementById('watchCount'),
+      bestSpread: document.getElementById('bestSpread'),
+      summaryText: document.getElementById('summaryText'),
+      snapshot: document.getElementById('snapshot'),
+      lastUpdated: document.getElementById('lastUpdated'),
+      reportFile: document.getElementById('reportFile'),
+      loadSampleBtn: document.getElementById('loadSampleBtn'),
+      copySummaryBtn: document.getElementById('copySummaryBtn'),
+      notes: document.getElementById('notes'),
+      saveNotesBtn: document.getElementById('saveNotesBtn'),
+      clearNotesBtn: document.getElementById('clearNotesBtn')
+    };
+
+    function money(n) {
+      const num = Number(n || 0);
+      return `$${num.toFixed(2)}`;
+    }
+
+    function parseMarkdown(md) {
+      const lines = md.split(/\r?\n/);
+      const result = { generated: '', tracked: [], cards: [] };
+      let current = null;
+      let inTracked = false;
+
+      for (const line of lines) {
+        if (line.startsWith('Generated:')) {
+          result.generated = line.replace('Generated:', '').trim();
+          continue;
+        }
+        if (line.trim() === '## Current top tracked cards') {
+          inTracked = true;
+          current = null;
+          continue;
+        }
+        if (line.startsWith('## ')) {
+          inTracked = false;
+          const heading = line.replace(/^##\s+/, '').trim();
+          if (heading === 'Current top tracked cards' || heading === 'Research priority list snapshot') {
+            current = null;
+            continue;
+          }
+          current = { name: heading, riskFlags: [] };
+          result.cards.push(current);
+          continue;
+        }
+        if (inTracked && line.startsWith('- ')) {
+          result.tracked.push(line.slice(2).trim());
+          continue;
+        }
+        if (!current || !line.startsWith('- ')) continue;
+
+        const body = line.slice(2);
+        const idx = body.indexOf(':');
+        if (idx === -1) continue;
+        const key = body.slice(0, idx).trim();
+        const value = body.slice(idx + 1).trim();
+
+        if (key === 'Raw market') current.rawMarket = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'PSA 10 market') current.psa10Market = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'Buy-under threshold') current.buyUnder = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'PSA 9 risk') current.psa9Risk = value;
+        else if (key === 'Best live listing price') current.listingPrice = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'Shipping') current.shipping = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'Best live listing total') current.total = parseFloat(value.replace(/[$,]/g, ''));
+        else if (key === 'Seller') current.seller = value;
+        else if (key === 'Condition') current.condition = value;
+        else if (key === 'Recommendation') current.recommendation = value.toUpperCase();
+        else if (key === 'Grade rank') current.gradeRank = value;
+        else if (key === 'PSA 10 probability') current.probability = parseFloat(value.replace('%', ''));
+        else if (key === 'Confidence') current.confidence = parseFloat(value.replace('%', ''));
+        else if (key === 'Risk flags') current.riskFlags = value.split(';').map(v => v.trim()).filter(Boolean);
+        else if (key === 'Link') current.link = value;
+        else if (key === 'Title') current.title = value;
+        else if (key === 'Vision summary') current.visionSummary = value;
+      }
+
+      result.cards.forEach(card => {
+        card.spread = (card.psa10Market || 0) - (card.total || 0);
+        card.margin = (card.buyUnder || 0) - (card.total || 0);
+      });
+
+      result.cards.sort((a, b) => (b.spread || 0) - (a.spread || 0));
+      return result;
+    }
+
+    function render(data) {
+      const cards = data.cards || [];
+      const buyCount = cards.filter(c => c.recommendation === 'BUY').length;
+      const watchCount = cards.filter(c => c.recommendation === 'WATCH').length;
+      const bestSpread = cards.length ? Math.max(...cards.map(c => c.spread || 0)) : 0;
+
+      els.trackedCount.textContent = String(data.tracked.length || cards.length || 0);
+      els.buyCount.textContent = String(buyCount);
+      els.watchCount.textContent = String(watchCount);
+      els.bestSpread.textContent = money(bestSpread);
+      els.lastUpdated.textContent = data.generated ? `Last scan: ${new Date(data.generated).toLocaleString()}` : 'Last scan unavailable';
+
+      els.cards.innerHTML = cards.map(card => {
+        const recClass = (card.recommendation || 'WATCH').toLowerCase();
+        const rankClass = `rank${card.gradeRank || 'B'}`;
+        return `
+          <article class="card">
+            <div class="card-top">
+              <div>
+                <div class="title">${escapeHtml(card.name)}</div>
+                <div class="muted">${escapeHtml(card.title || '')}</div>
+              </div>
+              <div class="chips">
+                <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
+                <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
+              <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
+              <div class="metric"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
+              <div class="metric"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
+              <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
+              <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
+              <div class="metric"><div class="label">Projected spread</div><div class="value">${money(card.spread)}</div></div>
+              <div class="metric"><div class="label">Margin vs target</div><div class="value">${money(card.margin)}</div></div>
+              <div class="metric"><div class="label">PSA 10 odds</div><div class="value">${card.probability || 0}%</div></div>
+              <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
+              <div class="metric"><div class="label">Condition</div><div class="value">${escapeHtml(card.condition || 'Unknown')}</div></div>
+              <div class="metric"><div class="label">Seller</div><div class="value">${escapeHtml(card.seller || 'Unknown')}</div></div>
+            </div>
+            <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
+            ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
+            ${card.riskFlags && card.riskFlags.length ? `<ul class="risk-list">${card.riskFlags.map(flag => `<li>${escapeHtml(flag)}</li>`).join('')}</ul>` : ''}
+            <div class="hero-actions" style="margin-top:12px;">
+              <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button type="button">Open listing</button></a>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      const top = cards[0];
+      els.snapshot.innerHTML = `
+        <div class="mini-item"><div class="mono muted">Cron target</div><div>One Piece PSA Scout Adaptive</div></div>
+        <div class="mini-item"><div class="mono muted">Report source</div><div>${escapeHtml(data.generated || 'Manual load')}</div></div>
+        <div class="mini-item"><div class="mono muted">Top card by spread</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
+        <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
+      `;
+
+      const summaryLines = cards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'} at ${money(card.total)} all-in, buy-under ${money(card.buyUnder)}, spread ${money(card.spread)}.`);
+      els.summaryText.textContent = summaryLines.length
+        ? summaryLines.join(' ')
+        : 'No parsed card data yet.';
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function escapeAttr(str) {
+      return escapeHtml(str);
+    }
+
+    function loadReportText(text) {
+      const parsed = parseMarkdown(text);
+      render(parsed);
+      localStorage.setItem('onePieceSniperReport', text);
+    }
+
+    els.loadSampleBtn.addEventListener('click', () => loadReportText(SAMPLE_REPORT));
+
+    els.reportFile.addEventListener('change', async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      loadReportText(text);
+    });
+
+    els.copySummaryBtn.addEventListener('click', async () => {
+      const text = els.summaryText.textContent || '';
+      try {
+        await navigator.clipboard.writeText(text);
+        els.copySummaryBtn.textContent = 'Copied';
+        setTimeout(() => els.copySummaryBtn.textContent = 'Copy quick summary', 1200);
+      } catch {
+        els.copySummaryBtn.textContent = 'Copy failed';
+        setTimeout(() => els.copySummaryBtn.textContent = 'Copy quick summary', 1200);
+      }
+    });
+
+    els.saveNotesBtn.addEventListener('click', () => {
+      localStorage.setItem('onePieceSniperNotes', els.notes.value || '');
+      els.saveNotesBtn.textContent = 'Saved';
+      setTimeout(() => els.saveNotesBtn.textContent = 'Save notes', 1200);
+    });
+
+    els.clearNotesBtn.addEventListener('click', () => {
+      els.notes.value = '';
+      localStorage.removeItem('onePieceSniperNotes');
+    });
+
+    els.notes.value = localStorage.getItem('onePieceSniperNotes') || '';
+    const savedReport = localStorage.getItem('onePieceSniperReport');
+    if (savedReport) loadReportText(savedReport);
+    else loadReportText(SAMPLE_REPORT);
+  </script>
+</body>
+</html>
