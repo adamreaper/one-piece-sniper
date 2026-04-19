@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-04-19T15:21:38.422Z",
+  "updatedAt": "2026-04-19T15:21:43.747Z",
+  "newListingCount": 0,
+  "tracked": [
+    "Nami OP09-070",
+    "Boa Hancock ST03-013",
+    "Perona OP10-092",
+    "Sabo OP10-049"
+  ],
+  "cards": [
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "rawMarket": 51.36,
+      "psa10Market": 392.5,
+      "buyUnder": 60,
+      "psa9Risk": "weak protection",
+      "isNew": false,
+      "listingKey": "v1|198288168854|0",
+      "best": {
+        "title": "One Piece- Nami OP09-070 AA",
+        "price": 50,
+        "shipping": 0,
+        "total": 50,
+        "seller": "bigteddykev",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198288168854?_skw=%22Nami+OP09-070%22+one+piece&hash=item2e2ae55796:g:7rAAAeSwaZBp4dbV"
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 55,
+        "confidence": 40,
+        "riskFlags": [
+          "The specified legacy item Id was not found."
+        ]
+      }
+    },
+    {
+      "name": "Boa Hancock ST03-013",
+      "code": "ST03-013",
+      "rawMarket": 25.28,
+      "psa10Market": 188.75,
+      "buyUnder": 28,
+      "psa9Risk": "real downside",
+      "isNew": false,
+      "listingKey": "v1|287281460559|0",
+      "best": {
+        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
+        "price": 37.99,
+        "shipping": 0,
+        "total": 37.99,
+        "seller": "trainerscornertcg_15",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/287281460559?_skw=%22ST03-013%22+boa+hancock+card&hash=item42e34f354f:g:SkUAAeSwFd5p5MuX"
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 55,
+        "confidence": 40,
+        "riskFlags": [
+          "The specified legacy item Id was not found."
+        ]
+      }
+    },
+    {
+      "name": "Perona OP10-092",
+      "code": "OP10-092",
+      "rawMarket": 6.8,
+      "psa10Market": 103.49,
+      "buyUnder": 8,
+      "psa9Risk": "9 kills most edge",
+      "isNew": false,
+      "listingKey": "v1|198292783399|0",
+      "best": {
+        "title": "One Piece CCG Royal Blood Perona Card OP10-092 Near Mint Condition 💎💎💎",
+        "price": 7,
+        "shipping": 0,
+        "total": 7,
+        "seller": "dgjelo55",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198292783399?_skw=%22OP10-092%22+perona+card&hash=item2e2b2bc127:g:Hr4AAeSw13Zp5DB0"
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 55,
+        "confidence": 40,
+        "riskFlags": [
+          "The specified legacy item Id was not found."
+        ]
+      }
+    },
+    {
+      "name": "Sabo OP10-049",
+      "code": "OP10-049",
+      "rawMarket": 8.19,
+      "psa10Market": 89.12,
+      "buyUnder": 8,
+      "psa9Risk": "thin protection",
+      "isNew": false,
+      "listingKey": "v1|318142861917|0",
+      "best": {
+        "title": "2025 One Piece Card Game: Royal Blood OP10 English R Sabo #OP10-049",
+        "price": 1.97,
+        "shipping": 4.99,
+        "total": 6.96,
+        "seller": "tcgbycomc",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/318142861917?_skw=%22Sabo+OP10-049%22+one+piece&hash=item4a12cad25d:g:AaEAAeSweUpp3JTM"
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 55,
+        "confidence": 40,
+        "riskFlags": [
+          "The specified legacy item Id was not found."
+        ]
+      }
+    }
+  ]
+}

@@ -727,9 +727,11 @@ Generated: 2026-04-19T13:36:41.124Z
       const top = visibleCards[0] || cards[0];
       els.snapshot.innerHTML = `
         <div class="mini-item"><div class="mono muted">Cron target</div><div>One Piece PSA Scout Adaptive</div></div>
+        <div class="mini-item"><div class="mono muted">Data source</div><div>${escapeHtml(data.source || 'markdown report')}</div></div>
         <div class="mini-item"><div class="mono muted">Report source</div><div>${escapeHtml(data.generated || 'Manual load')}</div></div>
         <div class="mini-item"><div class="mono muted">Top card by spread</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
         <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
+        <div class="mini-item"><div class="mono muted">New listings this run</div><div>${escapeHtml(String(data.newListingCount ?? 0))}</div></div>
       `;
 
       const summaryLines = visibleCards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'} at ${money(card.total)} all-in, buy-under ${money(card.buyUnder)}, spread ${money(card.spread)}.`);
@@ -751,10 +753,53 @@ Generated: 2026-04-19T13:36:41.124Z
       return escapeHtml(str);
     }
 
+    function normalizeJsonFeed(payload) {
+      const cards = (payload.cards || []).map(card => ({
+        name: card.name,
+        title: card.best?.title || '',
+        rawMarket: card.rawMarket,
+        psa10Market: card.psa10Market,
+        buyUnder: card.buyUnder,
+        psa9Risk: card.psa9Risk,
+        listingPrice: card.best?.price || 0,
+        shipping: card.best?.shipping || 0,
+        total: card.best?.total || 0,
+        seller: card.best?.seller || 'Unknown',
+        condition: card.best?.condition || 'Unknown',
+        recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(),
+        gradeRank: card.analysis?.gradeRank || 'B',
+        probability: card.analysis?.probability || 0,
+        confidence: card.analysis?.confidence || 0,
+        riskFlags: card.analysis?.riskFlags || [],
+        link: card.best?.link || '#',
+        isNew: !!card.isNew
+      }));
+
+      cards.forEach(card => {
+        card.spread = (card.psa10Market || 0) - (card.total || 0);
+        card.margin = (card.buyUnder || 0) - (card.total || 0);
+      });
+
+      cards.sort((a, b) => (b.spread || 0) - (a.spread || 0));
+      return {
+        generated: payload.generatedAt || payload.updatedAt || '',
+        tracked: payload.tracked || cards.map(card => card.name),
+        cards,
+        source: 'json-feed',
+        newListingCount: payload.newListingCount || 0
+      };
+    }
+
     function loadReportText(text) {
       const parsed = parseMarkdown(text);
       render(parsed);
       localStorage.setItem('onePieceSniperReport', text);
+    }
+
+    function loadJsonPayload(payload) {
+      const normalized = normalizeJsonFeed(payload);
+      render(normalized);
+      localStorage.setItem('onePieceSniperLatestJson', JSON.stringify(payload));
     }
 
     function rerenderCurrent() {
@@ -801,10 +846,36 @@ Generated: 2026-04-19T13:36:41.124Z
       localStorage.removeItem('onePieceSniperNotes');
     });
 
-    els.notes.value = localStorage.getItem('onePieceSniperNotes') || '';
-    const savedReport = localStorage.getItem('onePieceSniperReport');
-    if (savedReport) loadReportText(savedReport);
-    else loadReportText(SAMPLE_REPORT);
+    async function bootDashboard() {
+      els.notes.value = localStorage.getItem('onePieceSniperNotes') || '';
+
+      try {
+        const response = await fetch('./latest.json', { cache: 'no-store' });
+        if (response.ok) {
+          const payload = await response.json();
+          loadJsonPayload(payload);
+          return;
+        }
+      } catch {}
+
+      const savedJson = localStorage.getItem('onePieceSniperLatestJson');
+      if (savedJson) {
+        try {
+          loadJsonPayload(JSON.parse(savedJson));
+          return;
+        } catch {}
+      }
+
+      const savedReport = localStorage.getItem('onePieceSniperReport');
+      if (savedReport) {
+        loadReportText(savedReport);
+        return;
+      }
+
+      loadReportText(SAMPLE_REPORT);
+    }
+
+    bootDashboard();
   </script>
 </body>
 </html>
