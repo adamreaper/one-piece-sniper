@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-04-19T16:33:27.879Z",
-  "updatedAt": "2026-04-19T16:33:33.715Z",
-  "newListingCount": 0,
+  "generatedAt": "2026-04-19T18:33:31.969Z",
+  "updatedAt": "2026-04-19T18:34:00.119Z",
+  "newListingCount": 1,
+  "alertCount": 0,
   "tracked": [
     "Nami OP09-070",
     "Boa Hancock ST03-013",
     "Perona OP10-092",
-    "Sabo OP10-049"
+    "Nico Robin OP09-062"
   ],
   "cards": [
     {
@@ -17,6 +18,7 @@
       "buyUnder": 60,
       "psa9Risk": "weak protection",
       "isNew": false,
+      "shouldAlert": false,
       "listingKey": "v1|198288168854|0",
       "best": {
         "title": "One Piece- Nami OP09-070 AA",
@@ -25,15 +27,19 @@
         "total": 50,
         "seller": "bigteddykev",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198288168854?_skw=%22Nami+OP09-070%22+one+piece&hash=item2e2ae55796:g:7rAAAeSwaZBp4dbV"
+        "link": "https://www.ebay.com/itm/198288168854"
       },
       "analysis": {
-        "recommendation": "watch",
-        "gradeRank": "B",
-        "probability": 55,
-        "confidence": 40,
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 44,
+        "confidence": 55,
+        "expectedProfit": 98,
+        "offerSuggestion": "Offer around $26",
         "riskFlags": [
-          "The specified legacy item Id was not found."
+          "corners: visible whitening",
+          "edges: minor wear",
+          "surface: possible issue"
         ]
       }
     },
@@ -45,6 +51,7 @@
       "buyUnder": 28,
       "psa9Risk": "real downside",
       "isNew": false,
+      "shouldAlert": false,
       "listingKey": "v1|287281460559|0",
       "best": {
         "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
@@ -53,15 +60,18 @@
         "total": 37.99,
         "seller": "trainerscornertcg_15",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/287281460559?_skw=%22ST03-013%22+boa+hancock+card&hash=item42e34f354f:g:SkUAAeSwFd5p5MuX"
+        "link": "https://www.ebay.com/itm/287281460559"
       },
       "analysis": {
-        "recommendation": "watch",
-        "gradeRank": "B",
-        "probability": 55,
-        "confidence": 40,
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 56,
+        "confidence": 55,
+        "expectedProfit": 43,
+        "offerSuggestion": "Offer around $16",
         "riskFlags": [
-          "The specified legacy item Id was not found."
+          "corners: visible whitening",
+          "edges: minor wear"
         ]
       }
     },
@@ -73,6 +83,7 @@
       "buyUnder": 8,
       "psa9Risk": "9 kills most edge",
       "isNew": false,
+      "shouldAlert": false,
       "listingKey": "v1|198292783399|0",
       "best": {
         "title": "One Piece CCG Royal Blood Perona Card OP10-092 Near Mint Condition 💎💎💎",
@@ -81,43 +92,53 @@
         "total": 7,
         "seller": "dgjelo55",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198292783399?_skw=%22OP10-092%22+perona+card&hash=item2e2b2bc127:g:Hr4AAeSw13Zp5DB0"
+        "link": "https://www.ebay.com/itm/198292783399"
       },
       "analysis": {
-        "recommendation": "watch",
-        "gradeRank": "B",
-        "probability": 55,
-        "confidence": 40,
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 18,
+        "confidence": 55,
+        "expectedProfit": -13,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "The specified legacy item Id was not found."
+          "corners: visible whitening",
+          "edges: minor wear",
+          "surface: possible issue",
+          "occlusion: minor"
         ]
       }
     },
     {
-      "name": "Sabo OP10-049",
-      "code": "OP10-049",
-      "rawMarket": 8.19,
-      "psa10Market": 89.12,
-      "buyUnder": 8,
-      "psa9Risk": "thin protection",
-      "isNew": false,
-      "listingKey": "v1|318142861917|0",
+      "name": "Nico Robin OP09-062",
+      "code": "OP09-062",
+      "rawMarket": 70,
+      "psa10Market": 155,
+      "buyUnder": 55,
+      "psa9Risk": "ugly downside if it 9s",
+      "isNew": true,
+      "shouldAlert": false,
+      "listingKey": "v1|168281046000|0",
       "best": {
-        "title": "2025 One Piece Card Game: Royal Blood OP10 English R Sabo #OP10-049",
-        "price": 1.97,
-        "shipping": 4.99,
-        "total": 6.96,
-        "seller": "tcgbycomc",
+        "title": "One Piece TCG - Nico Robin Op09-062 Alt Art Leader English Emperors In New World",
+        "price": 73.04,
+        "shipping": 5.22,
+        "total": 78.26,
+        "seller": "zvyagintzev",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/318142861917?_skw=%22Sabo+OP10-049%22+one+piece&hash=item4a12cad25d:g:AaEAAeSweUpp3JTM"
+        "link": "https://www.ebay.com/itm/168281046000"
       },
       "analysis": {
-        "recommendation": "watch",
-        "gradeRank": "B",
-        "probability": 55,
-        "confidence": 40,
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 48,
+        "confidence": 55,
+        "expectedProfit": -29,
+        "offerSuggestion": "Offer around $26",
         "riskFlags": [
-          "The specified legacy item Id was not found."
+          "corners: minor wear",
+          "edges: minor wear",
+          "occlusion: minor"
         ]
       }
     }
