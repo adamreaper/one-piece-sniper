@@ -398,6 +398,8 @@
     .buy { color: #0f9f57; background: rgba(15,159,87,0.12); }
     .watch, .manual-review { color: #b45309; background: rgba(217,119,6,0.12); }
     .pass { color: #b91c1c; background: rgba(192,38,45,0.12); }
+    .submit-yes { color: #0f9f57; background: rgba(15,159,87,0.12); }
+    .submit-no { color: #b91c1c; background: rgba(192,38,45,0.12); }
     .rankA, .rankB, .rankC, .rankD { color: var(--text); background: rgba(17,17,17,0.06); }
     .core-chip { background: rgba(17,17,17,0.08); }
     .experimental-chip { background: rgba(209,60,47,0.12); color: var(--accent2); }
@@ -880,6 +882,8 @@ Generated: 2026-04-19T13:36:41.124Z
       const rankClass = `rank${card.gradeRank || 'B'}`;
       const priorityClass = card.priority === 'core' ? 'core-chip' : 'experimental-chip';
       const priorityLabel = card.priority === 'core' ? 'CORE' : 'EXPERIMENTAL';
+      const submitClass = card.submitReady ? 'submit-yes' : 'submit-no';
+      const submitLabel = card.submitReady ? 'SUBMIT READY' : 'NOT SUBMIT READY';
       return `
         <article class="card ${card.isNew ? 'is-new new-pulse' : ''}" id="card-${escapeAttr(card.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase())}">
           <div class="card-top">
@@ -896,22 +900,25 @@ Generated: 2026-04-19T13:36:41.124Z
               ${card.isNew ? '<span class="chip new-chip">NEW</span>' : ''}
               <span class="chip ${priorityClass}">${priorityLabel}</span>
               <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
+              <span class="chip ${submitClass}">${submitLabel}</span>
               <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
             </div>
           </div>
           <div class="card-priority">
             <div class="metric primary"><div class="label">Recommendation</div><div class="value">${escapeHtml(card.recommendation || 'WATCH')}</div></div>
+            <div class="metric primary"><div class="label">Submit ready</div><div class="value">${card.submitReady ? 'YES' : 'NO'}</div></div>
             <div class="metric primary"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
             <div class="metric primary"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
-            <div class="metric primary"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
           </div>
           <div class="grid">
             <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
             <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
+            <div class="metric"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
+            <div class="metric"><div class="label">Submission profit</div><div class="value">${money(card.submitProfit)}</div></div>
+            <div class="metric"><div class="label">Expected profit</div><div class="value">${money(card.expectedProfit)}</div></div>
+            <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
             <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
             <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
-            <div class="metric"><div class="label">Margin vs target</div><div class="value">${money(card.margin)}</div></div>
-            <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
           </div>
           <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
           ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
@@ -992,11 +999,11 @@ Generated: 2026-04-19T13:36:41.124Z
         <div class="opportunity-card ${card.isNew ? 'new-pulse' : ''}">
           <div class="kicker">${index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check'}</div>
           <div class="headline">${escapeHtml(card.name)}</div>
-          <div class="subline">${escapeHtml(card.recommendation || 'WATCH')} • ${money(card.total)} all-in • spread ${money(card.spread)} • confidence ${card.confidence || 0}%</div>
+          <div class="subline">${escapeHtml(card.recommendation || 'WATCH')} • ${card.submitReady ? 'submit-ready' : 'not submit-ready'} • ${money(card.total)} all-in • submit profit ${money(card.submitProfit)} • confidence ${card.confidence || 0}%</div>
         </div>
       `).join('');
 
-      const summaryLines = visibleCards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'} at ${money(card.total)} all-in, buy-under ${money(card.buyUnder)}, spread ${money(card.spread)}.`);
+      const summaryLines = visibleCards.slice(0, 3).map(card => `${card.name}: ${card.recommendation || 'WATCH'}, submit-ready ${card.submitReady ? 'YES' : 'NO'}, ${money(card.total)} all-in, submit profit ${money(card.submitProfit)}.`);
       els.summaryText.textContent = summaryLines.length
         ? summaryLines.join(' ')
         : 'No parsed card data yet.';
@@ -1033,6 +1040,9 @@ Generated: 2026-04-19T13:36:41.124Z
         gradeRank: card.analysis?.gradeRank || 'B',
         probability: card.analysis?.probability || 0,
         confidence: card.analysis?.confidence || 0,
+        expectedProfit: card.analysis?.expectedProfit || 0,
+        submitProfit: card.analysis?.submitProfit || 0,
+        submitReady: !!card.analysis?.submitReady,
         riskFlags: card.analysis?.riskFlags || [],
         link: card.best?.link || '#',
         isNew: !!card.isNew
@@ -1050,8 +1060,8 @@ Generated: 2026-04-19T13:36:41.124Z
         coreTracked: payload.coreTracked || cards.filter(card => card.priority === 'core').map(card => card.name),
         experimentalTracked: payload.experimentalTracked || cards.filter(card => card.priority !== 'core').map(card => card.name),
         cards,
-        coreCards: payload.coreCards ? payload.coreCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority === 'core'),
-        experimentalCards: payload.experimentalCards ? payload.experimentalCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority !== 'core'),
+        coreCards: payload.coreCards ? payload.coreCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, expectedProfit: card.analysis?.expectedProfit || 0, submitProfit: card.analysis?.submitProfit || 0, submitReady: !!card.analysis?.submitReady, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority === 'core'),
+        experimentalCards: payload.experimentalCards ? payload.experimentalCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, expectedProfit: card.analysis?.expectedProfit || 0, submitProfit: card.analysis?.submitProfit || 0, submitReady: !!card.analysis?.submitReady, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority !== 'core'),
         staleTargets: payload.staleTargets || [],
         source: 'json-feed',
         newListingCount: payload.newListingCount || 0
