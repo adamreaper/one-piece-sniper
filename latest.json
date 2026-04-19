@@ -1,23 +1,60 @@
 {
-  "generatedAt": "2026-04-19T19:04:21.973Z",
-  "updatedAt": "2026-04-19T19:04:55.809Z",
-  "newListingCount": 0,
+  "generatedAt": "2026-04-19T20:30:26.414Z",
+  "updatedAt": "2026-04-19T20:30:53.892Z",
+  "newListingCount": 1,
   "alertCount": 0,
   "tracked": [
+    "Nami OP09-070",
     "Boa Hancock ST03-013",
     "Perona OP10-092",
-    "Nami OP09-070",
     "Nico Robin OP09-062"
   ],
   "coreTracked": [
+    "Nami OP09-070",
     "Boa Hancock ST03-013",
-    "Perona OP10-092",
-    "Nami OP09-070"
+    "Perona OP10-092"
   ],
   "experimentalTracked": [
     "Nico Robin OP09-062"
   ],
   "cards": [
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "priority": "core",
+      "rawMarket": 51.36,
+      "psa10Market": 392.5,
+      "buyUnder": 60,
+      "psa9Risk": "weak protection",
+      "isNew": false,
+      "shouldAlert": false,
+      "listingKey": "v1|198288168854|0",
+      "best": {
+        "title": "One Piece- Nami OP09-070 AA",
+        "price": 50,
+        "shipping": 0,
+        "total": 50,
+        "seller": "bigteddykev",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198288168854"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 48,
+        "confidence": 53,
+        "expectedProfit": 26,
+        "submitProfit": 8,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $21",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
     {
       "name": "Boa Hancock ST03-013",
       "code": "ST03-013",
@@ -41,10 +78,12 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 57,
+        "probability": 52,
         "confidence": 53,
-        "expectedProfit": 45,
-        "offerSuggestion": "Offer around $16",
+        "expectedProfit": -11,
+        "submitProfit": -21,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -75,49 +114,16 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 18,
+        "probability": 28,
         "confidence": 55,
-        "expectedProfit": -13,
+        "expectedProfit": -23,
+        "submitProfit": -25,
+        "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
           "edges: visible wear",
           "surface: possible issue"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP09-070",
-      "code": "OP09-070",
-      "priority": "core",
-      "rawMarket": 51.36,
-      "psa10Market": 392.5,
-      "buyUnder": 60,
-      "psa9Risk": "weak protection",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|198288168854|0",
-      "best": {
-        "title": "One Piece- Nami OP09-070 AA",
-        "price": 50,
-        "shipping": 0,
-        "total": 50,
-        "seller": "bigteddykev",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198288168854"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 1,
-        "confidence": 53,
-        "expectedProfit": -71,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: visible issue",
-          "limited photos: 2"
         ]
       }
     },
@@ -129,34 +135,73 @@
       "psa10Market": 155,
       "buyUnder": 55,
       "psa9Risk": "ugly downside if it 9s",
-      "isNew": false,
+      "isNew": true,
       "shouldAlert": false,
-      "listingKey": "v1|168281046000|0",
+      "listingKey": "v1|298227792882|0",
       "best": {
-        "title": "One Piece TCG - Nico Robin Op09-062 Alt Art Leader English Emperors In New World",
-        "price": 73.04,
-        "shipping": 5.22,
-        "total": 78.26,
-        "seller": "zvyagintzev",
+        "title": "Nico Robin (Alternate Art) EB-02 EB02-036 R One Piece Card NM",
+        "price": 40,
+        "shipping": 1.49,
+        "total": 41.49,
+        "seller": "saltypulls",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/168281046000"
+        "link": "https://www.ebay.com/itm/298227792882"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 8,
-        "confidence": 50,
-        "expectedProfit": -91,
-        "offerSuggestion": "Offer around $4",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -23,
+        "submitProfit": -31,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "surface: visible issue",
-          "limited photos: 1"
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
         ]
       }
     }
   ],
   "coreCards": [
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "priority": "core",
+      "rawMarket": 51.36,
+      "psa10Market": 392.5,
+      "buyUnder": 60,
+      "psa9Risk": "weak protection",
+      "isNew": false,
+      "shouldAlert": false,
+      "listingKey": "v1|198288168854|0",
+      "best": {
+        "title": "One Piece- Nami OP09-070 AA",
+        "price": 50,
+        "shipping": 0,
+        "total": 50,
+        "seller": "bigteddykev",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198288168854"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 48,
+        "confidence": 53,
+        "expectedProfit": 26,
+        "submitProfit": 8,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $21",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
     {
       "name": "Boa Hancock ST03-013",
       "code": "ST03-013",
@@ -180,10 +225,12 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 57,
+        "probability": 52,
         "confidence": 53,
-        "expectedProfit": 45,
-        "offerSuggestion": "Offer around $16",
+        "expectedProfit": -11,
+        "submitProfit": -21,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -214,49 +261,16 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 18,
+        "probability": 28,
         "confidence": 55,
-        "expectedProfit": -13,
+        "expectedProfit": -23,
+        "submitProfit": -25,
+        "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
           "edges: visible wear",
           "surface: possible issue"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP09-070",
-      "code": "OP09-070",
-      "priority": "core",
-      "rawMarket": 51.36,
-      "psa10Market": 392.5,
-      "buyUnder": 60,
-      "psa9Risk": "weak protection",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|198288168854|0",
-      "best": {
-        "title": "One Piece- Nami OP09-070 AA",
-        "price": 50,
-        "shipping": 0,
-        "total": 50,
-        "seller": "bigteddykev",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198288168854"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 1,
-        "confidence": 53,
-        "expectedProfit": -71,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: visible issue",
-          "limited photos: 2"
         ]
       }
     }
@@ -270,29 +284,31 @@
       "psa10Market": 155,
       "buyUnder": 55,
       "psa9Risk": "ugly downside if it 9s",
-      "isNew": false,
+      "isNew": true,
       "shouldAlert": false,
-      "listingKey": "v1|168281046000|0",
+      "listingKey": "v1|298227792882|0",
       "best": {
-        "title": "One Piece TCG - Nico Robin Op09-062 Alt Art Leader English Emperors In New World",
-        "price": 73.04,
-        "shipping": 5.22,
-        "total": 78.26,
-        "seller": "zvyagintzev",
+        "title": "Nico Robin (Alternate Art) EB-02 EB02-036 R One Piece Card NM",
+        "price": 40,
+        "shipping": 1.49,
+        "total": 41.49,
+        "seller": "saltypulls",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/168281046000"
+        "link": "https://www.ebay.com/itm/298227792882"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 8,
-        "confidence": 50,
-        "expectedProfit": -91,
-        "offerSuggestion": "Offer around $4",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -23,
+        "submitProfit": -31,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "surface: visible issue",
-          "limited photos: 1"
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
         ]
       }
     }
