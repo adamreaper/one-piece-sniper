@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-19T23:50:59.322Z",
-  "updatedAt": "2026-04-19T23:51:26.482Z",
-  "newListingCount": 0,
+  "generatedAt": "2026-04-20T00:17:34.807Z",
+  "updatedAt": "2026-04-20T00:18:08.288Z",
+  "newListingCount": 1,
   "alertCount": 0,
   "tracked": [
-    "Nami OP09-070",
     "Boa Hancock ST03-013",
+    "Nami OP09-070",
     "Perona OP10-092",
     "Nico Robin OP09-062"
   ],
   "coreTracked": [
-    "Nami OP09-070",
     "Boa Hancock ST03-013",
+    "Nami OP09-070",
     "Perona OP10-092"
   ],
   "experimentalTracked": [
@@ -19,52 +19,16 @@
   ],
   "cards": [
     {
-      "name": "Nami OP09-070",
-      "code": "OP09-070",
-      "priority": "core",
-      "rawMarket": 51.36,
-      "psa10Market": 230,
-      "buyUnder": 55,
-      "psa9Risk": "weak protection",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|198288168854|0",
-      "best": {
-        "title": "One Piece- Nami OP09-070 AA",
-        "price": 50,
-        "shipping": 0,
-        "total": 50,
-        "seller": "bigteddykev",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198288168854"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 48,
-        "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -22,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue",
-          "limited photos: 2"
-        ]
-      },
-      "pricingSource": "manual_recent_psa_sales"
-    },
-    {
       "name": "Boa Hancock ST03-013",
       "code": "ST03-013",
       "priority": "core",
       "rawMarket": 25.28,
-      "psa10Market": 188.75,
-      "buyUnder": 28,
+      "psa10Market": 196.25,
+      "buyUnder": 47.1,
       "psa9Risk": "real downside",
       "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "2 recent PSA 10 sold comps, range $185.00 to $200.00",
       "shouldAlert": false,
       "listingKey": "v1|287281460559|0",
       "best": {
@@ -75,100 +39,23 @@
         "seller": "trainerscornertcg_15",
         "condition": "Ungraded",
         "link": "https://www.ebay.com/itm/287281460559"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
-        "confidence": 53,
-        "expectedProfit": -13,
-        "submitProfit": -22,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 2"
-        ]
-      },
-      "pricingSource": "fallback"
-    },
-    {
-      "name": "Perona OP10-092",
-      "code": "OP10-092",
-      "priority": "core",
-      "rawMarket": 6.8,
-      "psa10Market": 103.49,
-      "buyUnder": 8,
-      "psa9Risk": "9 kills most edge",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|198292783399|0",
-      "best": {
-        "title": "One Piece CCG Royal Blood Perona Card OP10-092 Near Mint Condition 💎💎💎",
-        "price": 7,
-        "shipping": 0,
-        "total": 7,
-        "seller": "dgjelo55",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/198292783399"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 28,
-        "confidence": 55,
-        "expectedProfit": -23,
-        "submitProfit": -25,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: possible issue"
-        ]
-      },
-      "pricingSource": "fallback"
-    },
-    {
-      "name": "Nico Robin OP09-062",
-      "code": "OP09-062",
-      "priority": "secondary",
-      "rawMarket": 70,
-      "psa10Market": 155,
-      "buyUnder": 55,
-      "psa9Risk": "ugly downside if it 9s",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|298227792882|0",
-      "best": {
-        "title": "Nico Robin (Alternate Art) EB-02 EB02-036 R One Piece Card NM",
-        "price": 40,
-        "shipping": 1.49,
-        "total": 41.49,
-        "seller": "saltypulls",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/298227792882"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
         "probability": 42,
         "confidence": 53,
-        "expectedProfit": -23,
-        "submitProfit": -31,
+        "expectedProfit": -18,
+        "submitProfit": -26,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
-          "limited photos: 3"
+          "limited photos: 2"
         ]
-      },
-      "pricingSource": "fallback"
-    }
-  ],
-  "coreCards": [
+      }
+    },
     {
       "name": "Nami OP09-070",
       "code": "OP09-070",
@@ -178,6 +65,8 @@
       "buyUnder": 55,
       "psa9Risk": "weak protection",
       "isNew": false,
+      "pricingSource": "manual_recent_psa10_sales",
+      "pricingNotes": "Anchored to recent PSA 10 sales shown by user screenshots, roughly 217.50 to 250.50, instead of stale inflated research-sheet pricing.",
       "shouldAlert": false,
       "listingKey": "v1|198288168854|0",
       "best": {
@@ -192,10 +81,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 48,
+        "probability": 35,
         "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -22,
+        "expectedProfit": -22,
+        "submitProfit": -32,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
@@ -204,45 +93,7 @@
           "surface: possible issue",
           "limited photos: 2"
         ]
-      },
-      "pricingSource": "manual_recent_psa_sales"
-    },
-    {
-      "name": "Boa Hancock ST03-013",
-      "code": "ST03-013",
-      "priority": "core",
-      "rawMarket": 25.28,
-      "psa10Market": 188.75,
-      "buyUnder": 28,
-      "psa9Risk": "real downside",
-      "isNew": false,
-      "shouldAlert": false,
-      "listingKey": "v1|287281460559|0",
-      "best": {
-        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
-        "price": 37.99,
-        "shipping": 0,
-        "total": 37.99,
-        "seller": "trainerscornertcg_15",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/287281460559"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
-        "confidence": 53,
-        "expectedProfit": -13,
-        "submitProfit": -22,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 2"
-        ]
-      },
-      "pricingSource": "fallback"
+      }
     },
     {
       "name": "Perona OP10-092",
@@ -253,6 +104,8 @@
       "buyUnder": 8,
       "psa9Risk": "9 kills most edge",
       "isNew": false,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
       "shouldAlert": false,
       "listingKey": "v1|198292783399|0",
       "best": {
@@ -278,8 +131,162 @@
           "edges: visible wear",
           "surface: possible issue"
         ]
+      }
+    },
+    {
+      "name": "Nico Robin OP09-062",
+      "code": "OP09-062",
+      "priority": "secondary",
+      "rawMarket": 70,
+      "psa10Market": 221.77,
+      "buyUnder": 53.22,
+      "psa9Risk": "ugly downside if it 9s",
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "7 recent PSA 10 sold comps, range $200.00 to $255.00",
+      "shouldAlert": false,
+      "listingKey": "v1|236755581004|0",
+      "best": {
+        "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
+        "price": 40.55,
+        "shipping": 29.84,
+        "total": 70.39,
+        "seller": "theedigglerdig",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/236755581004"
       },
-      "pricingSource": "fallback"
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -64,
+        "submitProfit": -70,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: visible whitening",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    }
+  ],
+  "coreCards": [
+    {
+      "name": "Boa Hancock ST03-013",
+      "code": "ST03-013",
+      "priority": "core",
+      "rawMarket": 25.28,
+      "psa10Market": 196.25,
+      "buyUnder": 47.1,
+      "psa9Risk": "real downside",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "2 recent PSA 10 sold comps, range $185.00 to $200.00",
+      "shouldAlert": false,
+      "listingKey": "v1|287281460559|0",
+      "best": {
+        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
+        "price": 37.99,
+        "shipping": 0,
+        "total": 37.99,
+        "seller": "trainerscornertcg_15",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/287281460559"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -18,
+        "submitProfit": -26,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "priority": "core",
+      "rawMarket": 51.36,
+      "psa10Market": 230,
+      "buyUnder": 55,
+      "psa9Risk": "weak protection",
+      "isNew": false,
+      "pricingSource": "manual_recent_psa10_sales",
+      "pricingNotes": "Anchored to recent PSA 10 sales shown by user screenshots, roughly 217.50 to 250.50, instead of stale inflated research-sheet pricing.",
+      "shouldAlert": false,
+      "listingKey": "v1|198288168854|0",
+      "best": {
+        "title": "One Piece- Nami OP09-070 AA",
+        "price": 50,
+        "shipping": 0,
+        "total": 50,
+        "seller": "bigteddykev",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198288168854"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 35,
+        "confidence": 53,
+        "expectedProfit": -22,
+        "submitProfit": -32,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Perona OP10-092",
+      "code": "OP10-092",
+      "priority": "core",
+      "rawMarket": 6.8,
+      "psa10Market": 103.49,
+      "buyUnder": 8,
+      "psa9Risk": "9 kills most edge",
+      "isNew": false,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "listingKey": "v1|198292783399|0",
+      "best": {
+        "title": "One Piece CCG Royal Blood Perona Card OP10-092 Near Mint Condition 💎💎💎",
+        "price": 7,
+        "shipping": 0,
+        "total": 7,
+        "seller": "dgjelo55",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/198292783399"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 28,
+        "confidence": 55,
+        "expectedProfit": -23,
+        "submitProfit": -25,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: visible whitening",
+          "edges: visible wear",
+          "surface: possible issue"
+        ]
+      }
     }
   ],
   "experimentalCards": [
@@ -288,37 +295,38 @@
       "code": "OP09-062",
       "priority": "secondary",
       "rawMarket": 70,
-      "psa10Market": 155,
-      "buyUnder": 55,
+      "psa10Market": 221.77,
+      "buyUnder": 53.22,
       "psa9Risk": "ugly downside if it 9s",
-      "isNew": false,
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "7 recent PSA 10 sold comps, range $200.00 to $255.00",
       "shouldAlert": false,
-      "listingKey": "v1|298227792882|0",
+      "listingKey": "v1|236755581004|0",
       "best": {
-        "title": "Nico Robin (Alternate Art) EB-02 EB02-036 R One Piece Card NM",
-        "price": 40,
-        "shipping": 1.49,
-        "total": 41.49,
-        "seller": "saltypulls",
+        "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
+        "price": 40.55,
+        "shipping": 29.84,
+        "total": 70.39,
+        "seller": "theedigglerdig",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/298227792882"
+        "link": "https://www.ebay.com/itm/236755581004"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
         "probability": 42,
         "confidence": 53,
-        "expectedProfit": -23,
-        "submitProfit": -31,
+        "expectedProfit": -64,
+        "submitProfit": -70,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: minor wear",
+          "corners: visible whitening",
           "edges: minor wear",
-          "limited photos: 3"
+          "limited photos: 2"
         ]
-      },
-      "pricingSource": "fallback"
+      }
     }
   ],
   "staleTargets": []
