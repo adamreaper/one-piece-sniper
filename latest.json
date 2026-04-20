@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-20T16:27:36.723Z",
-  "updatedAt": "2026-04-20T16:28:54.193Z",
+  "generatedAt": "2026-04-20T18:08:05.117Z",
+  "updatedAt": "2026-04-20T18:10:08.775Z",
   "boardModel": "dynamic-hotness-plus-psa10-upside-v1",
   "newListingCount": 1,
   "alertCount": 0,
   "tracked": [
-    "Monkey.D.Luffy P-075",
-    "Roronoa Zoro OP12-020",
     "Nami OP11-041",
+    "Roronoa Zoro OP12-020",
     "Perona OP01-077",
+    "Monkey.D.Luffy P-075",
     "Nico Robin OP09-062",
     "Roronoa Zoro ST01-013",
     "Portgas.D.Ace P-074",
     "Sabo P-073"
   ],
   "coreTracked": [
-    "Monkey.D.Luffy P-075",
-    "Roronoa Zoro OP12-020",
     "Nami OP11-041",
-    "Perona OP01-077"
+    "Roronoa Zoro OP12-020",
+    "Perona OP01-077",
+    "Monkey.D.Luffy P-075"
   ],
   "experimentalTracked": [
     "Nico Robin OP09-062",
@@ -28,121 +28,12 @@
   ],
   "cards": [
     {
-      "name": "Monkey.D.Luffy P-075",
-      "code": "P-075",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 1,
-      "rawMarket": 19.92,
-      "psa10Market": 151.42,
-      "buyUnder": 36.34,
-      "psa9Risk": "unclear slab evidence",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
-      "shouldAlert": false,
-      "listingKey": "v1|227305647173|0",
-      "marketStats": {
-        "compCount": 4,
-        "low": 114.97999999999999,
-        "high": 185.16
-      },
-      "scores": {
-        "hotScore": 70,
-        "upsideScore": 46,
-        "confidenceScore": 68,
-        "liquidityScore": 78,
-        "combinedScore": 61,
-        "thesis": "heat 70 | upside 46 | confidence 68 | liquidity 78"
-      },
-      "thesis": "heat 70 | upside 46 | confidence 68 | liquidity 78",
-      "best": {
-        "title": "(SEALED) One Piece CCG (Monkey D Luffy P-075) Tin Set Vol 2 Promo Card RARE EN",
-        "price": 14,
-        "shipping": 1.3,
-        "total": 15.3,
-        "seller": "skullmageddon",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/227305647173?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDwTPGJjmAPMttZayHY4mMLa48n2bXLRpjjXRVuPKaX1xxPhCcOb4Ti9oQkUvPOV98iLffgxh2YUux%2F95lkgQEd2U6CjlHZBzyCvxTGxat%2BxbbCdQDIsebb0kUI5n0dtDfFTX2QWLHw4V%2FvK7zHfI1xyKq2CoOSazOpUiAdNTMldYAS%2BdfJMhLrIoyTjvTlRdY%3D"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 76,
-        "confidence": 53,
-        "expectedProfit": 13,
-        "submitProfit": 3,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $12",
-        "riskFlags": [
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 2,
-      "rawMarket": 57,
-      "psa10Market": 236.18,
-      "buyUnder": 56.68,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": true,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "7 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|358440609856|0",
-      "marketStats": {
-        "compCount": 7,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 85,
-        "upsideScore": 20,
-        "confidenceScore": 61,
-        "liquidityScore": 100,
-        "combinedScore": 57,
-        "thesis": "heat 85 | upside 20 | confidence 61 | liquidity 100"
-      },
-      "thesis": "heat 85 | upside 20 | confidence 61 | liquidity 100",
-      "best": {
-        "title": "【RANK A】Roronoa Zoro OP12-020 L One Piece Card Game(W0191)",
-        "price": 37.7,
-        "shipping": 30,
-        "total": 67.7,
-        "seller": "drop33_japan",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/358440609856"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
-        "confidence": 53,
-        "expectedProfit": -33,
-        "submitProfit": -44,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $11",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
       "name": "Nami OP11-041",
       "code": "OP11-041",
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 3,
+      "rank": 1,
       "rawMarket": 56,
       "psa10Market": 246.88,
       "buyUnder": 59.25,
@@ -159,13 +50,13 @@
       },
       "scores": {
         "hotScore": 78,
-        "upsideScore": 25,
-        "confidenceScore": 61,
+        "upsideScore": 29,
+        "confidenceScore": 66,
         "liquidityScore": 100,
-        "combinedScore": 56,
-        "thesis": "heat 78 | upside 25 | confidence 61 | liquidity 100"
+        "combinedScore": 59,
+        "thesis": "heat 78 | upside 29 | confidence 66 | liquidity 100"
       },
-      "thesis": "heat 78 | upside 25 | confidence 61 | liquidity 100",
+      "thesis": "heat 78 | upside 29 | confidence 66 | liquidity 100",
       "best": {
         "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
         "price": 49.99,
@@ -173,21 +64,76 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WYyi4Ymtsbo2mS6e%2Bajn%2BuUuCuw%2BMO02Pr0vKCZhWz6NLEVUJQBHSP7Z10M%2BB6L62IkvBCogZEACIHF%2FkRWbu%2FFenkFnSR5zyhg5lQ2abrdStRwWo9NaiDNs9MWFM%2Fb7rMcxrvZSup1kAHYvd30pg2ok%3D"
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY79F9YUR0qbqSP3WJEYy4H1f4JVwjqxe%2BNtDIe7%2F2q0OiWlRQsiqQS609OQqWeTCyh2O6y1bYkc4vHdoFsRvtYGONC%2Bq0jd8TN80uhyTcKr2EWzd5SIlGrZb0Py2O%2BLeBEXvxRgZDPDxGnYOtetcjLU%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 49,
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": -19,
+        "expectedProfit": -7,
+        "submitProfit": -20,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $24",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
+        ]
+      }
+    },
+    {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "core",
+      "priority": "core",
+      "rank": 2,
+      "rawMarket": 57,
+      "psa10Market": 259.71,
+      "buyUnder": 62.33,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "listingKey": "v1|358440609856|0",
+      "marketStats": {
+        "compCount": 6,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 75,
+        "upsideScore": 23,
+        "confidenceScore": 66,
+        "liquidityScore": 100,
+        "combinedScore": 55,
+        "thesis": "heat 75 | upside 23 | confidence 66 | liquidity 100"
+      },
+      "thesis": "heat 75 | upside 23 | confidence 66 | liquidity 100",
+      "best": {
+        "title": "【RANK A】Roronoa Zoro OP12-020 L One Piece Card Game(W0191)",
+        "price": 37.7,
+        "shipping": 30,
+        "total": 67.7,
+        "seller": "drop33_japan",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/358440609856"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 60,
+        "confidence": 53,
+        "expectedProfit": -16,
         "submitProfit": -30,
         "submitReady": false,
-        "offerSuggestion": "Offer around $12",
+        "offerSuggestion": "Offer around $27",
         "riskFlags": [
+          "corners: minor wear",
           "edges: minor wear",
-          "occlusion: minor",
-          "limited photos: 3"
+          "limited photos: 2"
         ]
       }
     },
@@ -197,7 +143,7 @@
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 4,
+      "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
@@ -215,12 +161,12 @@
       "scores": {
         "hotScore": 61,
         "upsideScore": 44,
-        "confidenceScore": 55,
+        "confidenceScore": 54,
         "liquidityScore": 76,
-        "combinedScore": 55,
-        "thesis": "heat 61 | upside 44 | confidence 55 | liquidity 76"
+        "combinedScore": 54,
+        "thesis": "heat 61 | upside 44 | confidence 54 | liquidity 76"
       },
-      "thesis": "heat 61 | upside 44 | confidence 55 | liquidity 76",
+      "thesis": "heat 61 | upside 44 | confidence 54 | liquidity 76",
       "best": {
         "title": "ONE PIECE Card Game Perona OP01-077 UC Premium Card Collection Girls Edition ",
         "price": 23.94,
@@ -228,22 +174,78 @@
         "total": 23.94,
         "seller": "fujinotsukijp",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYqiuAF6vjCnAtsTq43w3DoReWFnelu3fcVxwfuQ1neRzXydL2VOvEaX2bLSWIAjoKMgj%2FHE6VJXyKxL7yTnSU64jo5rQue8TBmVCKd0r7IGx13CB0HVyU0z6L%2FQ%2F%2BHSDmWLvAGCpzT8e36tdlYgiBqI%3D"
+        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYsLomtDaf1%2FJDjzJyEgXC%2BIOKSUX8dPxiGwuMKzbNshaWd4axXP8R4aEvff7Qxv6Ezk0h0EdA2jTa27zVvwWwxErOwgy6DySn2W%2FonEFmD7Jwp%2BL7ZZvOwQpYfjy45k%2FcbIX6bHuygAB81u21IXB0lw%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 48,
+        "probability": 46,
         "confidence": 53,
-        "expectedProfit": 10,
-        "submitProfit": -1,
+        "expectedProfit": 8,
+        "submitProfit": -2,
         "submitReady": false,
-        "offerSuggestion": "Offer around $12",
+        "offerSuggestion": "Offer around $10",
+        "riskFlags": [
+          "corners: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Monkey.D.Luffy P-075",
+      "code": "P-075",
+      "seedBoard": "experimental",
+      "board": "core",
+      "priority": "core",
+      "rank": 4,
+      "rawMarket": 19.92,
+      "psa10Market": 151.42,
+      "buyUnder": 36.34,
+      "psa9Risk": "unclear slab evidence",
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
+      "shouldAlert": false,
+      "listingKey": "v1|267644794777|0",
+      "marketStats": {
+        "compCount": 4,
+        "low": 114.97999999999999,
+        "high": 185.16
+      },
+      "scores": {
+        "hotScore": 78,
+        "upsideScore": 30,
+        "confidenceScore": 39,
+        "liquidityScore": 78,
+        "combinedScore": 53,
+        "thesis": "heat 78 | upside 30 | confidence 39 | liquidity 78"
+      },
+      "thesis": "heat 78 | upside 30 | confidence 39 | liquidity 78",
+      "best": {
+        "title": "Monkey.D.Luffy [OP-PR - P-075] - NM [Foil] TCG One Piece",
+        "price": 15.9,
+        "shipping": 0.99,
+        "total": 16.89,
+        "seller": "fabricatorsforge",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/267644794777"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 14,
+        "confidence": 50,
+        "expectedProfit": -35,
+        "submitProfit": -36,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
           "surface: possible issue",
-          "limited photos: 2"
+          "occlusion: major",
+          "limited photos: 1"
         ]
       }
     },
@@ -289,15 +291,16 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 42,
+        "probability": 40,
         "confidence": 53,
-        "expectedProfit": -64,
-        "submitProfit": -70,
+        "expectedProfit": -65,
+        "submitProfit": -71,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
           "edges: minor wear",
+          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -383,12 +386,12 @@
       "scores": {
         "hotScore": 48,
         "upsideScore": 28,
-        "confidenceScore": 42,
+        "confidenceScore": 35,
         "liquidityScore": 45,
-        "combinedScore": 39,
-        "thesis": "heat 48 | upside 28 | confidence 42 | liquidity 45"
+        "combinedScore": 38,
+        "thesis": "heat 48 | upside 28 | confidence 35 | liquidity 45"
       },
-      "thesis": "heat 48 | upside 28 | confidence 42 | liquidity 45",
+      "thesis": "heat 48 | upside 28 | confidence 35 | liquidity 45",
       "best": {
         "title": "Bandai Portgas D Ace P-074 Promo 4000 Power One Piece CCG English Card",
         "price": 3,
@@ -396,20 +399,20 @@
         "total": 3,
         "seller": "josbar_2414",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/227299388931?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC8YpUc86%2FRVvasKmivvfnU88wrpiFbc%2FdhJZNKjhxgtr9%2FEen8RfH%2ByjJGafi40nF--lL3g7%2FoqgXIMHF9HBP95TxzX%2BTh2qigHvKzxO3CgRXOLEw%2B5cnyr6aLX5tVHvUxMCxt5Tic0y3L0gdStUd69FUrjUqtZSIrlKjhUBk5H3m57X9%2FSSGNaJXFsT%2F9lCU%3D"
+        "link": "https://www.ebay.com/itm/227299388931?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC8YpUc86%2FRVvasKmivvfnU88wrpiFbc%2FdhJZNKjhxgtmMRabbB67DfYgQpIxhYqxVGohK13t2KMlzI3ta8%2Be19Mv8x6QiDzUiOVhDDQ17iEM3T6USO%2Bk%2FTdfxcKOUMEAuSGbsFgDcCY2xVi1iFk1en6%2BU4U8TDNoq%2FCTnrKBVqzx54DLNHzzylIrQExnsqTxo%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 32,
+        "probability": 16,
         "confidence": 53,
-        "expectedProfit": -22,
-        "submitProfit": -23,
+        "expectedProfit": -26,
+        "submitProfit": -26,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
+          "corners: visible whitening",
+          "edges: visible wear",
           "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
@@ -440,12 +443,12 @@
       "scores": {
         "hotScore": 36,
         "upsideScore": 20,
-        "confidenceScore": 30,
+        "confidenceScore": 51,
         "liquidityScore": 45,
-        "combinedScore": 30,
-        "thesis": "heat 36 | upside 20 | confidence 30 | liquidity 45"
+        "combinedScore": 33,
+        "thesis": "heat 36 | upside 20 | confidence 51 | liquidity 45"
       },
-      "thesis": "heat 36 | upside 20 | confidence 30 | liquidity 45",
+      "thesis": "heat 36 | upside 20 | confidence 51 | liquidity 45",
       "best": {
         "title": "One Piece Sabo P-073 SEALED English",
         "price": 4.5,
@@ -458,16 +461,13 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 6,
+        "probability": 52,
         "confidence": 53,
-        "expectedProfit": -30,
-        "submitProfit": -30,
+        "expectedProfit": -23,
+        "submitProfit": -24,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
         ]
@@ -476,121 +476,12 @@
   ],
   "coreCards": [
     {
-      "name": "Monkey.D.Luffy P-075",
-      "code": "P-075",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 1,
-      "rawMarket": 19.92,
-      "psa10Market": 151.42,
-      "buyUnder": 36.34,
-      "psa9Risk": "unclear slab evidence",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
-      "shouldAlert": false,
-      "listingKey": "v1|227305647173|0",
-      "marketStats": {
-        "compCount": 4,
-        "low": 114.97999999999999,
-        "high": 185.16
-      },
-      "scores": {
-        "hotScore": 70,
-        "upsideScore": 46,
-        "confidenceScore": 68,
-        "liquidityScore": 78,
-        "combinedScore": 61,
-        "thesis": "heat 70 | upside 46 | confidence 68 | liquidity 78"
-      },
-      "thesis": "heat 70 | upside 46 | confidence 68 | liquidity 78",
-      "best": {
-        "title": "(SEALED) One Piece CCG (Monkey D Luffy P-075) Tin Set Vol 2 Promo Card RARE EN",
-        "price": 14,
-        "shipping": 1.3,
-        "total": 15.3,
-        "seller": "skullmageddon",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/227305647173?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDwTPGJjmAPMttZayHY4mMLa48n2bXLRpjjXRVuPKaX1xxPhCcOb4Ti9oQkUvPOV98iLffgxh2YUux%2F95lkgQEd2U6CjlHZBzyCvxTGxat%2BxbbCdQDIsebb0kUI5n0dtDfFTX2QWLHw4V%2FvK7zHfI1xyKq2CoOSazOpUiAdNTMldYAS%2BdfJMhLrIoyTjvTlRdY%3D"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 76,
-        "confidence": 53,
-        "expectedProfit": 13,
-        "submitProfit": 3,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $12",
-        "riskFlags": [
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 2,
-      "rawMarket": 57,
-      "psa10Market": 236.18,
-      "buyUnder": 56.68,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": true,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "7 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|358440609856|0",
-      "marketStats": {
-        "compCount": 7,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 85,
-        "upsideScore": 20,
-        "confidenceScore": 61,
-        "liquidityScore": 100,
-        "combinedScore": 57,
-        "thesis": "heat 85 | upside 20 | confidence 61 | liquidity 100"
-      },
-      "thesis": "heat 85 | upside 20 | confidence 61 | liquidity 100",
-      "best": {
-        "title": "【RANK A】Roronoa Zoro OP12-020 L One Piece Card Game(W0191)",
-        "price": 37.7,
-        "shipping": 30,
-        "total": 67.7,
-        "seller": "drop33_japan",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/358440609856"
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
-        "confidence": 53,
-        "expectedProfit": -33,
-        "submitProfit": -44,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $11",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
       "name": "Nami OP11-041",
       "code": "OP11-041",
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 3,
+      "rank": 1,
       "rawMarket": 56,
       "psa10Market": 246.88,
       "buyUnder": 59.25,
@@ -607,13 +498,13 @@
       },
       "scores": {
         "hotScore": 78,
-        "upsideScore": 25,
-        "confidenceScore": 61,
+        "upsideScore": 29,
+        "confidenceScore": 66,
         "liquidityScore": 100,
-        "combinedScore": 56,
-        "thesis": "heat 78 | upside 25 | confidence 61 | liquidity 100"
+        "combinedScore": 59,
+        "thesis": "heat 78 | upside 29 | confidence 66 | liquidity 100"
       },
-      "thesis": "heat 78 | upside 25 | confidence 61 | liquidity 100",
+      "thesis": "heat 78 | upside 29 | confidence 66 | liquidity 100",
       "best": {
         "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
         "price": 49.99,
@@ -621,21 +512,76 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WYyi4Ymtsbo2mS6e%2Bajn%2BuUuCuw%2BMO02Pr0vKCZhWz6NLEVUJQBHSP7Z10M%2BB6L62IkvBCogZEACIHF%2FkRWbu%2FFenkFnSR5zyhg5lQ2abrdStRwWo9NaiDNs9MWFM%2Fb7rMcxrvZSup1kAHYvd30pg2ok%3D"
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY79F9YUR0qbqSP3WJEYy4H1f4JVwjqxe%2BNtDIe7%2F2q0OiWlRQsiqQS609OQqWeTCyh2O6y1bYkc4vHdoFsRvtYGONC%2Bq0jd8TN80uhyTcKr2EWzd5SIlGrZb0Py2O%2BLeBEXvxRgZDPDxGnYOtetcjLU%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 49,
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": -19,
+        "expectedProfit": -7,
+        "submitProfit": -20,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $24",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
+        ]
+      }
+    },
+    {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "core",
+      "priority": "core",
+      "rank": 2,
+      "rawMarket": 57,
+      "psa10Market": 259.71,
+      "buyUnder": 62.33,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "listingKey": "v1|358440609856|0",
+      "marketStats": {
+        "compCount": 6,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 75,
+        "upsideScore": 23,
+        "confidenceScore": 66,
+        "liquidityScore": 100,
+        "combinedScore": 55,
+        "thesis": "heat 75 | upside 23 | confidence 66 | liquidity 100"
+      },
+      "thesis": "heat 75 | upside 23 | confidence 66 | liquidity 100",
+      "best": {
+        "title": "【RANK A】Roronoa Zoro OP12-020 L One Piece Card Game(W0191)",
+        "price": 37.7,
+        "shipping": 30,
+        "total": 67.7,
+        "seller": "drop33_japan",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/358440609856"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 60,
+        "confidence": 53,
+        "expectedProfit": -16,
         "submitProfit": -30,
         "submitReady": false,
-        "offerSuggestion": "Offer around $12",
+        "offerSuggestion": "Offer around $27",
         "riskFlags": [
+          "corners: minor wear",
           "edges: minor wear",
-          "occlusion: minor",
-          "limited photos: 3"
+          "limited photos: 2"
         ]
       }
     },
@@ -645,7 +591,7 @@
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 4,
+      "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
@@ -663,12 +609,12 @@
       "scores": {
         "hotScore": 61,
         "upsideScore": 44,
-        "confidenceScore": 55,
+        "confidenceScore": 54,
         "liquidityScore": 76,
-        "combinedScore": 55,
-        "thesis": "heat 61 | upside 44 | confidence 55 | liquidity 76"
+        "combinedScore": 54,
+        "thesis": "heat 61 | upside 44 | confidence 54 | liquidity 76"
       },
-      "thesis": "heat 61 | upside 44 | confidence 55 | liquidity 76",
+      "thesis": "heat 61 | upside 44 | confidence 54 | liquidity 76",
       "best": {
         "title": "ONE PIECE Card Game Perona OP01-077 UC Premium Card Collection Girls Edition ",
         "price": 23.94,
@@ -676,22 +622,78 @@
         "total": 23.94,
         "seller": "fujinotsukijp",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYqiuAF6vjCnAtsTq43w3DoReWFnelu3fcVxwfuQ1neRzXydL2VOvEaX2bLSWIAjoKMgj%2FHE6VJXyKxL7yTnSU64jo5rQue8TBmVCKd0r7IGx13CB0HVyU0z6L%2FQ%2F%2BHSDmWLvAGCpzT8e36tdlYgiBqI%3D"
+        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYsLomtDaf1%2FJDjzJyEgXC%2BIOKSUX8dPxiGwuMKzbNshaWd4axXP8R4aEvff7Qxv6Ezk0h0EdA2jTa27zVvwWwxErOwgy6DySn2W%2FonEFmD7Jwp%2BL7ZZvOwQpYfjy45k%2FcbIX6bHuygAB81u21IXB0lw%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 48,
+        "probability": 46,
         "confidence": 53,
-        "expectedProfit": 10,
-        "submitProfit": -1,
+        "expectedProfit": 8,
+        "submitProfit": -2,
         "submitReady": false,
-        "offerSuggestion": "Offer around $12",
+        "offerSuggestion": "Offer around $10",
+        "riskFlags": [
+          "corners: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Monkey.D.Luffy P-075",
+      "code": "P-075",
+      "seedBoard": "experimental",
+      "board": "core",
+      "priority": "core",
+      "rank": 4,
+      "rawMarket": 19.92,
+      "psa10Market": 151.42,
+      "buyUnder": 36.34,
+      "psa9Risk": "unclear slab evidence",
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
+      "shouldAlert": false,
+      "listingKey": "v1|267644794777|0",
+      "marketStats": {
+        "compCount": 4,
+        "low": 114.97999999999999,
+        "high": 185.16
+      },
+      "scores": {
+        "hotScore": 78,
+        "upsideScore": 30,
+        "confidenceScore": 39,
+        "liquidityScore": 78,
+        "combinedScore": 53,
+        "thesis": "heat 78 | upside 30 | confidence 39 | liquidity 78"
+      },
+      "thesis": "heat 78 | upside 30 | confidence 39 | liquidity 78",
+      "best": {
+        "title": "Monkey.D.Luffy [OP-PR - P-075] - NM [Foil] TCG One Piece",
+        "price": 15.9,
+        "shipping": 0.99,
+        "total": 16.89,
+        "seller": "fabricatorsforge",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/267644794777"
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 14,
+        "confidence": 50,
+        "expectedProfit": -35,
+        "submitProfit": -36,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
           "surface: possible issue",
-          "limited photos: 2"
+          "occlusion: major",
+          "limited photos: 1"
         ]
       }
     }
@@ -739,15 +741,16 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 42,
+        "probability": 40,
         "confidence": 53,
-        "expectedProfit": -64,
-        "submitProfit": -70,
+        "expectedProfit": -65,
+        "submitProfit": -71,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
           "edges: minor wear",
+          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -833,12 +836,12 @@
       "scores": {
         "hotScore": 48,
         "upsideScore": 28,
-        "confidenceScore": 42,
+        "confidenceScore": 35,
         "liquidityScore": 45,
-        "combinedScore": 39,
-        "thesis": "heat 48 | upside 28 | confidence 42 | liquidity 45"
+        "combinedScore": 38,
+        "thesis": "heat 48 | upside 28 | confidence 35 | liquidity 45"
       },
-      "thesis": "heat 48 | upside 28 | confidence 42 | liquidity 45",
+      "thesis": "heat 48 | upside 28 | confidence 35 | liquidity 45",
       "best": {
         "title": "Bandai Portgas D Ace P-074 Promo 4000 Power One Piece CCG English Card",
         "price": 3,
@@ -846,20 +849,20 @@
         "total": 3,
         "seller": "josbar_2414",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/227299388931?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC8YpUc86%2FRVvasKmivvfnU88wrpiFbc%2FdhJZNKjhxgtr9%2FEen8RfH%2ByjJGafi40nF--lL3g7%2FoqgXIMHF9HBP95TxzX%2BTh2qigHvKzxO3CgRXOLEw%2B5cnyr6aLX5tVHvUxMCxt5Tic0y3L0gdStUd69FUrjUqtZSIrlKjhUBk5H3m57X9%2FSSGNaJXFsT%2F9lCU%3D"
+        "link": "https://www.ebay.com/itm/227299388931?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC8YpUc86%2FRVvasKmivvfnU88wrpiFbc%2FdhJZNKjhxgtmMRabbB67DfYgQpIxhYqxVGohK13t2KMlzI3ta8%2Be19Mv8x6QiDzUiOVhDDQ17iEM3T6USO%2Bk%2FTdfxcKOUMEAuSGbsFgDcCY2xVi1iFk1en6%2BU4U8TDNoq%2FCTnrKBVqzx54DLNHzzylIrQExnsqTxo%3D"
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 32,
+        "probability": 16,
         "confidence": 53,
-        "expectedProfit": -22,
-        "submitProfit": -23,
+        "expectedProfit": -26,
+        "submitProfit": -26,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
+          "corners: visible whitening",
+          "edges: visible wear",
           "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
@@ -890,12 +893,12 @@
       "scores": {
         "hotScore": 36,
         "upsideScore": 20,
-        "confidenceScore": 30,
+        "confidenceScore": 51,
         "liquidityScore": 45,
-        "combinedScore": 30,
-        "thesis": "heat 36 | upside 20 | confidence 30 | liquidity 45"
+        "combinedScore": 33,
+        "thesis": "heat 36 | upside 20 | confidence 51 | liquidity 45"
       },
-      "thesis": "heat 36 | upside 20 | confidence 30 | liquidity 45",
+      "thesis": "heat 36 | upside 20 | confidence 51 | liquidity 45",
       "best": {
         "title": "One Piece Sabo P-073 SEALED English",
         "price": 4.5,
@@ -908,16 +911,13 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 6,
+        "probability": 52,
         "confidence": 53,
-        "expectedProfit": -30,
-        "submitProfit": -30,
+        "expectedProfit": -23,
+        "submitProfit": -24,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
         ]
