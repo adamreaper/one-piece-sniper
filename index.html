@@ -39,6 +39,21 @@
       padding: 24px;
       margin-bottom: 20px;
     }
+    .hero-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+    .app-logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      object-fit: cover;
+      border: 1px solid rgba(255,255,255,.14);
+      box-shadow: 0 0 22px rgba(0,0,0,.28);
+      flex: 0 0 auto;
+    }
     h1 { margin: 0 0 8px; font-size: 32px; }
     p { margin: 0; color: var(--muted); }
     .stats {
@@ -303,8 +318,13 @@
     </section>
 
     <section class="hero">
-      <h1>One Piece PSA 10 ROI Board</h1>
-      <p>Weekly Collectr-first raw to PSA 10 scan. This board shows cards clearing the 80% ROI threshold after grading cost and liquidity haircut.</p>
+      <div class="hero-head">
+        <img class="app-logo" src="./assets/logo.jpg" alt="App logo" />
+        <div>
+          <h1>One Piece PSA 10 ROI Board</h1>
+          <p>Weekly Collectr-first raw to PSA 10 scan. This board shows cards clearing the 80% ROI threshold after grading cost and liquidity haircut.</p>
+        </div>
+      </div>
       <div class="stats">
         <div class="panel"><div class="stat-label">Qualified cards</div><div id="qualifiedCount" class="stat-value">-</div></div>
         <div class="panel"><div class="stat-label">Best ROI</div><div id="bestRoi" class="stat-value">-</div></div>
