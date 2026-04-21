@@ -79,11 +79,17 @@
     .ticker-track {
       display: flex;
       width: max-content;
-      gap: 12px;
+      gap: 24px;
       animation: tickerScroll 38s linear infinite;
+      will-change: transform;
     }
     .ticker-shell:hover .ticker-track {
       animation-play-state: paused;
+    }
+    .ticker-group {
+      display: flex;
+      gap: 12px;
+      flex: 0 0 auto;
     }
     .ticker-item {
       width: 72px;
@@ -292,8 +298,8 @@
       to { transform: rotate(360deg); }
     }
     @keyframes tickerScroll {
-      from { transform: translateX(0); }
-      to { transform: translateX(-50%); }
+      from { transform: translate3d(0, 0, 0); }
+      to { transform: translate3d(calc(-50% - 12px), 0, 0); }
     }
   </style>
 </head>
@@ -340,18 +346,18 @@
     function buildTickerRows(rows) {
       const items = rows.slice(0, Math.min(rows.length, 24));
       if (!items.length) return '';
-      const doubled = [...items, ...items];
-      return doubled.map((row) => `
+      const groupHtml = items.map((row) => `
         <a class="ticker-item" href="${row.collectrLink}" target="_blank" rel="noopener noreferrer" title="${row.code} ${row.name}">
           <img
             src="${productImageUrl(row.productId, 'jpg')}"
             data-fallback-src="${productImageUrl(row.productId, 'png')}"
             alt="${row.code} ${row.name}"
-            loading="lazy"
+            loading="eager"
             onerror="if(!this.dataset.failedOnce){this.dataset.failedOnce='1';this.src=this.dataset.fallbackSrc;}"
           />
         </a>
       `).join('');
+      return `<div class="ticker-group">${groupHtml}</div><div class="ticker-group" aria-hidden="true">${groupHtml}</div>`;
     }
 
     function renderCandidates(row) {
