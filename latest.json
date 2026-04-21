@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T17:41:23.920Z",
+  "generatedAt": "2026-04-21T17:52:51.828Z",
   "dateStamp": "2026-04-21",
   "filters": {
     "source": "Collectr raw + grade_id 12",
@@ -22,7 +22,9 @@
       "roi": 2.5889,
       "roiPercent": 258.89,
       "collectrLink": "https://app.getcollectr.com/explore/product/672749",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP08-069",
@@ -37,7 +39,9 @@
       "roi": 2.4964,
       "roiPercent": 249.64,
       "collectrLink": "https://app.getcollectr.com/explore/product/558102",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP11-070",
@@ -52,7 +56,9 @@
       "roi": 2.2054,
       "roiPercent": 220.54,
       "collectrLink": "https://app.getcollectr.com/explore/product/632441",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP08-067",
@@ -67,7 +73,9 @@
       "roi": 2.104,
       "roiPercent": 210.4,
       "collectrLink": "https://app.getcollectr.com/explore/product/558099",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP06-080",
@@ -82,7 +90,9 @@
       "roi": 1.8573,
       "roiPercent": 185.73,
       "collectrLink": "https://app.getcollectr.com/explore/product/541054",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP02-073",
@@ -97,7 +107,9 @@
       "roi": 1.7981,
       "roiPercent": 179.81,
       "collectrLink": "https://app.getcollectr.com/explore/product/485457",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP02-121",
@@ -112,7 +124,9 @@
       "roi": 1.7871,
       "roiPercent": 178.71,
       "collectrLink": "https://app.getcollectr.com/explore/product/485456",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP09-022",
@@ -127,7 +141,9 @@
       "roi": 1.6035,
       "roiPercent": 160.35,
       "collectrLink": "https://app.getcollectr.com/explore/product/596947",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "EB01-003",
@@ -142,7 +158,9 @@
       "roi": 1.278,
       "roiPercent": 127.8,
       "collectrLink": "https://app.getcollectr.com/explore/product/544526",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "EB01-031",
@@ -157,7 +175,9 @@
       "roi": 1.155,
       "roiPercent": 115.5,
       "collectrLink": "https://app.getcollectr.com/explore/product/544563",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP11-021",
@@ -172,7 +192,9 @@
       "roi": 1.0252,
       "roiPercent": 102.52,
       "collectrLink": "https://app.getcollectr.com/explore/product/632381",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP12-014",
@@ -187,7 +209,9 @@
       "roi": 1.0026,
       "roiPercent": 100.26,
       "collectrLink": "https://app.getcollectr.com/explore/product/643740",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP08-057",
@@ -202,7 +226,9 @@
       "roi": 0.961,
       "roiPercent": 96.1,
       "collectrLink": "https://app.getcollectr.com/explore/product/558087",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP12-056",
@@ -217,7 +243,9 @@
       "roi": 0.8642,
       "roiPercent": 86.42,
       "collectrLink": "https://app.getcollectr.com/explore/product/643792",
-      "collectrPsa10At": "2026-04-19T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-19T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP02-096",
@@ -232,7 +260,9 @@
       "roi": 0.8021,
       "roiPercent": 80.21,
       "collectrLink": "https://app.getcollectr.com/explore/product/485162",
-      "collectrPsa10At": "2026-04-18T00:00:00.000Z"
+      "collectrPsa10At": "2026-04-18T00:00:00.000Z",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     }
   ]
 }
