@@ -80,11 +80,8 @@
       display: flex;
       width: max-content;
       gap: 24px;
-      animation: tickerScroll 38s linear infinite;
       will-change: transform;
-    }
-    .ticker-shell:hover .ticker-track {
-      animation-play-state: paused;
+      transform: translate3d(0, 0, 0);
     }
     .ticker-group {
       display: flex;
@@ -297,10 +294,6 @@
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
-    @keyframes tickerScroll {
-      from { transform: translate3d(0, 0, 0); }
-      to { transform: translate3d(calc(-50% - 12px), 0, 0); }
-    }
   </style>
 </head>
 <body>
@@ -338,6 +331,7 @@
     };
 
     let allRows = [];
+    let tickerFrame = null;
 
     function productImageUrl(productId, ext = 'jpg') {
       return `https://public.getcollectr.com/public-assets/products/product_${productId}.${ext}?optimizer=image&format=webp&width=1200&quality=80&strip=metadata`;
@@ -358,6 +352,43 @@
         </a>
       `).join('');
       return `<div class="ticker-group">${groupHtml}</div><div class="ticker-group" aria-hidden="true">${groupHtml}</div>`;
+    }
+
+    function initTicker() {
+      const shell = document.querySelector('.ticker-shell');
+      const track = document.getElementById('tickerTrack');
+      if (!shell || !track) return;
+
+      if (tickerFrame) cancelAnimationFrame(tickerFrame);
+
+      const groups = track.querySelectorAll('.ticker-group');
+      if (groups.length < 2) return;
+
+      const groupWidth = groups[0].offsetWidth + 12;
+      if (!groupWidth) return;
+
+      let offset = 0;
+      let paused = false;
+      let lastTs = 0;
+      const speed = 28;
+
+      shell.onmouseenter = () => { paused = true; };
+      shell.onmouseleave = () => { paused = false; };
+
+      const step = (ts) => {
+        if (!lastTs) lastTs = ts;
+        const dt = (ts - lastTs) / 1000;
+        lastTs = ts;
+        if (!paused) {
+          offset += speed * dt;
+          if (offset >= groupWidth) offset -= groupWidth;
+          track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+        }
+        tickerFrame = requestAnimationFrame(step);
+      };
+
+      track.style.transform = 'translate3d(0, 0, 0)';
+      tickerFrame = requestAnimationFrame(step);
     }
 
     function renderCandidates(row) {
@@ -445,6 +476,7 @@
       document.getElementById('generatedAt').textContent = fmtDate(data.generatedAt);
       document.getElementById('meta').textContent = `Source: ${data.filters?.source || 'Collectr'} | Grading: $${data.filters?.gradingCost ?? 25} | Haircut: ${Math.round((data.filters?.liquidityHaircut ?? 0.12) * 100)}%`;
       document.getElementById('tickerTrack').innerHTML = buildTickerRows(allRows);
+      initTicker();
       render(allRows);
       document.getElementById('search').addEventListener('input', applyFilter);
     }
