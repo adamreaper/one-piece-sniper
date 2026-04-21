@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-21T14:24:19.109Z",
-  "updatedAt": "2026-04-21T14:24:19.109Z",
+  "generatedAt": "2026-04-21T14:28:10.534Z",
+  "updatedAt": "2026-04-21T14:28:10.534Z",
   "source": "collectr-first-market-screener",
   "market": "one-piece",
   "rawFloor": 15,
@@ -8,8 +8,9 @@
   "liquidityHaircut": 0.88,
   "roiThreshold": 0.8,
   "scannedCount": 265,
-  "qualifyingCount": 71,
-  "cards": [
+  "qualifyingCount": 55,
+  "auditCount": 17,
+  "auditQueue": [
     {
       "code": "EB03-026",
       "name": "Boa Hancock (Alternate Art)",
@@ -45,15 +46,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 44.27,
+        "compRangeRatio": 1.1,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 1250.25,
         "submitProfit": 1250.25,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -91,15 +108,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 17.38,
+        "compRangeRatio": 1.32,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 386.2,
         "submitProfit": 386.2,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -137,15 +170,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 14.79,
+        "compRangeRatio": 1.72,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 285.09,
         "submitProfit": 285.09,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -183,15 +232,27 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi"
+        ],
+        "exitMultiple": 7.18,
+        "compRangeRatio": 1.64,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 87,
+        "confidence": 80,
         "expectedProfit": 2659.84,
         "submitProfit": 2659.84,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi"
+        ]
       }
     },
     {
@@ -229,15 +290,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 7.8,
+        "compRangeRatio": 1.87,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 87,
+        "confidence": 80,
         "expectedProfit": 848.21,
         "submitProfit": 848.21,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -275,15 +352,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 14.37,
+        "compRangeRatio": 2,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 95,
+        "confidence": 80,
         "expectedProfit": 174.19,
         "submitProfit": 174.19,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -321,15 +414,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 9.74,
+        "compRangeRatio": 1.06,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 87,
+        "confidence": 80,
         "expectedProfit": 239.31,
         "submitProfit": 239.31,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -367,15 +476,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 14.98,
+        "compRangeRatio": 1.4,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 158.16,
         "submitProfit": 158.16,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -413,15 +538,33 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 11.38,
+        "compRangeRatio": 2.18,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 87,
+        "confidence": 80,
         "expectedProfit": 167.85,
         "submitProfit": 167.85,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -459,15 +602,31 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 11.25,
+        "compRangeRatio": 1.59,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 134.55,
         "submitProfit": 134.55,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -505,15 +664,29 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "plain-variant-extreme-roi"
+        ],
+        "exitMultiple": 8.55,
+        "compRangeRatio": 1.74,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 95,
+        "confidence": 80,
         "expectedProfit": 168.58,
         "submitProfit": 168.58,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "plain-variant-extreme-roi"
+        ]
       }
     },
     {
@@ -551,15 +724,29 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi"
+        ],
+        "exitMultiple": 9.04,
+        "compRangeRatio": 1.23,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 143.33,
         "submitProfit": 143.33,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "extreme-exit-multiple",
+          "thin-comps-for-extreme-roi"
+        ]
       }
     },
     {
@@ -597,15 +784,25 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi"
+        ],
+        "exitMultiple": 7.64,
+        "compRangeRatio": 1.66,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
-        "confidence": 95,
+        "confidence": 80,
         "expectedProfit": 150.91,
         "submitProfit": 150.91,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi"
+        ]
       }
     },
     {
@@ -643,61 +840,29 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range"
+        ],
+        "exitMultiple": 5.13,
+        "compRangeRatio": 2.14,
+        "requiresReview": true
+      },
       "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
+        "recommendation": "watch",
+        "gradeRank": "B",
         "probability": 100,
         "confidence": 79,
         "expectedProfit": 282.09,
         "submitProfit": 282.09,
-        "submitReady": true,
-        "riskFlags": []
-      }
-    },
-    {
-      "code": "OP12-087",
-      "name": "Nico Robin (Alternate Art)",
-      "setName": "Legacy of the Master",
-      "setSlug": "legacy-of-the-master",
-      "setOrder": 15,
-      "setGroupId": "24302",
-      "productId": "643831",
-      "rarity": "SR",
-      "productSubType": "Foil",
-      "rawMarket": 32.77,
-      "olderRawMarket": 33.18,
-      "rawDiff": -0.41,
-      "rawDiffPercent": -1.24,
-      "collectrLink": "https://app.getcollectr.com/?query=OP12-087+Nico+Robin+%28Alternate+Art%29",
-      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/legacy-of-the-master?cardType=cards&groupId=24302&sortType=price&sortOrder=desc",
-      "psa10Market": 229.68,
-      "marketStats": {
-        "compCount": 3,
-        "low": 199.04999999999998,
-        "high": 245
-      },
-      "pricingNotes": "3 PSA 10 sold comps from $199.05 to $245.00",
-      "roiGate": {
-        "rawFloor": 15,
-        "gradingCost": 25,
-        "liquidityHaircut": 0.88,
-        "costBasis": 57.77,
-        "netPsa10Exit": 202.12,
-        "profit": 144.35,
-        "roi": 2.4987,
-        "roiPercent": 249.87,
-        "threshold": 0.8,
-        "passes": true
-      },
-      "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
-        "probability": 100,
-        "confidence": 79,
-        "expectedProfit": 144.35,
-        "submitProfit": 144.35,
-        "submitReady": true,
-        "riskFlags": []
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-roi",
+          "thin-comps-for-extreme-roi",
+          "wide-comp-range"
+        ]
       }
     },
     {
@@ -735,13 +900,189 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [
+          "wide-comp-range"
+        ],
+        "exitMultiple": 7.54,
+        "compRangeRatio": 1.88,
+        "requiresReview": true
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 100,
+        "confidence": 80,
+        "expectedProfit": 124.01,
+        "submitProfit": 124.01,
+        "submitReady": false,
+        "riskFlags": [
+          "wide-comp-range"
+        ]
+      }
+    },
+    {
+      "code": "OP09-005",
+      "name": "Silvers Rayleigh (SP)",
+      "setName": "A Fist of Divine Speed",
+      "setSlug": "a-fist-of-divine-speed",
+      "setOrder": 14,
+      "setGroupId": "24241",
+      "productId": "632507",
+      "rarity": "R",
+      "productSubType": "Foil",
+      "rawMarket": 63.17,
+      "olderRawMarket": 64.18,
+      "rawDiff": -1.01,
+      "rawDiffPercent": -1.57,
+      "collectrLink": "https://app.getcollectr.com/?query=OP09-005+Silvers+Rayleigh+%28SP%29",
+      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/a-fist-of-divine-speed?cardType=cards&groupId=24241&sortType=price&sortOrder=desc",
+      "psa10Market": 302.22,
+      "marketStats": {
+        "compCount": 8,
+        "low": 220,
+        "high": 450
+      },
+      "pricingNotes": "8 PSA 10 sold comps from $220.00 to $450.00",
+      "roiGate": {
+        "rawFloor": 15,
+        "gradingCost": 25,
+        "liquidityHaircut": 0.88,
+        "costBasis": 88.17,
+        "netPsa10Exit": 265.95,
+        "profit": 177.78,
+        "roi": 2.0164,
+        "roiPercent": 201.64,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "audit": {
+        "flags": [
+          "wide-comp-range"
+        ],
+        "exitMultiple": 4.78,
+        "compRangeRatio": 2.05,
+        "requiresReview": true
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 100,
+        "confidence": 80,
+        "expectedProfit": 177.78,
+        "submitProfit": 177.78,
+        "submitReady": false,
+        "riskFlags": [
+          "wide-comp-range"
+        ]
+      }
+    },
+    {
+      "code": "OP02-120",
+      "name": "Uta (Alternate Art)",
+      "setName": "Paramount War",
+      "setSlug": "paramount-war",
+      "setOrder": 2,
+      "setGroupId": "17698",
+      "productId": "483360",
+      "rarity": "SCR",
+      "productSubType": "Foil",
+      "rawMarket": 17.11,
+      "olderRawMarket": 17.25,
+      "rawDiff": -0.14,
+      "rawDiffPercent": -0.81,
+      "collectrLink": "https://app.getcollectr.com/?query=OP02-120+Uta+%28Alternate+Art%29",
+      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/paramount-war?cardType=cards&groupId=17698&sortType=price&sortOrder=desc",
+      "psa10Market": 139.09,
+      "marketStats": {
+        "compCount": 6,
+        "low": 108,
+        "high": 185
+      },
+      "pricingNotes": "6 PSA 10 sold comps from $108.00 to $185.00",
+      "roiGate": {
+        "rawFloor": 15,
+        "gradingCost": 25,
+        "liquidityHaircut": 0.88,
+        "costBasis": 42.11,
+        "netPsa10Exit": 122.4,
+        "profit": 80.29,
+        "roi": 1.9067,
+        "roiPercent": 190.67,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "audit": {
+        "flags": [
+          "extreme-exit-multiple"
+        ],
+        "exitMultiple": 8.13,
+        "compRangeRatio": 1.71,
+        "requiresReview": true
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "B",
+        "probability": 100,
+        "confidence": 80,
+        "expectedProfit": 80.29,
+        "submitProfit": 80.29,
+        "submitReady": false,
+        "riskFlags": [
+          "extreme-exit-multiple"
+        ]
+      }
+    }
+  ],
+  "cards": [
+    {
+      "code": "OP12-087",
+      "name": "Nico Robin (Alternate Art)",
+      "setName": "Legacy of the Master",
+      "setSlug": "legacy-of-the-master",
+      "setOrder": 15,
+      "setGroupId": "24302",
+      "productId": "643831",
+      "rarity": "SR",
+      "productSubType": "Foil",
+      "rawMarket": 32.77,
+      "olderRawMarket": 33.18,
+      "rawDiff": -0.41,
+      "rawDiffPercent": -1.24,
+      "collectrLink": "https://app.getcollectr.com/?query=OP12-087+Nico+Robin+%28Alternate+Art%29",
+      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/legacy-of-the-master?cardType=cards&groupId=24302&sortType=price&sortOrder=desc",
+      "psa10Market": 229.68,
+      "marketStats": {
+        "compCount": 3,
+        "low": 199.04999999999998,
+        "high": 245
+      },
+      "pricingNotes": "3 PSA 10 sold comps from $199.05 to $245.00",
+      "roiGate": {
+        "rawFloor": 15,
+        "gradingCost": 25,
+        "liquidityHaircut": 0.88,
+        "costBasis": 57.77,
+        "netPsa10Exit": 202.12,
+        "profit": 144.35,
+        "roi": 2.4987,
+        "roiPercent": 249.87,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 7.01,
+        "compRangeRatio": 1.23,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
         "probability": 100,
-        "confidence": 95,
-        "expectedProfit": 124.01,
-        "submitProfit": 124.01,
+        "confidence": 79,
+        "expectedProfit": 144.35,
+        "submitProfit": 144.35,
         "submitReady": true,
         "riskFlags": []
       }
@@ -780,6 +1121,12 @@
         "roiPercent": 226.44,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.78,
+        "compRangeRatio": 1.36,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -827,6 +1174,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.7,
+        "compRangeRatio": 1.2,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -872,6 +1225,12 @@
         "roiPercent": 213.99,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 5.3,
+        "compRangeRatio": 1.75,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -919,6 +1278,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.57,
+        "compRangeRatio": 1.7,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -926,98 +1291,6 @@
         "confidence": 95,
         "expectedProfit": 2534.55,
         "submitProfit": 2534.55,
-        "submitReady": true,
-        "riskFlags": []
-      }
-    },
-    {
-      "code": "OP09-005",
-      "name": "Silvers Rayleigh (SP)",
-      "setName": "A Fist of Divine Speed",
-      "setSlug": "a-fist-of-divine-speed",
-      "setOrder": 14,
-      "setGroupId": "24241",
-      "productId": "632507",
-      "rarity": "R",
-      "productSubType": "Foil",
-      "rawMarket": 63.17,
-      "olderRawMarket": 64.18,
-      "rawDiff": -1.01,
-      "rawDiffPercent": -1.57,
-      "collectrLink": "https://app.getcollectr.com/?query=OP09-005+Silvers+Rayleigh+%28SP%29",
-      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/a-fist-of-divine-speed?cardType=cards&groupId=24241&sortType=price&sortOrder=desc",
-      "psa10Market": 302.22,
-      "marketStats": {
-        "compCount": 8,
-        "low": 220,
-        "high": 450
-      },
-      "pricingNotes": "8 PSA 10 sold comps from $220.00 to $450.00",
-      "roiGate": {
-        "rawFloor": 15,
-        "gradingCost": 25,
-        "liquidityHaircut": 0.88,
-        "costBasis": 88.17,
-        "netPsa10Exit": 265.95,
-        "profit": 177.78,
-        "roi": 2.0164,
-        "roiPercent": 201.64,
-        "threshold": 0.8,
-        "passes": true
-      },
-      "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
-        "probability": 100,
-        "confidence": 95,
-        "expectedProfit": 177.78,
-        "submitProfit": 177.78,
-        "submitReady": true,
-        "riskFlags": []
-      }
-    },
-    {
-      "code": "OP02-120",
-      "name": "Uta (Alternate Art)",
-      "setName": "Paramount War",
-      "setSlug": "paramount-war",
-      "setOrder": 2,
-      "setGroupId": "17698",
-      "productId": "483360",
-      "rarity": "SCR",
-      "productSubType": "Foil",
-      "rawMarket": 17.11,
-      "olderRawMarket": 17.25,
-      "rawDiff": -0.14,
-      "rawDiffPercent": -0.81,
-      "collectrLink": "https://app.getcollectr.com/?query=OP02-120+Uta+%28Alternate+Art%29",
-      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/paramount-war?cardType=cards&groupId=17698&sortType=price&sortOrder=desc",
-      "psa10Market": 139.09,
-      "marketStats": {
-        "compCount": 6,
-        "low": 108,
-        "high": 185
-      },
-      "pricingNotes": "6 PSA 10 sold comps from $108.00 to $185.00",
-      "roiGate": {
-        "rawFloor": 15,
-        "gradingCost": 25,
-        "liquidityHaircut": 0.88,
-        "costBasis": 42.11,
-        "netPsa10Exit": 122.4,
-        "profit": 80.29,
-        "roi": 1.9067,
-        "roiPercent": 190.67,
-        "threshold": 0.8,
-        "passes": true
-      },
-      "analysis": {
-        "recommendation": "buy",
-        "gradeRank": "A",
-        "probability": 100,
-        "confidence": 95,
-        "expectedProfit": 80.29,
-        "submitProfit": 80.29,
         "submitReady": true,
         "riskFlags": []
       }
@@ -1056,6 +1329,12 @@
         "roiPercent": 187.83,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 7.19,
+        "compRangeRatio": 1.6,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1103,6 +1382,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.87,
+        "compRangeRatio": 1.59,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1148,6 +1433,12 @@
         "roiPercent": 180.98,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.23,
+        "compRangeRatio": 1.57,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1195,6 +1486,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 6.13,
+        "compRangeRatio": 1.65,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1240,6 +1537,12 @@
         "roiPercent": 175.72,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 5.28,
+        "compRangeRatio": 1.26,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1287,6 +1590,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.39,
+        "compRangeRatio": 1.59,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1332,6 +1641,12 @@
         "roiPercent": 169.06,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.07,
+        "compRangeRatio": 2.25,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1379,6 +1694,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.64,
+        "compRangeRatio": 1.18,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1424,6 +1745,12 @@
         "roiPercent": 167.5,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.89,
+        "compRangeRatio": 1.55,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1471,6 +1798,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 7.72,
+        "compRangeRatio": 1.12,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1516,6 +1849,12 @@
         "roiPercent": 160.79,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.5,
+        "compRangeRatio": 1.71,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1563,6 +1902,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.38,
+        "compRangeRatio": 1.85,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1608,6 +1953,12 @@
         "roiPercent": 156.25,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.61,
+        "compRangeRatio": 1.88,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1655,6 +2006,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 6.06,
+        "compRangeRatio": 1.8,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1700,6 +2057,12 @@
         "roiPercent": 150.05,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.36,
+        "compRangeRatio": 1.77,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1747,6 +2110,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.2,
+        "compRangeRatio": 1.11,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1792,6 +2161,12 @@
         "roiPercent": 149.09,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.93,
+        "compRangeRatio": 1.52,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1839,6 +2214,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.12,
+        "compRangeRatio": 1.52,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1884,6 +2265,12 @@
         "roiPercent": 144.25,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.72,
+        "compRangeRatio": 1.2,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -1931,6 +2318,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.28,
+        "compRangeRatio": 1.94,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1977,6 +2370,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.33,
+        "compRangeRatio": 1.62,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -1984,6 +2383,58 @@
         "confidence": 95,
         "expectedProfit": 185.61,
         "submitProfit": 185.61,
+        "submitReady": true,
+        "riskFlags": []
+      }
+    },
+    {
+      "code": "OP07-109",
+      "name": "Monkey.D.Luffy (TR)",
+      "setName": "Two Legends",
+      "setSlug": "two-legends",
+      "setOrder": 9,
+      "setGroupId": "23462",
+      "productId": "564551",
+      "rarity": "SR",
+      "productSubType": "Foil",
+      "rawMarket": 151.15,
+      "olderRawMarket": 149.66,
+      "rawDiff": 1.49,
+      "rawDiffPercent": 1,
+      "collectrLink": "https://app.getcollectr.com/?query=OP07-109+Monkey.D.Luffy+%28TR%29",
+      "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/two-legends?cardType=cards&groupId=23462&sortType=price&sortOrder=desc",
+      "psa10Market": 470.44,
+      "marketStats": {
+        "compCount": 4,
+        "low": 395.77,
+        "high": 600
+      },
+      "pricingNotes": "4 PSA 10 sold comps from $395.77 to $600.00",
+      "roiGate": {
+        "rawFloor": 15,
+        "gradingCost": 25,
+        "liquidityHaircut": 0.88,
+        "costBasis": 176.15,
+        "netPsa10Exit": 413.99,
+        "profit": 237.84,
+        "roi": 1.3502,
+        "roiPercent": 135.02,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.11,
+        "compRangeRatio": 1.52,
+        "requiresReview": false
+      },
+      "analysis": {
+        "recommendation": "buy",
+        "gradeRank": "A",
+        "probability": 100,
+        "confidence": 87,
+        "expectedProfit": 237.84,
+        "submitProfit": 237.84,
         "submitReady": true,
         "riskFlags": []
       }
@@ -2022,6 +2473,12 @@
         "roiPercent": 134.79,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.14,
+        "compRangeRatio": 1.03,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2069,6 +2526,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.35,
+        "compRangeRatio": 1.17,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2114,6 +2577,12 @@
         "roiPercent": 131.42,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.18,
+        "compRangeRatio": 1.69,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2161,6 +2630,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.31,
+        "compRangeRatio": 1.22,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2206,6 +2681,12 @@
         "roiPercent": 124.36,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.22,
+        "compRangeRatio": 1.94,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2253,6 +2734,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.9,
+        "compRangeRatio": 1.16,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2298,6 +2785,12 @@
         "roiPercent": 122.62,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.89,
+        "compRangeRatio": 1.16,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2345,6 +2838,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.86,
+        "compRangeRatio": 2,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2390,6 +2889,12 @@
         "roiPercent": 116.81,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.87,
+        "compRangeRatio": 1.21,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2437,6 +2942,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 5.33,
+        "compRangeRatio": 1.56,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2482,6 +2993,12 @@
         "roiPercent": 115.91,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.77,
+        "compRangeRatio": 1.52,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2529,6 +3046,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.59,
+        "compRangeRatio": 1.23,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2574,6 +3097,12 @@
         "roiPercent": 108.15,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 5.42,
+        "compRangeRatio": 1.16,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2621,6 +3150,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.19,
+        "compRangeRatio": 1.84,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2666,6 +3201,12 @@
         "roiPercent": 105.61,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.96,
+        "compRangeRatio": 1.71,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2713,6 +3254,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.24,
+        "compRangeRatio": 1.72,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2758,6 +3305,12 @@
         "roiPercent": 102.81,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.32,
+        "compRangeRatio": 1.1,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2805,6 +3358,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.18,
+        "compRangeRatio": 1.16,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2850,6 +3409,12 @@
         "roiPercent": 100.19,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.64,
+        "compRangeRatio": 1.97,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2897,6 +3462,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 4.74,
+        "compRangeRatio": 2.17,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -2942,6 +3513,12 @@
         "roiPercent": 94.58,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.6,
+        "compRangeRatio": 1.67,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -2989,6 +3566,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.26,
+        "compRangeRatio": 1.04,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -3034,6 +3617,12 @@
         "roiPercent": 90.11,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.95,
+        "compRangeRatio": 1.14,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -3081,6 +3670,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 3.65,
+        "compRangeRatio": 1.43,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -3126,6 +3721,12 @@
         "roiPercent": 88.12,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.29,
+        "compRangeRatio": 1.73,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
@@ -3173,6 +3774,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.98,
+        "compRangeRatio": 1.26,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -3219,6 +3826,12 @@
         "threshold": 0.8,
         "passes": true
       },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.12,
+        "compRangeRatio": 1.47,
+        "requiresReview": false
+      },
       "analysis": {
         "recommendation": "buy",
         "gradeRank": "A",
@@ -3264,6 +3877,12 @@
         "roiPercent": 80.42,
         "threshold": 0.8,
         "passes": true
+      },
+      "audit": {
+        "flags": [],
+        "exitMultiple": 2.39,
+        "compRangeRatio": 1.62,
+        "requiresReview": false
       },
       "analysis": {
         "recommendation": "buy",
