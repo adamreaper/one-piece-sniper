@@ -5,7 +5,8 @@
     "source": "Collectr API v2 raw + grade_id 12",
     "gradingCost": 25,
     "liquidityHaircut": 0.12,
-    "minRoiPercent": 80
+    "minRoiPercent": 80,
+    "testMode": true
   },
   "qualifiedCount": 0,
   "rows": []
