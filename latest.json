@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-21T11:28:00.378Z",
-  "updatedAt": "2026-04-21T11:29:10.632Z",
+  "generatedAt": "2026-04-21T13:11:51.787Z",
+  "updatedAt": "2026-04-21T13:13:06.271Z",
   "boardModel": "dynamic-hotness-plus-psa10-upside-v1",
   "newListingCount": 1,
   "alertCount": 0,
@@ -8,18 +8,18 @@
     "Nami OP11-041",
     "Monkey.D.Luffy P-075",
     "Perona OP01-077",
+    "Boa Hancock ST03-013",
     "Roronoa Zoro ST01-013",
-    "Roronoa Zoro OP12-020",
     "Nico Robin OP09-062"
   ],
   "coreTracked": [
     "Nami OP11-041",
-    "Monkey.D.Luffy P-075"
+    "Monkey.D.Luffy P-075",
+    "Perona OP01-077"
   ],
   "experimentalTracked": [
-    "Perona OP01-077",
+    "Boa Hancock ST03-013",
     "Roronoa Zoro ST01-013",
-    "Roronoa Zoro OP12-020",
     "Nico Robin OP09-062"
   ],
   "cards": [
@@ -38,6 +38,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 201.9,
+        "profit": 121.91,
+        "roi": 1.5241,
+        "roiPercent": 152.41,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|257451959094|0",
       "marketStats": {
         "compCount": 9,
@@ -69,7 +78,7 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2Fm4VihJb6Pl1zPivoRqAw02Vs%2FqVk1UWaKf1VbVvOuV7jyVeQYRFQl2uRhddcu48FYTNnHz1GdS4xum8M%2BC4ZTC1%2FcMb7zdp2MGwYm4SduIUXHdCL6KtvOGwujApxg%2BCJrMBxeywLe9Je2HQnsrI4w%3D",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY0eOiTOhlzqH6V1qflCNaiqd%2FXFIvcFK%2F28DtBxLUROr%2FMjS%2BVyHRz49is2fzdSByRzUy1yQLAxPTatW9oPA1%2BAtaDLDAmm7Bh8P6w%2Fc9qBRLlxb19GRjqHYLI0g%2BQUiozz02PnieaeZfNxY0AQLlmM%3D",
         "suspicionFlags": []
       },
       "analysis": {
@@ -80,6 +89,15 @@
         "expectedProfit": -11,
         "submitProfit": -24,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 201.9,
+          "profit": 121.91,
+          "roi": 1.5241,
+          "roiPercent": 152.41,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $20",
         "riskFlags": [
           "corners: minor wear",
@@ -103,6 +121,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 128.71,
+        "profit": 86.71,
+        "roi": 2.0645,
+        "roiPercent": 206.45,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|366352928659|0",
       "marketStats": {
         "compCount": 4,
@@ -111,17 +138,17 @@
       },
       "scores": {
         "hotScore": 74,
-        "upsideScore": 38,
-        "confidenceScore": 57,
+        "upsideScore": 33,
+        "confidenceScore": 47,
         "liquidityScore": 78,
         "trendScore": 92,
-        "combinedScore": 60,
-        "deployableNowScore": 68,
-        "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92"
+        "combinedScore": 57,
+        "deployableNowScore": 62,
+        "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92"
       },
-      "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92",
+      "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92",
       "socialTrendScore": 92,
-      "deployableNowScore": 68,
+      "deployableNowScore": 62,
       "socialTrendReasons": [
         "internal-scan",
         "x-viewer",
@@ -141,11 +168,20 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 46,
+        "probability": 22,
         "confidence": 53,
-        "expectedProfit": -8,
-        "submitProfit": -14,
+        "expectedProfit": -23,
+        "submitProfit": -26,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 128.71,
+          "profit": 86.71,
+          "roi": 2.0645,
+          "roiPercent": 206.45,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
@@ -160,17 +196,26 @@
       "name": "Perona OP01-077",
       "code": "OP01-077",
       "seedBoard": "experimental",
-      "board": "experimental",
-      "priority": "experimental",
+      "board": "core",
+      "priority": "core",
       "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
       "psa9Risk": "best selection names still get punished hard on PSA 9s",
-      "isNew": true,
+      "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "5 recent PSA 10 sold comps, range $225.00 to $300.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 218.45,
+        "profit": 169.5,
+        "roi": 3.4627,
+        "roiPercent": 346.27,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|127785102982|0",
       "marketStats": {
         "compCount": 5,
@@ -178,18 +223,18 @@
         "high": 300
       },
       "scores": {
-        "hotScore": 53,
-        "upsideScore": 35,
-        "confidenceScore": 45,
+        "hotScore": 45,
+        "upsideScore": 51,
+        "confidenceScore": 58,
         "liquidityScore": 50,
         "trendScore": 60,
-        "combinedScore": 45,
-        "deployableNowScore": 61,
-        "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60"
+        "combinedScore": 51,
+        "deployableNowScore": 70,
+        "thesis": "heat 45 | upside 51 | confidence 58 | liquidity 50 | trend 60"
       },
-      "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60",
+      "thesis": "heat 45 | upside 51 | confidence 58 | liquidity 50 | trend 60",
       "socialTrendScore": 60,
-      "deployableNowScore": 61,
+      "deployableNowScore": 70,
       "socialTrendReasons": [
         "internal-scan"
       ],
@@ -200,22 +245,114 @@
         "total": 23.95,
         "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlODhoh7Sj9CgtjP10t0T8hRzuPHZAmEj5Poyz1POXmgXOkPIJxQNOzUT%2BwXtQKuLaHefrGdZO8fcMHrb3yfGe7o5kq2cnPoCn4acX1CzMriPLiWavChsScWpB1%2FHqX8pVSJQoOp8%2BYACeYnqFYcxm2A%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlMpe8cxKHjIyR7DKSRGPNb6wkXiYzHkX9YsuSfDXl%2FJtcFWLVhiEXqSqISVr4t6QOFjj4S%2FMawzcx8VS89GICv--5yuaBTahbrYKMe7e2xKRDEbo3L69SnGkfmSllTG%2BjN1VjY9tIWxhNaI%2BwEGeqcA%3D",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "C",
+        "probability": 60,
+        "confidence": 53,
+        "expectedProfit": 23,
+        "submitProfit": 10,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 218.45,
+          "profit": 169.5,
+          "roi": 3.4627,
+          "roiPercent": 346.27,
+          "threshold": 0.35,
+          "passes": true
+        },
+        "offerSuggestion": "Buy at ask",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Boa Hancock ST03-013",
+      "code": "ST03-013",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 4,
+      "rawMarket": 25.28,
+      "psa10Market": 197.49,
+      "buyUnder": 47.4,
+      "psa9Risk": "real downside",
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "3 recent PSA 10 sold comps, range $185.00 to $200.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 177.74,
+        "profit": 132.42,
+        "roi": 2.9219,
+        "roiPercent": 292.19,
+        "threshold": 0.35,
+        "passes": true
+      },
+      "listingKey": "v1|236769705628|0",
+      "marketStats": {
+        "compCount": 3,
+        "low": 185,
+        "high": 200
+      },
+      "scores": {
+        "hotScore": 53,
+        "upsideScore": 33,
+        "confidenceScore": 47,
+        "liquidityScore": 35,
+        "trendScore": 84,
+        "combinedScore": 50,
+        "deployableNowScore": 57,
+        "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84"
+      },
+      "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84",
+      "socialTrendScore": 84,
+      "deployableNowScore": 57,
+      "socialTrendReasons": [
+        "cardgamer",
+        "cardlines",
+        "ebay",
+        "youtube-market-watch"
+      ],
+      "best": {
+        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
+        "price": 19,
+        "shipping": 1.32,
+        "total": 20.32,
+        "seller": "mwneese",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/236769705628",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 30,
+        "probability": 42,
         "confidence": 53,
-        "expectedProfit": -10,
-        "submitProfit": -17,
+        "expectedProfit": -20,
+        "submitProfit": -25,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 177.74,
+          "profit": 132.42,
+          "roi": 2.9219,
+          "roiPercent": 292.19,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: minor wear",
+          "corners: visible whitening",
           "edges: minor wear",
-          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -226,7 +363,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 4,
+      "rank": 5,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -235,6 +372,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "4 recent PSA 10 sold comps, range $279.99 to $300.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 257.62,
+        "profit": 192.62,
+        "roi": 2.9635,
+        "roiPercent": 296.35,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|157830810575|0",
       "marketStats": {
         "compCount": 4,
@@ -243,17 +389,17 @@
       },
       "scores": {
         "hotScore": 43,
-        "upsideScore": 43,
-        "confidenceScore": 53,
+        "upsideScore": 50,
+        "confidenceScore": 57,
         "liquidityScore": 46,
         "trendScore": 76,
-        "combinedScore": 48,
-        "deployableNowScore": 64,
-        "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76"
+        "combinedScore": 51,
+        "deployableNowScore": 68,
+        "thesis": "heat 43 | upside 50 | confidence 57 | liquidity 46 | trend 76"
       },
-      "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76",
+      "thesis": "heat 43 | upside 50 | confidence 57 | liquidity 46 | trend 76",
       "socialTrendScore": 76,
-      "deployableNowScore": 64,
+      "deployableNowScore": 68,
       "socialTrendReasons": [
         "internal-scan",
         "cardlines"
@@ -269,82 +415,26 @@
         "suspicionFlags": []
       },
       "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
+        "recommendation": "watch",
+        "gradeRank": "C",
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": 6,
-        "submitProfit": -6,
+        "expectedProfit": 20,
+        "submitProfit": 4,
         "submitReady": false,
-        "offerSuggestion": "Offer around $24",
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 257.62,
+          "profit": 192.62,
+          "roi": 2.9635,
+          "roiPercent": 296.35,
+          "threshold": 0.35,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $38",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "experimental",
-      "priority": "experimental",
-      "rank": 5,
-      "rawMarket": 57,
-      "psa10Market": 259.71,
-      "buyUnder": 62.33,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|389882263621|0",
-      "marketStats": {
-        "compCount": 6,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 79,
-        "upsideScore": 22,
-        "confidenceScore": 54,
-        "liquidityScore": 100,
-        "trendScore": 76,
-        "combinedScore": 55,
-        "deployableNowScore": 37,
-        "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76"
-      },
-      "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76",
-      "socialTrendScore": 76,
-      "deployableNowScore": 37,
-      "socialTrendReasons": [
-        "internal-scan",
-        "cardlines"
-      ],
-      "best": {
-        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
-        "price": 79.99,
-        "shipping": 0,
-        "total": 79.99,
-        "seller": "henny_tcg",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389882263621",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 30,
-        "confidence": 53,
-        "expectedProfit": -61,
-        "submitProfit": -69,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -364,6 +454,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "8 recent PSA 10 sold comps, range $164.74 to $255.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 187.57,
+        "profit": 92.24,
+        "roi": 0.9675,
+        "roiPercent": 96.75,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|236755581004|0",
       "marketStats": {
         "compCount": 8,
@@ -373,16 +472,16 @@
       "scores": {
         "hotScore": 63,
         "upsideScore": 16,
-        "confidenceScore": 55,
+        "confidenceScore": 51,
         "liquidityScore": 74,
         "trendScore": 78,
-        "combinedScore": 47,
-        "deployableNowScore": 35,
-        "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78"
+        "combinedScore": 46,
+        "deployableNowScore": 33,
+        "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78"
       },
-      "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78",
+      "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78",
       "socialTrendScore": 78,
-      "deployableNowScore": 35,
+      "deployableNowScore": 33,
       "socialTrendReasons": [
         "internal-scan",
         "youtube-market-watch"
@@ -400,15 +499,24 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 42,
+        "probability": 34,
         "confidence": 53,
-        "expectedProfit": -65,
-        "submitProfit": -70,
+        "expectedProfit": -68,
+        "submitProfit": -73,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 187.57,
+          "profit": 92.24,
+          "roi": 0.9675,
+          "roiPercent": 96.75,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
-          "edges: minor wear",
+          "edges: visible wear",
           "limited photos: 2"
         ]
       }
@@ -430,6 +538,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 201.9,
+        "profit": 121.91,
+        "roi": 1.5241,
+        "roiPercent": 152.41,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|257451959094|0",
       "marketStats": {
         "compCount": 9,
@@ -461,7 +578,7 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2Fm4VihJb6Pl1zPivoRqAw02Vs%2FqVk1UWaKf1VbVvOuV7jyVeQYRFQl2uRhddcu48FYTNnHz1GdS4xum8M%2BC4ZTC1%2FcMb7zdp2MGwYm4SduIUXHdCL6KtvOGwujApxg%2BCJrMBxeywLe9Je2HQnsrI4w%3D",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY0eOiTOhlzqH6V1qflCNaiqd%2FXFIvcFK%2F28DtBxLUROr%2FMjS%2BVyHRz49is2fzdSByRzUy1yQLAxPTatW9oPA1%2BAtaDLDAmm7Bh8P6w%2Fc9qBRLlxb19GRjqHYLI0g%2BQUiozz02PnieaeZfNxY0AQLlmM%3D",
         "suspicionFlags": []
       },
       "analysis": {
@@ -472,6 +589,15 @@
         "expectedProfit": -11,
         "submitProfit": -24,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 201.9,
+          "profit": 121.91,
+          "roi": 1.5241,
+          "roiPercent": 152.41,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $20",
         "riskFlags": [
           "corners: minor wear",
@@ -495,6 +621,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 128.71,
+        "profit": 86.71,
+        "roi": 2.0645,
+        "roiPercent": 206.45,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|366352928659|0",
       "marketStats": {
         "compCount": 4,
@@ -503,17 +638,17 @@
       },
       "scores": {
         "hotScore": 74,
-        "upsideScore": 38,
-        "confidenceScore": 57,
+        "upsideScore": 33,
+        "confidenceScore": 47,
         "liquidityScore": 78,
         "trendScore": 92,
-        "combinedScore": 60,
-        "deployableNowScore": 68,
-        "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92"
+        "combinedScore": 57,
+        "deployableNowScore": 62,
+        "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92"
       },
-      "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92",
+      "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92",
       "socialTrendScore": 92,
-      "deployableNowScore": 68,
+      "deployableNowScore": 62,
       "socialTrendReasons": [
         "internal-scan",
         "x-viewer",
@@ -533,11 +668,20 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 46,
+        "probability": 22,
         "confidence": 53,
-        "expectedProfit": -8,
-        "submitProfit": -14,
+        "expectedProfit": -23,
+        "submitProfit": -26,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 128.71,
+          "profit": 86.71,
+          "roi": 2.0645,
+          "roiPercent": 206.45,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
@@ -547,24 +691,31 @@
           "limited photos: 2"
         ]
       }
-    }
-  ],
-  "experimentalCards": [
+    },
     {
       "name": "Perona OP01-077",
       "code": "OP01-077",
       "seedBoard": "experimental",
-      "board": "experimental",
-      "priority": "experimental",
+      "board": "core",
+      "priority": "core",
       "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
       "psa9Risk": "best selection names still get punished hard on PSA 9s",
-      "isNew": true,
+      "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "5 recent PSA 10 sold comps, range $225.00 to $300.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 218.45,
+        "profit": 169.5,
+        "roi": 3.4627,
+        "roiPercent": 346.27,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|127785102982|0",
       "marketStats": {
         "compCount": 5,
@@ -572,18 +723,18 @@
         "high": 300
       },
       "scores": {
-        "hotScore": 53,
-        "upsideScore": 35,
-        "confidenceScore": 45,
+        "hotScore": 45,
+        "upsideScore": 51,
+        "confidenceScore": 58,
         "liquidityScore": 50,
         "trendScore": 60,
-        "combinedScore": 45,
-        "deployableNowScore": 61,
-        "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60"
+        "combinedScore": 51,
+        "deployableNowScore": 70,
+        "thesis": "heat 45 | upside 51 | confidence 58 | liquidity 50 | trend 60"
       },
-      "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60",
+      "thesis": "heat 45 | upside 51 | confidence 58 | liquidity 50 | trend 60",
       "socialTrendScore": 60,
-      "deployableNowScore": 61,
+      "deployableNowScore": 70,
       "socialTrendReasons": [
         "internal-scan"
       ],
@@ -594,22 +745,116 @@
         "total": 23.95,
         "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlODhoh7Sj9CgtjP10t0T8hRzuPHZAmEj5Poyz1POXmgXOkPIJxQNOzUT%2BwXtQKuLaHefrGdZO8fcMHrb3yfGe7o5kq2cnPoCn4acX1CzMriPLiWavChsScWpB1%2FHqX8pVSJQoOp8%2BYACeYnqFYcxm2A%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlMpe8cxKHjIyR7DKSRGPNb6wkXiYzHkX9YsuSfDXl%2FJtcFWLVhiEXqSqISVr4t6QOFjj4S%2FMawzcx8VS89GICv--5yuaBTahbrYKMe7e2xKRDEbo3L69SnGkfmSllTG%2BjN1VjY9tIWxhNaI%2BwEGeqcA%3D",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "watch",
+        "gradeRank": "C",
+        "probability": 60,
+        "confidence": 53,
+        "expectedProfit": 23,
+        "submitProfit": 10,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 218.45,
+          "profit": 169.5,
+          "roi": 3.4627,
+          "roiPercent": 346.27,
+          "threshold": 0.35,
+          "passes": true
+        },
+        "offerSuggestion": "Buy at ask",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    }
+  ],
+  "experimentalCards": [
+    {
+      "name": "Boa Hancock ST03-013",
+      "code": "ST03-013",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 4,
+      "rawMarket": 25.28,
+      "psa10Market": 197.49,
+      "buyUnder": 47.4,
+      "psa9Risk": "real downside",
+      "isNew": true,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "3 recent PSA 10 sold comps, range $185.00 to $200.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 177.74,
+        "profit": 132.42,
+        "roi": 2.9219,
+        "roiPercent": 292.19,
+        "threshold": 0.35,
+        "passes": true
+      },
+      "listingKey": "v1|236769705628|0",
+      "marketStats": {
+        "compCount": 3,
+        "low": 185,
+        "high": 200
+      },
+      "scores": {
+        "hotScore": 53,
+        "upsideScore": 33,
+        "confidenceScore": 47,
+        "liquidityScore": 35,
+        "trendScore": 84,
+        "combinedScore": 50,
+        "deployableNowScore": 57,
+        "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84"
+      },
+      "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84",
+      "socialTrendScore": 84,
+      "deployableNowScore": 57,
+      "socialTrendReasons": [
+        "cardgamer",
+        "cardlines",
+        "ebay",
+        "youtube-market-watch"
+      ],
+      "best": {
+        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
+        "price": 19,
+        "shipping": 1.32,
+        "total": 20.32,
+        "seller": "mwneese",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/236769705628",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 30,
+        "probability": 42,
         "confidence": 53,
-        "expectedProfit": -10,
-        "submitProfit": -17,
+        "expectedProfit": -20,
+        "submitProfit": -25,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 177.74,
+          "profit": 132.42,
+          "roi": 2.9219,
+          "roiPercent": 292.19,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: minor wear",
+          "corners: visible whitening",
           "edges: minor wear",
-          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -620,7 +865,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 4,
+      "rank": 5,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -629,6 +874,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "4 recent PSA 10 sold comps, range $279.99 to $300.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 257.62,
+        "profit": 192.62,
+        "roi": 2.9635,
+        "roiPercent": 296.35,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|157830810575|0",
       "marketStats": {
         "compCount": 4,
@@ -637,17 +891,17 @@
       },
       "scores": {
         "hotScore": 43,
-        "upsideScore": 43,
-        "confidenceScore": 53,
+        "upsideScore": 50,
+        "confidenceScore": 57,
         "liquidityScore": 46,
         "trendScore": 76,
-        "combinedScore": 48,
-        "deployableNowScore": 64,
-        "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76"
+        "combinedScore": 51,
+        "deployableNowScore": 68,
+        "thesis": "heat 43 | upside 50 | confidence 57 | liquidity 46 | trend 76"
       },
-      "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76",
+      "thesis": "heat 43 | upside 50 | confidence 57 | liquidity 46 | trend 76",
       "socialTrendScore": 76,
-      "deployableNowScore": 64,
+      "deployableNowScore": 68,
       "socialTrendReasons": [
         "internal-scan",
         "cardlines"
@@ -663,82 +917,26 @@
         "suspicionFlags": []
       },
       "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 50,
+        "recommendation": "watch",
+        "gradeRank": "C",
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": 6,
-        "submitProfit": -6,
+        "expectedProfit": 20,
+        "submitProfit": 4,
         "submitReady": false,
-        "offerSuggestion": "Offer around $24",
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 257.62,
+          "profit": 192.62,
+          "roi": 2.9635,
+          "roiPercent": 296.35,
+          "threshold": 0.35,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $38",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "experimental",
-      "priority": "experimental",
-      "rank": 5,
-      "rawMarket": 57,
-      "psa10Market": 259.71,
-      "buyUnder": 62.33,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|389882263621|0",
-      "marketStats": {
-        "compCount": 6,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 79,
-        "upsideScore": 22,
-        "confidenceScore": 54,
-        "liquidityScore": 100,
-        "trendScore": 76,
-        "combinedScore": 55,
-        "deployableNowScore": 37,
-        "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76"
-      },
-      "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76",
-      "socialTrendScore": 76,
-      "deployableNowScore": 37,
-      "socialTrendReasons": [
-        "internal-scan",
-        "cardlines"
-      ],
-      "best": {
-        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
-        "price": 79.99,
-        "shipping": 0,
-        "total": 79.99,
-        "seller": "henny_tcg",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389882263621",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 30,
-        "confidence": 53,
-        "expectedProfit": -61,
-        "submitProfit": -69,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -758,6 +956,15 @@
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "8 recent PSA 10 sold comps, range $164.74 to $255.00",
       "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 187.57,
+        "profit": 92.24,
+        "roi": 0.9675,
+        "roiPercent": 96.75,
+        "threshold": 0.35,
+        "passes": true
+      },
       "listingKey": "v1|236755581004|0",
       "marketStats": {
         "compCount": 8,
@@ -767,16 +974,16 @@
       "scores": {
         "hotScore": 63,
         "upsideScore": 16,
-        "confidenceScore": 55,
+        "confidenceScore": 51,
         "liquidityScore": 74,
         "trendScore": 78,
-        "combinedScore": 47,
-        "deployableNowScore": 35,
-        "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78"
+        "combinedScore": 46,
+        "deployableNowScore": 33,
+        "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78"
       },
-      "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78",
+      "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78",
       "socialTrendScore": 78,
-      "deployableNowScore": 35,
+      "deployableNowScore": 33,
       "socialTrendReasons": [
         "internal-scan",
         "youtube-market-watch"
@@ -794,19 +1001,29 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 42,
+        "probability": 34,
         "confidence": 53,
-        "expectedProfit": -65,
-        "submitProfit": -70,
+        "expectedProfit": -68,
+        "submitProfit": -73,
         "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 187.57,
+          "profit": 92.24,
+          "roi": 0.9675,
+          "roiPercent": 96.75,
+          "threshold": 0.35,
+          "passes": true
+        },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
-          "edges: minor wear",
+          "edges: visible wear",
           "limited photos: 2"
         ]
       }
     }
   ],
-  "staleTargets": []
+  "staleTargets": [],
+  "roiFilteredOut": []
 }
