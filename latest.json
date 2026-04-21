@@ -1,0 +1,12 @@
+{
+  "generatedAt": null,
+  "dateStamp": null,
+  "filters": {
+    "source": "Collectr raw + grade_id 12",
+    "gradingCost": 25,
+    "liquidityHaircut": 0.12,
+    "minRoiPercent": 80
+  },
+  "qualifiedCount": 0,
+  "rows": []
+}

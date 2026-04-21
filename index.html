@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Piece PSA 10 ROI Board</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #08111f;
+      --panel: #101b2d;
+      --panel-2: #16243b;
+      --text: #ebf2ff;
+      --muted: #98a8c7;
+      --accent: #58a6ff;
+      --good: #3ddc97;
+      --warn: #ffcc66;
+      --border: rgba(255,255,255,0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background: linear-gradient(180deg, #07101d 0%, #0b1730 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .hero, .panel, .card {
+      background: rgba(16, 27, 45, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+    }
+    .hero {
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h1 { margin: 0 0 8px; font-size: 32px; }
+    p { margin: 0; color: var(--muted); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .panel {
+      padding: 16px;
+    }
+    .stat-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+    .stat-value { font-size: 26px; font-weight: 700; margin-top: 6px; }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin: 20px 0 14px;
+      flex-wrap: wrap;
+    }
+    .search {
+      width: min(420px, 100%);
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      color: var(--text);
+      font-size: 15px;
+    }
+    .meta { color: var(--muted); font-size: 14px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .rank {
+      min-width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(88,166,255,.15);
+      color: var(--accent);
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 4px;
+    }
+    .roi {
+      color: var(--good);
+      font-weight: 800;
+      font-size: 24px;
+      white-space: nowrap;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 10px;
+    }
+    .metric {
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+    }
+    .metric .label { color: var(--muted); font-size: 12px; }
+    .metric .value { margin-top: 5px; font-weight: 700; }
+    .links { display: flex; gap: 10px; flex-wrap: wrap; }
+    a.button {
+      text-decoration: none;
+      color: var(--text);
+      background: var(--accent);
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    a.button.secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .empty {
+      padding: 32px;
+      text-align: center;
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      border-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>One Piece PSA 10 ROI Board</h1>
+      <p>Weekly Collectr-first raw to PSA 10 scan. This board shows cards clearing the 80% ROI threshold after grading cost and liquidity haircut.</p>
+      <div class="stats">
+        <div class="panel"><div class="stat-label">Qualified cards</div><div id="qualifiedCount" class="stat-value">-</div></div>
+        <div class="panel"><div class="stat-label">Best ROI</div><div id="bestRoi" class="stat-value">-</div></div>
+        <div class="panel"><div class="stat-label">Generated</div><div id="generatedAt" class="stat-value" style="font-size:18px">-</div></div>
+        <div class="panel"><div class="stat-label">Rules</div><div class="stat-value" style="font-size:18px">80%+ ROI</div></div>
+      </div>
+    </section>
+
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="Filter by card code, name, or set" />
+      <div id="meta" class="meta">Loading latest scan...</div>
+    </div>
+
+    <div id="results" class="grid"></div>
+  </div>
+
+  <script>
+    const fmtMoney = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(Number(n || 0));
+    const fmtPct = (n) => `${Number(n || 0).toFixed(2)}%`;
+    const fmtDate = (value) => {
+      if (!value) return '-';
+      const d = new Date(value);
+      return Number.isNaN(d.getTime()) ? value : d.toLocaleString();
+    };
+
+    let allRows = [];
+
+    function render(rows) {
+      const container = document.getElementById('results');
+      if (!rows.length) {
+        container.innerHTML = '<div class="empty">No matching cards.</div>';
+        return;
+      }
+      container.innerHTML = rows.map((row, index) => `
+        <article class="card">
+          <div class="topline">
+            <div style="display:flex; gap:12px; align-items:flex-start; min-width:0;">
+              <div class="rank">${index + 1}</div>
+              <div>
+                <div class="title">${row.code} ${row.name}</div>
+                <div class="subtitle">${row.setName || 'Unknown set'}</div>
+              </div>
+            </div>
+            <div class="roi">${fmtPct(row.roiPercent)}</div>
+          </div>
+          <div class="metrics">
+            <div class="metric"><div class="label">Raw</div><div class="value">${fmtMoney(row.rawMarket)}</div></div>
+            <div class="metric"><div class="label">PSA 10</div><div class="value">${fmtMoney(row.psa10Market)}</div></div>
+            <div class="metric"><div class="label">Net exit</div><div class="value">${fmtMoney(row.netPsa10Exit)}</div></div>
+            <div class="metric"><div class="label">Profit</div><div class="value">${fmtMoney(row.profit)}</div></div>
+          </div>
+          <div class="links">
+            <a class="button" href="${row.collectrLink}" target="_blank" rel="noopener noreferrer">Open Collectr</a>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function applyFilter() {
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      if (!q) return render(allRows);
+      render(allRows.filter((row) => [row.code, row.name, row.setName].some((v) => String(v || '').toLowerCase().includes(q))));
+    }
+
+    async function boot() {
+      const res = await fetch('./latest.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Failed to load latest.json (${res.status})`);
+      const data = await res.json();
+      allRows = Array.isArray(data.rows) ? data.rows : [];
+      document.getElementById('qualifiedCount').textContent = data.qualifiedCount ?? allRows.length;
+      document.getElementById('bestRoi').textContent = allRows.length ? fmtPct(allRows[0].roiPercent) : '-';
+      document.getElementById('generatedAt').textContent = fmtDate(data.generatedAt);
+      document.getElementById('meta').textContent = `Source: ${data.filters?.source || 'Collectr'} | Grading: $${data.filters?.gradingCost ?? 25} | Haircut: ${Math.round((data.filters?.liquidityHaircut ?? 0.12) * 100)}%`;
+      render(allRows);
+      document.getElementById('search').addEventListener('input', applyFilter);
+    }
+
+    boot().catch((error) => {
+      document.getElementById('meta').textContent = error.message;
+      document.getElementById('results').innerHTML = '<div class="empty">No weekly scan data yet. Once the cron job runs, latest.json will appear here.</div>';
+    });
+  </script>
+</body>
+</html>
