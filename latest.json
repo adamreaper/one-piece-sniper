@@ -1,30 +1,26 @@
 {
-  "generatedAt": "2026-04-21T00:26:10.099Z",
-  "updatedAt": "2026-04-21T00:27:28.750Z",
+  "generatedAt": "2026-04-21T11:28:00.378Z",
+  "updatedAt": "2026-04-21T11:29:10.632Z",
   "boardModel": "dynamic-hotness-plus-psa10-upside-v1",
-  "newListingCount": 2,
+  "newListingCount": 1,
   "alertCount": 0,
   "tracked": [
     "Nami OP11-041",
     "Monkey.D.Luffy P-075",
-    "Roronoa Zoro OP12-020",
-    "Nami OP03-040",
     "Perona OP01-077",
     "Roronoa Zoro ST01-013",
-    "Nico Robin OP09-062",
-    "Nami OP09-070"
+    "Roronoa Zoro OP12-020",
+    "Nico Robin OP09-062"
   ],
   "coreTracked": [
     "Nami OP11-041",
-    "Monkey.D.Luffy P-075",
-    "Roronoa Zoro OP12-020",
-    "Nami OP03-040"
+    "Monkey.D.Luffy P-075"
   ],
   "experimentalTracked": [
     "Perona OP01-077",
     "Roronoa Zoro ST01-013",
-    "Nico Robin OP09-062",
-    "Nami OP09-070"
+    "Roronoa Zoro OP12-020",
+    "Nico Robin OP09-062"
   ],
   "cards": [
     {
@@ -35,30 +31,32 @@
       "priority": "core",
       "rank": 1,
       "rawMarket": 56,
-      "psa10Market": 246.88,
-      "buyUnder": 59.25,
+      "psa10Market": 232.07,
+      "buyUnder": 55.7,
       "psa9Risk": "leader alt raws can already be too expensive to flip safely",
       "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "10 recent PSA 10 sold comps, range $195.00 to $325.00",
+      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
       "shouldAlert": false,
       "listingKey": "v1|257451959094|0",
       "marketStats": {
-        "compCount": 10,
+        "compCount": 9,
         "low": 195,
         "high": 325
       },
       "scores": {
         "hotScore": 82,
-        "upsideScore": 30,
-        "confidenceScore": 66,
+        "upsideScore": 28,
+        "confidenceScore": 67,
         "liquidityScore": 100,
         "trendScore": 80,
-        "combinedScore": 62,
-        "thesis": "heat 82 | upside 30 | confidence 66 | liquidity 100 | trend 80"
+        "combinedScore": 61,
+        "deployableNowScore": 59,
+        "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80"
       },
-      "thesis": "heat 82 | upside 30 | confidence 66 | liquidity 100 | trend 80",
+      "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80",
       "socialTrendScore": 80,
+      "deployableNowScore": 59,
       "socialTrendReasons": [
         "cardlines",
         "internal-scan",
@@ -71,18 +69,18 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2FB%2FjpVBS8mdkCeqMoTZtbPtkFdr7ndp%2FcI%2FEIeQR5QFAxDVGAUEmWlabXlaGhE0KFYh91X7apJOijnW3zioTv9QSGK3hzu1oqcAk7UkkxjrXFct7I7uabBvu%2FAqiT7aOwYi8EAE5THDt4XW%2FXxuBzk%3D",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2Fm4VihJb6Pl1zPivoRqAw02Vs%2FqVk1UWaKf1VbVvOuV7jyVeQYRFQl2uRhddcu48FYTNnHz1GdS4xum8M%2BC4ZTC1%2FcMb7zdp2MGwYm4SduIUXHdCL6KtvOGwujApxg%2BCJrMBxeywLe9Je2HQnsrI4w%3D",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 57,
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": -10,
-        "submitProfit": -23,
+        "expectedProfit": -11,
+        "submitProfit": -24,
         "submitReady": false,
-        "offerSuggestion": "Offer around $21",
+        "offerSuggestion": "Offer around $20",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -113,15 +111,17 @@
       },
       "scores": {
         "hotScore": 74,
-        "upsideScore": 34,
-        "confidenceScore": 50,
+        "upsideScore": 38,
+        "confidenceScore": 57,
         "liquidityScore": 78,
         "trendScore": 92,
-        "combinedScore": 58,
-        "thesis": "heat 74 | upside 34 | confidence 50 | liquidity 78 | trend 92"
+        "combinedScore": 60,
+        "deployableNowScore": 68,
+        "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92"
       },
-      "thesis": "heat 74 | upside 34 | confidence 50 | liquidity 78 | trend 92",
+      "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92",
       "socialTrendScore": 92,
+      "deployableNowScore": 68,
       "socialTrendReasons": [
         "internal-scan",
         "x-viewer",
@@ -141,10 +141,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 30,
+        "probability": 46,
         "confidence": 53,
-        "expectedProfit": -18,
-        "submitProfit": -22,
+        "expectedProfit": -8,
+        "submitProfit": -14,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
@@ -153,132 +153,6 @@
           "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 3,
-      "rawMarket": 57,
-      "psa10Market": 259.71,
-      "buyUnder": 62.33,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": true,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|389882263621|0",
-      "marketStats": {
-        "compCount": 6,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 87,
-        "upsideScore": 22,
-        "confidenceScore": 36,
-        "liquidityScore": 100,
-        "trendScore": 76,
-        "combinedScore": 55,
-        "thesis": "heat 87 | upside 22 | confidence 36 | liquidity 100 | trend 76"
-      },
-      "thesis": "heat 87 | upside 22 | confidence 36 | liquidity 100 | trend 76",
-      "socialTrendScore": 76,
-      "socialTrendReasons": [
-        "internal-scan",
-        "cardlines"
-      ],
-      "best": {
-        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
-        "price": 79.99,
-        "shipping": 0,
-        "total": 79.99,
-        "seller": "henny_tcg",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389882263621",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 16,
-        "confidence": 15,
-        "expectedProfit": -92,
-        "submitProfit": -94,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: possible issue",
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP03-040",
-      "code": "OP03-040",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 4,
-      "rawMarket": 95,
-      "psa10Market": 293.12,
-      "buyUnder": 70.35,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "5 recent PSA 10 sold comps, range $253.76 to $340.00",
-      "shouldAlert": false,
-      "listingKey": "v1|227307766235|0",
-      "marketStats": {
-        "compCount": 5,
-        "low": 253.76,
-        "high": 340
-      },
-      "scores": {
-        "hotScore": 76,
-        "upsideScore": 16,
-        "confidenceScore": 59,
-        "liquidityScore": 89,
-        "trendScore": 80,
-        "combinedScore": 53,
-        "thesis": "heat 76 | upside 16 | confidence 59 | liquidity 89 | trend 80"
-      },
-      "thesis": "heat 76 | upside 16 | confidence 59 | liquidity 89 | trend 80",
-      "socialTrendScore": 80,
-      "socialTrendReasons": [
-        "cardlines",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "One Piece Card Model Number Nami (Leader Parallel) OP03 040 Bandai",
-        "price": 87.67,
-        "shipping": 4.99,
-        "total": 92.66,
-        "seller": "haruki46",
-        "condition": "Used",
-        "link": "https://www.ebay.com/itm/227307766235",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 44,
-        "confidence": 55,
-        "expectedProfit": -50,
-        "submitProfit": -62,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $19",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue"
         ]
       }
     },
@@ -288,57 +162,60 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 5,
+      "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
       "psa9Risk": "best selection names still get punished hard on PSA 9s",
-      "isNew": false,
+      "isNew": true,
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "5 recent PSA 10 sold comps, range $225.00 to $300.00",
       "shouldAlert": false,
-      "listingKey": "v1|157823880345|0",
+      "listingKey": "v1|127785102982|0",
       "marketStats": {
         "compCount": 5,
         "low": 225,
         "high": 300
       },
       "scores": {
-        "hotScore": 49,
-        "upsideScore": 46,
-        "confidenceScore": 55,
-        "liquidityScore": 57,
+        "hotScore": 53,
+        "upsideScore": 35,
+        "confidenceScore": 45,
+        "liquidityScore": 50,
         "trendScore": 60,
-        "combinedScore": 50,
-        "thesis": "heat 49 | upside 46 | confidence 55 | liquidity 57 | trend 60"
+        "combinedScore": 45,
+        "deployableNowScore": 61,
+        "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60"
       },
-      "thesis": "heat 49 | upside 46 | confidence 55 | liquidity 57 | trend 60",
+      "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60",
       "socialTrendScore": 60,
+      "deployableNowScore": 61,
       "socialTrendReasons": [
         "internal-scan"
       ],
       "best": {
         "title": "ONE PIECE Card Game Perona OP01-077 UC Premium Card Collection Girls Edition ",
-        "price": 23.94,
+        "price": 23.95,
         "shipping": 0,
-        "total": 23.94,
-        "seller": "fujinotsukijp",
+        "total": 23.95,
+        "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYvkvnd%2FnUnRBT5vzbQWotao%2BfbD7XWAMHtcWWZATDsVMbmX388prnNA9uCGCZnsZva8RrOjQhnjTdKclQJXX9KzNZx%2B87XJVXEyltXlMkVChJIP4v5OHTh5Wy0ulchskb8ZP4OWD%2BtPpln7JtsIWm1c%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlODhoh7Sj9CgtjP10t0T8hRzuPHZAmEj5Poyz1POXmgXOkPIJxQNOzUT%2BwXtQKuLaHefrGdZO8fcMHrb3yfGe7o5kq2cnPoCn4acX1CzMriPLiWavChsScWpB1%2FHqX8pVSJQoOp8%2BYACeYnqFYcxm2A%3D",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 50,
+        "probability": 30,
         "confidence": 53,
-        "expectedProfit": 12,
-        "submitProfit": 1,
+        "expectedProfit": -10,
+        "submitProfit": -17,
         "submitReady": false,
-        "offerSuggestion": "Offer around $14",
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
+          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -349,7 +226,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 6,
+      "rank": 4,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -371,10 +248,12 @@
         "liquidityScore": 46,
         "trendScore": 76,
         "combinedScore": 48,
+        "deployableNowScore": 64,
         "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76"
       },
       "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76",
       "socialTrendScore": 76,
+      "deployableNowScore": 64,
       "socialTrendReasons": [
         "internal-scan",
         "cardlines"
@@ -406,46 +285,113 @@
       }
     },
     {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 5,
+      "rawMarket": 57,
+      "psa10Market": 259.71,
+      "buyUnder": 62.33,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "listingKey": "v1|389882263621|0",
+      "marketStats": {
+        "compCount": 6,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 79,
+        "upsideScore": 22,
+        "confidenceScore": 54,
+        "liquidityScore": 100,
+        "trendScore": 76,
+        "combinedScore": 55,
+        "deployableNowScore": 37,
+        "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76"
+      },
+      "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76",
+      "socialTrendScore": 76,
+      "deployableNowScore": 37,
+      "socialTrendReasons": [
+        "internal-scan",
+        "cardlines"
+      ],
+      "best": {
+        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
+        "price": 79.99,
+        "shipping": 0,
+        "total": 79.99,
+        "seller": "henny_tcg",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/389882263621",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 30,
+        "confidence": 53,
+        "expectedProfit": -61,
+        "submitProfit": -69,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
       "name": "Nico Robin OP09-062",
       "code": "OP09-062",
       "seedBoard": "secondary",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 7,
+      "rank": 6,
       "rawMarket": 70,
-      "psa10Market": 221.77,
-      "buyUnder": 53.22,
+      "psa10Market": 218.1,
+      "buyUnder": 52.34,
       "psa9Risk": "ugly downside if it 9s",
       "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "7 recent PSA 10 sold comps, range $200.00 to $255.00",
+      "pricingNotes": "8 recent PSA 10 sold comps, range $164.74 to $255.00",
       "shouldAlert": false,
       "listingKey": "v1|236755581004|0",
       "marketStats": {
-        "compCount": 7,
-        "low": 200,
+        "compCount": 8,
+        "low": 164.74,
         "high": 255
       },
       "scores": {
         "hotScore": 63,
-        "upsideScore": 17,
-        "confidenceScore": 46,
+        "upsideScore": 16,
+        "confidenceScore": 55,
         "liquidityScore": 74,
         "trendScore": 78,
-        "combinedScore": 45,
-        "thesis": "heat 63 | upside 17 | confidence 46 | liquidity 74 | trend 78"
+        "combinedScore": 47,
+        "deployableNowScore": 35,
+        "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78"
       },
-      "thesis": "heat 63 | upside 17 | confidence 46 | liquidity 74 | trend 78",
+      "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78",
       "socialTrendScore": 78,
+      "deployableNowScore": 35,
       "socialTrendReasons": [
         "internal-scan",
         "youtube-market-watch"
       ],
       "best": {
         "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
-        "price": 40.55,
-        "shipping": 29.68,
-        "total": 70.22999999999999,
+        "price": 40.61,
+        "shipping": 29.72,
+        "total": 70.33,
         "seller": "theedigglerdig",
         "condition": "Ungraded",
         "link": "https://www.ebay.com/itm/236755581004",
@@ -454,77 +400,14 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 22,
+        "probability": 42,
         "confidence": 53,
-        "expectedProfit": -73,
-        "submitProfit": -77,
+        "expectedProfit": -65,
+        "submitProfit": -70,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
-          "edges: minor wear",
-          "surface: possible issue",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP09-070",
-      "code": "OP09-070",
-      "seedBoard": "core",
-      "board": "experimental",
-      "priority": "experimental",
-      "rank": 8,
-      "rawMarket": 51.36,
-      "psa10Market": 230,
-      "buyUnder": 55,
-      "psa9Risk": "weak protection",
-      "isNew": true,
-      "pricingSource": "fallback",
-      "pricingNotes": null,
-      "shouldAlert": false,
-      "listingKey": "v1|389915058449|0",
-      "marketStats": {
-        "compCount": 0,
-        "low": null,
-        "high": null
-      },
-      "scores": {
-        "hotScore": 37,
-        "upsideScore": 22,
-        "confidenceScore": 48,
-        "liquidityScore": 26,
-        "trendScore": 80,
-        "combinedScore": 40,
-        "thesis": "heat 37 | upside 22 | confidence 48 | liquidity 26 | trend 80"
-      },
-      "thesis": "heat 37 | upside 22 | confidence 48 | liquidity 26 | trend 80",
-      "socialTrendScore": 80,
-      "socialTrendReasons": [
-        "cardlines",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "Nami (Premium Card Collection -Best Selection Vol. 4-) OP09-070 One Piece...",
-        "price": 76,
-        "shipping": 4.99,
-        "total": 80.99,
-        "seller": "nik.gusta",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389915058449",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 60,
-        "confidence": 53,
-        "expectedProfit": -31,
-        "submitProfit": -45,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
           "edges: minor wear",
           "limited photos: 2"
         ]
@@ -540,30 +423,32 @@
       "priority": "core",
       "rank": 1,
       "rawMarket": 56,
-      "psa10Market": 246.88,
-      "buyUnder": 59.25,
+      "psa10Market": 232.07,
+      "buyUnder": 55.7,
       "psa9Risk": "leader alt raws can already be too expensive to flip safely",
       "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "10 recent PSA 10 sold comps, range $195.00 to $325.00",
+      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
       "shouldAlert": false,
       "listingKey": "v1|257451959094|0",
       "marketStats": {
-        "compCount": 10,
+        "compCount": 9,
         "low": 195,
         "high": 325
       },
       "scores": {
         "hotScore": 82,
-        "upsideScore": 30,
-        "confidenceScore": 66,
+        "upsideScore": 28,
+        "confidenceScore": 67,
         "liquidityScore": 100,
         "trendScore": 80,
-        "combinedScore": 62,
-        "thesis": "heat 82 | upside 30 | confidence 66 | liquidity 100 | trend 80"
+        "combinedScore": 61,
+        "deployableNowScore": 59,
+        "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80"
       },
-      "thesis": "heat 82 | upside 30 | confidence 66 | liquidity 100 | trend 80",
+      "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80",
       "socialTrendScore": 80,
+      "deployableNowScore": 59,
       "socialTrendReasons": [
         "cardlines",
         "internal-scan",
@@ -576,18 +461,18 @@
         "total": 54.99,
         "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2FB%2FjpVBS8mdkCeqMoTZtbPtkFdr7ndp%2FcI%2FEIeQR5QFAxDVGAUEmWlabXlaGhE0KFYh91X7apJOijnW3zioTv9QSGK3hzu1oqcAk7UkkxjrXFct7I7uabBvu%2FAqiT7aOwYi8EAE5THDt4XW%2FXxuBzk%3D",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY%2Fm4VihJb6Pl1zPivoRqAw02Vs%2FqVk1UWaKf1VbVvOuV7jyVeQYRFQl2uRhddcu48FYTNnHz1GdS4xum8M%2BC4ZTC1%2FcMb7zdp2MGwYm4SduIUXHdCL6KtvOGwujApxg%2BCJrMBxeywLe9Je2HQnsrI4w%3D",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 57,
+        "probability": 60,
         "confidence": 53,
-        "expectedProfit": -10,
-        "submitProfit": -23,
+        "expectedProfit": -11,
+        "submitProfit": -24,
         "submitReady": false,
-        "offerSuggestion": "Offer around $21",
+        "offerSuggestion": "Offer around $20",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -618,15 +503,17 @@
       },
       "scores": {
         "hotScore": 74,
-        "upsideScore": 34,
-        "confidenceScore": 50,
+        "upsideScore": 38,
+        "confidenceScore": 57,
         "liquidityScore": 78,
         "trendScore": 92,
-        "combinedScore": 58,
-        "thesis": "heat 74 | upside 34 | confidence 50 | liquidity 78 | trend 92"
+        "combinedScore": 60,
+        "deployableNowScore": 68,
+        "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92"
       },
-      "thesis": "heat 74 | upside 34 | confidence 50 | liquidity 78 | trend 92",
+      "thesis": "heat 74 | upside 38 | confidence 57 | liquidity 78 | trend 92",
       "socialTrendScore": 92,
+      "deployableNowScore": 68,
       "socialTrendReasons": [
         "internal-scan",
         "x-viewer",
@@ -646,10 +533,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 30,
+        "probability": 46,
         "confidence": 53,
-        "expectedProfit": -18,
-        "submitProfit": -22,
+        "expectedProfit": -8,
+        "submitProfit": -14,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
@@ -658,132 +545,6 @@
           "surface: possible issue",
           "occlusion: minor",
           "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Roronoa Zoro OP12-020",
-      "code": "OP12-020",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 3,
-      "rawMarket": 57,
-      "psa10Market": 259.71,
-      "buyUnder": 62.33,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": true,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
-      "shouldAlert": false,
-      "listingKey": "v1|389882263621|0",
-      "marketStats": {
-        "compCount": 6,
-        "low": 202.65,
-        "high": 285.98
-      },
-      "scores": {
-        "hotScore": 87,
-        "upsideScore": 22,
-        "confidenceScore": 36,
-        "liquidityScore": 100,
-        "trendScore": 76,
-        "combinedScore": 55,
-        "thesis": "heat 87 | upside 22 | confidence 36 | liquidity 100 | trend 76"
-      },
-      "thesis": "heat 87 | upside 22 | confidence 36 | liquidity 100 | trend 76",
-      "socialTrendScore": 76,
-      "socialTrendReasons": [
-        "internal-scan",
-        "cardlines"
-      ],
-      "best": {
-        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
-        "price": 79.99,
-        "shipping": 0,
-        "total": 79.99,
-        "seller": "henny_tcg",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389882263621",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 16,
-        "confidence": 15,
-        "expectedProfit": -92,
-        "submitProfit": -94,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
-          "surface: possible issue",
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP03-040",
-      "code": "OP03-040",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 4,
-      "rawMarket": 95,
-      "psa10Market": 293.12,
-      "buyUnder": 70.35,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "5 recent PSA 10 sold comps, range $253.76 to $340.00",
-      "shouldAlert": false,
-      "listingKey": "v1|227307766235|0",
-      "marketStats": {
-        "compCount": 5,
-        "low": 253.76,
-        "high": 340
-      },
-      "scores": {
-        "hotScore": 76,
-        "upsideScore": 16,
-        "confidenceScore": 59,
-        "liquidityScore": 89,
-        "trendScore": 80,
-        "combinedScore": 53,
-        "thesis": "heat 76 | upside 16 | confidence 59 | liquidity 89 | trend 80"
-      },
-      "thesis": "heat 76 | upside 16 | confidence 59 | liquidity 89 | trend 80",
-      "socialTrendScore": 80,
-      "socialTrendReasons": [
-        "cardlines",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "One Piece Card Model Number Nami (Leader Parallel) OP03 040 Bandai",
-        "price": 87.67,
-        "shipping": 4.99,
-        "total": 92.66,
-        "seller": "haruki46",
-        "condition": "Used",
-        "link": "https://www.ebay.com/itm/227307766235",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 44,
-        "confidence": 55,
-        "expectedProfit": -50,
-        "submitProfit": -62,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $19",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue"
         ]
       }
     }
@@ -795,57 +556,60 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 5,
+      "rank": 3,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
       "psa9Risk": "best selection names still get punished hard on PSA 9s",
-      "isNew": false,
+      "isNew": true,
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "5 recent PSA 10 sold comps, range $225.00 to $300.00",
       "shouldAlert": false,
-      "listingKey": "v1|157823880345|0",
+      "listingKey": "v1|127785102982|0",
       "marketStats": {
         "compCount": 5,
         "low": 225,
         "high": 300
       },
       "scores": {
-        "hotScore": 49,
-        "upsideScore": 46,
-        "confidenceScore": 55,
-        "liquidityScore": 57,
+        "hotScore": 53,
+        "upsideScore": 35,
+        "confidenceScore": 45,
+        "liquidityScore": 50,
         "trendScore": 60,
-        "combinedScore": 50,
-        "thesis": "heat 49 | upside 46 | confidence 55 | liquidity 57 | trend 60"
+        "combinedScore": 45,
+        "deployableNowScore": 61,
+        "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60"
       },
-      "thesis": "heat 49 | upside 46 | confidence 55 | liquidity 57 | trend 60",
+      "thesis": "heat 53 | upside 35 | confidence 45 | liquidity 50 | trend 60",
       "socialTrendScore": 60,
+      "deployableNowScore": 61,
       "socialTrendReasons": [
         "internal-scan"
       ],
       "best": {
         "title": "ONE PIECE Card Game Perona OP01-077 UC Premium Card Collection Girls Edition ",
-        "price": 23.94,
+        "price": 23.95,
         "shipping": 0,
-        "total": 23.94,
-        "seller": "fujinotsukijp",
+        "total": 23.95,
+        "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/157823880345?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCuUAIRlPZrTraj1DXptV0VQBuJ4jtPLpnWnmAwqCmYYvkvnd%2FnUnRBT5vzbQWotao%2BfbD7XWAMHtcWWZATDsVMbmX388prnNA9uCGCZnsZva8RrOjQhnjTdKclQJXX9KzNZx%2B87XJVXEyltXlMkVChJIP4v5OHTh5Wy0ulchskb8ZP4OWD%2BtPpln7JtsIWm1c%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlODhoh7Sj9CgtjP10t0T8hRzuPHZAmEj5Poyz1POXmgXOkPIJxQNOzUT%2BwXtQKuLaHefrGdZO8fcMHrb3yfGe7o5kq2cnPoCn4acX1CzMriPLiWavChsScWpB1%2FHqX8pVSJQoOp8%2BYACeYnqFYcxm2A%3D",
         "suspicionFlags": []
       },
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 50,
+        "probability": 30,
         "confidence": 53,
-        "expectedProfit": 12,
-        "submitProfit": 1,
+        "expectedProfit": -10,
+        "submitProfit": -17,
         "submitReady": false,
-        "offerSuggestion": "Offer around $14",
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
+          "surface: possible issue",
           "limited photos: 2"
         ]
       }
@@ -856,7 +620,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 6,
+      "rank": 4,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -878,10 +642,12 @@
         "liquidityScore": 46,
         "trendScore": 76,
         "combinedScore": 48,
+        "deployableNowScore": 64,
         "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76"
       },
       "thesis": "heat 43 | upside 43 | confidence 53 | liquidity 46 | trend 76",
       "socialTrendScore": 76,
+      "deployableNowScore": 64,
       "socialTrendReasons": [
         "internal-scan",
         "cardlines"
@@ -913,46 +679,113 @@
       }
     },
     {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 5,
+      "rawMarket": 57,
+      "psa10Market": 259.71,
+      "buyUnder": 62.33,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "6 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "listingKey": "v1|389882263621|0",
+      "marketStats": {
+        "compCount": 6,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 79,
+        "upsideScore": 22,
+        "confidenceScore": 54,
+        "liquidityScore": 100,
+        "trendScore": 76,
+        "combinedScore": 55,
+        "deployableNowScore": 37,
+        "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76"
+      },
+      "thesis": "heat 79 | upside 22 | confidence 54 | liquidity 100 | trend 76",
+      "socialTrendScore": 76,
+      "deployableNowScore": 37,
+      "socialTrendReasons": [
+        "internal-scan",
+        "cardlines"
+      ],
+      "best": {
+        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
+        "price": 79.99,
+        "shipping": 0,
+        "total": 79.99,
+        "seller": "henny_tcg",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/389882263621",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 30,
+        "confidence": 53,
+        "expectedProfit": -61,
+        "submitProfit": -69,
+        "submitReady": false,
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
       "name": "Nico Robin OP09-062",
       "code": "OP09-062",
       "seedBoard": "secondary",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 7,
+      "rank": 6,
       "rawMarket": 70,
-      "psa10Market": 221.77,
-      "buyUnder": 53.22,
+      "psa10Market": 218.1,
+      "buyUnder": 52.34,
       "psa9Risk": "ugly downside if it 9s",
       "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "7 recent PSA 10 sold comps, range $200.00 to $255.00",
+      "pricingNotes": "8 recent PSA 10 sold comps, range $164.74 to $255.00",
       "shouldAlert": false,
       "listingKey": "v1|236755581004|0",
       "marketStats": {
-        "compCount": 7,
-        "low": 200,
+        "compCount": 8,
+        "low": 164.74,
         "high": 255
       },
       "scores": {
         "hotScore": 63,
-        "upsideScore": 17,
-        "confidenceScore": 46,
+        "upsideScore": 16,
+        "confidenceScore": 55,
         "liquidityScore": 74,
         "trendScore": 78,
-        "combinedScore": 45,
-        "thesis": "heat 63 | upside 17 | confidence 46 | liquidity 74 | trend 78"
+        "combinedScore": 47,
+        "deployableNowScore": 35,
+        "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78"
       },
-      "thesis": "heat 63 | upside 17 | confidence 46 | liquidity 74 | trend 78",
+      "thesis": "heat 63 | upside 16 | confidence 55 | liquidity 74 | trend 78",
       "socialTrendScore": 78,
+      "deployableNowScore": 35,
       "socialTrendReasons": [
         "internal-scan",
         "youtube-market-watch"
       ],
       "best": {
         "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
-        "price": 40.55,
-        "shipping": 29.68,
-        "total": 70.22999999999999,
+        "price": 40.61,
+        "shipping": 29.72,
+        "total": 70.33,
         "seller": "theedigglerdig",
         "condition": "Ungraded",
         "link": "https://www.ebay.com/itm/236755581004",
@@ -961,77 +794,14 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 22,
+        "probability": 42,
         "confidence": 53,
-        "expectedProfit": -73,
-        "submitProfit": -77,
+        "expectedProfit": -65,
+        "submitProfit": -70,
         "submitReady": false,
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: visible whitening",
-          "edges: minor wear",
-          "surface: possible issue",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
-      "name": "Nami OP09-070",
-      "code": "OP09-070",
-      "seedBoard": "core",
-      "board": "experimental",
-      "priority": "experimental",
-      "rank": 8,
-      "rawMarket": 51.36,
-      "psa10Market": 230,
-      "buyUnder": 55,
-      "psa9Risk": "weak protection",
-      "isNew": true,
-      "pricingSource": "fallback",
-      "pricingNotes": null,
-      "shouldAlert": false,
-      "listingKey": "v1|389915058449|0",
-      "marketStats": {
-        "compCount": 0,
-        "low": null,
-        "high": null
-      },
-      "scores": {
-        "hotScore": 37,
-        "upsideScore": 22,
-        "confidenceScore": 48,
-        "liquidityScore": 26,
-        "trendScore": 80,
-        "combinedScore": 40,
-        "thesis": "heat 37 | upside 22 | confidence 48 | liquidity 26 | trend 80"
-      },
-      "thesis": "heat 37 | upside 22 | confidence 48 | liquidity 26 | trend 80",
-      "socialTrendScore": 80,
-      "socialTrendReasons": [
-        "cardlines",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "Nami (Premium Card Collection -Best Selection Vol. 4-) OP09-070 One Piece...",
-        "price": 76,
-        "shipping": 4.99,
-        "total": 80.99,
-        "seller": "nik.gusta",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/389915058449",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 60,
-        "confidence": 53,
-        "expectedProfit": -31,
-        "submitProfit": -45,
-        "submitReady": false,
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
           "edges: minor wear",
           "limited photos: 2"
         ]
