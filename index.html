@@ -151,6 +151,34 @@
       object-fit: cover;
       display: block;
     }
+    .chip-row {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 4px 2px 2px;
+      margin: 16px 0 0;
+      scrollbar-width: none;
+    }
+    .chip-row::-webkit-scrollbar {
+      display: none;
+    }
+    .chip {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      cursor: pointer;
+      min-height: 42px;
+    }
+    .chip.active {
+      background: linear-gradient(135deg, rgba(138,125,255,.34), rgba(88,166,255,.24));
+      border-color: rgba(138,125,255,.5);
+      box-shadow: 0 0 0 3px rgba(138,125,255,.12);
+    }
     .toolbar {
       display: flex;
       justify-content: space-between;
@@ -354,6 +382,25 @@
       border: 1px solid var(--border);
       color: var(--muted);
     }
+    .dock {
+      display: none;
+    }
+    .dock-btn {
+      flex: 1 1 0;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 999px;
+      min-height: 44px;
+      padding: 10px 12px;
+      cursor: pointer;
+    }
+    .dock-btn.active {
+      background: rgba(255,255,255,.08);
+      color: var(--text);
+    }
     .empty {
       padding: 32px;
       text-align: center;
@@ -412,6 +459,9 @@
         min-width: 148px;
         scroll-snap-align: start;
       }
+      .chip-row {
+        margin-top: 14px;
+      }
       .toolbar {
         top: 8px;
         padding: 12px;
@@ -428,6 +478,7 @@
       .grid {
         grid-template-columns: 1fr;
         gap: 12px;
+        padding-bottom: 84px;
       }
       .card {
         padding: 14px;
@@ -459,6 +510,21 @@
       .links, .links .button, .candidate-head .button {
         width: 100%;
       }
+      .dock {
+        position: fixed;
+        left: 12px;
+        right: 12px;
+        bottom: max(12px, env(safe-area-inset-bottom));
+        display: flex;
+        gap: 8px;
+        padding: 8px;
+        border-radius: 999px;
+        background: rgba(10,14,24,.92);
+        border: 1px solid rgba(255,255,255,.08);
+        box-shadow: 0 18px 35px rgba(0,0,0,.38);
+        z-index: 12;
+        backdrop-filter: blur(16px);
+      }
     }
     @keyframes ringFlow {
       from { transform: rotate(0deg); }
@@ -488,14 +554,28 @@
         <div class="panel"><div class="stat-label">Rules</div><div class="stat-value" style="font-size:18px">80%+ ROI</div></div>
         </div>
       </div>
+      <div id="chipRow" class="chip-row">
+        <button class="chip active" data-filter="all">All cards</button>
+        <button class="chip" data-filter="double">2 candidates</button>
+        <button class="chip" data-filter="single">1 candidate</button>
+        <button class="chip" data-filter="none">No candidates</button>
+        <button class="chip" data-filter="heat">Hot ROI</button>
+      </div>
     </section>
 
-    <div class="toolbar">
+    <div class="toolbar" id="searchZone">
       <input id="search" class="search" placeholder="Filter by card code, name, or set" />
       <div id="meta" class="meta">Loading latest scan...</div>
     </div>
 
     <div id="results" class="grid"></div>
+
+    <div class="dock">
+      <button class="dock-btn active" data-jump="top">Top</button>
+      <button class="dock-btn" data-jump="search">Search</button>
+      <button class="dock-btn" data-jump="results">Cards</button>
+      <button class="dock-btn" data-jump="hot">Hot</button>
+    </div>
   </div>
 
   <script>
@@ -509,6 +589,7 @@
 
     let allRows = [];
     let tickerFrame = null;
+    let activeFilter = 'all';
 
     function productImageUrl(productId, ext = 'jpg') {
       return `https://public.getcollectr.com/public-assets/products/product_${productId}.${ext}?optimizer=image&format=webp&width=1200&quality=80&strip=metadata`;
@@ -596,6 +677,15 @@
       return '';
     }
 
+    function matchesQuickFilter(row, filter) {
+      const count = Array.isArray(row.ebayCandidates) ? row.ebayCandidates.length : 0;
+      if (filter === 'double') return count >= 2;
+      if (filter === 'single') return count === 1;
+      if (filter === 'none') return count === 0;
+      if (filter === 'heat') return Number(row.roiPercent || 0) >= 200;
+      return true;
+    }
+
     function render(rows) {
       const container = document.getElementById('results');
       if (!rows.length) {
@@ -639,8 +729,50 @@
 
     function applyFilter() {
       const q = document.getElementById('search').value.trim().toLowerCase();
-      if (!q) return render(allRows);
-      render(allRows.filter((row) => [row.code, row.name, row.setName].some((v) => String(v || '').toLowerCase().includes(q))));
+      const filtered = allRows.filter((row) => {
+        const matchesSearch = !q || [row.code, row.name, row.setName].some((v) => String(v || '').toLowerCase().includes(q));
+        return matchesSearch && matchesQuickFilter(row, activeFilter);
+      });
+      render(filtered);
+    }
+
+    function setActiveChip(filter) {
+      activeFilter = filter;
+      document.querySelectorAll('.chip').forEach((chip) => chip.classList.toggle('active', chip.dataset.filter === filter));
+      applyFilter();
+    }
+
+    function initChips() {
+      document.querySelectorAll('.chip').forEach((chip) => {
+        chip.addEventListener('click', () => setActiveChip(chip.dataset.filter || 'all'));
+      });
+    }
+
+    function initDock() {
+      document.querySelectorAll('.dock-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.dock-btn').forEach((node) => node.classList.toggle('active', node === btn));
+          const jump = btn.dataset.jump;
+          if (jump === 'top') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+          }
+          if (jump === 'search') {
+            document.getElementById('searchZone')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            document.getElementById('search')?.focus();
+            return;
+          }
+          if (jump === 'results') {
+            setActiveChip('all');
+            document.getElementById('results')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            return;
+          }
+          if (jump === 'hot') {
+            setActiveChip('heat');
+            document.getElementById('results')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
     }
 
     async function boot() {
@@ -654,6 +786,8 @@
       document.getElementById('meta').textContent = `Source: ${data.filters?.source || 'Collectr'} | Grading: $${data.filters?.gradingCost ?? 25} | Haircut: ${Math.round((data.filters?.liquidityHaircut ?? 0.12) * 100)}%`;
       document.getElementById('tickerTrack').innerHTML = buildTickerRows(allRows);
       initTicker();
+      initChips();
+      initDock();
       render(allRows);
       document.getElementById('search').addEventListener('input', applyFilter);
     }
