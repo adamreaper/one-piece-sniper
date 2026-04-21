@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T19:25:15.180Z",
+  "generatedAt": "2026-04-21T20:48:12.315Z",
   "dateStamp": "2026-04-21",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -62,10 +62,10 @@
             "feedbackScore": 94
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 35,
-            "confidence": 85,
-            "notes": "Clear overall photos with good back and front shots, but noticeable glare and slight edge wear lower score and PSA 10 potential."
+            "score": 70,
+            "psa10Probability": 55,
+            "confidence": 90,
+            "notes": "Sharp front and back photo with minor glare and slightly off-center; sleeve glare and edge whitening reduce score."
           },
           "roi": {
             "costBasis": 38.5,
@@ -111,85 +111,8 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/558030",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558030.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|364911599527|0",
-          "title": "Tony Tony Chopper SR Parallel OP08-007 Two Legends One Piece Card/JapanA2",
-          "price": 14.77,
-          "shipping": 5,
-          "total": 19.77,
-          "itemWebUrl": "https://www.ebay.com/itm/364911599527?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAHxPS1fdlmtBlidKiLF4VzXxfIavn6wodUOeZh5dofhE63spLrvVO%2FyCuGcHyp59phMDa5IAxrHeGRji%2B10qw45aOMcmHLBRUuIpt9WRbU8XB4x3ByGFXFGeCug6x%2BHTA%2F69Hk2CYKrTvKa0uCrQdKHxFlkksEPUcB%2FqIFBa8EcUZKoPDhiZVJpmyveI76Of4%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/mwMAAOSw9rZm-MMP/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/6oIAAOSwnORm-MMP/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/ULIAAOSwyu9mUYWv/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/rtQAAOSwhudkeoRQ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/0a0AAOSwofVltGMX/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/9BcAAOSw5axkhuDr/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "card-japan777",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 3677
-          },
-          "photoScore": {
-            "score": 88,
-            "psa10Probability": 80,
-            "confidence": 95,
-            "notes": "Multiple clear photos including front and back, slight glare and minor centering issues present."
-          },
-          "roi": {
-            "costBasis": 44.77,
-            "netExit": 294.8,
-            "profit": 250.03,
-            "roi": 5.5848,
-            "roiPercent": 558.48
-          }
-        },
-        {
-          "itemId": "v1|198272057635|0",
-          "title": "Tony Tony Chopper OP08-007 SR Parallel Two Legends ONE PIECE Card Japan ☆26469",
-          "price": 15.89,
-          "shipping": 0,
-          "total": 15.89,
-          "itemWebUrl": "https://www.ebay.com/itm/198272057635?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBcOShAuLGdOu%2BuP33qc8SFPkHgpEYUziEc8Kv4fYl4SXGW7YrUQB1NO6v3%2Fizq%2FD4ZsclrUKCg%2Bpm0fN4qC4V%2BJ8YXopgMwnmo4%2BsnKvH4hY1bvA1nD6tOE6tnzIVpVWcawmytUmKOdpkGeSNkJQT2inFSyZM2jasFlOorcM0ADHM%2FUMFx5FPemaSIcJfZ%2Bog%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/LH0AAeSw6z9p2awB/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/NnwAAeSwEJpp2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/P1AAAeSwKE5p2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/FioAAeSwM~Rp2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SiUAAeSwUg1p2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/6okAAeSwKOdp2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/6jsAAeSwxApp2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/8yoAAeSw25tp2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/3j0AAeSwAllp2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/I68AAeSw0Qpp2awC/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/IswAAeSwzGVp2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/N1YAAeSwF7Vp2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/8goAAeSwc5Bp2awB/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/yMYAAeSwQI1p2awC/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "keisi_50",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 202
-          },
-          "photoScore": {
-            "score": 75,
-            "psa10Probability": 45,
-            "confidence": 90,
-            "notes": "Good clarity and back photo included, but slight sleeve glare and minor centering issues reduce PSA 10 candidacy."
-          },
-          "roi": {
-            "costBasis": 40.89,
-            "netExit": 294.8,
-            "profit": 253.91,
-            "roi": 6.2096,
-            "roiPercent": 620.96
-          }
-        }
-      ],
-      "ebayCandidateCount": 2
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP06-042",
@@ -221,13 +144,13 @@
           "seller": {
             "username": "probstein123",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 1592047
+            "feedbackScore": 1592061
           },
           "photoScore": {
             "score": 85,
-            "psa10Probability": 70,
+            "psa10Probability": 65,
             "confidence": 90,
-            "notes": "Good centered photos with clean edges, minor glare on front and slight corner softness noted."
+            "notes": "Card is well-centered with no sleeve glare, but minor edge wear and slight corner softness reduce the PSA 10 potential slightly."
           },
           "roi": {
             "costBasis": 285.5,
@@ -258,10 +181,10 @@
             "feedbackScore": 9
           },
           "photoScore": {
-            "score": 70,
+            "score": 65,
             "psa10Probability": 50,
-            "confidence": 90,
-            "notes": "Photos show front and back well but front images have slight glare; card centering and edges look good with no obvious whitening or corner issues."
+            "confidence": 80,
+            "notes": "Good card condition, but photos have uneven lighting, slight glare, and awkward angles that limit assessment."
           },
           "roi": {
             "costBasis": 413.45,
@@ -350,7 +273,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLU1mcDnUDZzpylRNSxi0WVxwL8QxPONACcD%2Fu4chwKXEMN30EHxuqA7z9gtKZhyuLPVsX4BQbOpukb1s1NIyhQn23EzIpRnXxaTH1Gj5bWKcW5IBHxicy3iSWadiFedqQNj%2BPFvXgoR43fiBdL0r4eQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLXCb1au569hecNM6p5OTP0kMbP%2Bab5Ixb6K2Qc9tXqsgZ41U69x4%2F%2Bae2xd%2FsIHi1HxxBbM3zn4FSQgjq%2B%2FnkeFwIQV5iZ05ixbvwSeKfXU8KWi3Z%2B%2Be25FpKl0U3fzHv4L9LV5GDvPKOjFXfMxlzOI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -361,10 +284,10 @@
             "feedbackScore": 201
           },
           "photoScore": {
-            "score": 78,
-            "psa10Probability": 60,
+            "score": 70,
+            "psa10Probability": 40,
             "confidence": 90,
-            "notes": "Well-centered and clear with back photo included, but slight edge wear and minor corner softness lowers PSA 10 candidacy."
+            "notes": "Card is well centered with clear front and back photos, but there is visible edge wear and minor whitening that lowers PSA 10 potential."
           },
           "roi": {
             "costBasis": 64.86,
@@ -373,41 +296,9 @@
             "roi": 2.1149,
             "roiPercent": 211.49
           }
-        },
-        {
-          "itemId": "v1|316579198021|0",
-          "title": "Perona (Alternate Art) One Piece Card OP06-093 Wings of the Captain Foil Japan",
-          "price": 36,
-          "shipping": 0,
-          "total": 36,
-          "itemWebUrl": "https://www.ebay.com/itm/316579198021",
-          "imageUrl": "https://i.ebayimg.com/images/g/whMAAeSwGN5n6l-k/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/CxEAAeSwkkxn6l-k/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/xoUAAeSwAtln6l-k/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/B3UAAeSwfbVn6l-l/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "r.dodec_85",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 1
-          },
-          "photoScore": {
-            "score": 46,
-            "psa10Probability": 18,
-            "confidence": 82,
-            "notes": "Glare and poor centering on front, minor corner wear visible; back photos clear but overall presentation lowers PSA 10 potential."
-          },
-          "roi": {
-            "costBasis": 61,
-            "netExit": 202.03,
-            "profit": 141.03,
-            "roi": 2.312,
-            "roiPercent": 231.2
-          }
         }
       ],
-      "ebayCandidateCount": 2
+      "ebayCandidateCount": 1
     },
     {
       "code": "OP06-001",
@@ -480,10 +371,10 @@
             "feedbackScore": 2
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 60,
+            "score": 70,
+            "psa10Probability": 55,
             "confidence": 85,
-            "notes": "Good overall photo quality but slight sleeve glare and some edge whitening visible; back photo included and well framed."
+            "notes": "Card is in sleeve with glare and minor corner wear visible; centering is slightly off; back photo provided but clarity is lower."
           },
           "roi": {
             "costBasis": 67,
@@ -529,10 +420,10 @@
             "feedbackScore": 97
           },
           "photoScore": {
-            "score": 85,
-            "psa10Probability": 75,
-            "confidence": 90,
-            "notes": "Good photo with clear front and back, slight sleeve glare and minor centering issues."
+            "score": 90,
+            "psa10Probability": 70,
+            "confidence": 95,
+            "notes": "Good centering and clarity with both front and back shown, minor cropping and slight corner visibility could be improved."
           },
           "roi": {
             "costBasis": 85,
@@ -616,36 +507,6 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632498.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|389552637723|0",
-          "title": "Monkey.D.Luffy (118) (Alternate Art) OP11-118 A Fist of Divine Speed Foil Japane",
-          "price": 7.96,
-          "shipping": 7.99,
-          "total": 15.95,
-          "itemWebUrl": "https://www.ebay.com/itm/389552637723",
-          "imageUrl": "https://i.ebayimg.com/images/g/qscAAeSwKGxpewkv/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/s2MAAeSweR9pewkv/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "qsgg7297",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 360
-          },
-          "photoScore": {
-            "score": 90,
-            "psa10Probability": 80,
-            "confidence": 95,
-            "notes": "Card is well-centered, clear images of front and back with minimal glare or edge wear."
-          },
-          "roi": {
-            "costBasis": 40.95,
-            "netExit": 129.26,
-            "profit": 88.31,
-            "roi": 2.1566,
-            "roiPercent": 215.66
-          }
-        },
-        {
           "itemId": "v1|267644820202|0",
           "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
           "price": 2.99,
@@ -659,13 +520,13 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102130
+            "feedbackScore": 102136
           },
           "photoScore": {
             "score": 85,
-            "psa10Probability": 70,
+            "psa10Probability": 75,
             "confidence": 90,
-            "notes": "Good photos with both front and back included; slight sleeve glare and minor centering issues."
+            "notes": "Back photo present and clear; slight glare and minor centering issues lower perfect 10 potential."
           },
           "roi": {
             "costBasis": 33.98,
@@ -674,9 +535,39 @@
             "roi": 2.8041,
             "roiPercent": 280.41
           }
+        },
+        {
+          "itemId": "v1|267640646247|0",
+          "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
+          "price": 12.01,
+          "shipping": 5.99,
+          "total": 18,
+          "itemWebUrl": "https://www.ebay.com/itm/267640646247",
+          "imageUrl": "https://i.ebayimg.com/images/g/OVIAAeSwiY5p4Dog/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/PsYAAeSwmT1p4Doi/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "5_star_cards",
+            "feedbackPercentage": "99.9",
+            "feedbackScore": 102136
+          },
+          "photoScore": {
+            "score": 85,
+            "psa10Probability": 70,
+            "confidence": 90,
+            "notes": "Well-centered card with good clarity; minor sleeve glare and slight corner softness noted."
+          },
+          "roi": {
+            "costBasis": 43,
+            "netExit": 129.26,
+            "profit": 86.26,
+            "roi": 2.0061,
+            "roiPercent": 200.61
+          }
         }
       ],
-      "ebayCandidateCount": 3
+      "ebayCandidateCount": 2
     },
     {
       "code": "EB03-026",
@@ -697,29 +588,29 @@
         {
           "itemId": "v1|267644796223|0",
           "title": "Boa Hancock (Alternate Art) [EB-03 - EB03-026] - NM [Foil] TCG One Piece",
-          "price": 36.8,
+          "price": 37.6,
           "shipping": 0.99,
-          "total": 37.79,
+          "total": 38.59,
           "itemWebUrl": "https://www.ebay.com/itm/267644796223",
           "imageUrl": "https://i.ebayimg.com/images/g/iiYAAeSwuhVp5UoE/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 13570
+            "feedbackScore": 13587
           },
           "photoScore": {
-            "score": 60,
-            "psa10Probability": 55,
-            "confidence": 80,
-            "notes": "Slight glare on card surface; front centered and cropped well but no back photo provided."
+            "score": 80,
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Clear image with good focus, but glare on the sleeve and visible watermark reduce PSA 10 candidacy."
           },
           "roi": {
-            "costBasis": 62.79,
+            "costBasis": 63.59,
             "netExit": 168.14,
-            "profit": 105.35,
-            "roi": 1.6778,
-            "roiPercent": 167.78
+            "profit": 104.55,
+            "roi": 1.6442,
+            "roiPercent": 164.42
           }
         }
       ],
@@ -819,7 +710,7 @@
           "price": 12.8,
           "shipping": 10,
           "total": 22.8,
-          "itemWebUrl": "https://www.ebay.com/itm/315713746738?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBBEr1ezmVzIV%2FRw1genjik%2FDTXdNmtphp5vVbF6yGXL5sCpteUTYNKbTZH6FIC%2BFwbtJzjNH3zqIprUXkeidzC%2BZfv7dd2x4zlB5%2FkPnL9A0m88SjMT38RMSm0%2FTemWuPoj17ofoSUl5x2XulPleDHzkxzhElYGztM3RiEQ2%2BZdpgkU6OKNCLJ6ncGS9BJzgU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/315713746738?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBBEr1ezmVzIV%2FRw1genjik%2FDTXdNmtphp5vVbF6yGXL4r3BUDkegUISKYe4l0tFu0AC8E5CJ0bKN19%2F8ZrTGOES%2FbWYiwD4j3ZnDNSBu3VTEOj5wHKxyJGHwvYwCPJkqz62pNFcFrqysCGtDZmyVfMr3C564Y98FafJ52r%2Bq7LcUJo3AOg3Cwl6Abqnyo4ndA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/ofkAAOSwtUBm0xQA/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/CM0AAeSwfm5opU0p/s-l1600.jpg",
@@ -831,10 +722,10 @@
             "feedbackScore": 11579
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 50,
+            "score": 70,
+            "psa10Probability": 55,
             "confidence": 85,
-            "notes": "Good focus and no visible sleeve glare, but slight off-centering and minor cropping issues; back photo is clear and included."
+            "notes": "Front photo is clear but shows glare and slight centering issues; back photo is present and clear; overall decent but not perfect for PSA 10."
           },
           "roi": {
             "costBasis": 47.8,
@@ -850,7 +741,7 @@
           "price": 15.7,
           "shipping": 5,
           "total": 20.7,
-          "itemWebUrl": "https://www.ebay.com/itm/365095754841?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdzqc%2Bb3KDIceMlt%2B42DWbJJvdCMiUr0GbrZsmym2RUg7q%2BlmOLRbbmG%2B1%2F4Z%2BJQ%2FwH4LUA2iBClqEZeL4BvbPNBOLRmnGqO08l34TSfstgG5gWGzFfmiq%2Bvwl8u4Mjho6a1s%2Fbs%2FuosSWYzJ1qv2eeV6wROGqcN0vlMERzfCvoL4gBeKBVH3gXtavBTB7sLk%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/365095754841?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdzqc%2Bb3KDIceMlt%2B42DWbJJvdCMiUr0GbrZsmym2RUoTFSdH8Pf8pq38ZgUmovtiHuzCys1MRj2wSc3PjnpbN1284odJbKoPRwJInA2fuW8d%2BgRw%2B9KP7U%2ByMspp7dhrWm54CGOrh%2BgJw5xrWaU%2FdHU3WNxvBKnmGyUt%2FUMSlwSrd9qJqk%2B6CZY0bOBhpW5g%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/-YIAAOSwrgNm773F/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/~yoAAOSwrlBm773G/s-l1600.jpg",
@@ -863,10 +754,10 @@
             "feedbackScore": 3677
           },
           "photoScore": {
-            "score": 50,
-            "psa10Probability": 30,
-            "confidence": 80,
-            "notes": "Glare on the card surface and visible edge wear reduce PSA 10 potential despite full photo coverage."
+            "score": 55,
+            "psa10Probability": 25,
+            "confidence": 90,
+            "notes": "Front photos have glare and slight corner wear visible; back photo is present but partial plastic sleeve glare affects clarity."
           },
           "roi": {
             "costBasis": 45.7,
@@ -901,7 +792,7 @@
           "price": 11.47,
           "shipping": 5,
           "total": 16.47,
-          "itemWebUrl": "https://www.ebay.com/itm/365095754865?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDcKmBZktkfiDmMOngrwKb4mygA0ax9OZMlq%2BHJxs7MJSTw%2FoRV8TrYTmW%2BfWSYhBD8dqTCAUPokSIsIoPVDfrzRBfyXuJqCtsZuXEboAlbnw3QXtstmFun3RPxOhoAaOE5pv8YUbg%2BqMCV0q%2BScabynb8m2JK1W4nX8R3OLg0%2FgfEEFS4cIlozKuqyVjT56E4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/365095754865?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDcKmBZktkfiDmMOngrwKb4mygA0ax9OZMlq%2BHJxs7MJTZ%2FOiAzW0xDMtGMn3Cyhx7DMprHXzjufbxiyEcNcZtJc0rBaJquBk%2FRoHCDQP%2BMF%2FYJfSM77NR%2FQTnnUgDrFzHQ%2F2r90SDdaD2k2xx3yf8II2GI29RCeb%2BvI9UwtGRxZi5Vpk0zIjeVNarnJ9Uf%2FyA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rdEAAOSwtrhm0sQy/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/9xkAAOSwuilm0sQy/s-l1600.jpg",
@@ -914,9 +805,9 @@
           },
           "photoScore": {
             "score": 75,
-            "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Good photos with clear front and back, slight glare on sleeve in front photo and moderate centering issues lower PSA 10 potential."
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Good coverage with front, back, and sleeve photos; slight glare and centering could be better; edges and corners appear mostly clean."
           },
           "roi": {
             "costBasis": 41.47,
@@ -927,31 +818,31 @@
           }
         },
         {
-          "itemId": "v1|227188015143|0",
-          "title": "Trafalgar Law R OP09-069 Parallel EMPERORS IN THE NEW WORLD One Piece Card Japan",
-          "price": 10,
-          "shipping": 0,
-          "total": 10,
-          "itemWebUrl": "https://www.ebay.com/itm/227188015143",
-          "imageUrl": "https://i.ebayimg.com/images/g/PssAAeSwHIdpda4P/s-l1600.jpg",
+          "itemId": "v1|387785286914|0",
+          "title": "Trafalgar Law (069) (Parallel) OP09-069 Emperors in the New World Foil",
+          "price": 9.99,
+          "shipping": 1.59,
+          "total": 11.58,
+          "itemWebUrl": "https://www.ebay.com/itm/387785286914",
+          "imageUrl": "https://i.ebayimg.com/images/g/cocAAOSwlbRndebu/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
-            "username": "pokemonfan-8",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 1446
+            "username": "heyu_collection",
+            "feedbackPercentage": "75.0",
+            "feedbackScore": 39
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 40,
-            "confidence": 75,
-            "notes": "Clear front photo but glare from sleeve and missing back photo reduce grading confidence."
+            "score": 60,
+            "psa10Probability": 55,
+            "confidence": 80,
+            "notes": "Photo has noticeable sleeve glare and slight soft corners but is otherwise clear and well-centered; back photo missing."
           },
           "roi": {
-            "costBasis": 35,
+            "costBasis": 36.58,
             "netExit": 104.1,
-            "profit": 69.1,
-            "roi": 1.9744,
-            "roiPercent": 197.44
+            "profit": 67.52,
+            "roi": 1.8459,
+            "roiPercent": 184.59
           }
         }
       ],
@@ -979,7 +870,7 @@
           "price": 30.23,
           "shipping": 0,
           "total": 30.23,
-          "itemWebUrl": "https://www.ebay.com/itm/127571636720?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgay0p7pgsrZPkhRkKtfwitcw5NxneNQ1B1Y8pScQZnH0%2BVcxt9Jqqy2ErKYjMFz2pNRBj4%2FDv4aPrsSrPcio3PqHCktbGF8bP97s0i%2BYNTLHfBFt2DXeZN1Mn56gEdMhIe8QRjwbrYec3T1%2FfOLJnfyKbH8KBU5f0FZjzhK8KTg714K4KvnXYLfD1AuOJYXQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/127571636720?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgay0p7pgsrZPkhRkKtfwitcw5NxneNQ1B1Y8pScQZnOSk7HcAqO38lilt7zbFXzyEn9kZlQQRdAV4iOTPEeoFNNPzalrN3cJa0RTJv4EQMwXLhQhsKIRA2dPHsUirJL9USSlxF5Uyuqq2%2Ffj4vw2o%2Bjpe9040ng%2BLiQdh%2FzMRnyp8OQmONlR3pFNpTu3Esro%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/GUEAAeSwRw5pRQAL/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/nN8AAeSwRHFpRQAM/s-l1600.jpg"
@@ -987,13 +878,13 @@
           "seller": {
             "username": "qptokio",
             "feedbackPercentage": "99.7",
-            "feedbackScore": 2828
+            "feedbackScore": 2829
           },
           "photoScore": {
-            "score": 88,
-            "psa10Probability": 75,
-            "confidence": 95,
-            "notes": "Good centering and clear edges, slight soft corners and minor surface glare reduce the score slightly."
+            "score": 85,
+            "psa10Probability": 70,
+            "confidence": 90,
+            "notes": "Card is well centered with no visible whitening or corner damage, slight glare on front but back photo is clear and complete."
           },
           "roi": {
             "costBasis": 55.23,
@@ -1009,7 +900,7 @@
           "price": 30.3,
           "shipping": 0,
           "total": 30.3,
-          "itemWebUrl": "https://www.ebay.com/itm/336438926770?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBfxRnsgnGubppeadkpXbxOryZ%2FWlV4xcmYMuW%2FaBo%2BT5wopHEq68lmj8ZJUgeUbuq8mGFF4Sl8rBqY7bY4CN9xnahGtmXvjx7ivsU%2BVWzE0wsHGxK%2FDxIL05OteDPOcjSFbWRiLa50g2zKffesD9OgO8zFNSv3HhTIQXeFqma8BdX%2Bm4MLaEr3AxipYDPZrSs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/336438926770?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBfxRnsgnGubppeadkpXbxOryZ%2FWlV4xcmYMuW%2FaBo%2BT%2BgPJ2JqkA4t51ZA%2FAG%2Flev3YUSnrBPXeVwjIxalAKfXwydVDGl%2BBU352gOeErD5%2FAlTIhdbOzVYMa6x3vo58roZ05bKynVgNGVvhxYbjxjGiaPQSxeuxkkzQwNJrc2BFu4UVVVCBwqMXAF2qKbiZI0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/JQUAAeSwDGVplB89/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/Sm0AAeSw17tplB8-/s-l1600.jpg"
@@ -1017,13 +908,13 @@
           "seller": {
             "username": "j-martselect",
             "feedbackPercentage": "99.7",
-            "feedbackScore": 1656
+            "feedbackScore": 1658
           },
           "photoScore": {
-            "score": 85,
-            "psa10Probability": 65,
+            "score": 82,
+            "psa10Probability": 60,
             "confidence": 95,
-            "notes": "Good clear front and back photos with minor glare and slight off-centering, no corner or edge damage visible."
+            "notes": "Good centering and edges but visible sleeve glare and some minor corner softness lower the grade."
           },
           "roi": {
             "costBasis": 55.3,
@@ -1034,7 +925,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 3
+      "ebayCandidateCount": 2
     },
     {
       "code": "OP08-001",
@@ -1058,7 +949,7 @@
           "price": 32.99,
           "shipping": 0,
           "total": 32.99,
-          "itemWebUrl": "https://www.ebay.com/itm/358126675895?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX7fkqyNOsVWU8x53P6XS3jW%2FxQ%2FM%2FOqFGxjY9aphLMvUZVZrmT%2BuR8gEvV61zYm8UYEMyZfP3%2F0dnuNF3rJcrLAQF5%2FL7d4q8tPkhMD9y8sfUzcahGrpG2m1DY52fuvk0Z6o6HBHw%2FVu%2BRa5M1JxtTiN6EaO5YerfIFgnfSDniRY4w4%2F5KKhj26KrAflMKUY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/358126675895?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX7fkqyNOsVWU8x53P6XS3jW%2FxQ%2FM%2FOqFGxjY9aphLMnO6gb3DCoHADttq4637XREexxXObk9qGZgosw1cic%2BBo9hlmXIdvO2ZIHDzGuDVI8cZ%2BJAnQEAiDXRPwURluezISSsoMg%2F5wHULwNfvSveK13gWn%2BafsI%2B%2BXEKKRT3vUWfADO%2F7PQYz4zLbyKN6qAY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/-OcAAeSwWP1pa80u/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/t10AAOSwz91i2rIW/s-l1600.jpg",
@@ -1068,13 +959,13 @@
           "seller": {
             "username": "ma-chanz",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 19291
+            "feedbackScore": 19290
           },
           "photoScore": {
-            "score": 30,
-            "psa10Probability": 10,
-            "confidence": 80,
-            "notes": "Front photo shows good centering but with visible edge wear and poor lighting; back photo is missing, lowering confidence and score."
+            "score": 50,
+            "psa10Probability": 35,
+            "confidence": 75,
+            "notes": "Good focus, but poor centering and partial sleeve glare on front; back photo missing for target card."
           },
           "roi": {
             "costBasis": 57.99,
@@ -1211,9 +1102,9 @@
           },
           "photoScore": {
             "score": 75,
-            "psa10Probability": 55,
-            "confidence": 90,
-            "notes": "Good coverage and back shown, but slight edge whitening on bottom left and minor sleeve glare on sword."
+            "psa10Probability": 40,
+            "confidence": 85,
+            "notes": "Good clear photos including back but noticeable corner wear and slight edge whitening reduce PSA 10 potential."
           },
           "roi": {
             "costBasis": 42.49,
@@ -1244,10 +1135,10 @@
             "feedbackScore": 894
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 30,
-            "confidence": 85,
-            "notes": "Front photos show moderate glare and edge whitening with slightly off centering; back photo is missing, reducing confidence and grading potential."
+            "score": 60,
+            "psa10Probability": 40,
+            "confidence": 75,
+            "notes": "Card shows edge whitening, poor centering, slight sleeve glare, and soft corners; back photo is missing."
           },
           "roi": {
             "costBasis": 45,
@@ -1282,7 +1173,7 @@
           "price": 45.5,
           "shipping": 0,
           "total": 45.5,
-          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpT5m4Dyx8KhX0ie44YLVKSZhrixA%2BFcW5Xo9s5dX3u0EzZNwQcjmk%2Bzyqy3jm8%2F%2BAJv4Viw7N3beuJHPKRfgyX7W59MF2LO%2FYwvjyKZWbqPbM%2FkZU2JVJNOChqpYrq63WoFeT8bQ%2B67pk7xb2AuNi%2Fc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpRZcUxXGpKIqaKSTbUbKQGomqctnrYnBF6w%2B6qr%2FHFqSURGzQF1tVPIOmKy%2BhWVvhh8e033p5c%2FZuS2%2F2t91wtcLWgeR0G96FyNAYr7pQCDCl3%2FwcjielveZ4ycbjeF6ol1EJ0Hsqww2PoHCGwBZ95E%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rNcAAeSwdj5pzzDT/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/85YAAeSwr3JpzzDU/s-l1600.jpg"
@@ -1290,13 +1181,13 @@
           "seller": {
             "username": "cardninjaus",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 6644
+            "feedbackScore": 6646
           },
           "photoScore": {
-            "score": 85,
-            "psa10Probability": 65,
+            "score": 88,
+            "psa10Probability": 75,
             "confidence": 90,
-            "notes": "Good overall photo quality with no glare, but slight off-centering and minor edge wear on card corners."
+            "notes": "Good centering and clarity with back photo included; slight edge whitening and minor corner softness noted."
           },
           "roi": {
             "costBasis": 70.5,
@@ -1307,33 +1198,33 @@
           }
         },
         {
-          "itemId": "v1|188146228633|0",
-          "title": "Nico Robin (055) (Alternate Art) EB03-055 Extra Booster: One Piece Heroines JPN",
-          "price": 30,
-          "shipping": 6,
-          "total": 36,
-          "itemWebUrl": "https://www.ebay.com/itm/188146228633",
-          "imageUrl": "https://i.ebayimg.com/images/g/6r8AAeSwJllpsdQ~/s-l1600.jpg",
+          "itemId": "v1|358458452685|0",
+          "title": "Nico Robin (055) (Alternate Art) EB03-055 Extra Booster: One Piece Heroines...",
+          "price": 51,
+          "shipping": 0,
+          "total": 51,
+          "itemWebUrl": "https://www.ebay.com/itm/358458452685",
+          "imageUrl": "https://i.ebayimg.com/images/g/-vAAAeSwQMdp4vph/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/DB0AAeSwAYxpsdQ~/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/pCgAAeSwcY5p4vpo/s-l1600.jpg"
           ],
           "seller": {
-            "username": "collectorsclubtx",
+            "username": "lindsaystreasures",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 340
+            "feedbackScore": 181
           },
           "photoScore": {
-            "score": 82,
-            "psa10Probability": 65,
+            "score": 65,
+            "psa10Probability": 50,
             "confidence": 90,
-            "notes": "Good clarity and both sides shown with no sleeve glare, minor crop and slight corner softness noted."
+            "notes": "Card photos include front and back but show sleeve glare, poor centering, and possible slight edge wear."
           },
           "roi": {
-            "costBasis": 61,
+            "costBasis": 76,
             "netExit": 215.11,
-            "profit": 154.11,
-            "roi": 2.5263,
-            "roiPercent": 252.63
+            "profit": 139.11,
+            "roi": 1.8304,
+            "roiPercent": 183.04
           }
         }
       ],
@@ -1361,7 +1252,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEIvwawsyVJZbxBXR3MPeWKYTrCwxU--7aDekN7IjF7%2B5itAQqFzrUGpTws%2BwJkhMcP2GKMlEkgZhS2dTlPFAxhew9qjynFIwSHSi5v%2FPApmuCm5%2FIuSIueO%2BE5hocO3vP792T3pXRou0rL%2Baji0DTvA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEJGAxFkSr0Ah6avZ%2BeskCoee6XEdZSq0cZrd4OrKGW6Ool4nw81%2B4R0ng2JxSYxNBjo2th%2FaYtGRfmJXq9vqS87JBTIsatFlL7jzULCCQTIdyBrjV8raLT%2BEJDpFQChVBKWuKKioFryeJ0aiWpPy9DE%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1373,13 +1264,13 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18779
+            "feedbackScore": 18784
           },
           "photoScore": {
-            "score": 88,
+            "score": 85,
             "psa10Probability": 70,
-            "confidence": 85,
-            "notes": "Front and back photos clear and well-centered, no glare or edge whitening, but slight soft corners visible."
+            "confidence": 95,
+            "notes": "Sharp front and back images with no sleeve glare, but slight cropping and modest centering issues lower perfect grade potential."
           },
           "roi": {
             "costBasis": 52.99,
@@ -1432,8 +1323,8 @@
           "photoScore": {
             "score": 65,
             "psa10Probability": 45,
-            "confidence": 80,
-            "notes": "Card shows wear with edge whitening, slight corner wear, good centering, minor glare from sleeve; back photo missing."
+            "confidence": 85,
+            "notes": "Card photo is clear but shows strong sleeve glare, uneven centering, and visible edge whitening; no back photo provided."
           },
           "roi": {
             "costBasis": 83,
@@ -1495,10 +1386,10 @@
             "feedbackScore": 552
           },
           "photoScore": {
-            "score": 95,
-            "psa10Probability": 98,
-            "confidence": 90,
-            "notes": "Clear, well-centered photo of raw card but missing back photo lowers reliability slightly."
+            "score": 90,
+            "psa10Probability": 90,
+            "confidence": 95,
+            "notes": "Sharp photo, no glare, good centering; card already graded PSA 10 by MGC, no back photo but sleeve shown."
           },
           "roi": {
             "costBasis": 72.3,
@@ -1525,10 +1416,10 @@
             "feedbackScore": 1177
           },
           "photoScore": {
-            "score": 78,
-            "psa10Probability": 60,
-            "confidence": 90,
-            "notes": "Good photo coverage with back photo included; slight sleeve glare and mild corner wear lowers grade potential."
+            "score": 75,
+            "psa10Probability": 50,
+            "confidence": 85,
+            "notes": "Good photos with back shown and no glare, but slight edge wear, soft corners, and minor centering off."
           },
           "roi": {
             "costBasis": 78.46,
@@ -1574,10 +1465,10 @@
             "feedbackScore": 246
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 55,
+            "score": 60,
+            "psa10Probability": 15,
             "confidence": 90,
-            "notes": "Good overall images with both front/back shown; slight centering issues and minor edge wear visible; some glare on bottom right corner."
+            "notes": "Card edges show whitening and wear, centering is off, and slight sleeve glare present but back photo shown clearly."
           },
           "roi": {
             "costBasis": 45,
@@ -1618,13 +1509,13 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 13570
+            "feedbackScore": 13588
           },
           "photoScore": {
             "score": 60,
-            "psa10Probability": 45,
-            "confidence": 80,
-            "notes": "Centered well with no sleeve glare but soft corners and image watermark reduce PSA 10 potential; back photo missing."
+            "psa10Probability": 55,
+            "confidence": 70,
+            "notes": "Photo shows front only with sample print obstructing view; centering and edges appear decent but glare and back photo missing."
           },
           "roi": {
             "costBasis": 55.19,
@@ -1665,13 +1556,13 @@
           "seller": {
             "username": "ninetyfive",
             "feedbackPercentage": "99.7",
-            "feedbackScore": 81318
+            "feedbackScore": 81322
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 55,
-            "confidence": 70,
-            "notes": "Good photo clarity but heavy glare and watermark reduce grading quality."
+            "score": 80,
+            "psa10Probability": 70,
+            "confidence": 85,
+            "notes": "Good clarity with minor glare and slight centering off; no back photo provided."
           },
           "roi": {
             "costBasis": 51.95,
@@ -1717,10 +1608,10 @@
             "feedbackScore": 48
           },
           "photoScore": {
-            "score": 85,
+            "score": 90,
             "psa10Probability": 75,
-            "confidence": 90,
-            "notes": "Good clear photos with no glare; minor centering and slight corner softness noted."
+            "confidence": 95,
+            "notes": "Card is well-centered with clear photos of front and back; minor edge wear visible on top-right corner."
           },
           "roi": {
             "costBasis": 40,
@@ -1749,10 +1640,10 @@
             "feedbackScore": 350
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 50,
-            "confidence": 85,
-            "notes": "Card is sleeved with glare and reflections, centering looks off, edges and corners appear mostly good, back photo is shown but also sleeved and glare present."
+            "score": 80,
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Card is well-centered with minimal corner wear visible; slight sleeve glare and lack of back photo lowers assessment confidence."
           },
           "roi": {
             "costBasis": 32.99,
@@ -1782,33 +1673,33 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596971.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|277793512212|0",
-          "title": "Buggy OP09-042 L Parallel Emperors in the New World One Piece Card Japan",
-          "price": 12.31,
-          "shipping": 7.97,
-          "total": 20.28,
-          "itemWebUrl": "https://www.ebay.com/itm/277793512212",
-          "imageUrl": "https://i.ebayimg.com/images/g/bIEAAeSwgBlprgO1/s-l1600.jpg",
+          "itemId": "v1|356010582463|0",
+          "title": "One Piece PL Buggy (Parallel) CARD NOT PLAYED OP09-042",
+          "price": 19.98,
+          "shipping": 6,
+          "total": 25.98,
+          "itemWebUrl": "https://www.ebay.com/itm/356010582463",
+          "imageUrl": "https://i.ebayimg.com/images/g/iRcAAOSwNcpm1ztv/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/X9wAAeSwq0tprgO1/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/7b4AAOSwYytm1ztw/s-l1600.jpg"
           ],
           "seller": {
-            "username": "happycardboard",
-            "feedbackPercentage": "99.6",
-            "feedbackScore": 1627
+            "username": "morem57",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 61
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 55,
-            "confidence": 85,
-            "notes": "Good centering and no glare, but slight corner softness and minor edge wear visible."
+            "score": 65,
+            "psa10Probability": 40,
+            "confidence": 80,
+            "notes": "Both front and back photos included but cards show glare and cropping issues, lowering PSA 10 potential."
           },
           "roi": {
-            "costBasis": 45.28,
+            "costBasis": 50.98,
             "netExit": 110.43,
-            "profit": 65.15,
-            "roi": 1.4389,
-            "roiPercent": 143.89
+            "profit": 59.45,
+            "roi": 1.1662,
+            "roiPercent": 116.62
           }
         },
         {
@@ -1817,7 +1708,7 @@
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJt2YV%2B4PkF6PQ64%2BrXa0ytpWIH2gdRoxMTm4%2FEdh0ngpbOHSN8kjKnYuxVLLxqGKIblu%2Fzn%2BaXz9hlPrKDPTa%2FKLwLlGkfm4h6%2Fj6lE5ouuwfUt89aFMSRKWa8MKH7otryviRhzR2NCLe1ZKSctolmo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJuehlxdSukX6soOEoLVZphtH5phMT2NVxsKuzf9ke4HN%2BW8vaaoz8hl%2FUnKLPX5ilRciplrvklKsu8WYomUwa8WU6D9%2BfxzIXabmM0wvTFwf2r8unmjin4CHqG4KZqGh3EuyTsNr5q24I4FVXQWfL%2BY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
@@ -1827,13 +1718,13 @@
           "seller": {
             "username": "photocardtoday",
             "feedbackPercentage": "98.8",
-            "feedbackScore": 4600
+            "feedbackScore": 4602
           },
           "photoScore": {
-            "score": 30,
-            "psa10Probability": 10,
-            "confidence": 70,
-            "notes": "Front card photo is clear but poorly centered and cropped with glare and no back photo provided."
+            "score": 25,
+            "psa10Probability": 15,
+            "confidence": 75,
+            "notes": "Only front photo shown inside a display case with heavy glare and no back image, centering and edges unclear."
           },
           "roi": {
             "costBasis": 44.8,
@@ -1933,10 +1824,10 @@
             "feedbackScore": 2
           },
           "photoScore": {
-            "score": 85,
-            "psa10Probability": 70,
-            "confidence": 90,
-            "notes": "Good focus and lighting with back photo shown, slight edge wear and imprecise centering lower the score."
+            "score": 80,
+            "psa10Probability": 40,
+            "confidence": 85,
+            "notes": "Good overall photo coverage with back included, but slight soft corners and minor edge wear visible."
           },
           "roi": {
             "costBasis": 1105,
@@ -1982,10 +1873,10 @@
             "feedbackScore": 16
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 55,
+            "score": 70,
+            "psa10Probability": 45,
             "confidence": 90,
-            "notes": "Good centering and back photo; slight sleeve glare and minor corner softness lower overall score."
+            "notes": "Good back photo, slight sleeve glare and minor edge wear visible, centering is decent but slightly off."
           },
           "roi": {
             "costBasis": 49,
@@ -2074,7 +1965,7 @@
           "price": 12.74,
           "shipping": 0,
           "total": 12.74,
-          "itemWebUrl": "https://www.ebay.com/itm/336439481897?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAariZtUcLOyNaLGrszYXK2ajOJRAAotoEYhAhN5VcRnDd8O4aoEWZdZryKVk6KXjNVRTO77AAoTJsxo36kVd3wtAp3dd5yWLhIT%2Fo2esWgIQdUeaf5MzV%2BXpKhd293J%2BGNAb1W%2BvmSLUrSy7MYAU9DxKOCRsxz8uLTDWE9YQXXj50%2FrQbBd%2BoDBpID8JHLCNA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/336439481897?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAariZtUcLOyNaLGrszYXK2ajOJRAAotoEYhAhN5VcRnLZJGOq99hV5GE5X1PRIhKL3SEipmBNt7IIuz4qnMPfgCMEmr2CIza3Kh%2F80kTSi1gU4JUfpq9E61zX9u%2BgIXgYwwBqWcnqMqmjtDkpUq1FfDTt09qcJhiukEBVoeDpX4h5kCOPBMbH1PyLiTxV8Ucg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/zA0AAeSwD~VplIaA/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/sVgAAeSwoSBplIaA/s-l1600.jpg"
@@ -2085,10 +1976,10 @@
             "feedbackScore": 3467
           },
           "photoScore": {
-            "score": 88,
-            "psa10Probability": 75,
+            "score": 85,
+            "psa10Probability": 70,
             "confidence": 90,
-            "notes": "Good photos with clear image and back included, minor centering and corner imperfections noted."
+            "notes": "Good photos with both sides shown, slight glare on front and slight off-center, corners and edges clean."
           },
           "roi": {
             "costBasis": 37.74,
@@ -2136,34 +2027,37 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596920.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|136819763818|0",
-          "title": "Shanks OP09-001 (Leader) Parallel Emperors in the New World ONE PIECE Card Japan",
-          "price": 22.49,
+          "itemId": "v1|366218451567|0",
+          "title": "Shanks (001) (Parallel) OP09-001 Emperors in the New World NM One Piece Card TCG",
+          "price": 24.99,
           "shipping": 0,
-          "total": 22.49,
-          "itemWebUrl": "https://www.ebay.com/itm/136819763818?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCfAUI1x4dBR7urZ4iNg7LYr4fpTMSPb9godQkeez49fJla2Yt1BpOErUBJ8IY3HmkTjFOsOwcHgDIx7F9HOvfd9pheSIdAITcqnMVtdD0QoUSxLG4csrjGWWonf55uaHgz7M44iIZ%2B03OV%2B3rr4ZEoY4wXe%2FCV1g%2FhvKyvcShYF14zGRPthRmsS0KzYy94jl0%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/OAkAAOSwMTxm0e5q/s-l1600.jpg",
+          "total": 24.99,
+          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeZvRYR43SYjoGBRXddeaAl90PZEwBozNDV9QFentgHd%2Bibcp56grVnbKWq4FH5HZa6wmKrAnt489L%2BlZ4OPDvvRtJVkkgO8XrA8hbdFN8N70bXLsi2tfVkVnFOIxbUyfF0NpPA3zcjXmqnkK7wFig20%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/oU0AAeSwy4Zpmg69/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/nJAAAOSwAKJmyKJq/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/TIcAAeSwaBNo22sE/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/rL8AAeSw7QVpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/PnoAAeSwVrFpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/s7AAAeSwbmhpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/-S4AAeSwmItpmg68/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/n24AAeSwZThpmg68/s-l1600.jpg"
           ],
           "seller": {
-            "username": "sakura_shipping",
-            "feedbackPercentage": "99.8",
-            "feedbackScore": 4195
+            "username": "hexikyu_tcg",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 18784
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 45,
-            "confidence": 80,
-            "notes": "Card front is sharp and well-centered but glare and slight edge whitening reduce PSA 10 potential; back photo is included and clear."
+            "score": 82,
+            "psa10Probability": 55,
+            "confidence": 90,
+            "notes": "Good clarity and back shown, slight centering off, mild corner softness visible, no sleeve glare."
           },
           "roi": {
-            "costBasis": 47.49,
+            "costBasis": 49.99,
             "netExit": 101.87,
-            "profit": 54.38,
-            "roi": 1.1451,
-            "roiPercent": 114.51
+            "profit": 51.88,
+            "roi": 1.0378,
+            "roiPercent": 103.78
           }
         },
         {
@@ -2172,7 +2066,7 @@
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603125487?var=665964274061&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXAyF4FZVq78Ig0lASvuSbmXT8ZuIsSjwPB%2Fg7D1VrX9D%2FHGewdnQ8%2FHSg1kPFzIrT7%2BXaW8QYHJm%2B0h%2BGOp2dl7XDX0h0UCiz%2FLyUwYnFNVp%2FNMQEygm%2BZc2XmJeePTvAZj%2FPqrW4MFh8kzQEybcqltqYKEWAXH73pYmMmcwZGI8I6LCfi2Rj4u1j%2FE2V2rI%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397603125487?var=665964274061&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXAyF4FZVq78Ig0lASvuSbmXT8ZuIsSjwPB%2Fg7D1VrXx6gx%2BSIFmOD3zSVTm843ETCp7sXUXaONUxteIKInZZ5CdPMYLYuvadW2%2F7cGTWwn5xo0hDrvqfxTi9LHVM5ES32%2FuNnbtgZyBL%2F9njB7Pml17atiX4BLOuyaOvbtYfpgqul1IHpPToo3%2FsEQuS%2BPJ0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SYMAAeSwPo5pjt18/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/eo8AAeSw09dpjt1y/s-l225.jpg",
@@ -2182,13 +2076,13 @@
           "seller": {
             "username": "photocardtoday",
             "feedbackPercentage": "98.8",
-            "feedbackScore": 4600
+            "feedbackScore": 4602
           },
           "photoScore": {
-            "score": 30,
-            "psa10Probability": 10,
-            "confidence": 90,
-            "notes": "Only front card shown with heavy glare and bad cropping; missing back photo and centering assessment."
+            "score": 50,
+            "psa10Probability": 25,
+            "confidence": 75,
+            "notes": "Front card photo is cropped and has glare; back photo of card is missing, lowering grading confidence and overall score."
           },
           "roi": {
             "costBasis": 44.8,
@@ -2254,10 +2148,10 @@
             "feedbackScore": 45
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 35,
-            "confidence": 85,
-            "notes": "Front photos are clear but show slight edge whitening and minor centering issues; back photos show slight wear, and corners are slightly soft."
+            "score": 80,
+            "psa10Probability": 70,
+            "confidence": 90,
+            "notes": "Well-lit clear photos front and back with good crop, minor corner wear and slight edge whitening visible."
           },
           "roi": {
             "costBasis": 65,
@@ -2285,10 +2179,10 @@
             "feedbackScore": 308
           },
           "photoScore": {
-            "score": 40,
-            "psa10Probability": 10,
-            "confidence": 75,
-            "notes": "Photos show card in sleeve with glare, unclear edges, slight centering issues, and missing back photo."
+            "score": 55,
+            "psa10Probability": 35,
+            "confidence": 80,
+            "notes": "Card photos show heavy sleeve glare and soft corners, plus missing back photo, all reducing PSA 10 candidacy."
           },
           "roi": {
             "costBasis": 77.5,
@@ -2323,7 +2217,7 @@
           "price": 45,
           "shipping": 0,
           "total": 45,
-          "itemWebUrl": "https://www.ebay.com/itm/317931326740?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCtC5wg37TQTRZjSELwFkzJps7AWWvB7aP6W9L%2FJwcugAGjv4awl0z3k0fsS%2Bp6Uq0SdBd4Irkle7%2B2543MGNMs6XuiTpGMRQ1DCR%2BhhReeH2dhCWjCwwPtNgSEr8TsKdx%2BZcBKsNz6qwPEaaSkywLMBecS7yTcbYoGjBS5ADonzyH4OhrnPnsLc1SVFsJ7OLI%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/317931326740?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCtC5wg37TQTRZjSELwFkzJps7AWWvB7aP6W9L%2FJwcugCnyKa%2Fy7gRxEOl4Tb2Vmjkziw0S4CFKHGHIhCN0%2F64rkYlL6dC3QKswYkK2FoxyPxUyavxdOi9eTGQBz919DP3Hl16cFPZkqZEI3YrA%2FXWG45owuRifL4cVuVJkPC257c1YVUsj1W90aJJUfO23i7k%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/d8oAAeSwKQxpoa6f/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/HpUAAOSw7DRlUhqp/s-l1600.jpg",
@@ -2336,10 +2230,10 @@
             "feedbackScore": 101
           },
           "photoScore": {
-            "score": 65,
+            "score": 60,
             "psa10Probability": 30,
-            "confidence": 70,
-            "notes": "Front photo is clear but slightly off-center; sleeve glare and edges obscure some details; no back photo provided."
+            "confidence": 75,
+            "notes": "Front photo shows slight edge whitening and clipping; back photo missing, hindering full assessment for PSA 10."
           },
           "roi": {
             "costBasis": 70,
@@ -2369,36 +2263,6 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672805.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|188230475419|0",
-          "title": "One Piece OPTCG English Nami EB03-053 SR* Alternate Art - NM *FREE SHIPPING*",
-          "price": 110,
-          "shipping": 0,
-          "total": 110,
-          "itemWebUrl": "https://www.ebay.com/itm/188230475419",
-          "imageUrl": "https://i.ebayimg.com/images/g/y8IAAeSw1VppzBxO/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/45YAAeSwxRxpzBxO/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "mrleeflips",
-            "feedbackPercentage": "98.3",
-            "feedbackScore": 657
-          },
-          "photoScore": {
-            "score": 85,
-            "psa10Probability": 65,
-            "confidence": 90,
-            "notes": "Good focus and back photo present, but slight sleeve glare and minor whitening on edges lower overall grade."
-          },
-          "roi": {
-            "costBasis": 135,
-            "netExit": 235.91,
-            "profit": 100.91,
-            "roi": 0.7475,
-            "roiPercent": 74.75
-          }
-        },
-        {
           "itemId": "v1|127813717857|0",
           "title": "ONE PIECE Nami EB03-053 Alternate Art Heroines",
           "price": 99.99,
@@ -2417,10 +2281,10 @@
             "feedbackScore": 25743
           },
           "photoScore": {
-            "score": 60,
-            "psa10Probability": 45,
+            "score": 75,
+            "psa10Probability": 60,
             "confidence": 85,
-            "notes": "Good overall coverage and clear back photo, but visible edge wear and slight glare reduce PSA 10 potential."
+            "notes": "Good photos including front and back with no glare, but centering is slightly off and edges could be sharper."
           },
           "roi": {
             "costBasis": 130.94,
@@ -2428,6 +2292,36 @@
             "profit": 104.97,
             "roi": 0.8017,
             "roiPercent": 80.17
+          }
+        },
+        {
+          "itemId": "v1|188230475419|0",
+          "title": "One Piece OPTCG English Nami EB03-053 SR* Alternate Art - NM *FREE SHIPPING*",
+          "price": 110,
+          "shipping": 0,
+          "total": 110,
+          "itemWebUrl": "https://www.ebay.com/itm/188230475419",
+          "imageUrl": "https://i.ebayimg.com/images/g/y8IAAeSw1VppzBxO/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/45YAAeSwxRxpzBxO/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mrleeflips",
+            "feedbackPercentage": "98.3",
+            "feedbackScore": 657
+          },
+          "photoScore": {
+            "score": 65,
+            "psa10Probability": 35,
+            "confidence": 80,
+            "notes": "Good focus and back photo provided, but glare on front and centering off with slight edge wear lower right affect score."
+          },
+          "roi": {
+            "costBasis": 135,
+            "netExit": 235.91,
+            "profit": 100.91,
+            "roi": 0.7475,
+            "roiPercent": 74.75
           }
         }
       ],
