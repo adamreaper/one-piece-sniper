@@ -81,6 +81,28 @@
       flex-direction: column;
       gap: 10px;
     }
+    .media {
+      width: 100%;
+      aspect-ratio: 1 / 1.35;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      display: grid;
+      place-items: center;
+    }
+    .media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .media-fallback {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      padding: 16px;
+    }
     .topline {
       display: flex;
       justify-content: space-between;
@@ -182,6 +204,10 @@
 
     let allRows = [];
 
+    function productImageUrl(productId, ext = 'jpg') {
+      return `https://public.getcollectr.com/public-assets/products/product_${productId}.${ext}?optimizer=image&format=webp&width=1200&quality=80&strip=metadata`;
+    }
+
     function render(rows) {
       const container = document.getElementById('results');
       if (!rows.length) {
@@ -190,6 +216,15 @@
       }
       container.innerHTML = rows.map((row, index) => `
         <article class="card">
+          <div class="media">
+            <img
+              src="${productImageUrl(row.productId, 'jpg')}"
+              data-fallback-src="${productImageUrl(row.productId, 'png')}"
+              alt="${row.code} ${row.name}"
+              loading="lazy"
+              onerror="if(!this.dataset.failedOnce){this.dataset.failedOnce='1';this.src=this.dataset.fallbackSrc;}else{this.replaceWith(Object.assign(document.createElement('div'),{className:'media-fallback',textContent:'Image unavailable'}));}"
+            />
+          </div>
           <div class="topline">
             <div style="display:flex; gap:12px; align-items:flex-start; min-width:0;">
               <div class="rank">${index + 1}</div>
