@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>One Piece Sniper Dashboard</title>
+  <title>One Piece Collectr ROI Screener</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="OP Sniper" />
@@ -563,7 +563,7 @@
   <div class="wrap">
     <div class="topbar">
       <div class="topbar-stack">
-        <div>ONE PIECE SNIPER // MANGA OPS BOARD</div>
+        <div>ONE PIECE ROI SCREENER // COLLECTR FIRST</div>
         <div id="nextScanCountdown" class="countdown">Next scan in --:--:--</div>
       </div>
       <div id="lastUpdated">Waiting for scan data</div>
@@ -571,11 +571,11 @@
 
     <section class="hero">
       <div>
-        <div class="eyebrow">Manga Mode // Raw to PSA 10 Ops</div>
-        <h1>One Piece Sniper Manga Dashboard</h1>
+        <div class="eyebrow">Collectr Market Sweep // 80%+ ROI Gate</div>
+        <h1>One Piece Collectr ROI Screener</h1>
         <p class="sub">
-          Manga-styled ops board for the hybrid One Piece cron. It reads the scan feed, ranks live targets,
-          surfaces buy-under math, and keeps the most important decisions feeling like comic panels instead of spreadsheets.
+          This board now scans the Collectr One Piece market, drops raw cards under $15, checks PSA 10 exit math with grading cost included,
+          and only shows cards still clearing the 80% ROI gate.
         </p>
         <div class="hero-actions">
           <label class="file-label" for="reportFile">Load scan report</label>
@@ -590,10 +590,10 @@
       </div>
       <div>
         <div class="stats">
-          <div class="stat"><div class="label">Tracked cards</div><div class="value" id="trackedCount">0</div></div>
-          <div class="stat"><div class="label">Core board</div><div class="value" id="coreCount">0</div></div>
-          <div class="stat"><div class="label">Experimental</div><div class="value" id="experimentalCount">0</div></div>
-          <div class="stat"><div class="label">Best spread</div><div class="value" id="bestSpread">$0</div></div>
+          <div class="stat"><div class="label">Qualifying cards</div><div class="value" id="trackedCount">0</div></div>
+          <div class="stat"><div class="label">Raw floor</div><div class="value" id="coreCount">$15</div></div>
+          <div class="stat"><div class="label">Cards scanned</div><div class="value" id="experimentalCount">0</div></div>
+          <div class="stat"><div class="label">Best ROI</div><div class="value" id="bestSpread">0%</div></div>
         </div>
         <div class="opportunity-strip" id="opportunityStrip"></div>
       </div>
@@ -601,22 +601,20 @@
 
     <div class="layout">
       <section class="panel">
-        <h2>Live target board</h2>
-        <p class="copy">This mirrors the hybrid cron output, but in a format that’s easier to scan fast. All prices are all-in shipped totals.</p>
+        <h2>Qualifying Collectr cards</h2>
+        <p class="copy">Only One Piece cards above the raw floor that still clear the 80% PSA 10 ROI gate after grading fees make it onto this board.</p>
         <div class="toolbar">
           <input id="searchInput" type="search" placeholder="Filter by card, seller, title, or risk text" />
           <select id="recommendationFilter">
-            <option value="ALL">All recommendations</option>
-            <option value="BUY">BUY only</option>
-            <option value="WATCH">WATCH only</option>
-            <option value="PASS">PASS only</option>
+            <option value="ALL">All cards</option>
+            <option value="BUY">Qualified only</option>
           </select>
           <select id="sortSelect">
-            <option value="spread">Sort by spread</option>
-            <option value="margin">Sort by margin vs target</option>
-            <option value="totalAsc">Sort by lowest all-in</option>
-            <option value="probability">Sort by PSA 10 probability</option>
-            <option value="confidence">Sort by confidence</option>
+            <option value="spread">Sort by ROI</option>
+            <option value="margin">Sort by profit</option>
+            <option value="totalAsc">Sort by raw market</option>
+            <option value="probability">Sort by PSA 10 market</option>
+            <option value="confidence">Sort by comp count</option>
           </select>
           <select id="riskFilter">
             <option value="ALL">All risk levels</option>
@@ -629,14 +627,14 @@
 
       <div class="right-stack">
         <section class="panel">
-          <h2>Cron snapshot</h2>
+          <h2>Scanner snapshot</h2>
           <div class="mini-list" id="snapshot"></div>
         </section>
 
         <section class="panel">
           <h2>Quick notes</h2>
-          <p class="copy">Use this for what to check next, seller notes, or photo review reminders. Saves locally in the browser.</p>
-          <textarea id="notes" placeholder="Example: Nami listing looks viable, verify back corners and centering before sending offer."></textarea>
+          <p class="copy">Use this for follow-up checks, comp sanity notes, or cards you want to chase harder. Saves locally in the browser.</p>
+          <textarea id="notes" placeholder="Example: Recheck Boa Hancock alt art tomorrow if Collectr raw dips back under $30."></textarea>
           <div class="hero-actions" style="margin-top:12px;">
             <button id="saveNotesBtn" type="button">Save notes</button>
             <button id="clearNotesBtn" class="secondary" type="button">Clear notes</button>
@@ -773,6 +771,10 @@ Generated: 2026-04-19T13:36:41.124Z
       return `$${num.toFixed(2)}`;
     }
 
+    function pct(n) {
+      return `${Number(n || 0).toFixed(1)}%`;
+    }
+
     function parseMarkdown(md) {
       const lines = md.split(/\r?\n/);
       const result = { generated: '', tracked: [], cards: [] };
@@ -878,53 +880,45 @@ Generated: 2026-04-19T13:36:41.124Z
     }
 
     function renderCard(card) {
-      const recClass = (card.recommendation || 'WATCH').toLowerCase();
-      const rankClass = `rank${card.gradeRank || 'B'}`;
-      const priorityClass = card.priority === 'core' ? 'core-chip' : 'experimental-chip';
-      const priorityLabel = card.priority === 'core' ? 'CORE' : 'EXPERIMENTAL';
-      const submitClass = card.submitReady ? 'submit-yes' : 'submit-no';
-      const submitLabel = card.submitReady ? 'SUBMIT READY' : 'NOT SUBMIT READY';
       return `
         <article class="card ${card.isNew ? 'is-new new-pulse' : ''}" id="card-${escapeAttr(card.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase())}">
           <div class="card-top">
             <div>
-              <div class="title">${escapeHtml(card.name)}</div>
-              <div class="muted">${escapeHtml(card.title || '')}</div>
+              <div class="title">${escapeHtml(card.name)} <span class="muted">${escapeHtml(card.code || '')}</span></div>
+              <div class="muted">${escapeHtml(card.setName || '')}</div>
               <div class="quick-meta">
-                <span class="quick-pill">Seller: ${escapeHtml(card.seller || 'Unknown')}</span>
-                <span class="quick-pill">Cond: ${escapeHtml(card.condition || 'Unknown')}</span>
-                <span class="quick-pill">Odds: ${card.probability || 0}%</span>
+                <span class="quick-pill">ROI: ${pct(card.spread)}</span>
+                <span class="quick-pill">Profit: ${money(card.margin)}</span>
+                <span class="quick-pill">PSA 10 comps: ${card.confidence || 0}</span>
               </div>
             </div>
             <div class="chips">
               ${card.isNew ? '<span class="chip new-chip">NEW</span>' : ''}
-              <span class="chip ${priorityClass}">${priorityLabel}</span>
-              <span class="chip ${recClass}">${escapeHtml(card.recommendation || 'WATCH')}</span>
-              <span class="chip ${submitClass}">${submitLabel}</span>
-              <span class="chip ${rankClass}">Rank ${escapeHtml(card.gradeRank || 'B')}</span>
+              <span class="chip buy">QUALIFIED</span>
+              <span class="chip submit-yes">80%+ ROI</span>
             </div>
           </div>
           <div class="card-priority">
-            <div class="metric primary"><div class="label">Recommendation</div><div class="value">${escapeHtml(card.recommendation || 'WATCH')}</div></div>
-            <div class="metric primary"><div class="label">Submit ready</div><div class="value">${card.submitReady ? 'YES' : 'NO'}</div></div>
-            <div class="metric primary"><div class="label">All-in total</div><div class="value">${money(card.total)}</div></div>
-            <div class="metric primary"><div class="label">Buy-under</div><div class="value">${money(card.buyUnder)}</div></div>
+            <div class="metric primary"><div class="label">Raw market</div><div class="value">${money(card.total)}</div></div>
+            <div class="metric primary"><div class="label">PSA 10 market</div><div class="value">${money(card.buyUnder)}</div></div>
+            <div class="metric primary"><div class="label">ROI after fees</div><div class="value">${pct(card.spread)}</div></div>
+            <div class="metric primary"><div class="label">Profit after fees</div><div class="value">${money(card.margin)}</div></div>
           </div>
           <div class="grid">
-            <div class="metric"><div class="label">Raw market</div><div class="value">${money(card.rawMarket)}</div></div>
-            <div class="metric"><div class="label">PSA 10 market</div><div class="value">${money(card.psa10Market)}</div></div>
-            <div class="metric"><div class="label">Spread</div><div class="value">${money(card.spread)}</div></div>
-            <div class="metric"><div class="label">Submission profit</div><div class="value">${money(card.submitProfit)}</div></div>
-            <div class="metric"><div class="label">Expected profit</div><div class="value">${money(card.expectedProfit)}</div></div>
-            <div class="metric"><div class="label">Confidence</div><div class="value">${card.confidence || 0}%</div></div>
-            <div class="metric"><div class="label">Listing price</div><div class="value">${money(card.listingPrice)}</div></div>
-            <div class="metric"><div class="label">Shipping</div><div class="value">${money(card.shipping)}</div></div>
+            <div class="metric"><div class="label">Cost basis</div><div class="value">${money(card.costBasis)}</div></div>
+            <div class="metric"><div class="label">Net PSA 10 exit</div><div class="value">${money(card.netPsa10Exit)}</div></div>
+            <div class="metric"><div class="label">Comp low</div><div class="value">${money(card.listingPrice)}</div></div>
+            <div class="metric"><div class="label">Comp high</div><div class="value">${money(card.shipping)}</div></div>
+            <div class="metric"><div class="label">Raw change</div><div class="value">${pct(card.probability)}</div></div>
+            <div class="metric"><div class="label">Raw price delta</div><div class="value">${money(card.expectedProfit)}</div></div>
+            <div class="metric"><div class="label">Rarity</div><div class="value">${escapeHtml(card.gradeRank || 'n/a')}</div></div>
+            <div class="metric"><div class="label">Subtype</div><div class="value">${escapeHtml(card.condition || 'n/a')}</div></div>
           </div>
-          <div class="notes"><strong>PSA 9 risk:</strong> ${escapeHtml(card.psa9Risk || 'n/a')}</div>
-          ${card.visionSummary ? `<div class="notes"><strong>Vision:</strong> ${escapeHtml(card.visionSummary)}</div>` : ''}
-          ${card.riskFlags && card.riskFlags.length ? `<ul class="risk-list">${card.riskFlags.map(flag => `<li>${escapeHtml(flag)}</li>`).join('')}</ul>` : ''}
+          <div class="notes"><strong>Collectr search:</strong> ${escapeHtml(card.link || 'n/a')}</div>
+          <div class="notes"><strong>Collectr set page:</strong> ${escapeHtml(card.setLink || 'n/a')}</div>
           <div class="card-actions">
-            <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button class="link-btn" type="button">Open listing</button></a>
+            <a href="${escapeAttr(card.link || '#')}" target="_blank" rel="noopener noreferrer"><button class="link-btn" type="button">Open on Collectr</button></a>
+            <a href="${escapeAttr(card.setLink || '#')}" target="_blank" rel="noopener noreferrer"><button class="link-btn secondary" type="button">Open set</button></a>
           </div>
         </article>
       `;
@@ -977,37 +971,34 @@ Generated: 2026-04-19T13:36:41.124Z
       if (!visibleCards.length) {
         els.cards.innerHTML = `<div class="card"><div class="title">No cards match the current filters.</div><p class="copy">Try clearing the search or switching filters.</p></div>`;
       } else {
-        const coreCards = visibleCards.filter(card => card.priority === 'core');
-        const experimentalCards = visibleCards.filter(card => card.priority !== 'core');
         els.cards.innerHTML = [
-          renderBoardSection('Core board', 'Main sniper lane. This is the profit-first board and should stay tight.', coreCards, 'core'),
-          renderBoardSection('Experimental watchlist', 'Test lane for secondary names. Useful for learning, not for muddying the main signal.', experimentalCards, 'experimental')
+          renderBoardSection('Qualified 80%+ ROI cards', 'Collectr-first One Piece cards still clearing the ROI gate after PSA fees.', visibleCards, 'core')
         ].join('');
       }
 
       const top = visibleCards[0] || cards[0];
       els.snapshot.innerHTML = `
-        <div class="mini-item"><div class="mono muted">Cron target</div><div>One Piece PSA Scout Adaptive</div></div>
-        <div class="mini-item"><div class="mono muted">Data source</div><div>${escapeHtml(data.source || 'markdown report')}</div></div>
-        <div class="mini-item"><div class="mono muted">Report source</div><div>${escapeHtml(data.generated || 'Manual load')}</div></div>
-        <div class="mini-item"><div class="mono muted">Top card by spread</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
-        <div class="mini-item"><div class="mono muted">Best all-in deal</div><div>${top ? `${money(top.total)} on ${escapeHtml(top.name)}` : 'n/a'}</div></div>
-        <div class="mini-item"><div class="mono muted">New listings this run</div><div>${escapeHtml(String(data.newListingCount ?? 0))}</div></div>
-        <div class="mini-item"><div class="mono muted">Submission-ready now</div><div>${submitReadyCards.length ? escapeHtml(submitReadyCards.map(card => card.name).join(', ')) : 'None'}</div></div>
-        <div class="mini-item"><div class="mono muted">No live listing now</div><div>${data.staleTargets?.length ? escapeHtml(data.staleTargets.join(', ')) : 'None'}</div></div>
+        <div class="mini-item"><div class="mono muted">Scanner</div><div>Collectr-first One Piece ROI screener</div></div>
+        <div class="mini-item"><div class="mono muted">Data source</div><div>${escapeHtml(data.source || 'json-feed')}</div></div>
+        <div class="mini-item"><div class="mono muted">Cards scanned</div><div>${escapeHtml(String(data.scannedCount ?? 0))}</div></div>
+        <div class="mini-item"><div class="mono muted">Cards qualified</div><div>${escapeHtml(String((data.cards || []).length))}</div></div>
+        <div class="mini-item"><div class="mono muted">Top ROI card</div><div>${escapeHtml(top ? top.name : 'n/a')}</div></div>
+        <div class="mini-item"><div class="mono muted">Best ROI</div><div>${top ? pct(top.spread) : 'n/a'}</div></div>
+        <div class="mini-item"><div class="mono muted">Biggest profit</div><div>${top ? money(top.margin) : 'n/a'}</div></div>
+        <div class="mini-item"><div class="mono muted">Raw floor</div><div>${money(data.rawFloor || 15)}</div></div>
       `;
 
-      const opportunityCards = submitReadyCards.length ? submitReadyCards.slice(0, 3) : visibleCards.slice(0, 3);
+      const opportunityCards = visibleCards.slice(0, 3);
       els.opportunityStrip.innerHTML = opportunityCards.map((card, index) => `
         <div class="opportunity-card ${card.isNew ? 'new-pulse' : ''}">
-          <div class="kicker">${submitReadyCards.length ? (index === 0 ? 'Submission-ready now' : index === 1 ? 'Next strongest submit' : 'Fast check') : (index === 0 ? 'Top spread' : index === 1 ? 'Best target fit' : 'Fast check')}</div>
+          <div class="kicker">${index === 0 ? 'Top ROI' : index === 1 ? 'Next best ROI' : 'Fast check'}</div>
           <div class="headline">${escapeHtml(card.name)}</div>
-          <div class="subline">${escapeHtml(card.recommendation || 'WATCH')} • ${card.submitReady ? 'submit-ready' : 'not submit-ready'} • ${money(card.total)} all-in • submit profit ${money(card.submitProfit)} • confidence ${card.confidence || 0}%</div>
+          <div class="subline">${pct(card.spread)} ROI • ${money(card.margin)} profit after fees • raw ${money(card.total)} • PSA 10 ${money(card.buyUnder)}</div>
         </div>
       `).join('');
 
-      const summaryPool = submitReadyCards.length ? submitReadyCards.slice(0, 3) : visibleCards.slice(0, 3);
-      const summaryLines = summaryPool.map(card => `${card.name}: ${card.recommendation || 'WATCH'}, submit-ready ${card.submitReady ? 'YES' : 'NO'}, ${money(card.total)} all-in, submit profit ${money(card.submitProfit)}.`);
+      const summaryPool = visibleCards.slice(0, 3);
+      const summaryLines = summaryPool.map(card => `${card.name}: ${pct(card.spread)} ROI after fees, ${money(card.margin)} projected profit, raw ${money(card.total)}, PSA 10 ${money(card.buyUnder)}.`);
       els.summaryText.textContent = summaryLines.length
         ? summaryLines.join(' ')
         : 'No parsed card data yet.';
@@ -1029,46 +1020,42 @@ Generated: 2026-04-19T13:36:41.124Z
     function normalizeJsonFeed(payload) {
       const cards = (payload.cards || []).map(card => ({
         name: card.name,
-        title: card.best?.title || '',
-        priority: card.priority || 'core',
+        code: card.code,
+        setName: card.setName,
+        priority: 'core',
         rawMarket: card.rawMarket,
         psa10Market: card.psa10Market,
-        buyUnder: card.buyUnder,
-        psa9Risk: card.psa9Risk,
-        listingPrice: card.best?.price || 0,
-        shipping: card.best?.shipping || 0,
-        total: card.best?.total || 0,
-        seller: card.best?.seller || 'Unknown',
-        condition: card.best?.condition || 'Unknown',
-        recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(),
-        gradeRank: card.analysis?.gradeRank || 'B',
-        probability: card.analysis?.probability || 0,
-        confidence: card.analysis?.confidence || 0,
-        expectedProfit: card.analysis?.expectedProfit || 0,
-        submitProfit: card.analysis?.submitProfit || 0,
-        submitReady: !!card.analysis?.submitReady,
-        riskFlags: card.analysis?.riskFlags || [],
-        link: card.best?.link || '#',
-        isNew: !!card.isNew
+        buyUnder: card.psa10Market,
+        costBasis: card.roiGate?.costBasis || 0,
+        netPsa10Exit: card.roiGate?.netPsa10Exit || 0,
+        listingPrice: card.marketStats?.low || 0,
+        shipping: card.marketStats?.high || 0,
+        total: card.rawMarket || 0,
+        condition: card.productSubType || 'Unknown',
+        recommendation: 'BUY',
+        gradeRank: card.rarity || 'n/a',
+        probability: card.rawDiffPercent || 0,
+        confidence: card.marketStats?.compCount || 0,
+        expectedProfit: card.rawDiff || 0,
+        submitProfit: card.roiGate?.profit || 0,
+        margin: card.roiGate?.profit || 0,
+        spread: card.roiGate?.roiPercent || 0,
+        submitReady: true,
+        riskFlags: [],
+        link: card.collectrLink || '#',
+        setLink: card.collectrSetUrl || '#',
+        isNew: false
       }));
-
-      cards.forEach(card => {
-        card.spread = (card.psa10Market || 0) - (card.total || 0);
-        card.margin = (card.buyUnder || 0) - (card.total || 0);
-      });
 
       cards.sort((a, b) => (b.spread || 0) - (a.spread || 0));
       return {
         generated: payload.generatedAt || payload.updatedAt || '',
-        tracked: payload.tracked || cards.map(card => card.name),
-        coreTracked: payload.coreTracked || cards.filter(card => card.priority === 'core').map(card => card.name),
-        experimentalTracked: payload.experimentalTracked || cards.filter(card => card.priority !== 'core').map(card => card.name),
+        tracked: cards.map(card => card.name),
         cards,
-        coreCards: payload.coreCards ? payload.coreCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, expectedProfit: card.analysis?.expectedProfit || 0, submitProfit: card.analysis?.submitProfit || 0, submitReady: !!card.analysis?.submitReady, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority === 'core'),
-        experimentalCards: payload.experimentalCards ? payload.experimentalCards.map(card => ({ ...cards.find(c => c.name === card.name), ...card, recommendation: (card.analysis?.recommendation || 'watch').toUpperCase(), gradeRank: card.analysis?.gradeRank || 'B', probability: card.analysis?.probability || 0, confidence: card.analysis?.confidence || 0, expectedProfit: card.analysis?.expectedProfit || 0, submitProfit: card.analysis?.submitProfit || 0, submitReady: !!card.analysis?.submitReady, riskFlags: card.analysis?.riskFlags || [], title: card.best?.title || '', listingPrice: card.best?.price || 0, shipping: card.best?.shipping || 0, total: card.best?.total || 0, seller: card.best?.seller || 'Unknown', condition: card.best?.condition || 'Unknown', link: card.best?.link || '#', isNew: !!card.isNew })) : cards.filter(card => card.priority !== 'core'),
-        staleTargets: payload.staleTargets || [],
-        source: 'json-feed',
-        newListingCount: payload.newListingCount || 0
+        source: payload.source || 'json-feed',
+        rawFloor: payload.rawFloor || 15,
+        scannedCount: payload.scannedCount || 0,
+        newListingCount: 0
       };
     }
 
