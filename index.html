@@ -149,6 +149,43 @@
     .metric .label { color: var(--muted); font-size: 12px; }
     .metric .value { margin-top: 5px; font-weight: 700; }
     .links { display: flex; gap: 10px; flex-wrap: wrap; }
+    .candidate-list {
+      display: grid;
+      gap: 10px;
+    }
+    .candidate {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .candidate-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .candidate-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .candidate-meta {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .candidate-meta .metric {
+      padding: 8px 10px;
+    }
+    .candidate-note {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 8px;
+      line-height: 1.35;
+    }
     a.button {
       text-decoration: none;
       color: var(--text);
@@ -208,6 +245,27 @@
       return `https://public.getcollectr.com/public-assets/products/product_${productId}.${ext}?optimizer=image&format=webp&width=1200&quality=80&strip=metadata`;
     }
 
+    function renderCandidates(row) {
+      if (!Array.isArray(row.ebayCandidates) || !row.ebayCandidates.length) {
+        return '<div class="candidate"><div class="candidate-title">No eBay candidates yet</div><div class="candidate-note">The weekly scan will populate the best 2 raw listings here.</div></div>';
+      }
+      return `<div class="candidate-list">${row.ebayCandidates.map((candidate, index) => `
+        <div class="candidate">
+          <div class="candidate-head">
+            <div class="candidate-title">Candidate ${index + 1}</div>
+            <a class="button secondary" href="${candidate.itemWebUrl}" target="_blank" rel="noopener noreferrer">Open eBay</a>
+          </div>
+          <div class="candidate-meta">
+            <div class="metric"><div class="label">Listing total</div><div class="value">${fmtMoney(candidate.total)}</div></div>
+            <div class="metric"><div class="label">Listing ROI</div><div class="value">${fmtPct(candidate.roi?.roiPercent)}</div></div>
+            <div class="metric"><div class="label">Photo score</div><div class="value">${Number(candidate.photoScore?.score || 0).toFixed(0)}/100</div></div>
+          </div>
+          <div class="candidate-note">${candidate.title || ''}</div>
+          <div class="candidate-note">${candidate.photoScore?.notes || ''}</div>
+        </div>
+      `).join('')}</div>`;
+    }
+
     function render(rows) {
       const container = document.getElementById('results');
       if (!rows.length) {
@@ -244,6 +302,7 @@
           <div class="links">
             <a class="button" href="${row.collectrLink}" target="_blank" rel="noopener noreferrer">Open Collectr</a>
           </div>
+          ${renderCandidates(row)}
         </article>
       `).join('');
     }
