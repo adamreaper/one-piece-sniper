@@ -1,204 +1,45 @@
 {
-  "generatedAt": "2026-04-21T13:11:51.787Z",
-  "updatedAt": "2026-04-21T13:13:06.271Z",
+  "generatedAt": "2026-04-21T13:20:08.728Z",
+  "updatedAt": "2026-04-21T13:22:15.544Z",
   "boardModel": "dynamic-hotness-plus-psa10-upside-v1",
-  "newListingCount": 1,
+  "newListingCount": 3,
   "alertCount": 0,
   "tracked": [
-    "Nami OP11-041",
-    "Monkey.D.Luffy P-075",
     "Perona OP01-077",
     "Boa Hancock ST03-013",
-    "Roronoa Zoro ST01-013",
-    "Nico Robin OP09-062"
-  ],
-  "coreTracked": [
     "Nami OP11-041",
     "Monkey.D.Luffy P-075",
-    "Perona OP01-077"
+    "Nami OP03-040",
+    "Roronoa Zoro ST01-013",
+    "Roronoa Zoro OP12-020",
+    "Perona OP10-092",
+    "Nico Robin OP09-062",
+    "Nami OP09-070",
+    "Sabo OP10-049"
+  ],
+  "coreTracked": [
+    "Perona OP01-077",
+    "Boa Hancock ST03-013"
   ],
   "experimentalTracked": [
-    "Boa Hancock ST03-013",
+    "Nami OP11-041",
+    "Monkey.D.Luffy P-075",
+    "Nami OP03-040",
     "Roronoa Zoro ST01-013",
-    "Nico Robin OP09-062"
+    "Roronoa Zoro OP12-020",
+    "Perona OP10-092",
+    "Nico Robin OP09-062",
+    "Nami OP09-070",
+    "Sabo OP10-049"
   ],
   "cards": [
-    {
-      "name": "Nami OP11-041",
-      "code": "OP11-041",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 1,
-      "rawMarket": 56,
-      "psa10Market": 232.07,
-      "buyUnder": 55.7,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
-      "shouldAlert": false,
-      "roiGate": {
-        "gradingCost": 25,
-        "netPsa10Exit": 201.9,
-        "profit": 121.91,
-        "roi": 1.5241,
-        "roiPercent": 152.41,
-        "threshold": 0.35,
-        "passes": true
-      },
-      "listingKey": "v1|257451959094|0",
-      "marketStats": {
-        "compCount": 9,
-        "low": 195,
-        "high": 325
-      },
-      "scores": {
-        "hotScore": 82,
-        "upsideScore": 28,
-        "confidenceScore": 67,
-        "liquidityScore": 100,
-        "trendScore": 80,
-        "combinedScore": 61,
-        "deployableNowScore": 59,
-        "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80"
-      },
-      "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80",
-      "socialTrendScore": 80,
-      "deployableNowScore": 59,
-      "socialTrendReasons": [
-        "cardlines",
-        "internal-scan",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
-        "price": 49.99,
-        "shipping": 5,
-        "total": 54.99,
-        "seller": "jedimike17",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY0eOiTOhlzqH6V1qflCNaiqd%2FXFIvcFK%2F28DtBxLUROr%2FMjS%2BVyHRz49is2fzdSByRzUy1yQLAxPTatW9oPA1%2BAtaDLDAmm7Bh8P6w%2Fc9qBRLlxb19GRjqHYLI0g%2BQUiozz02PnieaeZfNxY0AQLlmM%3D",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 60,
-        "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -24,
-        "submitReady": false,
-        "roiGate": {
-          "gradingCost": 25,
-          "netPsa10Exit": 201.9,
-          "profit": 121.91,
-          "roi": 1.5241,
-          "roiPercent": 152.41,
-          "threshold": 0.35,
-          "passes": true
-        },
-        "offerSuggestion": "Offer around $20",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 3"
-        ]
-      }
-    },
-    {
-      "name": "Monkey.D.Luffy P-075",
-      "code": "P-075",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 2,
-      "rawMarket": 19.92,
-      "psa10Market": 151.42,
-      "buyUnder": 36.34,
-      "psa9Risk": "unclear slab evidence",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
-      "shouldAlert": false,
-      "roiGate": {
-        "gradingCost": 25,
-        "netPsa10Exit": 128.71,
-        "profit": 86.71,
-        "roi": 2.0645,
-        "roiPercent": 206.45,
-        "threshold": 0.35,
-        "passes": true
-      },
-      "listingKey": "v1|366352928659|0",
-      "marketStats": {
-        "compCount": 4,
-        "low": 114.97999999999999,
-        "high": 185.16
-      },
-      "scores": {
-        "hotScore": 74,
-        "upsideScore": 33,
-        "confidenceScore": 47,
-        "liquidityScore": 78,
-        "trendScore": 92,
-        "combinedScore": 57,
-        "deployableNowScore": 62,
-        "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92"
-      },
-      "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92",
-      "socialTrendScore": 92,
-      "deployableNowScore": 62,
-      "socialTrendReasons": [
-        "internal-scan",
-        "x-viewer",
-        "snkrdunk",
-        "cardlines"
-      ],
-      "best": {
-        "title": "Monkey.D.Luffy ( Best Selection Vol. 3-) P-075 One Piece TCG Promotion Cards ENG",
-        "price": 17,
-        "shipping": 0,
-        "total": 17,
-        "seller": "rosayx",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/366352928659",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 22,
-        "confidence": 53,
-        "expectedProfit": -23,
-        "submitProfit": -26,
-        "submitReady": false,
-        "roiGate": {
-          "gradingCost": 25,
-          "netPsa10Exit": 128.71,
-          "profit": 86.71,
-          "roi": 2.0645,
-          "roiPercent": 206.45,
-          "threshold": 0.35,
-          "passes": true
-        },
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue",
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
     {
       "name": "Perona OP01-077",
       "code": "OP01-077",
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 3,
+      "rank": 1,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
@@ -213,7 +54,7 @@
         "profit": 169.5,
         "roi": 3.4627,
         "roiPercent": 346.27,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|127785102982|0",
@@ -245,7 +86,7 @@
         "total": 23.95,
         "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlMpe8cxKHjIyR7DKSRGPNb6wkXiYzHkX9YsuSfDXl%2FJtcFWLVhiEXqSqISVr4t6QOFjj4S%2FMawzcx8VS89GICv--5yuaBTahbrYKMe7e2xKRDEbo3L69SnGkfmSllTG%2BjN1VjY9tIWxhNaI%2BwEGeqcA%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlEh5dDb5OSVk0dzPf12yZqiBDGfN4S%2FkuDUPw9TPTVRqfDvLbg0vuQG7JOmqP8t1cbsh8obYPGwLwquHlvq304BhEBX6XYKX67SOvcpVINSQpGWyzrZRXZ66cX7oQzQ5XpROw5IMN65VwOcLrdG9PcM%3D",
         "suspicionFlags": []
       },
       "analysis": {
@@ -262,7 +103,7 @@
           "profit": 169.5,
           "roi": 3.4627,
           "roiPercent": 346.27,
-          "threshold": 0.35,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Buy at ask",
@@ -277,14 +118,14 @@
       "name": "Boa Hancock ST03-013",
       "code": "ST03-013",
       "seedBoard": "core",
-      "board": "experimental",
-      "priority": "experimental",
-      "rank": 4,
+      "board": "core",
+      "priority": "core",
+      "rank": 2,
       "rawMarket": 25.28,
       "psa10Market": 197.49,
       "buyUnder": 47.4,
       "psa9Risk": "real downside",
-      "isNew": true,
+      "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
       "pricingNotes": "3 recent PSA 10 sold comps, range $185.00 to $200.00",
       "shouldAlert": false,
@@ -294,7 +135,7 @@
         "profit": 132.42,
         "roi": 2.9219,
         "roiPercent": 292.19,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|236769705628|0",
@@ -304,24 +145,19 @@
         "high": 200
       },
       "scores": {
-        "hotScore": 53,
-        "upsideScore": 33,
-        "confidenceScore": 47,
+        "hotScore": 34,
+        "upsideScore": 48,
+        "confidenceScore": 53,
         "liquidityScore": 35,
-        "trendScore": 84,
-        "combinedScore": 50,
-        "deployableNowScore": 57,
-        "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84"
+        "trendScore": 0,
+        "combinedScore": 44,
+        "deployableNowScore": 67,
+        "thesis": "heat 34 | upside 48 | confidence 53 | liquidity 35 | trend 0"
       },
-      "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84",
-      "socialTrendScore": 84,
-      "deployableNowScore": 57,
-      "socialTrendReasons": [
-        "cardgamer",
-        "cardlines",
-        "ebay",
-        "youtube-market-watch"
-      ],
+      "thesis": "heat 34 | upside 48 | confidence 53 | liquidity 35 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 67,
+      "socialTrendReasons": [],
       "best": {
         "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
         "price": 19,
@@ -335,10 +171,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 42,
+        "probability": 68,
         "confidence": 53,
-        "expectedProfit": -20,
-        "submitProfit": -25,
+        "expectedProfit": 22,
+        "submitProfit": 10,
         "submitReady": false,
         "roiGate": {
           "gradingCost": 25,
@@ -346,14 +182,257 @@
           "profit": 132.42,
           "roi": 2.9219,
           "roiPercent": 292.19,
-          "threshold": 0.35,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $10",
+        "riskFlags": [
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP11-041",
+      "code": "OP11-041",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 3,
+      "rawMarket": 56,
+      "psa10Market": 232.07,
+      "buyUnder": 55.7,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 201.9,
+        "profit": 121.91,
+        "roi": 1.5241,
+        "roiPercent": 152.41,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|257451959094|0",
+      "marketStats": {
+        "compCount": 9,
+        "low": 195,
+        "high": 325
+      },
+      "scores": {
+        "hotScore": 82,
+        "upsideScore": 26,
+        "confidenceScore": 60,
+        "liquidityScore": 100,
+        "trendScore": 80,
+        "combinedScore": 59,
+        "deployableNowScore": 54,
+        "thesis": "heat 82 | upside 26 | confidence 60 | liquidity 100 | trend 80"
+      },
+      "thesis": "heat 82 | upside 26 | confidence 60 | liquidity 100 | trend 80",
+      "socialTrendScore": 80,
+      "deployableNowScore": 54,
+      "socialTrendReasons": [
+        "cardlines",
+        "internal-scan",
+        "youtube-market-watch"
+      ],
+      "best": {
+        "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
+        "price": 49.99,
+        "shipping": 5,
+        "total": 54.99,
+        "seller": "jedimike17",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY6B1t%2FyXENOHjyoL86%2Boj0XWDnwzGXW%2Fg4wcASKSGloLf6bQeDk2BNhNM01RNRpeVBNWYSTaDGxoaKmtix%2FnYj%2BQWzGh%2F0%2BkrDaA2JsItr45EbMBXlIH%2F4Tqc7llt4KMsY05mj3xNS7j2durIjcph8s%3D",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -29,
+        "submitProfit": -38,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 201.9,
+          "profit": 121.91,
+          "roi": 1.5241,
+          "roiPercent": 152.41,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $2",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
+        ]
+      }
+    },
+    {
+      "name": "Monkey.D.Luffy P-075",
+      "code": "P-075",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 4,
+      "rawMarket": 19.92,
+      "psa10Market": 151.42,
+      "buyUnder": 36.34,
+      "psa9Risk": "unclear slab evidence",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 128.71,
+        "profit": 86.71,
+        "roi": 2.0645,
+        "roiPercent": 206.45,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|366352928659|0",
+      "marketStats": {
+        "compCount": 4,
+        "low": 114.97999999999999,
+        "high": 185.16
+      },
+      "scores": {
+        "hotScore": 62,
+        "upsideScore": 28,
+        "confidenceScore": 42,
+        "liquidityScore": 78,
+        "trendScore": 0,
+        "combinedScore": 43,
+        "deployableNowScore": 62,
+        "thesis": "heat 62 | upside 28 | confidence 42 | liquidity 78 | trend 0"
+      },
+      "thesis": "heat 62 | upside 28 | confidence 42 | liquidity 78 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 62,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Monkey.D.Luffy ( Best Selection Vol. 3-) P-075 One Piece TCG Promotion Cards ENG",
+        "price": 17,
+        "shipping": 0,
+        "total": 17,
+        "seller": "rosayx",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/366352928659",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 22,
+        "confidence": 53,
+        "expectedProfit": -23,
+        "submitProfit": -26,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 128.71,
+          "profit": 86.71,
+          "roi": 2.0645,
+          "roiPercent": 206.45,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
+          "corners: minor wear",
           "edges: minor wear",
+          "surface: possible issue",
+          "occlusion: minor",
           "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP03-040",
+      "code": "OP03-040",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 5,
+      "rawMarket": 95,
+      "psa10Market": 293.21,
+      "buyUnder": 70.37,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "5 recent PSA 10 sold comps, range $253.76 to $340.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 255.09,
+        "profit": 137.43,
+        "roi": 1.168,
+        "roiPercent": 116.8,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|227307766235|0",
+      "marketStats": {
+        "compCount": 5,
+        "low": 253.76,
+        "high": 340
+      },
+      "scores": {
+        "hotScore": 76,
+        "upsideScore": 24,
+        "confidenceScore": 72,
+        "liquidityScore": 89,
+        "trendScore": 80,
+        "combinedScore": 58,
+        "deployableNowScore": 47,
+        "thesis": "heat 76 | upside 24 | confidence 72 | liquidity 89 | trend 80"
+      },
+      "thesis": "heat 76 | upside 24 | confidence 72 | liquidity 89 | trend 80",
+      "socialTrendScore": 80,
+      "deployableNowScore": 47,
+      "socialTrendReasons": [
+        "cardlines",
+        "youtube-market-watch"
+      ],
+      "best": {
+        "title": "One Piece Card Model Number Nami (Leader Parallel) OP03 040 Bandai",
+        "price": 87.67,
+        "shipping": 4.99,
+        "total": 92.66,
+        "seller": "japantcgstore-inc",
+        "condition": "Used",
+        "link": "https://www.ebay.com/itm/227307766235",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 56,
+        "confidence": 80,
+        "expectedProfit": 4,
+        "submitProfit": -18,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 255.09,
+          "profit": 137.43,
+          "roi": 1.168,
+          "roiPercent": 116.8,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $70.37",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear"
         ]
       }
     },
@@ -363,7 +442,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 5,
+      "rank": 6,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -378,7 +457,7 @@
         "profit": 192.62,
         "roi": 2.9635,
         "roiPercent": 296.35,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|157830810575|0",
@@ -428,10 +507,172 @@
           "profit": 192.62,
           "roi": 2.9635,
           "roiPercent": 296.35,
-          "threshold": 0.35,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $38",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 7,
+      "rawMarket": 57,
+      "psa10Market": 232.61,
+      "buyUnder": 55.83,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "7 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 202.37,
+        "profit": 97.38,
+        "roi": 0.9275,
+        "roiPercent": 92.75,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|389882263621|0",
+      "marketStats": {
+        "compCount": 7,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 79,
+        "upsideScore": 22,
+        "confidenceScore": 59,
+        "liquidityScore": 100,
+        "trendScore": 76,
+        "combinedScore": 56,
+        "deployableNowScore": 39,
+        "thesis": "heat 79 | upside 22 | confidence 59 | liquidity 100 | trend 76"
+      },
+      "thesis": "heat 79 | upside 22 | confidence 59 | liquidity 100 | trend 76",
+      "socialTrendScore": 76,
+      "deployableNowScore": 39,
+      "socialTrendReasons": [
+        "internal-scan",
+        "cardlines"
+      ],
+      "best": {
+        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
+        "price": 79.99,
+        "shipping": 0,
+        "total": 79.99,
+        "seller": "henny_tcg",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/389882263621",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 40,
+        "confidence": 53,
+        "expectedProfit": -55,
+        "submitProfit": -64,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 202.37,
+          "profit": 97.38,
+          "roi": 0.9275,
+          "roiPercent": 92.75,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Perona OP10-092",
+      "code": "OP10-092",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 8,
+      "rawMarket": 6.8,
+      "psa10Market": 103.49,
+      "buyUnder": 8,
+      "psa9Risk": "9 kills most edge",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 90.04,
+        "profit": 53.09,
+        "roi": 1.4367,
+        "roiPercent": 143.67,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|358361043247|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 17,
+        "upsideScore": 23,
+        "confidenceScore": 44,
+        "liquidityScore": 13,
+        "trendScore": 0,
+        "combinedScore": 26,
+        "deployableNowScore": 23,
+        "thesis": "heat 17 | upside 23 | confidence 44 | liquidity 13 | trend 0"
+      },
+      "thesis": "heat 17 | upside 23 | confidence 44 | liquidity 13 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 23,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Perona OP10-092 Premium Card Collection Promo Near Mint NM",
+        "price": 11.95,
+        "shipping": 0,
+        "total": 11.95,
+        "seller": "topuria2256",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/358361043247?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBoNKMHxFBqGpVFQVJ306qBRay%2Bw%2B4pM8S7PFXOUJfdA7UCrZHh8%2F4wUP59IMOlphmF3OsTuYvHgcyiXD8%2BilKftm1yC66ENQcwNSyNaIhQG73ZdtH3gOdyzqcY7X%2FvntJQPkQnD6xyNnztpyofUTNT1HGbMu0jdzO9rWZADYPw759DNd1B8Zx1cgL2Ux8mhqI%3D",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 57,
+        "confidence": 53,
+        "expectedProfit": -9,
+        "submitProfit": -14,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 90.04,
+          "profit": 53.09,
+          "roi": 1.4367,
+          "roiPercent": 143.67,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -445,7 +686,7 @@
       "seedBoard": "secondary",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 6,
+      "rank": 9,
       "rawMarket": 70,
       "psa10Market": 218.1,
       "buyUnder": 52.34,
@@ -460,7 +701,7 @@
         "profit": 92.24,
         "roi": 0.9675,
         "roiPercent": 96.75,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|236755581004|0",
@@ -470,22 +711,19 @@
         "high": 255
       },
       "scores": {
-        "hotScore": 63,
-        "upsideScore": 16,
-        "confidenceScore": 51,
+        "hotScore": 53,
+        "upsideScore": 12,
+        "confidenceScore": 52,
         "liquidityScore": 74,
-        "trendScore": 78,
-        "combinedScore": 46,
-        "deployableNowScore": 33,
-        "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78"
+        "trendScore": 0,
+        "combinedScore": 35,
+        "deployableNowScore": 36,
+        "thesis": "heat 53 | upside 12 | confidence 52 | liquidity 74 | trend 0"
       },
-      "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78",
-      "socialTrendScore": 78,
-      "deployableNowScore": 33,
-      "socialTrendReasons": [
-        "internal-scan",
-        "youtube-market-watch"
-      ],
+      "thesis": "heat 53 | upside 12 | confidence 52 | liquidity 74 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 36,
+      "socialTrendReasons": [],
       "best": {
         "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
         "price": 40.61,
@@ -499,10 +737,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 34,
+        "probability": 48,
         "confidence": 53,
-        "expectedProfit": -68,
-        "submitProfit": -73,
+        "expectedProfit": -35,
+        "submitProfit": -46,
         "submitReady": false,
         "roiGate": {
           "gradingCost": 25,
@@ -510,195 +748,185 @@
           "profit": 92.24,
           "roi": 0.9675,
           "roiPercent": 96.75,
-          "threshold": 0.35,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $9",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 10,
+      "rawMarket": 51.36,
+      "psa10Market": 230,
+      "buyUnder": 55,
+      "psa9Risk": "weak protection",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 207,
+        "profit": 97.02,
+        "roi": 0.8822,
+        "roiPercent": 88.22,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|188295335447|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 22,
+        "upsideScore": 18,
+        "confidenceScore": 39,
+        "liquidityScore": 19,
+        "trendScore": 0,
+        "combinedScore": 25,
+        "deployableNowScore": 21,
+        "thesis": "heat 22 | upside 18 | confidence 39 | liquidity 19 | trend 0"
+      },
+      "thesis": "heat 22 | upside 18 | confidence 39 | liquidity 19 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 21,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Nami Best Selection Vol. 4 OP09-070 One Piece Promo Gengar Nami",
+        "price": 79.99,
+        "shipping": 4.99,
+        "total": 84.97999999999999,
+        "seller": "pokemedi",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/188295335447",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -51,
+        "submitProfit": -62,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 207,
+          "profit": 97.02,
+          "roi": 0.8822,
+          "roiPercent": 88.22,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
+          "corners: minor wear",
+          "edges: minor wear",
           "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Sabo OP10-049",
+      "code": "OP10-049",
+      "seedBoard": "secondary",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 11,
+      "rawMarket": 8.19,
+      "psa10Market": 89.12,
+      "buyUnder": 8,
+      "psa9Risk": "thin protection",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 76.64,
+        "profit": 38.32,
+        "roi": 1.0001,
+        "roiPercent": 100.01,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|257454722415|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 17,
+        "upsideScore": 18,
+        "confidenceScore": 39,
+        "liquidityScore": 13,
+        "trendScore": 0,
+        "combinedScore": 19,
+        "deployableNowScore": 20,
+        "thesis": "heat 17 | upside 18 | confidence 39 | liquidity 13 | trend 0"
+      },
+      "thesis": "heat 17 | upside 18 | confidence 39 | liquidity 13 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 20,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "One Piece TCG Sabo OP10-049 Best Selection Vol. 4 Alt Art",
+        "price": 12,
+        "shipping": 1.32,
+        "total": 13.32,
+        "seller": "febtobah",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/257454722415",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 46,
+        "confidence": 50,
+        "expectedProfit": -19,
+        "submitProfit": -23,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 76.64,
+          "profit": 38.32,
+          "roi": 1.0001,
+          "roiPercent": 100.01,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 1"
         ]
       }
     }
   ],
   "coreCards": [
     {
-      "name": "Nami OP11-041",
-      "code": "OP11-041",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 1,
-      "rawMarket": 56,
-      "psa10Market": 232.07,
-      "buyUnder": 55.7,
-      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
-      "shouldAlert": false,
-      "roiGate": {
-        "gradingCost": 25,
-        "netPsa10Exit": 201.9,
-        "profit": 121.91,
-        "roi": 1.5241,
-        "roiPercent": 152.41,
-        "threshold": 0.35,
-        "passes": true
-      },
-      "listingKey": "v1|257451959094|0",
-      "marketStats": {
-        "compCount": 9,
-        "low": 195,
-        "high": 325
-      },
-      "scores": {
-        "hotScore": 82,
-        "upsideScore": 28,
-        "confidenceScore": 67,
-        "liquidityScore": 100,
-        "trendScore": 80,
-        "combinedScore": 61,
-        "deployableNowScore": 59,
-        "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80"
-      },
-      "thesis": "heat 82 | upside 28 | confidence 67 | liquidity 100 | trend 80",
-      "socialTrendScore": 80,
-      "deployableNowScore": 59,
-      "socialTrendReasons": [
-        "cardlines",
-        "internal-scan",
-        "youtube-market-watch"
-      ],
-      "best": {
-        "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
-        "price": 49.99,
-        "shipping": 5,
-        "total": 54.99,
-        "seller": "jedimike17",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY0eOiTOhlzqH6V1qflCNaiqd%2FXFIvcFK%2F28DtBxLUROr%2FMjS%2BVyHRz49is2fzdSByRzUy1yQLAxPTatW9oPA1%2BAtaDLDAmm7Bh8P6w%2Fc9qBRLlxb19GRjqHYLI0g%2BQUiozz02PnieaeZfNxY0AQLlmM%3D",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 60,
-        "confidence": 53,
-        "expectedProfit": -11,
-        "submitProfit": -24,
-        "submitReady": false,
-        "roiGate": {
-          "gradingCost": 25,
-          "netPsa10Exit": 201.9,
-          "profit": 121.91,
-          "roi": 1.5241,
-          "roiPercent": 152.41,
-          "threshold": 0.35,
-          "passes": true
-        },
-        "offerSuggestion": "Offer around $20",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "limited photos: 3"
-        ]
-      }
-    },
-    {
-      "name": "Monkey.D.Luffy P-075",
-      "code": "P-075",
-      "seedBoard": "experimental",
-      "board": "core",
-      "priority": "core",
-      "rank": 2,
-      "rawMarket": 19.92,
-      "psa10Market": 151.42,
-      "buyUnder": 36.34,
-      "psa9Risk": "unclear slab evidence",
-      "isNew": false,
-      "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
-      "shouldAlert": false,
-      "roiGate": {
-        "gradingCost": 25,
-        "netPsa10Exit": 128.71,
-        "profit": 86.71,
-        "roi": 2.0645,
-        "roiPercent": 206.45,
-        "threshold": 0.35,
-        "passes": true
-      },
-      "listingKey": "v1|366352928659|0",
-      "marketStats": {
-        "compCount": 4,
-        "low": 114.97999999999999,
-        "high": 185.16
-      },
-      "scores": {
-        "hotScore": 74,
-        "upsideScore": 33,
-        "confidenceScore": 47,
-        "liquidityScore": 78,
-        "trendScore": 92,
-        "combinedScore": 57,
-        "deployableNowScore": 62,
-        "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92"
-      },
-      "thesis": "heat 74 | upside 33 | confidence 47 | liquidity 78 | trend 92",
-      "socialTrendScore": 92,
-      "deployableNowScore": 62,
-      "socialTrendReasons": [
-        "internal-scan",
-        "x-viewer",
-        "snkrdunk",
-        "cardlines"
-      ],
-      "best": {
-        "title": "Monkey.D.Luffy ( Best Selection Vol. 3-) P-075 One Piece TCG Promotion Cards ENG",
-        "price": 17,
-        "shipping": 0,
-        "total": 17,
-        "seller": "rosayx",
-        "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/366352928659",
-        "suspicionFlags": []
-      },
-      "analysis": {
-        "recommendation": "pass",
-        "gradeRank": "D",
-        "probability": 22,
-        "confidence": 53,
-        "expectedProfit": -23,
-        "submitProfit": -26,
-        "submitReady": false,
-        "roiGate": {
-          "gradingCost": 25,
-          "netPsa10Exit": 128.71,
-          "profit": 86.71,
-          "roi": 2.0645,
-          "roiPercent": 206.45,
-          "threshold": 0.35,
-          "passes": true
-        },
-        "offerSuggestion": "Offer around $1",
-        "riskFlags": [
-          "corners: minor wear",
-          "edges: minor wear",
-          "surface: possible issue",
-          "occlusion: minor",
-          "limited photos: 2"
-        ]
-      }
-    },
-    {
       "name": "Perona OP01-077",
       "code": "OP01-077",
       "seedBoard": "experimental",
       "board": "core",
       "priority": "core",
-      "rank": 3,
+      "rank": 1,
       "rawMarket": 23.94,
       "psa10Market": 251.09,
       "buyUnder": 60.26,
@@ -713,7 +941,7 @@
         "profit": 169.5,
         "roi": 3.4627,
         "roiPercent": 346.27,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|127785102982|0",
@@ -745,7 +973,7 @@
         "total": 23.95,
         "seller": "qptokio",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlMpe8cxKHjIyR7DKSRGPNb6wkXiYzHkX9YsuSfDXl%2FJtcFWLVhiEXqSqISVr4t6QOFjj4S%2FMawzcx8VS89GICv--5yuaBTahbrYKMe7e2xKRDEbo3L69SnGkfmSllTG%2BjN1VjY9tIWxhNaI%2BwEGeqcA%3D",
+        "link": "https://www.ebay.com/itm/127785102982?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAfayDFa0YSv%2FIPOJy90q2Jr0cGFwZcfds2KL%2FJIJJVlEh5dDb5OSVk0dzPf12yZqiBDGfN4S%2FkuDUPw9TPTVRqfDvLbg0vuQG7JOmqP8t1cbsh8obYPGwLwquHlvq304BhEBX6XYKX67SOvcpVINSQpGWyzrZRXZ66cX7oQzQ5XpROw5IMN65VwOcLrdG9PcM%3D",
         "suspicionFlags": []
       },
       "analysis": {
@@ -762,13 +990,90 @@
           "profit": 169.5,
           "roi": 3.4627,
           "roiPercent": 346.27,
-          "threshold": 0.35,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Buy at ask",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Boa Hancock ST03-013",
+      "code": "ST03-013",
+      "seedBoard": "core",
+      "board": "core",
+      "priority": "core",
+      "rank": 2,
+      "rawMarket": 25.28,
+      "psa10Market": 197.49,
+      "buyUnder": 47.4,
+      "psa9Risk": "real downside",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "3 recent PSA 10 sold comps, range $185.00 to $200.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 177.74,
+        "profit": 132.42,
+        "roi": 2.9219,
+        "roiPercent": 292.19,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|236769705628|0",
+      "marketStats": {
+        "compCount": 3,
+        "low": 185,
+        "high": 200
+      },
+      "scores": {
+        "hotScore": 34,
+        "upsideScore": 48,
+        "confidenceScore": 53,
+        "liquidityScore": 35,
+        "trendScore": 0,
+        "combinedScore": 44,
+        "deployableNowScore": 67,
+        "thesis": "heat 34 | upside 48 | confidence 53 | liquidity 35 | trend 0"
+      },
+      "thesis": "heat 34 | upside 48 | confidence 53 | liquidity 35 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 67,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
+        "price": 19,
+        "shipping": 1.32,
+        "total": 20.32,
+        "seller": "mwneese",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/236769705628",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 68,
+        "confidence": 53,
+        "expectedProfit": 22,
+        "submitProfit": 10,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 177.74,
+          "profit": 132.42,
+          "roi": 2.9219,
+          "roiPercent": 292.19,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $10",
+        "riskFlags": [
           "limited photos: 2"
         ]
       }
@@ -776,62 +1081,61 @@
   ],
   "experimentalCards": [
     {
-      "name": "Boa Hancock ST03-013",
-      "code": "ST03-013",
-      "seedBoard": "core",
+      "name": "Nami OP11-041",
+      "code": "OP11-041",
+      "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 4,
-      "rawMarket": 25.28,
-      "psa10Market": 197.49,
-      "buyUnder": 47.4,
-      "psa9Risk": "real downside",
-      "isNew": true,
+      "rank": 3,
+      "rawMarket": 56,
+      "psa10Market": 232.07,
+      "buyUnder": 55.7,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
       "pricingSource": "ebay_recent_psa10_sales",
-      "pricingNotes": "3 recent PSA 10 sold comps, range $185.00 to $200.00",
+      "pricingNotes": "9 recent PSA 10 sold comps, range $195.00 to $325.00",
       "shouldAlert": false,
       "roiGate": {
         "gradingCost": 25,
-        "netPsa10Exit": 177.74,
-        "profit": 132.42,
-        "roi": 2.9219,
-        "roiPercent": 292.19,
-        "threshold": 0.35,
+        "netPsa10Exit": 201.9,
+        "profit": 121.91,
+        "roi": 1.5241,
+        "roiPercent": 152.41,
+        "threshold": 0.8,
         "passes": true
       },
-      "listingKey": "v1|236769705628|0",
+      "listingKey": "v1|257451959094|0",
       "marketStats": {
-        "compCount": 3,
-        "low": 185,
-        "high": 200
+        "compCount": 9,
+        "low": 195,
+        "high": 325
       },
       "scores": {
-        "hotScore": 53,
-        "upsideScore": 33,
-        "confidenceScore": 47,
-        "liquidityScore": 35,
-        "trendScore": 84,
-        "combinedScore": 50,
-        "deployableNowScore": 57,
-        "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84"
+        "hotScore": 82,
+        "upsideScore": 26,
+        "confidenceScore": 60,
+        "liquidityScore": 100,
+        "trendScore": 80,
+        "combinedScore": 59,
+        "deployableNowScore": 54,
+        "thesis": "heat 82 | upside 26 | confidence 60 | liquidity 100 | trend 80"
       },
-      "thesis": "heat 53 | upside 33 | confidence 47 | liquidity 35 | trend 84",
-      "socialTrendScore": 84,
-      "deployableNowScore": 57,
+      "thesis": "heat 82 | upside 26 | confidence 60 | liquidity 100 | trend 80",
+      "socialTrendScore": 80,
+      "deployableNowScore": 54,
       "socialTrendReasons": [
-        "cardgamer",
         "cardlines",
-        "ebay",
+        "internal-scan",
         "youtube-market-watch"
       ],
       "best": {
-        "title": "Boa Hancock (Premium Card Collection -Best Selection Vol. 2-) ST03-013 One Piece",
-        "price": 19,
-        "shipping": 1.32,
-        "total": 20.32,
-        "seller": "mwneese",
+        "title": "Nami Leader Alt Art OP11-041 L A Fist of Divine Speed One Piece Card Game NM",
+        "price": 49.99,
+        "shipping": 5,
+        "total": 54.99,
+        "seller": "jedimike17",
         "condition": "Ungraded",
-        "link": "https://www.ebay.com/itm/236769705628",
+        "link": "https://www.ebay.com/itm/257451959094?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAwBNV8oLQf68cSJkTS1mKEA2r0fJZ7rKnmJBM8Nt1WY6B1t%2FyXENOHjyoL86%2Boj0XWDnwzGXW%2Fg4wcASKSGloLf6bQeDk2BNhNM01RNRpeVBNWYSTaDGxoaKmtix%2FnYj%2BQWzGh%2F0%2BkrDaA2JsItr45EbMBXlIH%2F4Tqc7llt4KMsY05mj3xNS7j2durIjcph8s%3D",
         "suspicionFlags": []
       },
       "analysis": {
@@ -839,23 +1143,185 @@
         "gradeRank": "D",
         "probability": 42,
         "confidence": 53,
-        "expectedProfit": -20,
-        "submitProfit": -25,
+        "expectedProfit": -29,
+        "submitProfit": -38,
         "submitReady": false,
         "roiGate": {
           "gradingCost": 25,
-          "netPsa10Exit": 177.74,
-          "profit": 132.42,
-          "roi": 2.9219,
-          "roiPercent": 292.19,
-          "threshold": 0.35,
+          "netPsa10Exit": 201.9,
+          "profit": 121.91,
+          "roi": 1.5241,
+          "roiPercent": 152.41,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $2",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 3"
+        ]
+      }
+    },
+    {
+      "name": "Monkey.D.Luffy P-075",
+      "code": "P-075",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 4,
+      "rawMarket": 19.92,
+      "psa10Market": 151.42,
+      "buyUnder": 36.34,
+      "psa9Risk": "unclear slab evidence",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "4 recent PSA 10 sold comps, range $114.98 to $185.16",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 128.71,
+        "profit": 86.71,
+        "roi": 2.0645,
+        "roiPercent": 206.45,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|366352928659|0",
+      "marketStats": {
+        "compCount": 4,
+        "low": 114.97999999999999,
+        "high": 185.16
+      },
+      "scores": {
+        "hotScore": 62,
+        "upsideScore": 28,
+        "confidenceScore": 42,
+        "liquidityScore": 78,
+        "trendScore": 0,
+        "combinedScore": 43,
+        "deployableNowScore": 62,
+        "thesis": "heat 62 | upside 28 | confidence 42 | liquidity 78 | trend 0"
+      },
+      "thesis": "heat 62 | upside 28 | confidence 42 | liquidity 78 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 62,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Monkey.D.Luffy ( Best Selection Vol. 3-) P-075 One Piece TCG Promotion Cards ENG",
+        "price": 17,
+        "shipping": 0,
+        "total": 17,
+        "seller": "rosayx",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/366352928659",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 22,
+        "confidence": 53,
+        "expectedProfit": -23,
+        "submitProfit": -26,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 128.71,
+          "profit": 86.71,
+          "roi": 2.0645,
+          "roiPercent": 206.45,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
+          "corners: minor wear",
           "edges: minor wear",
+          "surface: possible issue",
+          "occlusion: minor",
           "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP03-040",
+      "code": "OP03-040",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 5,
+      "rawMarket": 95,
+      "psa10Market": 293.21,
+      "buyUnder": 70.37,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "5 recent PSA 10 sold comps, range $253.76 to $340.00",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 255.09,
+        "profit": 137.43,
+        "roi": 1.168,
+        "roiPercent": 116.8,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|227307766235|0",
+      "marketStats": {
+        "compCount": 5,
+        "low": 253.76,
+        "high": 340
+      },
+      "scores": {
+        "hotScore": 76,
+        "upsideScore": 24,
+        "confidenceScore": 72,
+        "liquidityScore": 89,
+        "trendScore": 80,
+        "combinedScore": 58,
+        "deployableNowScore": 47,
+        "thesis": "heat 76 | upside 24 | confidence 72 | liquidity 89 | trend 80"
+      },
+      "thesis": "heat 76 | upside 24 | confidence 72 | liquidity 89 | trend 80",
+      "socialTrendScore": 80,
+      "deployableNowScore": 47,
+      "socialTrendReasons": [
+        "cardlines",
+        "youtube-market-watch"
+      ],
+      "best": {
+        "title": "One Piece Card Model Number Nami (Leader Parallel) OP03 040 Bandai",
+        "price": 87.67,
+        "shipping": 4.99,
+        "total": 92.66,
+        "seller": "japantcgstore-inc",
+        "condition": "Used",
+        "link": "https://www.ebay.com/itm/227307766235",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 56,
+        "confidence": 80,
+        "expectedProfit": 4,
+        "submitProfit": -18,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 255.09,
+          "profit": 137.43,
+          "roi": 1.168,
+          "roiPercent": 116.8,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $70.37",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear"
         ]
       }
     },
@@ -865,7 +1331,7 @@
       "seedBoard": "experimental",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 5,
+      "rank": 6,
       "rawMarket": 20.27,
       "psa10Market": 296.12,
       "buyUnder": 71.07,
@@ -880,7 +1346,7 @@
         "profit": 192.62,
         "roi": 2.9635,
         "roiPercent": 296.35,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|157830810575|0",
@@ -930,10 +1396,172 @@
           "profit": 192.62,
           "roi": 2.9635,
           "roiPercent": 296.35,
-          "threshold": 0.35,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $38",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Roronoa Zoro OP12-020",
+      "code": "OP12-020",
+      "seedBoard": "experimental",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 7,
+      "rawMarket": 57,
+      "psa10Market": 232.61,
+      "buyUnder": 55.83,
+      "psa9Risk": "leader alt raws can already be too expensive to flip safely",
+      "isNew": false,
+      "pricingSource": "ebay_recent_psa10_sales",
+      "pricingNotes": "7 recent PSA 10 sold comps, range $202.65 to $285.98",
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 202.37,
+        "profit": 97.38,
+        "roi": 0.9275,
+        "roiPercent": 92.75,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|389882263621|0",
+      "marketStats": {
+        "compCount": 7,
+        "low": 202.65,
+        "high": 285.98
+      },
+      "scores": {
+        "hotScore": 79,
+        "upsideScore": 22,
+        "confidenceScore": 59,
+        "liquidityScore": 100,
+        "trendScore": 76,
+        "combinedScore": 56,
+        "deployableNowScore": 39,
+        "thesis": "heat 79 | upside 22 | confidence 59 | liquidity 100 | trend 76"
+      },
+      "thesis": "heat 79 | upside 22 | confidence 59 | liquidity 100 | trend 76",
+      "socialTrendScore": 76,
+      "deployableNowScore": 39,
+      "socialTrendReasons": [
+        "internal-scan",
+        "cardlines"
+      ],
+      "best": {
+        "title": "One Piece Roronoa Zoro Leader Alt Art Foil OP12-020 ",
+        "price": 79.99,
+        "shipping": 0,
+        "total": 79.99,
+        "seller": "henny_tcg",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/389882263621",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 40,
+        "confidence": 53,
+        "expectedProfit": -55,
+        "submitProfit": -64,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 202.37,
+          "profit": 97.38,
+          "roi": 0.9275,
+          "roiPercent": 92.75,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Perona OP10-092",
+      "code": "OP10-092",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 8,
+      "rawMarket": 6.8,
+      "psa10Market": 103.49,
+      "buyUnder": 8,
+      "psa9Risk": "9 kills most edge",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 90.04,
+        "profit": 53.09,
+        "roi": 1.4367,
+        "roiPercent": 143.67,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|358361043247|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 17,
+        "upsideScore": 23,
+        "confidenceScore": 44,
+        "liquidityScore": 13,
+        "trendScore": 0,
+        "combinedScore": 26,
+        "deployableNowScore": 23,
+        "thesis": "heat 17 | upside 23 | confidence 44 | liquidity 13 | trend 0"
+      },
+      "thesis": "heat 17 | upside 23 | confidence 44 | liquidity 13 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 23,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Perona OP10-092 Premium Card Collection Promo Near Mint NM",
+        "price": 11.95,
+        "shipping": 0,
+        "total": 11.95,
+        "seller": "topuria2256",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/358361043247?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBoNKMHxFBqGpVFQVJ306qBRay%2Bw%2B4pM8S7PFXOUJfdA7UCrZHh8%2F4wUP59IMOlphmF3OsTuYvHgcyiXD8%2BilKftm1yC66ENQcwNSyNaIhQG73ZdtH3gOdyzqcY7X%2FvntJQPkQnD6xyNnztpyofUTNT1HGbMu0jdzO9rWZADYPw759DNd1B8Zx1cgL2Ux8mhqI%3D",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 57,
+        "confidence": 53,
+        "expectedProfit": -9,
+        "submitProfit": -14,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 90.04,
+          "profit": 53.09,
+          "roi": 1.4367,
+          "roiPercent": 143.67,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
         "riskFlags": [
           "corners: minor wear",
           "edges: minor wear",
@@ -947,7 +1575,7 @@
       "seedBoard": "secondary",
       "board": "experimental",
       "priority": "experimental",
-      "rank": 6,
+      "rank": 9,
       "rawMarket": 70,
       "psa10Market": 218.1,
       "buyUnder": 52.34,
@@ -962,7 +1590,7 @@
         "profit": 92.24,
         "roi": 0.9675,
         "roiPercent": 96.75,
-        "threshold": 0.35,
+        "threshold": 0.8,
         "passes": true
       },
       "listingKey": "v1|236755581004|0",
@@ -972,22 +1600,19 @@
         "high": 255
       },
       "scores": {
-        "hotScore": 63,
-        "upsideScore": 16,
-        "confidenceScore": 51,
+        "hotScore": 53,
+        "upsideScore": 12,
+        "confidenceScore": 52,
         "liquidityScore": 74,
-        "trendScore": 78,
-        "combinedScore": 46,
-        "deployableNowScore": 33,
-        "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78"
+        "trendScore": 0,
+        "combinedScore": 35,
+        "deployableNowScore": 36,
+        "thesis": "heat 53 | upside 12 | confidence 52 | liquidity 74 | trend 0"
       },
-      "thesis": "heat 63 | upside 16 | confidence 51 | liquidity 74 | trend 78",
-      "socialTrendScore": 78,
-      "deployableNowScore": 33,
-      "socialTrendReasons": [
-        "internal-scan",
-        "youtube-market-watch"
-      ],
+      "thesis": "heat 53 | upside 12 | confidence 52 | liquidity 74 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 36,
+      "socialTrendReasons": [],
       "best": {
         "title": "One Piece CCG Nico Robin Alt Art Leader OP09-062 English",
         "price": 40.61,
@@ -1001,10 +1626,10 @@
       "analysis": {
         "recommendation": "pass",
         "gradeRank": "D",
-        "probability": 34,
+        "probability": 48,
         "confidence": 53,
-        "expectedProfit": -68,
-        "submitProfit": -73,
+        "expectedProfit": -35,
+        "submitProfit": -46,
         "submitReady": false,
         "roiGate": {
           "gradingCost": 25,
@@ -1012,18 +1637,188 @@
           "profit": 92.24,
           "roi": 0.9675,
           "roiPercent": 96.75,
-          "threshold": 0.35,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $9",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "surface: possible issue",
+          "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Nami OP09-070",
+      "code": "OP09-070",
+      "seedBoard": "core",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 10,
+      "rawMarket": 51.36,
+      "psa10Market": 230,
+      "buyUnder": 55,
+      "psa9Risk": "weak protection",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 207,
+        "profit": 97.02,
+        "roi": 0.8822,
+        "roiPercent": 88.22,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|188295335447|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 22,
+        "upsideScore": 18,
+        "confidenceScore": 39,
+        "liquidityScore": 19,
+        "trendScore": 0,
+        "combinedScore": 25,
+        "deployableNowScore": 21,
+        "thesis": "heat 22 | upside 18 | confidence 39 | liquidity 19 | trend 0"
+      },
+      "thesis": "heat 22 | upside 18 | confidence 39 | liquidity 19 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 21,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "Nami Best Selection Vol. 4 OP09-070 One Piece Promo Gengar Nami",
+        "price": 79.99,
+        "shipping": 4.99,
+        "total": 84.97999999999999,
+        "seller": "pokemedi",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/188295335447",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 42,
+        "confidence": 53,
+        "expectedProfit": -51,
+        "submitProfit": -62,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 207,
+          "profit": 97.02,
+          "roi": 0.8822,
+          "roiPercent": 88.22,
+          "threshold": 0.8,
           "passes": true
         },
         "offerSuggestion": "Offer around $1",
         "riskFlags": [
-          "corners: visible whitening",
-          "edges: visible wear",
+          "corners: minor wear",
+          "edges: minor wear",
           "limited photos: 2"
+        ]
+      }
+    },
+    {
+      "name": "Sabo OP10-049",
+      "code": "OP10-049",
+      "seedBoard": "secondary",
+      "board": "experimental",
+      "priority": "experimental",
+      "rank": 11,
+      "rawMarket": 8.19,
+      "psa10Market": 89.12,
+      "buyUnder": 8,
+      "psa9Risk": "thin protection",
+      "isNew": true,
+      "pricingSource": "fallback",
+      "pricingNotes": null,
+      "shouldAlert": false,
+      "roiGate": {
+        "gradingCost": 25,
+        "netPsa10Exit": 76.64,
+        "profit": 38.32,
+        "roi": 1.0001,
+        "roiPercent": 100.01,
+        "threshold": 0.8,
+        "passes": true
+      },
+      "listingKey": "v1|257454722415|0",
+      "marketStats": {
+        "compCount": 0,
+        "low": null,
+        "high": null
+      },
+      "scores": {
+        "hotScore": 17,
+        "upsideScore": 18,
+        "confidenceScore": 39,
+        "liquidityScore": 13,
+        "trendScore": 0,
+        "combinedScore": 19,
+        "deployableNowScore": 20,
+        "thesis": "heat 17 | upside 18 | confidence 39 | liquidity 13 | trend 0"
+      },
+      "thesis": "heat 17 | upside 18 | confidence 39 | liquidity 13 | trend 0",
+      "socialTrendScore": 0,
+      "deployableNowScore": 20,
+      "socialTrendReasons": [],
+      "best": {
+        "title": "One Piece TCG Sabo OP10-049 Best Selection Vol. 4 Alt Art",
+        "price": 12,
+        "shipping": 1.32,
+        "total": 13.32,
+        "seller": "febtobah",
+        "condition": "Ungraded",
+        "link": "https://www.ebay.com/itm/257454722415",
+        "suspicionFlags": []
+      },
+      "analysis": {
+        "recommendation": "pass",
+        "gradeRank": "D",
+        "probability": 46,
+        "confidence": 50,
+        "expectedProfit": -19,
+        "submitProfit": -23,
+        "submitReady": false,
+        "roiGate": {
+          "gradingCost": 25,
+          "netPsa10Exit": 76.64,
+          "profit": 38.32,
+          "roi": 1.0001,
+          "roiPercent": 100.01,
+          "threshold": 0.8,
+          "passes": true
+        },
+        "offerSuggestion": "Offer around $1",
+        "riskFlags": [
+          "corners: minor wear",
+          "edges: minor wear",
+          "limited photos: 1"
         ]
       }
     }
   ],
   "staleTargets": [],
-  "roiFilteredOut": []
+  "roiFilteredOut": [
+    {
+      "name": "Sabo P-073",
+      "roiPercent": -38.88,
+      "listingTotal": 17.93
+    },
+    {
+      "name": "Portgas.D.Ace P-074",
+      "roiPercent": -29,
+      "listingTotal": 18.759999999999998
+    }
+  ]
 }
