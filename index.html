@@ -90,6 +90,37 @@
       background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
       display: grid;
       place-items: center;
+      position: relative;
+      isolation: isolate;
+    }
+    .media::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: 16px;
+      padding: 3px;
+      background: transparent;
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      mask-composite: exclude;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 2;
+    }
+    .media.candidate-ring-silver::before,
+    .media.candidate-ring-gold::before {
+      opacity: 1;
+      animation: ringFlow 3.2s linear infinite;
+      box-shadow: 0 0 16px rgba(255,255,255,.15);
+    }
+    .media.candidate-ring-silver::before {
+      background: conic-gradient(from 0deg, rgba(255,255,255,.2), #f7f7f7, #9ea7b3, #ffffff, rgba(255,255,255,.2));
+      box-shadow: 0 0 18px rgba(214,224,237,.35);
+    }
+    .media.candidate-ring-gold::before {
+      background: conic-gradient(from 0deg, rgba(255,210,84,.25), #ffd54f, #ffef9a, #ffb300, #fff2b3, rgba(255,210,84,.25));
+      box-shadow: 0 0 20px rgba(255,209,102,.45);
     }
     .media img {
       width: 100%;
@@ -207,6 +238,10 @@
       border: 1px dashed var(--border);
       border-radius: 16px;
     }
+    @keyframes ringFlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
   </style>
 </head>
 <body>
@@ -266,6 +301,13 @@
       `).join('')}</div>`;
     }
 
+    function mediaRingClass(row) {
+      const count = Array.isArray(row.ebayCandidates) ? row.ebayCandidates.length : 0;
+      if (count >= 2) return 'candidate-ring-gold';
+      if (count === 1) return 'candidate-ring-silver';
+      return '';
+    }
+
     function render(rows) {
       const container = document.getElementById('results');
       if (!rows.length) {
@@ -274,7 +316,7 @@
       }
       container.innerHTML = rows.map((row, index) => `
         <article class="card">
-          <div class="media">
+          <div class="media ${mediaRingClass(row)}">
             <img
               src="${productImageUrl(row.productId, 'jpg')}"
               data-fallback-src="${productImageUrl(row.productId, 'png')}"
