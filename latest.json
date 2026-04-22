@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T20:59:09.413Z",
+  "generatedAt": "2026-04-22T15:04:37.168Z",
   "dateStamp": "2026-04-21",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -62,10 +62,10 @@
             "feedbackScore": 94
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 50,
-            "confidence": 80,
-            "notes": "Card centered well with no sleeve glare; slight corner softness visible, edge wear on bottom right, back photo is provided but card is not English, reject for language.",
+            "score": 85,
+            "psa10Probability": 70,
+            "confidence": 85,
+            "notes": "Good centering and sharpness with clear front and back photos; slight glare and minor edge wear visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -113,8 +113,43 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/558030",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558030.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidates": [
+        {
+          "itemId": "v1|397866797953|0",
+          "title": "Tony Tony.Chopper (OP08-007) (Parallel) - Two Legends (OP08) LP",
+          "price": 20,
+          "shipping": 0,
+          "total": 20,
+          "itemWebUrl": "https://www.ebay.com/itm/397866797953",
+          "imageUrl": "https://i.ebayimg.com/images/g/gwEAAeSwisJp6DEE/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/6yEAAeSwhkpp6DD0/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/IO0AAeSwM~Rp6DDz/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/2cMAAeSwwtlp6DDz/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "givel6059",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 31
+          },
+          "photoScore": {
+            "score": 70,
+            "psa10Probability": 65,
+            "confidence": 85,
+            "notes": "Card is mostly clear with no sleeve glare and clear front and back photos; slight edge whitening and imperfect centering noted; English language text confirmed.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 45,
+            "netExit": 294.8,
+            "profit": 249.8,
+            "roi": 5.5511,
+            "roiPercent": 555.11
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
     },
     {
       "code": "OP06-042",
@@ -135,9 +170,9 @@
         {
           "itemId": "v1|366351254271|0",
           "title": "2025 One Piece EB02 25th Anniversary EN OP06-042 Vinsmoke Reiju SPR GOLD",
-          "price": 255,
+          "price": 280,
           "shipping": 5.5,
-          "total": 260.5,
+          "total": 285.5,
           "itemWebUrl": "https://www.ebay.com/itm/366351254271",
           "imageUrl": "https://i.ebayimg.com/images/g/jHwAAeSwisJp4U42/s-l1600.jpg",
           "additionalImages": [
@@ -146,30 +181,30 @@
           "seller": {
             "username": "probstein123",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 1592066
+            "feedbackScore": 1592908
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Slightly soft corners and minor edge wear visible; good centering and clear English text; no sleeve glare; back photo present and clear.",
+            "score": 80,
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Good centering and back photo provided, slight glare on front and minor corner softening, English text confirmed.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
           "roi": {
-            "costBasis": 285.5,
+            "costBasis": 310.5,
             "netExit": 2390.67,
-            "profit": 2105.17,
-            "roi": 7.3736,
-            "roiPercent": 737.36
+            "profit": 2080.17,
+            "roi": 6.6994,
+            "roiPercent": 669.94
           }
         },
         {
           "itemId": "v1|397856320936|0",
           "title": "2025 One Piece EB02 EN OP06-042 Vinsmoke Reiju SPR",
-          "price": 388.45,
+          "price": 387.88,
           "shipping": 0,
-          "total": 388.45,
+          "total": 387.88,
           "itemWebUrl": "https://www.ebay.com/itm/397856320936",
           "imageUrl": "https://i.ebayimg.com/images/g/W80AAeSwG6dp5FXc/s-l1600.jpg",
           "additionalImages": [
@@ -185,19 +220,19 @@
             "feedbackScore": 9
           },
           "photoScore": {
-            "score": 73,
-            "psa10Probability": 55,
+            "score": 80,
+            "psa10Probability": 70,
             "confidence": 85,
-            "notes": "Card centering is slightly off with some minor edge wear visible; photos are clear with front and back shown; card text in English with no foil glare interfering.",
+            "notes": "Sharp images show good centering and edges; minor glare present but corners and edges appear solid; English text confirmed with back shown.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
           "roi": {
-            "costBasis": 413.45,
+            "costBasis": 412.88,
             "netExit": 2390.67,
-            "profit": 1977.22,
-            "roi": 4.7822,
-            "roiPercent": 478.22
+            "profit": 1977.79,
+            "roi": 4.7902,
+            "roiPercent": 479.02
           }
         }
       ],
@@ -279,7 +314,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLVRgx1KdZW3%2BtCZTr1vENpPfsXBEjcBq3b74BU4B2gNo0EkdqKuSgfabMR7Q51jLdzdlRSzbYR6hAI4Z1J2aX%2B%2FwXFtib8%2FNkOba%2FPySbNWvBuQlMDxwcbonueSn7uDJppKirtPkgc3xd5ZWH7Xl0yk%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLdp4ZPDTdNOpf%2Ff72kkAYFzlbu46ChLIoi0QlCnDz9yt82DK96RKODhGLq5mXwt92ZhjTQc8Z7kax0igvj9dXYgKBq6n42HgcDd2Nl8zXaAA80I%2FSmVMp0Owh%2BC9fPOxV61AOmfe6e4gGYTthO9poGg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -292,8 +327,8 @@
           "photoScore": {
             "score": 75,
             "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Slight corner wear and minor edge whitening visible, good centering and no sleeve glare; back photo provided and English text confirmed.",
+            "confidence": 90,
+            "notes": "Good centering and corners, but visible edge whitening and slight sleeve glare lower grade potential.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -380,9 +415,9 @@
           },
           "photoScore": {
             "score": 70,
-            "psa10Probability": 30,
+            "psa10Probability": 50,
             "confidence": 80,
-            "notes": "Front photo has slight glare and visible corner wear; centering is off; back photo present and English text visible; minor edge whitening visible.",
+            "notes": "Card in sleeve with moderate glare and slight edge wear visible; centering looks slightly off; front and back shown; English text visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -427,13 +462,13 @@
           "seller": {
             "username": "cjp2732",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 97
+            "feedbackScore": 100
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 50,
-            "confidence": 85,
-            "notes": "Good photos with visible front and back, slight centering and minor edge wear noted, no sleeves or glare.",
+            "score": 80,
+            "psa10Probability": 70,
+            "confidence": 90,
+            "notes": "Clear photos with good centering, some slight edge wear or whitening visible, no significant sleeve glare, and both front and back shown with English text.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -519,38 +554,6 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632498.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|267640646247|0",
-          "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
-          "price": 12.01,
-          "shipping": 5.99,
-          "total": 18,
-          "itemWebUrl": "https://www.ebay.com/itm/267640646247",
-          "imageUrl": "https://i.ebayimg.com/images/g/OVIAAeSwiY5p4Dog/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/PsYAAeSwmT1p4Doi/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "5_star_cards",
-            "feedbackPercentage": "99.9",
-            "feedbackScore": 102136
-          },
-          "photoScore": {
-            "score": 82,
-            "psa10Probability": 75,
-            "confidence": 90,
-            "notes": "Good centering and no obvious whitening, but sleeve glare and minor corner softness reduce score slightly; back photo included and card text is English.",
-            "visibleLanguage": "english",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 43,
-            "netExit": 129.26,
-            "profit": 86.26,
-            "roi": 2.0061,
-            "roiPercent": 200.61
-          }
-        },
-        {
           "itemId": "v1|267644820202|0",
           "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
           "price": 2.99,
@@ -564,13 +567,13 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102136
+            "feedbackScore": 102243
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Card is well centered with clear front and back, slight sleeve glare but no obvious edge whitening or soft corners.",
+            "score": 85,
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Card is centered well with no visible edge whitening or glaring defects; slight sleeve glare and minor corner softness noted.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -580,6 +583,38 @@
             "profit": 95.28,
             "roi": 2.8041,
             "roiPercent": 280.41
+          }
+        },
+        {
+          "itemId": "v1|267640646247|0",
+          "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
+          "price": 12.01,
+          "shipping": 5.99,
+          "total": 18,
+          "itemWebUrl": "https://www.ebay.com/itm/267640646247",
+          "imageUrl": "https://i.ebayimg.com/images/g/OVIAAeSwiY5p4Dog/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/PsYAAeSwmT1p4Doi/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "5_star_cards",
+            "feedbackPercentage": "99.9",
+            "feedbackScore": 102243
+          },
+          "photoScore": {
+            "score": 85,
+            "psa10Probability": 60,
+            "confidence": 90,
+            "notes": "Good centering and clear images of both sides; slight sleeve glare and minor edge whitening visible.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 43,
+            "netExit": 129.26,
+            "profit": 86.26,
+            "roi": 2.0061,
+            "roiPercent": 200.61
           }
         }
       ],
@@ -600,8 +635,39 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/672772",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672772.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidates": [
+        {
+          "itemId": "v1|267644796223|0",
+          "title": "Boa Hancock (Alternate Art) [EB-03 - EB03-026] - NM [Foil] TCG One Piece",
+          "price": 37.6,
+          "shipping": 0.99,
+          "total": 38.59,
+          "itemWebUrl": "https://www.ebay.com/itm/267644796223",
+          "imageUrl": "https://i.ebayimg.com/images/g/iiYAAeSwuhVp5UoE/s-l1600.jpg",
+          "additionalImages": [],
+          "seller": {
+            "username": "fabricatorsforge",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 13729
+          },
+          "photoScore": {
+            "score": 75,
+            "psa10Probability": 60,
+            "confidence": 85,
+            "notes": "Clear image with good focus and centering; minor glare and a large SAMPLE watermark visible; front only no back photo; English text confirmed.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 63.59,
+            "netExit": 168.14,
+            "profit": 104.55,
+            "roi": 1.6442,
+            "roiPercent": 164.42
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
     },
     {
       "code": "OP05-001",
@@ -871,9 +937,9 @@
           },
           "photoScore": {
             "score": 70,
-            "psa10Probability": 40,
+            "psa10Probability": 55,
             "confidence": 85,
-            "notes": "Card shows edge wear and whitening, moderate corner softness, and is slightly off-center; back photo is present and in good condition.",
+            "notes": "Card is well centered with clear photos of front and back, but edges show slight wear and some corner softness is visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -886,39 +952,35 @@
           }
         },
         {
-          "itemId": "v1|117117094297|0",
-          "title": "Tashigi (Alternate Art) OP12-031 Legacy of the Master Foil",
-          "price": 20,
+          "itemId": "v1|147079470721|0",
+          "title": "Tashigi OP12-031 (Alternate Art) - One Piece Legacy of the Master (OP12)",
+          "price": 19.99,
           "shipping": 0,
-          "total": 20,
-          "itemWebUrl": "https://www.ebay.com/itm/117117094297",
-          "imageUrl": "https://i.ebayimg.com/images/g/pnEAAeSwjStpyvJY/s-l1600.jpg",
+          "total": 19.99,
+          "itemWebUrl": "https://www.ebay.com/itm/147079470721",
+          "imageUrl": "https://i.ebayimg.com/images/g/HoQAAeSwEJVpXr53/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/zAkAAeSwg0BpyvJY/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/jDkAAeSwIAhpyvJZ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/Q1oAAeSwkXVpyvJZ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/wSQAAeSwDFxpyvJZ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/kTYAAeSw3htpyvJZ/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/nWsAAeSwdvRpXr6E/s-l1600.jpg"
           ],
           "seller": {
-            "username": "paradais_goodies",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 894
+            "username": "vortex.tcg",
+            "feedbackPercentage": "98.5",
+            "feedbackScore": 185
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 35,
-            "confidence": 85,
-            "notes": "Card has decent centering and clarity but shows edge whitening, rounded corners, and glare; back photo missing; English text visible.",
+            "score": 60,
+            "psa10Probability": 30,
+            "confidence": 90,
+            "notes": "Card has visible edge whitening and some corner wear, with slight centering off but minimal glare; English text and back included.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
           "roi": {
-            "costBasis": 45,
+            "costBasis": 44.99,
             "netExit": 94.97,
-            "profit": 49.97,
-            "roi": 1.1104,
-            "roiPercent": 111.04
+            "profit": 49.98,
+            "roi": 1.1109,
+            "roiPercent": 111.09
           }
         }
       ],
@@ -943,9 +1005,9 @@
         {
           "itemId": "v1|358458452685|0",
           "title": "Nico Robin (055) (Alternate Art) EB03-055 Extra Booster: One Piece Heroines...",
-          "price": 51,
+          "price": 52,
           "shipping": 0,
-          "total": 51,
+          "total": 52,
           "itemWebUrl": "https://www.ebay.com/itm/358458452685",
           "imageUrl": "https://i.ebayimg.com/images/g/-vAAAeSwQMdp4vph/s-l1600.jpg",
           "additionalImages": [
@@ -957,19 +1019,19 @@
             "feedbackScore": 181
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 55,
-            "confidence": 85,
-            "notes": "Card is in sleeve with glare, edges and corners not fully visible, centering looks slightly off, back photo provided and card is English.",
+            "score": 70,
+            "psa10Probability": 50,
+            "confidence": 75,
+            "notes": "Card is English with a full back photo; slight sleeve glare and small edge whitening on top left corner reduce score.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
           "roi": {
-            "costBasis": 76,
+            "costBasis": 77,
             "netExit": 215.11,
-            "profit": 139.11,
-            "roi": 1.8304,
-            "roiPercent": 183.04
+            "profit": 138.11,
+            "roi": 1.7936,
+            "roiPercent": 179.36
           }
         },
         {
@@ -978,7 +1040,7 @@
           "price": 69.69,
           "shipping": 0,
           "total": 69.69,
-          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI9%2FM2yP951Lu4zpfonkDy4%2FAT--dUq%2FfYveX0%2F9V6IY2aHU4BubwxJm3VjXJkTvdvLEktgKFyBib4vjafNDLg2n4M8Y%2B8IUrOnLz9L4wZHqeaq7sWfMrZ7NkE8dbHUO%2B%2F0OyAF0WqO0d%2BTfIqejbqk8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI05EotLV%2Bwo8Pa2AcLGiiffVs%2BwOE1LwN0nJ7qokuaQ%2FXafD%2BXnkKUHwr42uKsR89b5YLN14AFxEo92ztv2I8uHc2um7QMdgX5QlKsxpvO6uxMZFwzQ0apX3cMEA%2BCNLkbNk1g6pC9xI9o7pvSMGMWg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/WF8AAeSwK9ZptX99/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AK4AAeSwprxptX9-/s-l1600.jpg"
@@ -989,10 +1051,10 @@
             "feedbackScore": 79
           },
           "photoScore": {
-            "score": 55,
-            "psa10Probability": 25,
-            "confidence": 90,
-            "notes": "Card is in English and has a back photo; moderate corner wear and edge whitening visible; minor centering issues.",
+            "score": 65,
+            "psa10Probability": 40,
+            "confidence": 85,
+            "notes": "Card is English with front and back photos provided, but visible edge whitening, corner wear, and slight glare reduce PSA 10 candidacy.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1080,9 +1142,9 @@
         {
           "itemId": "v1|178060803479|0",
           "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
-          "price": 53.46,
+          "price": 53.36,
           "shipping": 0,
-          "total": 53.46,
+          "total": 53.36,
           "itemWebUrl": "https://www.ebay.com/itm/178060803479",
           "imageUrl": "https://i.ebayimg.com/images/g/1DAAAeSwhIJp5IIn/s-l1600.jpg",
           "additionalImages": [
@@ -1091,22 +1153,22 @@
           "seller": {
             "username": "jfc_bricks",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 1177
+            "feedbackScore": 1178
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 70,
-            "confidence": 90,
-            "notes": "Good front and back photos, slight glare on front, slight centering off, corners and edges appear sharp.",
+            "score": 65,
+            "psa10Probability": 55,
+            "confidence": 85,
+            "notes": "Good lighting and shows front and back, but edge wear and slight centering off, plus sleeve glare present.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
           "roi": {
-            "costBasis": 78.46,
+            "costBasis": 78.36,
             "netExit": 158.4,
-            "profit": 79.94,
-            "roi": 1.0189,
-            "roiPercent": 101.89
+            "profit": 80.04,
+            "roi": 1.0214,
+            "roiPercent": 102.14
           }
         }
       ],
@@ -1142,13 +1204,13 @@
           "seller": {
             "username": "raid13az",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 246
+            "feedbackScore": 247
           },
           "photoScore": {
-            "score": 70,
+            "score": 80,
             "psa10Probability": 65,
-            "confidence": 85,
-            "notes": "Card shows minor edge wear and slight corner softness; centering is slightly off; back photo included; English text present; no sleeve glare; good photo clarity.",
+            "confidence": 90,
+            "notes": "Good centering and no glare; minor edge wear and slight soft corners visible; back shown and card text English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1191,13 +1253,13 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 13590
+            "feedbackScore": 13732
           },
           "photoScore": {
-            "score": 88,
-            "psa10Probability": 70,
-            "confidence": 90,
-            "notes": "Good centering and clarity; minor glare from sleeve and no back photo provided.",
+            "score": 85,
+            "psa10Probability": 60,
+            "confidence": 85,
+            "notes": "Good clarity and centering with English text visible; slight glare and minor edge wear noted.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1240,13 +1302,13 @@
           "seller": {
             "username": "ninetyfive",
             "feedbackPercentage": "99.7",
-            "feedbackScore": 81323
+            "feedbackScore": 81352
           },
           "photoScore": {
             "score": 70,
-            "psa10Probability": 35,
+            "psa10Probability": 55,
             "confidence": 85,
-            "notes": "Clear image with good lighting but strong gloss glare and cutoff on bottom edge text lowers grading confidence.",
+            "notes": "Good lighting and centering but strong sleeve glare obscures card details and text; visible English text; no back photo shown.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1296,10 +1358,10 @@
             "feedbackScore": 350
           },
           "photoScore": {
-            "score": 80,
-            "psa10Probability": 65,
-            "confidence": 85,
-            "notes": "Front and back shown, good clarity but slight glare and minor edge wear visible; card text is English; cropping is slightly off center.",
+            "score": 75,
+            "psa10Probability": 55,
+            "confidence": 90,
+            "notes": "Multiple images show slight sleeve glare and minor corner wear; centering is good; English text confirmed; back image is present.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1323,13 +1385,13 @@
           "seller": {
             "username": "capefeargames",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 53423
+            "feedbackScore": 53469
           },
           "photoScore": {
-            "score": 30,
-            "psa10Probability": 15,
-            "confidence": 75,
-            "notes": "Heavy sleeve glare obscures much of the card, centering and edges cannot be assessed; appears English text but photo quality is poor.",
+            "score": 65,
+            "psa10Probability": 30,
+            "confidence": 85,
+            "notes": "SAMPLE watermark obscures centering and corners; photo is clear but impact on grading is high.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1361,28 +1423,29 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596971.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|397603131169|665964389652",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD BUGGY OP09-042 L PARALLEL L28",
+          "itemId": "v1|397681257414|0",
+          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD BUGGY OP09-042 L PARALLEL CCG L28",
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJuPNT77q4L97lct7DdTZM7iUC0tfjC3etRfTkXR7pnwux7qB7leU%2FSv7N8vZVqDCgF9rycljYYGRZn7wVj69FavkZLxdft49U2Eu4%2FHhTSegMfg68iZeq%2FwuJlecUBYGuSaaPkl%2BVgnt9lEE%2BivMrGU%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
+          "itemWebUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmlmFdiEK3AotAQks6t2CbreVlzrTUlRQguekZZyEmVXMlVG7DWTiM1KsX63VK1Lj7jIJSFf7BX1d8ViIhpddOSObEaBlr1de038XInZakylVS0bQUS5tGVoT58nj5X19y3mmM0VZxIUQLKhEHaM73vAo%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/ZQ8AAeSwMENpqon0/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
+            "https://i.ebayimg.com/images/g/H18AAeSwQvppp8LZ/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/MUEAAeSwKO1pp8LY/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/KU0AAeSw4v9pp8La/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/KSUAAeSw0y9pp8La/s-l1600.jpg"
           ],
           "seller": {
             "username": "photocardtoday",
             "feedbackPercentage": "98.8",
-            "feedbackScore": 4603
+            "feedbackScore": 4613
           },
           "photoScore": {
-            "score": 30,
+            "score": 40,
             "psa10Probability": 10,
-            "confidence": 90,
-            "notes": "Front photo is clear but glare from sleeve and missing back photo penalize heavily; card text is in English suggesting no language rejection.",
+            "confidence": 80,
+            "notes": "Front card photo has slight glare and a 'SAMPLE' watermark; back photo is missing, so grade potential is lowered.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1395,29 +1458,28 @@
           }
         },
         {
-          "itemId": "v1|397681257414|0",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD BUGGY OP09-042 L PARALLEL CCG L28",
+          "itemId": "v1|397603131169|665964389652",
+          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD BUGGY OP09-042 L PARALLEL L28",
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmluCz8l4Q1e6%2FjUQ15oP6nPPO0A5yBPZQaV8Ye%2BKD4THUfz8Qt6Gsa%2BfMq0ZN9MLn4hn3q6ogf1VlpFlh5aAQX9Qkik0wE1QF9LoG5F8i3S9LnVHovoxY15Hv%2BfWfKRKJcnJTUrbLZIUXGpVzRf0mhFQ%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/ZQ8AAeSwMENpqon0/s-l1600.jpg",
+          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJqyCHkRxzGRN%2FawWumBvSdWlgtJOy78lXMD7F8jrBlM7IKxywKsmHyHHNWHPbrVje2Yk3TjtU5QABg54VkE2tIbBxu9xPWISPvERh2XINtIg2xOALeGfEPvgyv9VfCSrGimft%2FCkaHaJumWgb4%2BuvcA%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/H18AAeSwQvppp8LZ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/MUEAAeSwKO1pp8LY/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/KU0AAeSw4v9pp8La/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/KSUAAeSw0y9pp8La/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
           ],
           "seller": {
             "username": "photocardtoday",
             "feedbackPercentage": "98.8",
-            "feedbackScore": 4603
+            "feedbackScore": 4613
           },
           "photoScore": {
-            "score": 15,
+            "score": 5,
             "psa10Probability": 0,
-            "confidence": 95,
-            "notes": "Front photo shows card in sleeve with glare and obstructed text, no back photo provided, card text is English, but overall poor photo quality with no grading suitability.",
+            "confidence": 80,
+            "notes": "Only display case shown; no photo of actual card front or back to grade; visible text is in English but card is not visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1627,8 +1689,44 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/596920",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596920.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidates": [
+        {
+          "itemId": "v1|397677796612|0",
+          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD SHANKS OP09-001 L PARALLEL CCG L28",
+          "price": 11.9,
+          "shipping": 7.9,
+          "total": 19.8,
+          "itemWebUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9HOLIz%2FBFD6i7Bkzh52XCfDzgKH2h6--ItzGChU8hRLbbIzveY5zkCrbFWowOc1PaNE%2BHLgscVPap4%2Bux1fNRW1CYayxmFSYhKjPB1EFvXeigdfx0tuZzKwyA5r6qlwXkv4%2F7dJiwbOKb1UmAiIKG3I%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/vtcAAeSwb6tpqV9F/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/JA0AAeSwRUtpmsP6/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/Tf4AAeSw7S9pp8NX/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/HpcAAeSwNC1pp8NX/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/Jh8AAeSwfbFpp8NY/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "photocardtoday",
+            "feedbackPercentage": "98.8",
+            "feedbackScore": 4613
+          },
+          "photoScore": {
+            "score": 0,
+            "psa10Probability": 0,
+            "confidence": 100,
+            "notes": "No card photo shown, only case/display images; reject for grading potential.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 44.8,
+            "netExit": 101.87,
+            "profit": 57.07,
+            "roi": 1.2739,
+            "roiPercent": 127.39
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
     },
     {
       "code": "EB03-031",
@@ -1663,8 +1761,76 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/632493",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632493.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidates": [
+        {
+          "itemId": "v1|178041361509|0",
+          "title": "Gum-Gum Fire-Fist Pistol Red Hawk (Alternate Art) OP11-114 - MP- Read Desc",
+          "price": 40,
+          "shipping": 0,
+          "total": 40,
+          "itemWebUrl": "https://www.ebay.com/itm/178041361509",
+          "imageUrl": "https://i.ebayimg.com/images/g/CsMAAeSwZQpp1xQ2/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/RxkAAeSweUpp1xQ2/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/TzQAAeSwFO1p1xQ2/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/ZOYAAeSwrHRp1xQ2/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "thewutaing",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 46
+          },
+          "photoScore": {
+            "score": 75,
+            "psa10Probability": 55,
+            "confidence": 80,
+            "notes": "Card is centered and in English, with good focus but has visible edge wear and corner wear especially on the back.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 65,
+            "netExit": 135.51,
+            "profit": 70.51,
+            "roi": 1.0848,
+            "roiPercent": 108.48
+          }
+        },
+        {
+          "itemId": "v1|397859795825|0",
+          "title": "Gum-Gum Fire-Fist Pistol Red Hawk OP11-114 Alternate Art One Piece Card ENGLISH ",
+          "price": 52.5,
+          "shipping": 0,
+          "total": 52.5,
+          "itemWebUrl": "https://www.ebay.com/itm/397859795825",
+          "imageUrl": "https://i.ebayimg.com/images/g/ZaIAAeSwur5p5aYI/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/-OIAAeSwSihp5aYI/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/a~8AAeSwFO1p5aYH/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "anwel_6472",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 308
+          },
+          "photoScore": {
+            "score": 55,
+            "psa10Probability": 40,
+            "confidence": 80,
+            "notes": "Card in sleeve with glare and slight centering issues; corners and edges unclear; back photo missing; English text visible.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 77.5,
+            "netExit": 135.51,
+            "profit": 58.01,
+            "roi": 0.7485,
+            "roiPercent": 74.85
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
     },
     {
       "code": "OP09-005",
@@ -1699,8 +1865,75 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/672805",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672805.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidates": [
+        {
+          "itemId": "v1|188230475419|0",
+          "title": "One Piece OPTCG English Nami EB03-053 SR* Alternate Art - NM *FREE SHIPPING*",
+          "price": 110,
+          "shipping": 0,
+          "total": 110,
+          "itemWebUrl": "https://www.ebay.com/itm/188230475419",
+          "imageUrl": "https://i.ebayimg.com/images/g/y8IAAeSw1VppzBxO/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/45YAAeSwxRxpzBxO/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mrleeflips",
+            "feedbackPercentage": "98.4",
+            "feedbackScore": 658
+          },
+          "photoScore": {
+            "score": 85,
+            "psa10Probability": 75,
+            "confidence": 90,
+            "notes": "Good centering and edges with clear English text, slight glare and photo crop could be improved.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 135,
+            "netExit": 235.91,
+            "profit": 100.91,
+            "roi": 0.7475,
+            "roiPercent": 74.75
+          }
+        },
+        {
+          "itemId": "v1|127813717857|0",
+          "title": "ONE PIECE Nami EB03-053 Alternate Art Heroines",
+          "price": 99.99,
+          "shipping": 5.95,
+          "total": 105.94,
+          "itemWebUrl": "https://www.ebay.com/itm/127813717857",
+          "imageUrl": "https://i.ebayimg.com/images/g/FnEAAeSw6z9p4Qcp/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/0SAAAeSwhHJp4Qcu/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/KvYAAeSwuhVp4Qc-/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/Qp0AAeSw6SNp4QdJ/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mikeytoo",
+            "feedbackPercentage": "99.9",
+            "feedbackScore": 25746
+          },
+          "photoScore": {
+            "score": 75,
+            "psa10Probability": 65,
+            "confidence": 90,
+            "notes": "Card is well-centered with full front and back shown, but slight glare on front and minor edge wear visible.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 130.94,
+            "netExit": 235.91,
+            "profit": 104.97,
+            "roi": 0.8017,
+            "roiPercent": 80.17
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
     },
     {
       "code": "OP02-013",
