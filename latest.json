@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T15:04:37.168Z",
+  "generatedAt": "2026-04-22T15:07:58.165Z",
   "dateStamp": "2026-04-21",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -62,10 +62,10 @@
             "feedbackScore": 94
           },
           "photoScore": {
-            "score": 85,
+            "score": 75,
             "psa10Probability": 70,
-            "confidence": 85,
-            "notes": "Good centering and sharpness with clear front and back photos; slight glare and minor edge wear visible.",
+            "confidence": 90,
+            "notes": "Decent centering and visible edges but slight sleeve glare and some minor edge wear visible; back shown and card is in English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -133,10 +133,10 @@
             "feedbackScore": 31
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 65,
-            "confidence": 85,
-            "notes": "Card is mostly clear with no sleeve glare and clear front and back photos; slight edge whitening and imperfect centering noted; English language text confirmed.",
+            "score": 85,
+            "psa10Probability": 70,
+            "confidence": 90,
+            "notes": "Good clarity and focus with back photo included; slight glare and minor edge wear visible; card is English language.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -184,10 +184,10 @@
             "feedbackScore": 1592908
           },
           "photoScore": {
-            "score": 80,
-            "psa10Probability": 65,
+            "score": 85,
+            "psa10Probability": 75,
             "confidence": 90,
-            "notes": "Good centering and back photo provided, slight glare on front and minor corner softening, English text confirmed.",
+            "notes": "Good centering and clear photos; minor edge wear and slight corner softness visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -220,10 +220,10 @@
             "feedbackScore": 9
           },
           "photoScore": {
-            "score": 80,
-            "psa10Probability": 70,
-            "confidence": 85,
-            "notes": "Sharp images show good centering and edges; minor glare present but corners and edges appear solid; English text confirmed with back shown.",
+            "score": 60,
+            "psa10Probability": 40,
+            "confidence": 80,
+            "notes": "Card is in a sleeve causing glare; centering is slightly off; corners and edges appear mostly fine; back photo included and card is English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -314,7 +314,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLdp4ZPDTdNOpf%2Ff72kkAYFzlbu46ChLIoi0QlCnDz9yt82DK96RKODhGLq5mXwt92ZhjTQc8Z7kax0igvj9dXYgKBq6n42HgcDd2Nl8zXaAA80I%2FSmVMp0Owh%2BC9fPOxV61AOmfe6e4gGYTthO9poGg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbg1xJB3UyH80O6h57fsYzc1T5n5fECMQcRf23QNuqiDXH2djTmTjX8rPLzPnm2BUB%2BY1fxGyt6Y1Rvy%2BIbHozbZYJ3X3zsM%2Byld4MPsOVCsDSATDaSrd6FdkYlHbWf2C36ZzOFmXDzwarMFo6HUqcM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -326,9 +326,9 @@
           },
           "photoScore": {
             "score": 75,
-            "psa10Probability": 60,
-            "confidence": 90,
-            "notes": "Good centering and corners, but visible edge whitening and slight sleeve glare lower grade potential.",
+            "psa10Probability": 40,
+            "confidence": 80,
+            "notes": "Card shows slight whitening on top right corner, minor edge wear on right edge, and slight sleeve glare; centering and corners are decent; back photo provided and card text is English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -414,10 +414,10 @@
             "feedbackScore": 2
           },
           "photoScore": {
-            "score": 70,
-            "psa10Probability": 50,
-            "confidence": 80,
-            "notes": "Card in sleeve with moderate glare and slight edge wear visible; centering looks slightly off; front and back shown; English text visible.",
+            "score": 65,
+            "psa10Probability": 45,
+            "confidence": 85,
+            "notes": "Card is in plastic sleeve causing glare; edges show slight whitening and minor wear; centering looks decent; back photo included; text appears English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -465,10 +465,10 @@
             "feedbackScore": 100
           },
           "photoScore": {
-            "score": 80,
-            "psa10Probability": 70,
+            "score": 75,
+            "psa10Probability": 65,
             "confidence": 90,
-            "notes": "Clear photos with good centering, some slight edge wear or whitening visible, no significant sleeve glare, and both front and back shown with English text.",
+            "notes": "Good focus and centering, slight glare on the sleeve, slight edge whitening on the left side, back photo included.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -570,10 +570,10 @@
             "feedbackScore": 102243
           },
           "photoScore": {
-            "score": 85,
-            "psa10Probability": 65,
+            "score": 82,
+            "psa10Probability": 40,
             "confidence": 90,
-            "notes": "Card is centered well with no visible edge whitening or glaring defects; slight sleeve glare and minor corner softness noted.",
+            "notes": "Good centering and backs shown, minor corner wear and sleeve glare present.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -602,10 +602,10 @@
             "feedbackScore": 102243
           },
           "photoScore": {
-            "score": 85,
+            "score": 75,
             "psa10Probability": 60,
-            "confidence": 90,
-            "notes": "Good centering and clear images of both sides; slight sleeve glare and minor edge whitening visible.",
+            "confidence": 85,
+            "notes": "Good centering and clear images of front and back, slight sleeve glare and edges not perfectly crisp.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -648,13 +648,13 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 13729
+            "feedbackScore": 13732
           },
           "photoScore": {
             "score": 75,
-            "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Clear image with good focus and centering; minor glare and a large SAMPLE watermark visible; front only no back photo; English text confirmed.",
+            "psa10Probability": 45,
+            "confidence": 90,
+            "notes": "Good focus and clarity but large SAMPLE watermark obscures card details and image is cropped on sides; language visible is English; no back photo provided.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -920,38 +920,6 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643761.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|206033468100|0",
-          "title": "One Piece TCG Tashigi Alternate Art OP12-031 Legacy of the Master SR",
-          "price": 17.49,
-          "shipping": 0,
-          "total": 17.49,
-          "itemWebUrl": "https://www.ebay.com/itm/206033468100",
-          "imageUrl": "https://i.ebayimg.com/images/g/w-IAAeSweW9penRf/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/xXAAAeSwL95penRf/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "eastsidetcg",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 15
-          },
-          "photoScore": {
-            "score": 70,
-            "psa10Probability": 55,
-            "confidence": 85,
-            "notes": "Card is well centered with clear photos of front and back, but edges show slight wear and some corner softness is visible.",
-            "visibleLanguage": "english",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 42.49,
-            "netExit": 94.97,
-            "profit": 52.48,
-            "roi": 1.2351,
-            "roiPercent": 123.51
-          }
-        },
-        {
           "itemId": "v1|147079470721|0",
           "title": "Tashigi OP12-031 (Alternate Art) - One Piece Legacy of the Master (OP12)",
           "price": 19.99,
@@ -968,10 +936,10 @@
             "feedbackScore": 185
           },
           "photoScore": {
-            "score": 60,
-            "psa10Probability": 30,
+            "score": 75,
+            "psa10Probability": 60,
             "confidence": 90,
-            "notes": "Card has visible edge whitening and some corner wear, with slight centering off but minimal glare; English text and back included.",
+            "notes": "Good clear photos with front and back, slight edge whitening and minor corner wear visible, centering is good, text is English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -981,6 +949,38 @@
             "profit": 49.98,
             "roi": 1.1109,
             "roiPercent": 111.09
+          }
+        },
+        {
+          "itemId": "v1|206033468100|0",
+          "title": "One Piece TCG Tashigi Alternate Art OP12-031 Legacy of the Master SR",
+          "price": 17.49,
+          "shipping": 0,
+          "total": 17.49,
+          "itemWebUrl": "https://www.ebay.com/itm/206033468100",
+          "imageUrl": "https://i.ebayimg.com/images/g/w-IAAeSweW9penRf/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/xXAAAeSwL95penRf/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "eastsidetcg",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 15
+          },
+          "photoScore": {
+            "score": 65,
+            "psa10Probability": 50,
+            "confidence": 85,
+            "notes": "Card edges show whitening and minor corner wear; centering is slightly off but language is clearly English with front and back shown.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 42.49,
+            "netExit": 94.97,
+            "profit": 52.48,
+            "roi": 1.2351,
+            "roiPercent": 123.51
           }
         }
       ],
@@ -1020,9 +1020,9 @@
           },
           "photoScore": {
             "score": 70,
-            "psa10Probability": 50,
-            "confidence": 75,
-            "notes": "Card is English with a full back photo; slight sleeve glare and small edge whitening on top left corner reduce score.",
+            "psa10Probability": 45,
+            "confidence": 90,
+            "notes": "Card is in English and complete front/back shown but centering is off and there is slight edge wear and visible sleeve glare.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1040,7 +1040,7 @@
           "price": 69.69,
           "shipping": 0,
           "total": 69.69,
-          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI05EotLV%2Bwo8Pa2AcLGiiffVs%2BwOE1LwN0nJ7qokuaQ%2FXafD%2BXnkKUHwr42uKsR89b5YLN14AFxEo92ztv2I8uHc2um7QMdgX5QlKsxpvO6uxMZFwzQ0apX3cMEA%2BCNLkbNk1g6pC9xI9o7pvSMGMWg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI6c46RRWh75U41psn%2FFzfCKEIt4X9mTn2KQuvkJsR7UpNpB8NmvOJAxn2Rbw1P%2BR7W1vjbbinXEKrv8r8k8bh9xHsM7tbXb4mJKvrluwKtCJoezRCHcmQryQ8ucbYpQLE05r%2BtyWqAoeJRsDTkCDr%2FQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/WF8AAeSwK9ZptX99/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AK4AAeSwprxptX9-/s-l1600.jpg"
@@ -1051,10 +1051,10 @@
             "feedbackScore": 79
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 40,
-            "confidence": 85,
-            "notes": "Card is English with front and back photos provided, but visible edge whitening, corner wear, and slight glare reduce PSA 10 candidacy.",
+            "score": 70,
+            "psa10Probability": 25,
+            "confidence": 90,
+            "notes": "Card has moderate edge whitening and visible corner wear, but centering and language are good; back photo included and English text visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1156,10 +1156,10 @@
             "feedbackScore": 1178
           },
           "photoScore": {
-            "score": 65,
-            "psa10Probability": 55,
-            "confidence": 85,
-            "notes": "Good lighting and shows front and back, but edge wear and slight centering off, plus sleeve glare present.",
+            "score": 85,
+            "psa10Probability": 75,
+            "confidence": 90,
+            "notes": "Card is well-centered, clear with both front and back shown; minor edge wear visible at bottom right corner.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1207,10 +1207,10 @@
             "feedbackScore": 247
           },
           "photoScore": {
-            "score": 80,
-            "psa10Probability": 65,
-            "confidence": 90,
-            "notes": "Good centering and no glare; minor edge wear and slight soft corners visible; back shown and card text English.",
+            "score": 65,
+            "psa10Probability": 50,
+            "confidence": 80,
+            "notes": "Card centering is off, visible edge wear and whitening, slight sleeve glare, but includes both front and back images; language is English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1240,39 +1240,8 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/541663",
       "collectrPsa10At": null,
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541663.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|267644797231|0",
-          "title": "Sanji (Alternate Art) [OP06 - OP06-119] - NM [Foil] TCG One Piece",
-          "price": 29.2,
-          "shipping": 0.99,
-          "total": 30.19,
-          "itemWebUrl": "https://www.ebay.com/itm/267644797231",
-          "imageUrl": "https://i.ebayimg.com/images/g/Ga0AAeSwJyRp5Up7/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "fabricatorsforge",
-            "feedbackPercentage": "99.8",
-            "feedbackScore": 13732
-          },
-          "photoScore": {
-            "score": 85,
-            "psa10Probability": 60,
-            "confidence": 85,
-            "notes": "Good clarity and centering with English text visible; slight glare and minor edge wear noted.",
-            "visibleLanguage": "english",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 55.19,
-            "netExit": 110,
-            "profit": 54.81,
-            "roi": 0.9931,
-            "roiPercent": 99.31
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP08-106",
@@ -1306,9 +1275,9 @@
           },
           "photoScore": {
             "score": 70,
-            "psa10Probability": 55,
-            "confidence": 85,
-            "notes": "Good lighting and centering but strong sleeve glare obscures card details and text; visible English text; no back photo shown.",
+            "psa10Probability": 45,
+            "confidence": 80,
+            "notes": "Good lighting and centering but suffers from glare and watermark that obscure details; no back shown; English text visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1358,10 +1327,10 @@
             "feedbackScore": 350
           },
           "photoScore": {
-            "score": 75,
-            "psa10Probability": 55,
-            "confidence": 90,
-            "notes": "Multiple images show slight sleeve glare and minor corner wear; centering is good; English text confirmed; back image is present.",
+            "score": 65,
+            "psa10Probability": 30,
+            "confidence": 85,
+            "notes": "Card is sleeved causing glare and limiting corner/edge inspection; centering looks off; back photo and closer detail shots missing; English text visible.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1388,10 +1357,10 @@
             "feedbackScore": 53469
           },
           "photoScore": {
-            "score": 65,
+            "score": 40,
             "psa10Probability": 30,
             "confidence": 85,
-            "notes": "SAMPLE watermark obscures centering and corners; photo is clear but impact on grading is high.",
+            "notes": "Card text is English but image has strong watermark and poor lighting with glare, obscuring details, likely penalizing grade potential.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1423,12 +1392,46 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596971.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
+          "itemId": "v1|397603131169|665964389652",
+          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD BUGGY OP09-042 L PARALLEL L28",
+          "price": 11.9,
+          "shipping": 7.9,
+          "total": 19.8,
+          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJtSBSIlkmhcdIh5t8sZTW534KE6LnzZvXDrXo2TffIgMqm55F1%2FQPXn3t1KWkWPFK%2FEjAWRLZLEFZ%2BmvwrVsOETiX3dF5M1xERiGwRuDiAYWpDypvyD5yotxN7XQyutKsMEKuuIEq1ru63ux573EZ5A%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
+          ],
+          "seller": {
+            "username": "photocardtoday",
+            "feedbackPercentage": "98.8",
+            "feedbackScore": 4613
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 30,
+            "confidence": 80,
+            "notes": "Front photo with glare through sleeve and no back photo; card text in English but significant glare and cropping issues.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 44.8,
+            "netExit": 110.43,
+            "profit": 65.63,
+            "roi": 1.465,
+            "roiPercent": 146.5
+          }
+        },
+        {
           "itemId": "v1|397681257414|0",
           "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD BUGGY OP09-042 L PARALLEL CCG L28",
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmlmFdiEK3AotAQks6t2CbreVlzrTUlRQguekZZyEmVXMlVG7DWTiM1KsX63VK1Lj7jIJSFf7BX1d8ViIhpddOSObEaBlr1de038XInZakylVS0bQUS5tGVoT58nj5X19y3mmM0VZxIUQLKhEHaM73vAo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmltSZDMSz7Wm3UhfhnywpbbtiGfW8JPo6%2FY%2FEMruby1RM4w3NY88Gf50%2FhPu%2BNadJn7pgK0WJIXVnXf9u4Y%2FpgmsaNfgj%2FHPPpC0cvPJn%2Fx3qN19CRDIyIgjYTDf99PrOfJG%2BbX%2FfZj5zhtc6ALvhbps%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/ZQ8AAeSwMENpqon0/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/H18AAeSwQvppp8LZ/s-l1600.jpg",
@@ -1442,44 +1445,10 @@
             "feedbackScore": 4613
           },
           "photoScore": {
-            "score": 40,
-            "psa10Probability": 10,
-            "confidence": 80,
-            "notes": "Front card photo has slight glare and a 'SAMPLE' watermark; back photo is missing, so grade potential is lowered.",
-            "visibleLanguage": "english",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.8,
-            "netExit": 110.43,
-            "profit": 65.63,
-            "roi": 1.465,
-            "roiPercent": 146.5
-          }
-        },
-        {
-          "itemId": "v1|397603131169|665964389652",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD BUGGY OP09-042 L PARALLEL L28",
-          "price": 11.9,
-          "shipping": 7.9,
-          "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJqyCHkRxzGRN%2FawWumBvSdWlgtJOy78lXMD7F8jrBlM7IKxywKsmHyHHNWHPbrVje2Yk3TjtU5QABg54VkE2tIbBxu9xPWISPvERh2XINtIg2xOALeGfEPvgyv9VfCSrGimft%2FCkaHaJumWgb4%2BuvcA%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
-          ],
-          "seller": {
-            "username": "photocardtoday",
-            "feedbackPercentage": "98.8",
-            "feedbackScore": 4613
-          },
-          "photoScore": {
-            "score": 5,
-            "psa10Probability": 0,
-            "confidence": 80,
-            "notes": "Only display case shown; no photo of actual card front or back to grade; visible text is in English but card is not visible.",
+            "score": 20,
+            "psa10Probability": 5,
+            "confidence": 85,
+            "notes": "Only front shown with heavy glare from sleeve and SAMPLE watermark; no back photo provided; card is English; poor photo quality for grading purposes.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1691,12 +1660,46 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596920.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
+          "itemId": "v1|397603125487|665964274061",
+          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD SHANKS OP09-001 L PARALLEL",
+          "price": 11.9,
+          "shipping": 7.9,
+          "total": 19.8,
+          "itemWebUrl": "https://www.ebay.com/itm/397603125487?var=665964274061&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXAyF4FZVq78Ig0lASvuSbmXT8ZuIsSjwPB%2Fg7D1VrX1PiqVVwUcrmxHuXCvuebo%2BtdsCTdRDOP884qCYK6ugQSg0BxsSrNJIqJTbp8aZb1D43adxk3%2BN1K59qeG%2BOslH1mS7izTj2--PEbDa58zkqUqeax8t1H1kDwvLHqyzCLK5%2FXxWbOhYhNpxddQVryEQ%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/SYMAAeSwPo5pjt18/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/eo8AAeSw09dpjt1y/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
+            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
+          ],
+          "seller": {
+            "username": "photocardtoday",
+            "feedbackPercentage": "98.8",
+            "feedbackScore": 4613
+          },
+          "photoScore": {
+            "score": 80,
+            "psa10Probability": 75,
+            "confidence": 90,
+            "notes": "Card centering looks good, slight glare from sleeve on top left, corners appear sharp, back photo missing, card text clearly English.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 44.8,
+            "netExit": 101.87,
+            "profit": 57.07,
+            "roi": 1.2739,
+            "roiPercent": 127.39
+          }
+        },
+        {
           "itemId": "v1|397677796612|0",
           "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD SHANKS OP09-001 L PARALLEL CCG L28",
           "price": 11.9,
           "shipping": 7.9,
           "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9HOLIz%2FBFD6i7Bkzh52XCfDzgKH2h6--ItzGChU8hRLbbIzveY5zkCrbFWowOc1PaNE%2BHLgscVPap4%2Bux1fNRW1CYayxmFSYhKjPB1EFvXeigdfx0tuZzKwyA5r6qlwXkv4%2F7dJiwbOKb1UmAiIKG3I%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9OvTm3LhyVnsQDlzuQQlKPbakOyPsTivCgLrOMWUVsUkkrI3jKl%2BCWqTlt61r6TUb2plasdeszKYBtnTiy53uwuTqzXHViFZb4ESBVHAJq4CVdjzi11vcXP3Y4YSiAkcBEVQ0tsaZtT9wOHr1PHyc1E%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/vtcAAeSwb6tpqV9F/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JA0AAeSwRUtpmsP6/s-l1600.jpg",
@@ -1713,7 +1716,7 @@
             "score": 0,
             "psa10Probability": 0,
             "confidence": 100,
-            "notes": "No card photo shown, only case/display images; reject for grading potential.",
+            "notes": "No card is shown in the photos, only case and disclaimers.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1726,7 +1729,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 1
+      "ebayCandidateCount": 2
     },
     {
       "code": "EB03-031",
@@ -1782,9 +1785,9 @@
           },
           "photoScore": {
             "score": 75,
-            "psa10Probability": 55,
-            "confidence": 80,
-            "notes": "Card is centered and in English, with good focus but has visible edge wear and corner wear especially on the back.",
+            "psa10Probability": 30,
+            "confidence": 85,
+            "notes": "Good clear front and back photos with readable English text; slight wear visible on the back top edge and minor glare on front; centering is acceptable but could be better for a higher grade.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1814,10 +1817,10 @@
             "feedbackScore": 308
           },
           "photoScore": {
-            "score": 55,
-            "psa10Probability": 40,
+            "score": 45,
+            "psa10Probability": 25,
             "confidence": 80,
-            "notes": "Card in sleeve with glare and slight centering issues; corners and edges unclear; back photo missing; English text visible.",
+            "notes": "Glare and reflections from the sleeve obscure parts of the card; centering is slightly off; no back photo provided; card text is English.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1867,38 +1870,6 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672805.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|188230475419|0",
-          "title": "One Piece OPTCG English Nami EB03-053 SR* Alternate Art - NM *FREE SHIPPING*",
-          "price": 110,
-          "shipping": 0,
-          "total": 110,
-          "itemWebUrl": "https://www.ebay.com/itm/188230475419",
-          "imageUrl": "https://i.ebayimg.com/images/g/y8IAAeSw1VppzBxO/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/45YAAeSwxRxpzBxO/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "mrleeflips",
-            "feedbackPercentage": "98.4",
-            "feedbackScore": 658
-          },
-          "photoScore": {
-            "score": 85,
-            "psa10Probability": 75,
-            "confidence": 90,
-            "notes": "Good centering and edges with clear English text, slight glare and photo crop could be improved.",
-            "visibleLanguage": "english",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 135,
-            "netExit": 235.91,
-            "profit": 100.91,
-            "roi": 0.7475,
-            "roiPercent": 74.75
-          }
-        },
-        {
           "itemId": "v1|127813717857|0",
           "title": "ONE PIECE Nami EB03-053 Alternate Art Heroines",
           "price": 99.99,
@@ -1917,10 +1888,10 @@
             "feedbackScore": 25746
           },
           "photoScore": {
-            "score": 75,
+            "score": 80,
             "psa10Probability": 65,
-            "confidence": 90,
-            "notes": "Card is well-centered with full front and back shown, but slight glare on front and minor edge wear visible.",
+            "confidence": 85,
+            "notes": "Good centering and provided back photo, slight wear visible on edges and minor corner softness.",
             "visibleLanguage": "english",
             "rejectForLanguage": false
           },
@@ -1930,6 +1901,38 @@
             "profit": 104.97,
             "roi": 0.8017,
             "roiPercent": 80.17
+          }
+        },
+        {
+          "itemId": "v1|188230475419|0",
+          "title": "One Piece OPTCG English Nami EB03-053 SR* Alternate Art - NM *FREE SHIPPING*",
+          "price": 110,
+          "shipping": 0,
+          "total": 110,
+          "itemWebUrl": "https://www.ebay.com/itm/188230475419",
+          "imageUrl": "https://i.ebayimg.com/images/g/y8IAAeSw1VppzBxO/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/45YAAeSwxRxpzBxO/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mrleeflips",
+            "feedbackPercentage": "98.4",
+            "feedbackScore": 658
+          },
+          "photoScore": {
+            "score": 80,
+            "psa10Probability": 70,
+            "confidence": 85,
+            "notes": "Good lighting and clean edges but slight glare on corners and visible minor centering issues.",
+            "visibleLanguage": "english",
+            "rejectForLanguage": false
+          },
+          "roi": {
+            "costBasis": 135,
+            "netExit": 235.91,
+            "profit": 100.91,
+            "roi": 0.7475,
+            "roiPercent": 74.75
           }
         }
       ],
