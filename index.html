@@ -698,11 +698,24 @@
       return 'badge badge-watch';
     }
 
+    function riskLabel(flag) {
+      const labels = {
+        no_live_listing: 'No live listing',
+        weak_photos: 'Weak photos',
+        collectr_only_psa_signal: 'Collectr-only PSA signal',
+        listing_above_collectr_raw: 'Above Collectr raw',
+        seller_feedback_below_98: 'Seller <98%',
+        high_shipping: 'High shipping',
+        strong_live_discount: 'Strong live discount',
+      };
+      return labels[flag] || flag.replace(/_/g, ' ');
+    }
+
     function renderStatusRow(row) {
       const plan = tradePlanMap.get(row.code);
       if (!plan) return '';
       const riskBadges = Array.isArray(plan.riskFlags)
-        ? plan.riskFlags.slice(0, 3).map((flag) => `<span class="badge badge-risk">${flag.replace(/_/g, ' ')}</span>`).join('')
+        ? plan.riskFlags.slice(0, 3).map((flag) => `<span class="badge badge-risk">${riskLabel(flag)}</span>`).join('')
         : '';
       return `
         <div class="status-row">
