@@ -287,6 +287,11 @@
     .badge.watch { background: rgba(255,204,102,.14); color: #ffd98d; border-color: rgba(255,204,102,.28); }
     .badge.genuine_lot { background: rgba(88,166,255,.14); color: #9bc8ff; border-color: rgba(88,166,255,.28); }
     .badge.weak_evidence { background: rgba(255,255,255,.08); color: var(--text); }
+    .badge.low { background: rgba(61,220,151,.14); color: #8cf5bf; border-color: rgba(61,220,151,.3); }
+    .badge.medium { background: rgba(255,204,102,.14); color: #ffd98d; border-color: rgba(255,204,102,.28); }
+    .badge.high { background: rgba(255,107,107,.14); color: #ff9a9a; border-color: rgba(255,107,107,.28); }
+    .badge.tracked { background: rgba(88,166,255,.14); color: #9bc8ff; border-color: rgba(88,166,255,.28); }
+    .badge.closed { background: rgba(138,125,255,.2); color: #bcb1ff; border-color: rgba(138,125,255,.35); }
     .lot-metrics {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -301,6 +306,36 @@
       color: var(--muted);
       font-size: 13px;
       line-height: 1.45;
+    }
+    .lot-bullets {
+      display: grid;
+      gap: 8px;
+    }
+    .lot-bullet-group {
+      display: grid;
+      gap: 6px;
+    }
+    .lot-bullet-label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .lot-bullet-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .lot-pill {
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+    }
+    .lot-pill.risk {
+      color: #ffd98d;
     }
     .lot-links {
       display: flex;
@@ -946,8 +981,14 @@
       }
       const reviewCount = rows.filter((row) => row.tier === 'review').length;
       const watchCount = rows.filter((row) => row.tier === 'watch').length;
-      meta.textContent = `${reviewCount} review • ${watchCount} watch`;
-      container.innerHTML = rows.map((row) => `
+      const avgScore = rows.length ? (rows.reduce((sum, row) => sum + Number(row.score || 0), 0) / rows.length).toFixed(1) : '0.0';
+      const avgProfit = rows.length ? fmtMoney(rows.reduce((sum, row) => sum + Number(row.predictedProfit || 0), 0) / rows.length) : '$0';
+      meta.textContent = `${reviewCount} review • ${watchCount} watch • avg score ${avgScore} • avg profit ${avgProfit}`;
+      container.innerHTML = rows.map((row) => {
+        const reasons = Array.isArray(row.topReasons) ? row.topReasons : [];
+        const risks = Array.isArray(row.topRisks) ? row.topRisks : [];
+        const outcomeLabel = row.outcomeStatus && row.outcomeStatus !== 'untracked' ? row.outcomeStatus.replace(/_/g, ' ') : 'untracked';
+        return `
         <article class="lot-card">
           <div class="lot-top">
             ${row.imageUrl ? `<img class="lot-thumb" src="${row.imageUrl}" alt="${row.title}" loading="lazy" />` : ''}
@@ -955,22 +996,38 @@
               <div class="badge-row">
                 <span class="badge ${row.tier}">${row.tier === 'review' ? 'review now' : 'watch'}</span>
                 <span class="badge ${row.imageVerdict}">${row.imageVerdict.replace(/_/g, ' ')}</span>
+                <span class="badge ${row.riskLevel || 'medium'}">${row.riskLevel || 'risk'}</span>
+                <span class="badge ${row.outcomeStatus === 'closed' ? 'closed' : 'tracked'}">${outcomeLabel}</span>
               </div>
               <div class="lot-title">${row.title}</div>
             </div>
           </div>
           <div class="lot-metrics">
             <div class="metric"><div class="label">Total</div><div class="value">${fmtMoney(row.total)}</div></div>
-            <div class="metric"><div class="label">Max buy</div><div class="value">${fmtMoney(row.maxBuyPrice)}</div></div>
             <div class="metric"><div class="label">Expected</div><div class="value">${fmtMoney(row.expectedValue)}</div></div>
+            <div class="metric"><div class="label">Profit</div><div class="value">${fmtMoney(row.predictedProfit)}</div></div>
+            <div class="metric"><div class="label">Max buy</div><div class="value">${fmtMoney(row.maxBuyPrice)}</div></div>
+            <div class="metric"><div class="label">Score</div><div class="value">${Number(row.score || 0).toFixed(0)}</div></div>
+            <div class="metric"><div class="label">Image conf</div><div class="value">${row.imageConfidence != null ? `${Number(row.imageConfidence).toFixed(0)}%` : '-'}</div></div>
           </div>
           <div class="lot-note">${row.note}</div>
           <div class="lot-reason">${row.reason}</div>
+          <div class="lot-bullets">
+            <div class="lot-bullet-group">
+              <div class="lot-bullet-label">Why it matters</div>
+              <div class="lot-bullet-list">${reasons.length ? reasons.map((reason) => `<span class="lot-pill">${reason}</span>`).join('') : '<span class="lot-pill">No reasons yet</span>'}</div>
+            </div>
+            <div class="lot-bullet-group">
+              <div class="lot-bullet-label">Main risks</div>
+              <div class="lot-bullet-list">${risks.length ? risks.map((risk) => `<span class="lot-pill risk">${risk}</span>`).join('') : '<span class="lot-pill risk">No major risks tagged</span>'}</div>
+            </div>
+          </div>
           <div class="lot-links">
             <a class="button" href="${row.url}" target="_blank" rel="noopener noreferrer">Open listing</a>
           </div>
         </article>
-      `).join('');
+      `;
+      }).join('');
     }
 
     function applyFilter() {

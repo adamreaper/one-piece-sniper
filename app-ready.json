@@ -1,9 +1,11 @@
 {
-  "generatedAt": "2026-04-24T18:10:56.559Z",
+  "generatedAt": "2026-04-24T22:51:40.387Z",
   "listingCount": 1,
   "summary": {
     "reviewCount": 1,
-    "watchCount": 0
+    "watchCount": 0,
+    "avgScore": 45,
+    "avgPredictedProfit": 67
   },
   "rows": [
     {
@@ -19,15 +21,38 @@
       "cardCountGuess": 200,
       "score": 45,
       "tier": "review",
+      "predictedProfit": 67,
       "maxBuyPrice": 91.44,
       "expectedValue": 127,
       "sellerFeedbackPercent": "100.0",
       "imageVerdict": "genuine_lot",
+      "imageConfidence": 71,
+      "riskLevel": "low",
+      "scoreBreakdown": {
+        "profitScore": 44.7,
+        "confidenceScore": 71,
+        "evidenceScore": 58.3,
+        "liquidityScore": 55.6,
+        "sellerQualityScore": 100,
+        "junkRiskPenalty": 0
+      },
+      "topReasons": [
+        "image review says genuine lot",
+        "visible signals: alt-art signal",
+        "expected spread 67 over ask"
+      ],
+      "topRisks": [],
+      "hardGatesPassed": true,
       "note": "Real-lot signal from image check.",
       "reason": "Binder-page style storage and mixed foils look like a real personal collection, not a repack.",
       "visibleSignals": [
         "alt-art signal"
-      ]
+      ],
+      "outcomeStatus": "untracked",
+      "decision": null,
+      "decisionAt": null,
+      "realizedProfit": null,
+      "predictionError": null
     }
   ]
 }
