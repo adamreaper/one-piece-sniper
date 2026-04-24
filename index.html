@@ -306,6 +306,48 @@
       font-size: 13px;
       margin-top: 4px;
     }
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 12px;
+      font-weight: 700;
+      background: rgba(255,255,255,.05);
+      color: var(--text);
+    }
+    .badge-watch {
+      background: rgba(255, 204, 102, 0.12);
+      color: var(--warn);
+      border-color: rgba(255, 204, 102, 0.28);
+    }
+    .badge-review {
+      background: rgba(88,166,255,.12);
+      color: var(--accent-2);
+      border-color: rgba(88,166,255,.28);
+    }
+    .badge-buy {
+      background: rgba(61,220,151,.12);
+      color: var(--good);
+      border-color: rgba(61,220,151,.28);
+    }
+    .badge-risk {
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+    }
+    .watch-note {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--warn);
+    }
     .roi {
       color: var(--good);
       font-weight: 800;
@@ -590,6 +632,7 @@
     let allRows = [];
     let tickerFrame = null;
     let activeFilter = 'all';
+    let tradePlanMap = new Map();
 
     function productImageUrl(productId, ext = 'jpg') {
       return `https://public.getcollectr.com/public-assets/products/product_${productId}.${ext}?optimizer=image&format=webp&width=1200&quality=80&strip=metadata`;
@@ -649,11 +692,39 @@
       tickerFrame = requestAnimationFrame(step);
     }
 
+    function statusBadgeClass(action) {
+      if (action === 'buy-now') return 'badge badge-buy';
+      if (action === 'manual-review') return 'badge badge-review';
+      return 'badge badge-watch';
+    }
+
+    function renderStatusRow(row) {
+      const plan = tradePlanMap.get(row.code);
+      if (!plan) return '';
+      const riskBadges = Array.isArray(plan.riskFlags)
+        ? plan.riskFlags.slice(0, 3).map((flag) => `<span class="badge badge-risk">${flag.replace(/_/g, ' ')}</span>`).join('')
+        : '';
+      return `
+        <div class="status-row">
+          <span class="${statusBadgeClass(plan.action)}">${plan.action.replace(/-/g, ' ')}</span>
+          <span class="badge">Tier ${plan.confidenceTier}</span>
+          <span class="badge">Score ${Number(plan.buyScore || 0).toFixed(0)}</span>
+          ${riskBadges}
+        </div>
+      `;
+    }
+
+    function renderWatchNote(row) {
+      const plan = tradePlanMap.get(row.code);
+      if (!plan || plan.action !== 'watch' || !Array.isArray(row.ebayCandidates) || !row.ebayCandidates.length) return '';
+      return '<div class="watch-note">Watch tier only — candidates are still shown so you can inspect them without treating them as buy-now.</div>';
+    }
+
     function renderCandidates(row) {
       if (!Array.isArray(row.ebayCandidates) || !row.ebayCandidates.length) {
         return '<div class="candidate"><div class="candidate-title">No eBay candidates yet</div><div class="candidate-note">The weekly scan will populate the best 2 raw listings here.</div></div>';
       }
-      return `<div class="candidate-list">${row.ebayCandidates.map((candidate, index) => `
+      return `${renderWatchNote(row)}<div class="candidate-list">${row.ebayCandidates.map((candidate, index) => `
         <div class="candidate">
           <div class="candidate-head">
             <div class="candidate-title">Candidate ${index + 1}</div>
@@ -709,6 +780,7 @@
               <div>
                 <div class="title">${row.code} ${row.name}</div>
                 <div class="subtitle">${row.setName || 'Unknown set'}</div>
+                ${renderStatusRow(row)}
               </div>
             </div>
             <div class="roi">${fmtPct(row.roiPercent)}</div>
@@ -776,9 +848,18 @@
     }
 
     async function boot() {
-      const res = await fetch('./latest.json', { cache: 'no-store' });
+      const [res, tradePlanRes] = await Promise.all([
+        fetch('./latest.json', { cache: 'no-store' }),
+        fetch('./trade-plan.json', { cache: 'no-store' }).catch(() => null),
+      ]);
       if (!res.ok) throw new Error(`Failed to load latest.json (${res.status})`);
       const data = await res.json();
+      if (tradePlanRes && tradePlanRes.ok) {
+        const tradePlan = await tradePlanRes.json();
+        tradePlanMap = new Map((Array.isArray(tradePlan.plans) ? tradePlan.plans : []).map((plan) => [plan.code, plan]));
+      } else {
+        tradePlanMap = new Map();
+      }
       allRows = Array.isArray(data.rows) ? data.rows : [];
       document.getElementById('qualifiedCount').textContent = data.qualifiedCount ?? allRows.length;
       document.getElementById('bestRoi').textContent = allRows.length ? fmtPct(allRows[0].roiPercent) : '-';
