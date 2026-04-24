@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-04-24T17:45:31.373Z",
+  "listingCount": 1,
+  "summary": {
+    "reviewCount": 1,
+    "watchCount": 0
+  },
+  "rows": [
+    {
+      "rank": 1,
+      "itemId": "v1|168289076652|0",
+      "title": "One Piece tcg 200 Cards Bulk Lot SEC Alt Art And Srs As Well Gold Don!",
+      "url": "https://www.ebay.com/itm/168289076652?_skw=one+piece+100+cards+bulk&hash=item272ecf85ac:g:qwoAAeSwA4Fp0tDL",
+      "imageUrl": "https://i.ebayimg.com/images/g/qwoAAeSwA4Fp0tDL/s-l225.jpg",
+      "price": 60,
+      "shipping": 0,
+      "total": 60,
+      "lotType": "bulk_lot",
+      "cardCountGuess": 200,
+      "score": 45,
+      "tier": "review",
+      "maxBuyPrice": 91.44,
+      "expectedValue": 127,
+      "sellerFeedbackPercent": "100.0",
+      "imageVerdict": "genuine_lot",
+      "note": "Real-lot signal from image check.",
+      "reason": "Binder-page style storage and mixed foils look like a real personal collection, not a repack.",
+      "visibleSignals": [
+        "alt-art signal"
+      ]
+    }
+  ]
+}
