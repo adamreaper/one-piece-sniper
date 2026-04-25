@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-25T11:17:20.029Z",
-  "sourceFeedUpdatedAt": "2026-04-25T11:17:18.529Z",
+  "generatedAt": "2026-04-25T12:21:46.850Z",
+  "sourceFeedUpdatedAt": "2026-04-25T12:21:45.284Z",
   "sourceMode": "rows",
   "summary": {
     "totalPlans": 45,
@@ -72,36 +72,6 @@
       "rank": 2
     },
     {
-      "sourceRank": 1,
-      "name": "Uta (061) (Alternate Art)",
-      "code": "EB03-061",
-      "setName": "Extra Booster: One Piece Heroine's Edition",
-      "rawMarket": 15.95,
-      "psa10Market": 949.85,
-      "costBasis": 47.99,
-      "netPsa10Exit": 835.87,
-      "expectedPsaNet": 787.88,
-      "roiPercent": 1641.75,
-      "compCount": 0,
-      "ebayCandidateCount": 3,
-      "bestListingTotal": 14.99,
-      "bestListingUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXaE5a5LjcX311xF4lYlm1mFPuzSsN%2BzvJA03Bf7mBYi0%2BMMkb%2FYW68r1sybwl6cD%2FQ0wxLhTrZ%2F%2BMnTKeWPMjmBC%2F4VqFUpTzJ8B25zfoj1QidOZ3gkxoQcDog5rAw%2FuhSBb%2BQKLpwHdfaKZenhX%2Fqk%3D",
-      "bestListingPhotoScore": 50,
-      "bestSellerFeedbackPercent": 100,
-      "bestShipping": 0,
-      "candidateRankScore": 74,
-      "collectrLink": "https://app.getcollectr.com/explore/product/672816",
-      "priceEdgePercent": 6.02,
-      "buyScore": 80.6,
-      "confidenceTier": "B",
-      "action": "manual-review",
-      "riskFlags": [
-        "weak_photos",
-        "collectr_only_psa_signal"
-      ],
-      "rank": 3
-    },
-    {
       "sourceRank": 12,
       "name": "Roronoa Zoro (Alternate Art)",
       "code": "OP06-118",
@@ -130,6 +100,36 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
+      "rank": 3
+    },
+    {
+      "sourceRank": 1,
+      "name": "Uta (061) (Alternate Art)",
+      "code": "EB03-061",
+      "setName": "Extra Booster: One Piece Heroine's Edition",
+      "rawMarket": 15.95,
+      "psa10Market": 949.85,
+      "costBasis": 47.99,
+      "netPsa10Exit": 835.87,
+      "expectedPsaNet": 787.88,
+      "roiPercent": 1641.76,
+      "compCount": 0,
+      "ebayCandidateCount": 2,
+      "bestListingTotal": 14.99,
+      "bestListingUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXf0tMEYl8PdCPBBX8CWbrOmZnS%2BHjOjHAgCcVqMU%2B5lgzdisdb6Ucgc%2FNxnz%2Fo3SajPwhtAvrU20Sa%2FRJAv7ILASYBhfHnQ56%2BA7okThl06ogR8SQDClM%2FJFw3Ed4LfkaYUBYo5i0UYtLoyTUkWZsKY%3D",
+      "bestListingPhotoScore": 50,
+      "bestSellerFeedbackPercent": 100,
+      "bestShipping": 0,
+      "candidateRankScore": 74,
+      "collectrLink": "https://app.getcollectr.com/explore/product/672816",
+      "priceEdgePercent": 6.02,
+      "buyScore": 77.6,
+      "confidenceTier": "B",
+      "action": "manual-review",
+      "riskFlags": [
+        "weak_photos",
+        "collectr_only_psa_signal"
+      ],
       "rank": 4
     },
     {
@@ -142,7 +142,7 @@
       "costBasis": 41.98,
       "netPsa10Exit": 129.26,
       "expectedPsaNet": 87.28,
-      "roiPercent": 207.92,
+      "roiPercent": 207.91,
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 8.98,
@@ -177,7 +177,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 27.99,
-      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvECdG%2BaBYgh9kL1Ix7M3VvlFrpocd8%2Fl9EgeDxhkZqzIj7v1I1AabdYaeAVZuozkHiUpx24jRA8yAjj7JkU6jJG0UZ4qmWYh8DiLEz2i8YmkTTRSTPjwc02mOvFVr1JB5cdNwSBMWMUFaYqeFMJDt5oM%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvELwr1jMHoQfo1sBbUtdMseU9uONNwtGAEIZMffa4pQ7g3L%2BRiyBJm615fuhI5jkiVt%2BT88RIUYqJQsw5A2Dj56p2dkFaq%2Fu2BB4g0VohIibUZiX%2BbqKe2TPQuPd%2BvdrdBFy3JbNQq1%2FkmvHNugrIpsE%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 0,
@@ -266,7 +266,7 @@
       "expectedPsaNet": 44.48,
       "roiPercent": 88.1,
       "compCount": 0,
-      "ebayCandidateCount": 3,
+      "ebayCandidateCount": 2,
       "bestListingTotal": 17.49,
       "bestListingUrl": "https://www.ebay.com/itm/206033468100",
       "bestListingPhotoScore": 50,
@@ -275,7 +275,7 @@
       "candidateRankScore": 43.7,
       "collectrLink": "https://app.getcollectr.com/explore/product/643761",
       "priceEdgePercent": 2.29,
-      "buyScore": 47.2,
+      "buyScore": 44.2,
       "confidenceTier": "C",
       "action": "watch",
       "riskFlags": [
@@ -294,7 +294,7 @@
       "costBasis": 53,
       "netPsa10Exit": 98.96,
       "expectedPsaNet": 45.96,
-      "roiPercent": 86.71,
+      "roiPercent": 86.72,
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 20,
@@ -315,6 +315,37 @@
       "rank": 10
     },
     {
+      "sourceRank": 22,
+      "name": "Tony Tony.Chopper (001) (Parallel)",
+      "code": "OP08-001",
+      "setName": "Two Legends",
+      "rawMarket": 59.56,
+      "psa10Market": 240.78,
+      "costBasis": 93,
+      "netPsa10Exit": 211.89,
+      "expectedPsaNet": 118.89,
+      "roiPercent": 127.84,
+      "compCount": 0,
+      "ebayCandidateCount": 1,
+      "bestListingTotal": 60,
+      "bestListingUrl": "https://www.ebay.com/itm/327122839927",
+      "bestListingPhotoScore": 50,
+      "bestSellerFeedbackPercent": 100,
+      "bestShipping": 0,
+      "candidateRankScore": 47.8,
+      "collectrLink": "https://app.getcollectr.com/explore/product/558022",
+      "priceEdgePercent": -0.74,
+      "buyScore": 35.9,
+      "confidenceTier": "D",
+      "action": "watch",
+      "riskFlags": [
+        "weak_photos",
+        "collectr_only_psa_signal",
+        "listing_above_collectr_raw"
+      ],
+      "rank": 11
+    },
+    {
       "sourceRank": 19,
       "name": "Boa Hancock (Alternate Art)",
       "code": "EB03-026",
@@ -324,7 +355,7 @@
       "costBasis": 73.89,
       "netPsa10Exit": 168.14,
       "expectedPsaNet": 94.25,
-      "roiPercent": 127.56,
+      "roiPercent": 127.55,
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 40.89,
@@ -343,7 +374,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "sourceRank": 24,
@@ -359,7 +390,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 39.86,
-      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLe3cmWKEQ6itzfkuHEzi1ihhzFM%2FZzx1vrWHhdDwYKiKVJFaegfKwXV%2B1ZhC4O3Oz8NIj1uUoZdpANZpMAfLlvefFY0MxYLbafIT0NauUnkUsOVxAPPSCVUsg3%2FjAsOuaZ8PfKFalSw8Cf2mexT%2B0ZE%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLcFfP4UpwyKrZYLW4Bi5JWimDZKWN2CBzOR--Gpu1S04ylpEzZG1M4xdwXqxhIn7YT38CelT7JXK%2FpjeLicldS7U%2F3%2BWFC2Y5AWVngHngB%2BEwaVIE9r6WCNDaMptSJ1WHxyXnkNu8brrGOlpH%2F%2BRUpg%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 4.95,
@@ -374,7 +405,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "sourceRank": 2,
@@ -404,7 +435,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "sourceRank": 36,
@@ -435,7 +466,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "sourceRank": 4,
@@ -465,7 +496,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "sourceRank": 38,
@@ -496,7 +527,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "sourceRank": 7,
@@ -526,7 +557,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "sourceRank": 9,
@@ -556,7 +587,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "sourceRank": 11,
@@ -586,7 +617,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "sourceRank": 10,
@@ -616,7 +647,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "sourceRank": 13,
@@ -646,7 +677,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "sourceRank": 5,
@@ -676,7 +707,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "sourceRank": 17,
@@ -706,7 +737,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "sourceRank": 28,
@@ -736,7 +767,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "sourceRank": 29,
@@ -766,7 +797,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "sourceRank": 16,
@@ -778,7 +809,7 @@
       "costBasis": 367.94,
       "netPsa10Exit": 1008.58,
       "expectedPsaNet": 640.64,
-      "roiPercent": 174.11,
+      "roiPercent": 174.12,
       "compCount": 0,
       "ebayCandidateCount": 0,
       "bestListingTotal": 0,
@@ -796,7 +827,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "sourceRank": 43,
@@ -826,7 +857,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "sourceRank": 8,
@@ -856,7 +887,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "sourceRank": 14,
@@ -886,7 +917,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "sourceRank": 20,
@@ -916,7 +947,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "sourceRank": 21,
@@ -938,36 +969,6 @@
       "bestShipping": 0,
       "candidateRankScore": 0,
       "collectrLink": "https://app.getcollectr.com/explore/product/597053",
-      "priceEdgePercent": 0,
-      "buyScore": 0,
-      "confidenceTier": "D",
-      "action": "watch",
-      "riskFlags": [
-        "no_live_listing",
-        "collectr_only_psa_signal"
-      ],
-      "rank": 31
-    },
-    {
-      "sourceRank": 22,
-      "name": "Tony Tony.Chopper (001) (Parallel)",
-      "code": "OP08-001",
-      "setName": "Two Legends",
-      "rawMarket": 59.56,
-      "psa10Market": 240.78,
-      "costBasis": 92.56,
-      "netPsa10Exit": 211.88,
-      "expectedPsaNet": 119.32,
-      "roiPercent": 128.92,
-      "compCount": 0,
-      "ebayCandidateCount": 0,
-      "bestListingTotal": 0,
-      "bestListingUrl": null,
-      "bestListingPhotoScore": 0,
-      "bestSellerFeedbackPercent": 0,
-      "bestShipping": 0,
-      "candidateRankScore": 0,
-      "collectrLink": "https://app.getcollectr.com/explore/product/558022",
       "priceEdgePercent": 0,
       "buyScore": 0,
       "confidenceTier": "D",
@@ -1018,7 +1019,7 @@
       "costBasis": 58.7,
       "netPsa10Exit": 128,
       "expectedPsaNet": 69.3,
-      "roiPercent": 118.05,
+      "roiPercent": 118.06,
       "compCount": 0,
       "ebayCandidateCount": 0,
       "bestListingTotal": 0,
@@ -1046,9 +1047,9 @@
       "rawMarket": 31.44,
       "psa10Market": 158.04,
       "costBasis": 64.44,
-      "netPsa10Exit": 139.07,
-      "expectedPsaNet": 74.63,
-      "roiPercent": 115.82,
+      "netPsa10Exit": 139.08,
+      "expectedPsaNet": 74.64,
+      "roiPercent": 115.83,
       "compCount": 0,
       "ebayCandidateCount": 0,
       "bestListingTotal": 0,
@@ -1138,7 +1139,7 @@
       "costBasis": 63.26,
       "netPsa10Exit": 128.51,
       "expectedPsaNet": 65.25,
-      "roiPercent": 103.14,
+      "roiPercent": 103.15,
       "compCount": 0,
       "ebayCandidateCount": 0,
       "bestListingTotal": 0,
@@ -1168,7 +1169,7 @@
       "costBasis": 52.96,
       "netPsa10Exit": 106.6,
       "expectedPsaNet": 53.64,
-      "roiPercent": 101.29,
+      "roiPercent": 101.28,
       "compCount": 0,
       "ebayCandidateCount": 0,
       "bestListingTotal": 0,
@@ -1256,8 +1257,8 @@
       "rawMarket": 717.85,
       "psa10Market": 1552.53,
       "costBasis": 750.85,
-      "netPsa10Exit": 1366.22,
-      "expectedPsaNet": 615.37,
+      "netPsa10Exit": 1366.23,
+      "expectedPsaNet": 615.38,
       "roiPercent": 81.96,
       "compCount": 0,
       "ebayCandidateCount": 0,
