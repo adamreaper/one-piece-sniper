@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T06:22:11.512Z",
+  "generatedAt": "2026-04-25T08:22:21.601Z",
   "dateStamp": "2026-04-23",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -52,7 +52,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXQ4SIjD4EAHs2VJpea89HL%2Bg5BckAfxh2fwjLbpQF%2FcBKpmprdrpyjNVMNJh4KGlOPho7qW9L80W0e2yUi601feT5LaB2cmjyjSrqwfXTWLDrl9Mc%2BrAY%2BBydxC0CtEpaPPTui15%2ByD24mXUWaW3S7c%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXXqk0DT%2BOMqQ%2FG0JDyj8xierLQD2RaV%2FBytT1vaAst6bfkMO756eDD0NH1tr1IXqCw4GOyto3uiA9KvfHuJ94aXidg9QMpGpPeKaJgH9E7ioalbBCZOMiYyRp8BLw05QOHB0i4GhbNgh7IseWV0oX%2Bw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -94,7 +94,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyHJp7OUkEZ0H4rtKxOuZ%2BhJuzATeIhVmfsZtFkoRPnrmRcpH5gfDmFllHF6Gguc6mrNA%2B%2BmJWoif7WDYnVVwtkcNNksBN%2BVhK2EY66lVvKvK0Qy6%2Fz%2FG%2FAwQhP%2BPN3nbZFo4M3%2F1NKi%2BAGdvRB7dA5Y%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyB%2FuvlwEF%2FvLYGRgl9ytkSGYaFo6Qst7%2FIfd5%2BV3lzOKF72gJ%2FdsuS1XTsk0ffgkR2SU8EHWgF80kJCZZWWx7%2BYVCrFEF9tUAnFIKki0%2FYmYLL%2BNruyPGaxRKtKeq%2F0WJseDWSqsGbpiiiBY95nFa44%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -827,7 +827,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLWKA%2FRBmCRrIdhKoFMSmZnQuD0krr%2BKXm%2FE63bouStkOECvY3GFUpVOxKtQyFFPioqiaquf12PvG9tytgZMQJyQfpa7kHIvx4Rsatfjo44cQx%2FRbTB77%2F8hJ0%2FMuki%2B%2Fm0oUKqUyfc1RyaO4jQWCLus%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLSEdDtgFeG0thbRqzI5ZqllhVI54sablwsV5MYIR2ZWsdIQ3pgD0kOkT7gXP3I6nHr59dxCoEwzMlC7aGpMdTd4xihIqm2whkRt3fLVGHfyJT40Q37XmGMrsYJVxlXusPIP%2F25vztzP38W7TPk8mKc0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -974,7 +974,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEFD5rn9Ctai8zQkqsktWkX9VnYJO%2Fdc43U8Sb%2BcEy5brtbY1N5oEAW%2BvETL5d6l6HDouvVw9KKbL5%2Bw3P1%2FikE4k7w0IaQb82ZTe2GRkgMm61%2Fp8OJuK5ba6B%2BpsiAndqDg%2Bj%2BiLW8%2B349xphUg9nTU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEEPvlfkfDwix%2BuEjAgHOxQeFM3a9zoEgaRQmmJ9p%2BSiSwj5wbGzzz2cvalmZO40eD18zykaKjjihpINDRMikOi2KJhWvnZmX%2FyZe%2Brudj8%2FhzqxTiwEFHtUxH0kz0dRGHmcin%2BDFsxkO9IBSbQOIdPk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1340,7 +1340,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14232
+            "feedbackScore": 14239
           },
           "photoScore": {
             "score": 50,
@@ -1724,7 +1724,7 @@
           "price": 45.5,
           "shipping": 0,
           "total": 45.5,
-          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpTY%2Bw1e9PY%2Bnzu7K4fO7HJeZIfFMBxYxTIkMknEGdHypHt8r5KdhZ7uT79IBy%2ByfmB%2BZSf5rJKIyBwk7G88iKu6VXOl%2Fk54SYj9Q1w70FASSk%2BpL%2FqMviNvzY%2B2LFL13bDcuRQ%2BKcI0GkN30Wq9pe%2BI%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpXasVbwr2R0cL6sanwOQbEgx6JSLoVNoTWjRxf5uj9D7BV%2FDW%2FIuQEBjDzuMJGileW7loWwJBp%2Fjf3YtHBFPD8j9tiH3n1%2BbVND0nD195HbJbPrlyZG%2BV9Ww3Wiq5eKfoPGRtI8eCQZl573FBTY1OGw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rNcAAeSwdj5pzzDT/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/85YAAeSwr3JpzzDU/s-l1600.jpg"
@@ -1732,7 +1732,7 @@
           "seller": {
             "username": "cardninjaus",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 6766
+            "feedbackScore": 6773
           },
           "photoScore": {
             "score": 50,
@@ -1762,7 +1762,7 @@
           "price": 69.69,
           "shipping": 0,
           "total": 69.69,
-          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI0tric2LfuQAL%2FryXY2LMRlIvy5aPW5dii95BU9kW3oSbruYGDhvkDSCX%2FWs5t2Tj3B%2BNOagaDrE1GjiII383elNt1u5HXh%2F%2B8ycZL8g3r7EmspVyY2Nv%2BOhwF8F4D6oDwgqrUU8WwBIjjTMQNFxWIc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI74ekhgxgkUX0T68zYKOP9K5eboUWx9qjhJf08GH6Q7CQ7PArLl%2FWie4jIGnJgwltc7oVLbIetTKi6F3IIC0LgTP5xUPfowgsbcRX%2F5AFthZmDmng9k1QiQD48uIGmicBzk1%2FmJnG5%2B8EPozp069Q4Q%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/WF8AAeSwK9ZptX99/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AK4AAeSwprxptX9-/s-l1600.jpg"
@@ -1954,7 +1954,7 @@
           "price": 39.99,
           "shipping": 0,
           "total": 39.99,
-          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2BoorQ7EfYV%2FkvaoME27QmxsCZCcQOu6kLb3J6BCQ4ldOWzSOqjHICX%2FBu2ZJcScPvJgv6Tn8HqaP%2Fr4eS1A3xHCi9UR1jpBnl9x7i3h0pOTTFVX68jPdHSwr3lzHGAeOWS8a7SwWcJG8h1ur0Vaj8stWk%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2BoosCYkV1MWTHFPOFeMAaBuT0oihlrs28KuocVXD7HE3BpH9DTvYpvPEaHYfMoavE3lQn0IsXS9QYl60fHmemkn4kldkF0%2FIZWUW0aOJz6zMfbH5O7qzPb2M6c70%2BsTvA1TRLw6tZEyAaVf4%2FGN%2Fixsxg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/xLYAAeSwGwtp0sLQ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/ud8AAeSwsl9p0sLQ/s-l1600.jpg"
@@ -2133,7 +2133,7 @@
           "seller": {
             "username": "capefeargames",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 53605
+            "feedbackScore": 53607
           },
           "photoScore": {
             "score": 50,
@@ -2182,7 +2182,7 @@
           "price": 24.99,
           "shipping": 0,
           "total": 24.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeYATBfmgcdL591mVYrbJFnnSu6nDwbkEUbRHrKVAp4Z5RIeeo3WVjL1GIS31B%2F8kxm7SCxkHTHOKDHTHCzZ8CroxGHEjpwbZAxyH%2BMqaJyF%2FhkkGtzr8vqyHyHkkz3MKWs5Ror0vs8W16axzeyyNTLo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeRs%2BR1JarwFCT5UofznFxWu2%2BaLWWs2zmLfiwNA2t0TezPE2JL5QqlAsl5Y9EXz26VYISK%2Fx3yR6a7yPCGWU9x59SYw%2FIUTM%2FaGC%2FaWTVYFcEtg9Kuq1Vox2M1Uf6G4SKeFkUoh8ALabQwCDa7xJmo0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/oU0AAeSwy4Zpmg69/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/rL8AAeSw7QVpmg69/s-l1600.jpg",
