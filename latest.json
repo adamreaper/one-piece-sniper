@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T12:54:30.575Z",
+  "generatedAt": "2026-04-25T13:13:13.943Z",
   "dateStamp": "2026-04-25",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -7,9 +7,12 @@
     "liquidityHaircut": 0.12,
     "minRoiPercent": 80
   },
-  "sourceResults": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
+  "ebayScoutSkipped": false,
+  "publishMode": "full",
   "rowsWithEbayField": 45,
   "rowsWithEbayCandidates": 15,
+  "weeklyBaseJson": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
+  "reusedExistingBoard": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
   "qualifiedCount": 45,
   "rows": [
     {
@@ -34,7 +37,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXQxGMLSxjXG%2BM8nk8VUpb5gKek2nRfGK72xCC3MF4djE%2Fp%2BfZFYyffSpx8yjZv3C2cztglDdh8jSfTKKefNfH%2BLF0ZYobtFnwdDY3D7V8UlayJl%2BioVfdbsCPUtGSUR8FztmfIR1Wx51NKbV3ILmqHE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXZ%2BqfMHUhkSToPrs%2FtG%2BmZTMpCSYmLfVrhI%2F3ZlXnJDGq4n7im%2FRspKd90EcpcM%2BozJ8DjLGmBi9GRyRK3qs2y4koiTFwul77QeCKTblQU%2BPqZTvZDqwOf6icnajUa%2BNPArqIgJuYgzNhKsfOYMN294%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -46,7 +49,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19003
+            "feedbackScore": 19004
           },
           "photoScore": {
             "score": 50,
@@ -61,8 +64,8 @@
             "costBasis": 47.99,
             "netExit": 835.87,
             "profit": 787.88,
-            "roi": 16.4176,
-            "roiPercent": 1641.76
+            "roi": 16.4175,
+            "roiPercent": 1641.75
           },
           "rankMeta": {
             "score": 74,
@@ -76,7 +79,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyLWyXT0ULRhvndFSaNCt2NfVW8fLPLgmU7u6hYq6bsJdNy9Q8dZflBfgeFAGuTEKWYJV0GtbV7mQvpLNNqKBKdmD78wAh4WElPQkDRhT3KK%2F7GvtEIFx1%2Barc8lUgV75%2BkKcXOru1SBlvXbOHZs2al4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyP%2Fm%2FXXLmnz1Uf4y5HbVlAP2o16AZZqLCBxypQJNmmritaFwfRZr3%2BfK5r6m0x7bnVwbAWdE3qEftw01ZNMQSv8ydHfZCNlZeSAJl4N7vK9mRSQVrpX6BSdl1XBe%2F25wC0KWJXqZmNACMqc65vHijEY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -88,7 +91,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19003
+            "feedbackScore": 19004
           },
           "photoScore": {
             "score": 50,
@@ -103,8 +106,8 @@
             "costBasis": 47.99,
             "netExit": 835.87,
             "profit": 787.88,
-            "roi": 16.4176,
-            "roiPercent": 1641.76
+            "roi": 16.4175,
+            "roiPercent": 1641.75
           },
           "rankMeta": {
             "score": 74,
@@ -113,7 +116,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 2
+      "ebayCandidateCount": 3
     },
     {
       "code": "OP07-038",
@@ -537,8 +540,8 @@
       "netPsa10Exit": 1008.58,
       "costBasis": 367.94,
       "profit": 640.64,
-      "roi": 1.7412,
-      "roiPercent": 174.12,
+      "roi": 1.7411,
+      "roiPercent": 174.11,
       "collectrLink": "https://app.getcollectr.com/explore/product/629168",
       "collectrPsa10At": "2026-04-23T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629168.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -573,8 +576,8 @@
       "netPsa10Exit": 129.26,
       "costBasis": 52.31,
       "profit": 76.95,
-      "roi": 1.471,
-      "roiPercent": 147.1,
+      "roi": 1.4711,
+      "roiPercent": 147.11,
       "collectrLink": "https://app.getcollectr.com/explore/product/632498",
       "collectrPsa10At": "2026-04-23T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632498.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -608,8 +611,8 @@
             "costBasis": 41.98,
             "netExit": 129.26,
             "profit": 87.28,
-            "roi": 2.0791,
-            "roiPercent": 207.91
+            "roi": 2.0792,
+            "roiPercent": 207.92
           },
           "rankMeta": {
             "score": 74,
@@ -648,7 +651,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14251
+            "feedbackScore": 14256
           },
           "photoScore": {
             "score": 50,
@@ -663,8 +666,8 @@
             "costBasis": 73.89,
             "netExit": 168.14,
             "profit": 94.25,
-            "roi": 1.2755,
-            "roiPercent": 127.55
+            "roi": 1.2756,
+            "roiPercent": 127.56
           },
           "rankMeta": {
             "score": 44.2,
@@ -718,9 +721,9 @@
       "productId": "558022",
       "rawMarket": 59.56,
       "psa10Market": 240.78,
-      "netPsa10Exit": 211.89,
+      "netPsa10Exit": 211.88,
       "costBasis": 92.56,
-      "profit": 119.33,
+      "profit": 119.32,
       "roi": 1.2892,
       "roiPercent": 128.92,
       "collectrLink": "https://app.getcollectr.com/explore/product/558022",
@@ -764,8 +767,8 @@
             "costBasis": 93,
             "netExit": 211.89,
             "profit": 118.89,
-            "roi": 1.2784,
-            "roiPercent": 127.84
+            "roi": 1.2783,
+            "roiPercent": 127.83
           },
           "rankMeta": {
             "score": 47.8,
@@ -816,7 +819,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLZhY80P1sUDRU0iChpVleWtkL2GgVOZJIJy9wtQXwKJ3qMu6ZKd1lxyLHqvDEQRRZCEmTZGc%2ByeqgRl8rbKnLS1RmscvOzJRXjLkBKQezS7l8bXbwJbhPXDwGlP%2FjyTYk%2BhuzMctUlXBR33E8HFuy5Y%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLSMMkmo--8dPBzngrMJeWKnZxjILzmzrdor%2FQQgDWqjAnZKqFds%2BzWCqAjVC6XAEDR05KGbK%2BrP9eHUwTsMNg25LiXbqD%2B2FM0sA8Uh%2BVdSY8V%2Fj4aZhyywHMYqcimMrIbNWAFuP20XZbiSbQ9PkJOs%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -861,8 +864,8 @@
       "netPsa10Exit": 128,
       "costBasis": 58.7,
       "profit": 69.3,
-      "roi": 1.1806,
-      "roiPercent": 118.06,
+      "roi": 1.1805,
+      "roiPercent": 118.05,
       "collectrLink": "https://app.getcollectr.com/explore/product/597069",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597069.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -876,11 +879,11 @@
       "productId": "643831",
       "rawMarket": 31.44,
       "psa10Market": 158.04,
-      "netPsa10Exit": 139.08,
+      "netPsa10Exit": 139.07,
       "costBasis": 64.44,
-      "profit": 74.64,
-      "roi": 1.1583,
-      "roiPercent": 115.83,
+      "profit": 74.63,
+      "roi": 1.1582,
+      "roiPercent": 115.82,
       "collectrLink": "https://app.getcollectr.com/explore/product/643831",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643831.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -966,9 +969,9 @@
       "productId": "541660",
       "rawMarket": 1986.35,
       "psa10Market": 4674.12,
-      "netPsa10Exit": 4113.23,
+      "netPsa10Exit": 4113.22,
       "costBasis": 2019.35,
-      "profit": 2093.88,
+      "profit": 2093.87,
       "roi": 1.0369,
       "roiPercent": 103.69,
       "collectrLink": "https://app.getcollectr.com/explore/product/541660",
@@ -1026,8 +1029,8 @@
       "netPsa10Exit": 128.51,
       "costBasis": 63.26,
       "profit": 65.25,
-      "roi": 1.0315,
-      "roiPercent": 103.15,
+      "roi": 1.0314,
+      "roiPercent": 103.14,
       "collectrLink": "https://app.getcollectr.com/explore/product/644882",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_644882.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1044,8 +1047,8 @@
       "netPsa10Exit": 106.6,
       "costBasis": 52.96,
       "profit": 53.64,
-      "roi": 1.0128,
-      "roiPercent": 101.28,
+      "roi": 1.0129,
+      "roiPercent": 101.29,
       "collectrLink": "https://app.getcollectr.com/explore/product/632773",
       "collectrPsa10At": "2026-04-23T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632773.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1092,7 +1095,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEAujHwDP7MRxcJ%2BB5JCM9%2F6Q4zCi%2FxbjvKE7n4nZvzuqw0x%2B2QKOOgv%2BF6pCJXsMrBUkv6%2Fpdm3mVIOnwbEm79o%2Bl1zhz58YmJYRKRQ5XSckRoD01v%2FO5hA7fqi2%2Fi15tPRb31CAJtaUsOdp247XIFA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEB09QJd4c6LZpNll4prZxuGR0MI%2FRfye1FNIIvTFcZsNLsKmLfpb8t3vHWNYo7yICYIImN%2FmPA1uhgqVEsvjgMF4V4fLtHGk814mMhpita9ZCq%2Bs7vTfeG%2BYuynLSqUF%2FrrIpU21hxnh%2BLv01mb4GFI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1104,7 +1107,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19003
+            "feedbackScore": 19004
           },
           "photoScore": {
             "score": 50,
@@ -1281,7 +1284,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 2
+      "ebayCandidateCount": 3
     },
     {
       "code": "OP06-119",
@@ -1311,7 +1314,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14251
+            "feedbackScore": 14256
           },
           "photoScore": {
             "score": 50,
@@ -1345,11 +1348,11 @@
       "productId": "596926",
       "rawMarket": 20.86,
       "psa10Market": 112.45,
-      "netPsa10Exit": 98.96,
+      "netPsa10Exit": 98.95,
       "costBasis": 53.86,
-      "profit": 45.1,
-      "roi": 0.8374,
-      "roiPercent": 83.74,
+      "profit": 45.09,
+      "roi": 0.8372,
+      "roiPercent": 83.72,
       "collectrLink": "https://app.getcollectr.com/explore/product/596926",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596926.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1383,8 +1386,8 @@
             "costBasis": 53,
             "netExit": 98.96,
             "profit": 45.96,
-            "roi": 0.8672,
-            "roiPercent": 86.72
+            "roi": 0.8671,
+            "roiPercent": 86.71
           },
           "rankMeta": {
             "score": 48.1,
@@ -1420,9 +1423,9 @@
       "productId": "672823",
       "rawMarket": 717.85,
       "psa10Market": 1552.53,
-      "netPsa10Exit": 1366.23,
+      "netPsa10Exit": 1366.22,
       "costBasis": 750.85,
-      "profit": 615.38,
+      "profit": 615.37,
       "roi": 0.8196,
       "roiPercent": 81.96,
       "collectrLink": "https://app.getcollectr.com/explore/product/672823",
