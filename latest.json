@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T04:22:07.676Z",
+  "generatedAt": "2026-04-25T06:22:11.512Z",
   "dateStamp": "2026-04-23",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -47,51 +47,12 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672816.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|287279046005|0",
-          "title": "Uta (061) (Alternate Art) EB03-061 Extra Booster: One Piece Heroines Edition...",
-          "price": 13.5,
-          "shipping": 0,
-          "total": 13.5,
-          "itemWebUrl": "https://www.ebay.com/itm/287279046005",
-          "imageUrl": "https://i.ebayimg.com/images/g/pa4AAeSwQW9p4xrF/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/gpUAAeSwHpNp4xrT/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/2UgAAeSwxahp4xrg/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "treasureisland55",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 97
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 46.5,
-            "netExit": 835.87,
-            "profit": 789.37,
-            "roi": 16.9757,
-            "roiPercent": 1697.57
-          },
-          "rankMeta": {
-            "score": 75,
-            "priceEdgePercent": 12.17,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
           "itemId": "v1|366367583291|0",
           "title": "Uta Alternate Art EB03-061 Extra Booster Heroines Edition NM One Piece Card TCG",
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXSXvZWmB%2Fl%2BWSTZ2I6gsRu84Y0pHl3j3%2FS6S9AmdOn7Zf5fm2%2BKdTrBvAmGCm%2FP%2BzM2At%2Fyz73mdcqAw1dJEYxKRU%2FkcOgKhUUCT%2BYsZvcgZMvtTbdVyu9etnBF0PFDMISnpBFatHG%2BoSlS8mo1T4XA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXQ4SIjD4EAHs2VJpea89HL%2Bg5BckAfxh2fwjLbpQF%2FcBKpmprdrpyjNVMNJh4KGlOPho7qW9L80W0e2yUi601feT5LaB2cmjyjSrqwfXTWLDrl9Mc%2BrAY%2BBydxC0CtEpaPPTui15%2ByD24mXUWaW3S7c%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -103,7 +64,49 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18994
+            "feedbackScore": 18999
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 47.99,
+            "netExit": 835.87,
+            "profit": 787.88,
+            "roi": 16.4176,
+            "roiPercent": 1641.76
+          },
+          "rankMeta": {
+            "score": 72.2,
+            "priceEdgePercent": 2.47,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|366367583294|0",
+          "title": "Uta Alternate Art EB03-061 Extra Booster Heroines Edition NM One Piece Card TCG",
+          "price": 14.99,
+          "shipping": 0,
+          "total": 14.99,
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyHJp7OUkEZ0H4rtKxOuZ%2BhJuzATeIhVmfsZtFkoRPnrmRcpH5gfDmFllHF6Gguc6mrNA%2B%2BmJWoif7WDYnVVwtkcNNksBN%2BVhK2EY66lVvKvK0Qy6%2Fz%2FG%2FAwQhP%2BPN3nbZFo4M3%2F1NKi%2BAGdvRB7dA5Y%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/2zoAAeSwAU9p67Hf/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/59AAAeSwUg1p67Hf/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/1ZQAAeSwzp1p67Hf/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/h4gAAeSwFbNp67Hf/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "hexikyu_tcg",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 18999
           },
           "photoScore": {
             "score": 50,
@@ -240,9 +243,9 @@
         {
           "itemId": "v1|397856320936|0",
           "title": "2025 One Piece EB02 EN OP06-042 Vinsmoke Reiju SPR",
-          "price": 430.63,
+          "price": 431.67,
           "shipping": 0,
-          "total": 430.63,
+          "total": 431.67,
           "itemWebUrl": "https://www.ebay.com/itm/397856320936",
           "imageUrl": "https://i.ebayimg.com/images/g/W80AAeSwG6dp5FXc/s-l1600.jpg",
           "additionalImages": [
@@ -267,15 +270,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 463.63,
+            "costBasis": 464.67,
             "netExit": 1980,
-            "profit": 1516.37,
-            "roi": 3.2706,
-            "roiPercent": 327.06
+            "profit": 1515.33,
+            "roi": 3.2611,
+            "roiPercent": 326.11
           },
           "rankMeta": {
-            "score": 73.2,
-            "priceEdgePercent": 14.75,
+            "score": 73.1,
+            "priceEdgePercent": 14.55,
             "sellerFeedbackPct": 100
           }
         }
@@ -470,9 +473,9 @@
         {
           "itemId": "v1|287268829674|0",
           "title": "One Piece Card Game Card Holo Jewelry Bonney OP12-118 SEC FR",
-          "price": 11.09,
+          "price": 11.12,
           "shipping": 0,
-          "total": 11.09,
+          "total": 11.12,
           "itemWebUrl": "https://www.ebay.com/itm/287268829674",
           "imageUrl": "https://i.ebayimg.com/images/g/hewAAeSwoH1p3CRg/s-l1600.jpg",
           "additionalImages": [
@@ -493,15 +496,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 44.09,
+            "costBasis": 44.12,
             "netExit": 144.61,
-            "profit": 100.52,
-            "roi": 2.2799,
-            "roiPercent": 227.99
+            "profit": 100.49,
+            "roi": 2.2777,
+            "roiPercent": 227.77
           },
           "rankMeta": {
-            "score": 79.2,
-            "priceEdgePercent": 29.45,
+            "score": 79.1,
+            "priceEdgePercent": 29.26,
             "sellerFeedbackPct": 100
           }
         }
@@ -703,7 +706,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102456
+            "feedbackScore": 102458
           },
           "photoScore": {
             "score": 50,
@@ -824,7 +827,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLYhgsgPLOWAJkO84rojAhe9KaTnPYosZlI%2BLBArokT4ekRdIMq%2FEbLf%2Fd171Wyw4NsZwXF6osMphmGlfvgm5slw6B8sjFqzSF3H1Iem0RYlgoS6tK8J79EMTGvCbtQOFs%2BTxAQO%2F1RznKyGAqnyrpAg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLWKA%2FRBmCRrIdhKoFMSmZnQuD0krr%2BKXm%2FE63bouStkOECvY3GFUpVOxKtQyFFPioqiaquf12PvG9tytgZMQJyQfpa7kHIvx4Rsatfjo44cQx%2FRbTB77%2F8hJ0%2FMuki%2B%2Fm0oUKqUyfc1RyaO4jQWCLus%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -971,7 +974,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEFKFP9O34uiqeBsWv1dZ7paR4RQFQEg8DAlNzePJClNjkMtQlZld%2BRIuWzgBz1icAi6S%2B8Y6FTiKqoX4PkXFuk%2BctC8ubAjSkGPk3Wz6Wmf5UhzTCRgbtMmMH2nbMToDAIMHxUytrk2%2FjjLxYHBpmH0%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEFD5rn9Ctai8zQkqsktWkX9VnYJO%2Fdc43U8Sb%2BcEy5brtbY1N5oEAW%2BvETL5d6l6HDouvVw9KKbL5%2Bw3P1%2FikE4k7w0IaQb82ZTe2GRkgMm61%2Fp8OJuK5ba6B%2BpsiAndqDg%2Bj%2BiLW8%2B349xphUg9nTU%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -983,7 +986,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18994
+            "feedbackScore": 18999
           },
           "photoScore": {
             "score": 50,
@@ -1158,9 +1161,9 @@
         {
           "itemId": "v1|178060803479|0",
           "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
-          "price": 53.19,
+          "price": 53.45,
           "shipping": 0,
-          "total": 53.19,
+          "total": 53.45,
           "itemWebUrl": "https://www.ebay.com/itm/178060803479",
           "imageUrl": "https://i.ebayimg.com/images/g/1DAAAeSwhIJp5IIn/s-l1600.jpg",
           "additionalImages": [
@@ -1181,15 +1184,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 86.19,
+            "costBasis": 86.45,
             "netExit": 158.4,
-            "profit": 72.21,
-            "roi": 0.8378,
-            "roiPercent": 83.78
+            "profit": 71.95,
+            "roi": 0.8323,
+            "roiPercent": 83.23
           },
           "rankMeta": {
-            "score": 42.2,
-            "priceEdgePercent": -8.48,
+            "score": 41.9,
+            "priceEdgePercent": -9.01,
             "sellerFeedbackPct": 100
           }
         }
@@ -1337,7 +1340,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14222
+            "feedbackScore": 14232
           },
           "photoScore": {
             "score": 50,
@@ -1512,9 +1515,9 @@
         {
           "itemId": "v1|318179158686|0",
           "title": "One Piece Card Game CCG TCG Honesty Impact OP11-018 Rare Alternate Art",
-          "price": 49.9,
+          "price": 50.06,
           "shipping": 0,
-          "total": 49.9,
+          "total": 50.06,
           "itemWebUrl": "https://www.ebay.com/itm/318179158686",
           "imageUrl": "https://i.ebayimg.com/images/g/irUAAeSwvSpp5qXZ/s-l1600.jpg",
           "additionalImages": [
@@ -1536,15 +1539,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 82.9,
+            "costBasis": 83.06,
             "netExit": 149.77,
-            "profit": 66.87,
-            "roi": 0.8066,
-            "roiPercent": 80.66
+            "profit": 66.71,
+            "roi": 0.8032,
+            "roiPercent": 80.32
           },
           "rankMeta": {
-            "score": 22.7,
-            "priceEdgePercent": 3.37,
+            "score": 22.5,
+            "priceEdgePercent": 3.06,
             "sellerFeedbackPct": 0
           }
         }
@@ -1627,9 +1630,9 @@
         {
           "itemId": "v1|366289689014|0",
           "title": "Monkey.D.Luffy (118) (Parallel) (OP13-118) - Carrying On His Will  NM One Piece",
-          "price": 89.1,
+          "price": 89.4,
           "shipping": 0,
-          "total": 89.1,
+          "total": 89.4,
           "itemWebUrl": "https://www.ebay.com/itm/366289689014",
           "imageUrl": "https://i.ebayimg.com/images/g/UEQAAeSwq1ppvIJA/s-l1600.jpg",
           "additionalImages": [],
@@ -1648,15 +1651,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 122.1,
+            "costBasis": 122.4,
             "netExit": 207.27,
-            "profit": 85.17,
-            "roi": 0.6975,
-            "roiPercent": 69.75
+            "profit": 84.87,
+            "roi": 0.6934,
+            "roiPercent": 69.34
           },
           "rankMeta": {
-            "score": 36.9,
-            "priceEdgePercent": -5.68,
+            "score": 36.6,
+            "priceEdgePercent": -6.04,
             "sellerFeedbackPct": 100
           }
         }
@@ -1721,7 +1724,7 @@
           "price": 45.5,
           "shipping": 0,
           "total": 45.5,
-          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpbCYsTuWeMTYXFKamZzKkyI0ZYU4%2B9a4v1PfO7fxtjG13Mn7NeW2S4jMPkr9i9StfOFgX04uHUCinH6HhiX2f6XP4Z9z96uOIS%2FeKRfV8EHQ6lIRkQeETbejmrQnRb16o%2BVL2P%2Bxe34UkVJL7d%2F0BO8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpTY%2Bw1e9PY%2Bnzu7K4fO7HJeZIfFMBxYxTIkMknEGdHypHt8r5KdhZ7uT79IBy%2ByfmB%2BZSf5rJKIyBwk7G88iKu6VXOl%2Fk54SYj9Q1w70FASSk%2BpL%2FqMviNvzY%2B2LFL13bDcuRQ%2BKcI0GkN30Wq9pe%2BI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rNcAAeSwdj5pzzDT/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/85YAAeSwr3JpzzDU/s-l1600.jpg"
@@ -1754,20 +1757,20 @@
           }
         },
         {
-          "itemId": "v1|318189679150|0",
-          "title": "One Piece Nico Robin #EB03-055 SR Alternate Art AA English Heroines edition ",
-          "price": 60,
-          "shipping": 4.78,
-          "total": 64.78,
-          "itemWebUrl": "https://www.ebay.com/itm/318189679150",
-          "imageUrl": "https://i.ebayimg.com/images/g/vDsAAeSwiY5p6XKS/s-l1600.jpg",
+          "itemId": "v1|298122786994|0",
+          "title": "Nico Robin (055) (Alternate Art) EB03-055 Extra Booster: One Piece Heroines",
+          "price": 69.69,
+          "shipping": 0,
+          "total": 69.69,
+          "itemWebUrl": "https://www.ebay.com/itm/298122786994?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDrRXAAvTHyQcJANvP5Zpy118g3VX%2BFaV9Cyguj0vvfI0tric2LfuQAL%2FryXY2LMRlIvy5aPW5dii95BU9kW3oSbruYGDhvkDSCX%2FWs5t2Tj3B%2BNOagaDrE1GjiII383elNt1u5HXh%2F%2B8ycZL8g3r7EmspVyY2Nv%2BOhwF8F4D6oDwgqrUU8WwBIjjTMQNFxWIc%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/WF8AAeSwK9ZptX99/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/eFcAAeSw5spp6XKc/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/AK4AAeSwprxptX9-/s-l1600.jpg"
           ],
           "seller": {
-            "username": "dacro8519",
+            "username": "gooncardz",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 10
+            "feedbackScore": 79
           },
           "photoScore": {
             "score": 50,
@@ -1779,15 +1782,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 97.78,
+            "costBasis": 102.69,
             "netExit": 182.29,
-            "profit": 84.51,
-            "roi": 0.8643,
-            "roiPercent": 86.43
+            "profit": 79.6,
+            "roi": 0.7751,
+            "roiPercent": 77.51
           },
           "rankMeta": {
-            "score": 45.1,
-            "priceEdgePercent": 11.31,
+            "score": 45.7,
+            "priceEdgePercent": 4.59,
             "sellerFeedbackPct": 100
           }
         }
@@ -1910,9 +1913,9 @@
         {
           "itemId": "v1|406876520212|0",
           "title": "Uta OP06-001 Leader Alternate Art One Piece Wings of the Captain Eng NM",
-          "price": 36.49,
+          "price": 36.58,
           "shipping": 0,
-          "total": 36.49,
+          "total": 36.58,
           "itemWebUrl": "https://www.ebay.com/itm/406876520212",
           "imageUrl": "https://i.ebayimg.com/images/g/tWMAAeSw77xp3tmO/s-l1600.jpg",
           "additionalImages": [
@@ -1933,15 +1936,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 69.49,
+            "costBasis": 69.58,
             "netExit": 121.7,
-            "profit": 52.21,
-            "roi": 0.7513,
-            "roiPercent": 75.13
+            "profit": 52.12,
+            "roi": 0.7491,
+            "roiPercent": 74.91
           },
           "rankMeta": {
-            "score": 44.7,
-            "priceEdgePercent": 4.73,
+            "score": 44.6,
+            "priceEdgePercent": 4.49,
             "sellerFeedbackPct": 100
           }
         },
@@ -1951,7 +1954,7 @@
           "price": 39.99,
           "shipping": 0,
           "total": 39.99,
-          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2Boov2OubJGKSo3r1O295f0M16PgLOb9OWCkFjXMZTmkiIldZva%2BpkqeGHrHWdtmxEjCpoNnC3XQgeMif2t3HLqHRIMhQuZt6kh7eAMYbZAbuelT0wEpkt2E3x7TJQ%2BWCgDn1aY1zeOogmagk8AxvHrtFg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2BoorQ7EfYV%2FkvaoME27QmxsCZCcQOu6kLb3J6BCQ4ldOWzSOqjHICX%2FBu2ZJcScPvJgv6Tn8HqaP%2Fr4eS1A3xHCi9UR1jpBnl9x7i3h0pOTTFVX68jPdHSwr3lzHGAeOWS8a7SwWcJG8h1ur0Vaj8stWk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/xLYAAeSwGwtp0sLQ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/ud8AAeSwsl9p0sLQ/s-l1600.jpg"
@@ -2130,7 +2133,7 @@
           "seller": {
             "username": "capefeargames",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 53601
+            "feedbackScore": 53605
           },
           "photoScore": {
             "score": 50,
@@ -2179,7 +2182,7 @@
           "price": 24.99,
           "shipping": 0,
           "total": 24.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeSB0xCjqwO%2Bl0vRLwPJUxh%2FRVF1hCfzDaKYUCiOMwBJxmUvmNhTr4uTMZ%2BvZkO18qIbTqSO4xxrZUbHvh%2F0q0rtQmx9gKooSIuGb3k18o%2FSFXyZCXpI1XtNcBt%2FNsgD0W2Z7ewDhHVh0RhVytrokoOg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeYATBfmgcdL591mVYrbJFnnSu6nDwbkEUbRHrKVAp4Z5RIeeo3WVjL1GIS31B%2F8kxm7SCxkHTHOKDHTHCzZ8CroxGHEjpwbZAxyH%2BMqaJyF%2FhkkGtzr8vqyHyHkkz3MKWs5Ror0vs8W16axzeyyNTLo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/oU0AAeSwy4Zpmg69/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/rL8AAeSw7QVpmg69/s-l1600.jpg",
@@ -2191,7 +2194,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18994
+            "feedbackScore": 18999
           },
           "photoScore": {
             "score": 50,
