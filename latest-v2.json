@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T02:47:11.544Z",
+  "generatedAt": "2026-04-25T04:22:07.676Z",
   "dateStamp": "2026-04-23",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -92,7 +92,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXSDcI1IO0p8IHbU6SLtGD3%2BZWtONGIJJtOmh1%2FTrH3bM4mvCauqkC3CFLuAOAmLUW0%2Fm25d2fBPViwZPjmm%2FULS8gmoPIBpewHlZIheJqfvZAFvWR5URrQzl11a8hyDznG20dnwaTRvIwelN3wAJWyc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXSXvZWmB%2Fl%2BWSTZ2I6gsRu84Y0pHl3j3%2FS6S9AmdOn7Zf5fm2%2BKdTrBvAmGCm%2FP%2BzM2At%2Fyz73mdcqAw1dJEYxKRU%2FkcOgKhUUCT%2BYsZvcgZMvtTbdVyu9etnBF0PFDMISnpBFatHG%2BoSlS8mo1T4XA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -104,7 +104,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18987
+            "feedbackScore": 18994
           },
           "photoScore": {
             "score": 50,
@@ -704,7 +704,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102452
+            "feedbackScore": 102456
           },
           "photoScore": {
             "score": 50,
@@ -825,7 +825,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbhKcfFukvXKo0Zr30fKiCiYjTL%2Feno8wW5%2F9lu%2FxXDdob9dO%2FXIFZN7O%2Fl0EVhi%2BPjKJPq%2Bohs1vjiI3unGYAqM4GOlDwFue3vx6PBTx%2F7bNrsCqLFP293UJvBVFq0FcKc7MXsG4UaQM14kByLhSJM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLYhgsgPLOWAJkO84rojAhe9KaTnPYosZlI%2BLBArokT4ekRdIMq%2FEbLf%2Fd171Wyw4NsZwXF6osMphmGlfvgm5slw6B8sjFqzSF3H1Iem0RYlgoS6tK8J79EMTGvCbtQOFs%2BTxAQO%2F1RznKyGAqnyrpAg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -972,7 +972,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvED3zL8Jho3z5n9LTpfre3xZzxYfxzCf6EcT%2Fm08LcvnIN1KVtSNSS3z3620IBF0MXFIGDc6glbPEKwXMB8YFez3B%2BEpdqR8N%2FdwmJLvJAkWZ%2BxJWc8CqKX7Bv4YgZ%2BUmPbGhAw4Pyyya4zNauTnwOto%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEFKFP9O34uiqeBsWv1dZ7paR4RQFQEg8DAlNzePJClNjkMtQlZld%2BRIuWzgBz1icAi6S%2B8Y6FTiKqoX4PkXFuk%2BctC8ubAjSkGPk3Wz6Wmf5UhzTCRgbtMmMH2nbMToDAIMHxUytrk2%2FjjLxYHBpmH0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -984,7 +984,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18987
+            "feedbackScore": 18994
           },
           "photoScore": {
             "score": 50,
@@ -1283,7 +1283,7 @@
           "seller": {
             "username": "vortex.tcg",
             "feedbackPercentage": "98.5",
-            "feedbackScore": 188
+            "feedbackScore": 189
           },
           "photoScore": {
             "score": 50,
@@ -1338,7 +1338,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14212
+            "feedbackScore": 14222
           },
           "photoScore": {
             "score": 50,
@@ -1722,7 +1722,7 @@
           "price": 45.5,
           "shipping": 0,
           "total": 45.5,
-          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpbrlZTHrNfUOD1LdHDcc3MRtwbKWCiy5kzgkIjGlY8NSygP2S%2FYoC6cKc9vlyQy1I%2F8XfooNoP%2B0k5TxPdJ5ckbj8W3oz%2FsRdGQJqyJ8OK97mzRdOaR5ZhlXFIYDCGhgSDY0%2F95pS7BInO%2BNb2COzMw%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpbCYsTuWeMTYXFKamZzKkyI0ZYU4%2B9a4v1PfO7fxtjG13Mn7NeW2S4jMPkr9i9StfOFgX04uHUCinH6HhiX2f6XP4Z9z96uOIS%2FeKRfV8EHQ6lIRkQeETbejmrQnRb16o%2BVL2P%2Bxe34UkVJL7d%2F0BO8%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rNcAAeSwdj5pzzDT/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/85YAAeSwr3JpzzDU/s-l1600.jpg"
@@ -1730,7 +1730,7 @@
           "seller": {
             "username": "cardninjaus",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 6756
+            "feedbackScore": 6766
           },
           "photoScore": {
             "score": 50,
@@ -1755,20 +1755,20 @@
           }
         },
         {
-          "itemId": "v1|358458452685|0",
-          "title": "Nico Robin (055) (Alternate Art) EB03-055 Extra Booster: One Piece Heroines...",
-          "price": 52,
-          "shipping": 0,
-          "total": 52,
-          "itemWebUrl": "https://www.ebay.com/itm/358458452685",
-          "imageUrl": "https://i.ebayimg.com/images/g/-vAAAeSwQMdp4vph/s-l1600.jpg",
+          "itemId": "v1|318189679150|0",
+          "title": "One Piece Nico Robin #EB03-055 SR Alternate Art AA English Heroines edition ",
+          "price": 60,
+          "shipping": 4.78,
+          "total": 64.78,
+          "itemWebUrl": "https://www.ebay.com/itm/318189679150",
+          "imageUrl": "https://i.ebayimg.com/images/g/vDsAAeSwiY5p6XKS/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/pCgAAeSwcY5p4vpo/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/eFcAAeSw5spp6XKc/s-l1600.jpg"
           ],
           "seller": {
-            "username": "lindsaystreasures",
+            "username": "dacro8519",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 181
+            "feedbackScore": 10
           },
           "photoScore": {
             "score": 50,
@@ -1780,15 +1780,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 85,
+            "costBasis": 97.78,
             "netExit": 182.29,
-            "profit": 97.29,
-            "roi": 1.1446,
-            "roiPercent": 114.46
+            "profit": 84.51,
+            "roi": 0.8643,
+            "roiPercent": 86.43
           },
           "rankMeta": {
-            "score": 63.5,
-            "priceEdgePercent": 28.81,
+            "score": 45.1,
+            "priceEdgePercent": 11.31,
             "sellerFeedbackPct": 100
           }
         }
@@ -1865,7 +1865,7 @@
           "seller": {
             "username": "mikeytoo",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 25755
+            "feedbackScore": 25756
           },
           "photoScore": {
             "score": 50,
@@ -1952,7 +1952,7 @@
           "price": 39.99,
           "shipping": 0,
           "total": 39.99,
-          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2BoosTDyzHECETO6F6J8iGhqJ7ok4WufWsdT3jUoUQza1O90lN8gHMcR0fQxdRbHtdnLZiShUnPNBunc3HcLGUS28KBHYUpJfnyCYZURMVUCIS1ag8htP4Ijvts5mj6s%2B%2BFFzoMHIlXCVHseiYIprJgkmg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2Boov2OubJGKSo3r1O295f0M16PgLOb9OWCkFjXMZTmkiIldZva%2BpkqeGHrHWdtmxEjCpoNnC3XQgeMif2t3HLqHRIMhQuZt6kh7eAMYbZAbuelT0wEpkt2E3x7TJQ%2BWCgDn1aY1zeOogmagk8AxvHrtFg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/xLYAAeSwGwtp0sLQ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/ud8AAeSwsl9p0sLQ/s-l1600.jpg"
@@ -2131,7 +2131,7 @@
           "seller": {
             "username": "capefeargames",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 53598
+            "feedbackScore": 53601
           },
           "photoScore": {
             "score": 50,
@@ -2180,7 +2180,7 @@
           "price": 24.99,
           "shipping": 0,
           "total": 24.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeVs2soJ9LhiVPmWROYlm%2B6gXwglHjcIJ4Lcaoz%2B6y0gK6FRIrc71np0q3hFTHZcLlK5NMoa3qhrCKPBcLn1vdPDIRPlYIfi6GfV14LgNzdAMgo3Ilw9EY%2FX6n%2FGT3l0Tn6FGq9eMj1h4Rz4pZH0LNNY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeSB0xCjqwO%2Bl0vRLwPJUxh%2FRVF1hCfzDaKYUCiOMwBJxmUvmNhTr4uTMZ%2BvZkO18qIbTqSO4xxrZUbHvh%2F0q0rtQmx9gKooSIuGb3k18o%2FSFXyZCXpI1XtNcBt%2FNsgD0W2Z7ewDhHVh0RhVytrokoOg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/oU0AAeSwy4Zpmg69/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/rL8AAeSw7QVpmg69/s-l1600.jpg",
@@ -2192,7 +2192,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18987
+            "feedbackScore": 18994
           },
           "photoScore": {
             "score": 50,
