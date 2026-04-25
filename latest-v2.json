@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T14:22:00.040Z",
+  "generatedAt": "2026-04-25T14:29:49.953Z",
   "dateStamp": "2026-04-25",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -35,7 +35,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXWCZ6h7ntYkjatL%2FgzSXed%2BxSYq7MnI6Em8QdfIPw10xPgmRCZAko0QsjnaXx3W1xvwiYEMsmxzLFObydyV0HHfZ1WhQtAj1uOWR%2BZWQyA%2FLFDm2MIblSFezcs01oUJYSmrTNOWAaqoEIeV6mZbhv3M%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXXGOKz%2Bk555vlSbcKrT5DutbSIF6UgYpAe96cptzFpR7Gx%2FriVNmgEyjtQ9JAEw%2BQ0Wd0gZ%2FI%2FAJ41nKSGiStfBTi0jyXjMgfzq81q2DyaqIeLPEZYcaCmL6DzIFYeYGIyltuv2283%2By2mygasIZXX4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -77,7 +77,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyBUA9no%2BpJZZHhCJBWOmiogZ1dooCCPPIgUIrkpZ6TJptBqWsyMlv4PFyE1tS5jpS%2FYQO%2BlSdysM2ywSCCjDh8e8Z0AIa%2BaLp8UCRJb3dJfye91unKu2iqYLK5X5NE0FcH8pFGrHlmrvjGb3aLg%2B0Mo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyDcOerfjV4gtdPtn1zpBbKVtR%2F9lErlxohPleLbTH4ZwHoti1TkbDJxhCGtPNR4Hl0dmnOcjvVtuq81nrKldFYBU%2FXzDvSoNWc74ddd9OtsA3Hfqqep6m1UfuOwgcYJm27t1lgzPCVDHtpGkkoxHZpo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -594,7 +594,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102463
+            "feedbackScore": 102464
           },
           "photoScore": {
             "score": 50,
@@ -817,7 +817,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLcmPZI%2Fth%2FqfedEDnaKhUpG2HXVC2deudWKX%2BklsUyRpRod7C1E4WzM99Sua7fzeaKGdhov%2Bg6SDGYxa4RYhhkBoD9gkw4BSHxm32piNhRI71124ksOPd9iUCGc1WFteExhM%2BCZCFlGZqtXbCs%2Fm%2FgU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLcN6iVMK%2F6PL7ZG%2FOniO5WKiG0syxGq1yJl1aGInDrh0vaVbRYBCk%2FQ551tP5fHf%2BjLQuGn1sAOUQdpPubKn698wWFNhTlxwz4supEN%2BcCUqkZJHRPtTOXrOwLkJyE13efpQdUt2jX%2FfYetS%2FFrDmBM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -1093,7 +1093,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEL6skjFr0%2Bbu8CVnMfTV2Y%2FtZ%2Fn0tCIJURJqfTHOSNV0Lh7EBPJqLL9Uirq3nFrv4MTfDxZEOq71t2J3d%2BB6FHJ2W0vRLRoRfQRxQ54ATnv3LFd%2B8fnuEJL3aEH2msgHQgY5TImJIw%2FqRmmtFbsP%2B%2F4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEPbiSRv2lTR3yYxLbDKoJo%2BpEdd0lALl6VlSWURQl8WZ%2BZJNbrEZyv14c6xZKkia83dlRMm9miwehGnjpxlwfHqw4NVNdYHhnRcpPkQYW34u4W0JuofG5dUycBy9ctXFLP8RdaMa1d%2BSA7lsrUrKN4U%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
