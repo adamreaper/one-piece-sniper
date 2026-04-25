@@ -1,18 +1,36 @@
 {
-  "generatedAt": "2026-04-25T02:21:57.969Z",
+  "generatedAt": "2026-04-25T02:47:11.544Z",
   "dateStamp": "2026-04-23",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
-    "gradingCost": 25,
+    "gradingCost": 33,
     "liquidityHaircut": 0.12,
     "minRoiPercent": 80,
     "testMode": true
   },
   "sourceResults": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
   "rowsWithEbayField": 57,
-  "rowsWithEbayCandidates": 29,
+  "rowsWithEbayCandidates": 23,
   "qualifiedCount": 57,
   "rows": [
+    {
+      "code": "EB03-053",
+      "name": "Nami (053)",
+      "setName": "Extra Booster: One Piece Heroine's Edition",
+      "productId": "672804",
+      "rawMarket": 34.47,
+      "psa10Market": 1333.09,
+      "netPsa10Exit": 1173.12,
+      "costBasis": 67.47,
+      "profit": 1105.65,
+      "roi": 16.3873,
+      "roiPercent": 1638.73,
+      "collectrLink": "https://app.getcollectr.com/explore/product/672804",
+      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672804.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
     {
       "code": "EB03-061",
       "name": "Uta (061) (Alternate Art)",
@@ -21,10 +39,10 @@
       "rawMarket": 15.37,
       "psa10Market": 949.85,
       "netPsa10Exit": 835.87,
-      "costBasis": 40.37,
-      "profit": 795.5,
-      "roi": 19.7052,
-      "roiPercent": 1970.52,
+      "costBasis": 48.37,
+      "profit": 787.5,
+      "roi": 16.2808,
+      "roiPercent": 1628.08,
       "collectrLink": "https://app.getcollectr.com/explore/product/672816",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672816.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -52,14 +70,15 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 38.5,
+            "costBasis": 46.5,
             "netExit": 835.87,
-            "profit": 797.37,
-            "roi": 20.7109,
-            "roiPercent": 2071.09
+            "profit": 789.37,
+            "roi": 16.9757,
+            "roiPercent": 1697.57
           },
           "rankMeta": {
             "score": 75,
@@ -73,7 +92,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXboqQiIvTH4XjkLGO8LmT4%2BksSIQb3Xairiv8bhykS6CCUny1bi5qbAFFoEE%2FutbogdeeuyR1flHrdSOQQDPtVb9hJJNa%2BFFkVUMsAbRftwiqyy7AwaidcYfKYGtSJu0SCr98ZaJYpg8yoqKIy9SFY4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXSDcI1IO0p8IHbU6SLtGD3%2BZWtONGIJJtOmh1%2FTrH3bM4mvCauqkC3CFLuAOAmLUW0%2Fm25d2fBPViwZPjmm%2FULS8gmoPIBpewHlZIheJqfvZAFvWR5URrQzl11a8hyDznG20dnwaTRvIwelN3wAJWyc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -85,7 +104,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18986
+            "feedbackScore": 18987
           },
           "photoScore": {
             "score": 50,
@@ -93,14 +112,15 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 39.99,
+            "costBasis": 47.99,
             "netExit": 835.87,
-            "profit": 795.88,
-            "roi": 19.9019,
-            "roiPercent": 1990.19
+            "profit": 787.88,
+            "roi": 16.4176,
+            "roiPercent": 1641.76
           },
           "rankMeta": {
             "score": 72.2,
@@ -109,25 +129,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 3
-    },
-    {
-      "code": "EB03-053",
-      "name": "Nami (053)",
-      "setName": "Extra Booster: One Piece Heroine's Edition",
-      "productId": "672804",
-      "rawMarket": 34.47,
-      "psa10Market": 1333.09,
-      "netPsa10Exit": 1173.12,
-      "costBasis": 59.47,
-      "profit": 1113.65,
-      "roi": 18.7262,
-      "roiPercent": 1872.62,
-      "collectrLink": "https://app.getcollectr.com/explore/product/672804",
-      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672804.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 2
     },
     {
       "code": "OP07-038",
@@ -137,10 +139,10 @@
       "rawMarket": 717.6,
       "psa10Market": 7000,
       "netPsa10Exit": 6160,
-      "costBasis": 742.6,
-      "profit": 5417.4,
-      "roi": 7.2952,
-      "roiPercent": 729.52,
+      "costBasis": 750.6,
+      "profit": 5409.4,
+      "roi": 7.2068,
+      "roiPercent": 720.68,
       "collectrLink": "https://app.getcollectr.com/explore/product/629181",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629181.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -155,10 +157,10 @@
       "rawMarket": 22.23,
       "psa10Market": 335,
       "netPsa10Exit": 294.8,
-      "costBasis": 47.23,
-      "profit": 247.57,
-      "roi": 5.2418,
-      "roiPercent": 524.18,
+      "costBasis": 55.23,
+      "profit": 239.57,
+      "roi": 4.3377,
+      "roiPercent": 433.77,
       "collectrLink": "https://app.getcollectr.com/explore/product/558030",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558030.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -183,14 +185,15 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 45,
+            "costBasis": 53,
             "netExit": 294.8,
-            "profit": 249.8,
-            "roi": 5.5511,
-            "roiPercent": 555.11
+            "profit": 241.8,
+            "roi": 4.5623,
+            "roiPercent": 456.23
           },
           "rankMeta": {
             "score": 51.4,
@@ -209,31 +212,13 @@
       "rawMarket": 133.39,
       "psa10Market": 735,
       "netPsa10Exit": 646.8,
-      "costBasis": 158.39,
-      "profit": 488.41,
-      "roi": 3.0836,
-      "roiPercent": 308.36,
+      "costBasis": 166.39,
+      "profit": 480.41,
+      "roi": 2.8873,
+      "roiPercent": 288.73,
       "collectrLink": "https://app.getcollectr.com/explore/product/629182",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629182.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "EB01-006",
-      "name": "Tony Tony.Chopper",
-      "setName": "Extra Booster: Memorial Collection",
-      "productId": "544530",
-      "rawMarket": 20.21,
-      "psa10Market": 204.5,
-      "netPsa10Exit": 179.96,
-      "costBasis": 45.21,
-      "profit": 134.75,
-      "roi": 2.9805,
-      "roiPercent": 298.05,
-      "collectrLink": "https://app.getcollectr.com/explore/product/544530",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544530.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -245,10 +230,10 @@
       "rawMarket": 505.16,
       "psa10Market": 2250,
       "netPsa10Exit": 1980,
-      "costBasis": 530.16,
-      "profit": 1449.84,
-      "roi": 2.7347,
-      "roiPercent": 273.47,
+      "costBasis": 538.16,
+      "profit": 1441.84,
+      "roi": 2.6792,
+      "roiPercent": 267.92,
       "collectrLink": "https://app.getcollectr.com/explore/product/629177",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629177.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -279,14 +264,15 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 455.63,
+            "costBasis": 463.63,
             "netExit": 1980,
-            "profit": 1524.37,
-            "roi": 3.3456,
-            "roiPercent": 334.56
+            "profit": 1516.37,
+            "roi": 3.2706,
+            "roiPercent": 327.06
           },
           "rankMeta": {
             "score": 73.2,
@@ -298,99 +284,6 @@
       "ebayCandidateCount": 1
     },
     {
-      "code": "OP12-118",
-      "name": "Jewelry Bonney (118)",
-      "setName": "Legacy of the Master",
-      "productId": "643865",
-      "rawMarket": 15.72,
-      "psa10Market": 164.33,
-      "netPsa10Exit": 144.61,
-      "costBasis": 40.72,
-      "profit": 103.89,
-      "roi": 2.5514,
-      "roiPercent": 255.14,
-      "collectrLink": "https://app.getcollectr.com/explore/product/643865",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643865.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|397770147161|0",
-          "title": "Jewelry Bonney SEC OP12-118 Legacy of the Master One Piece jap ",
-          "price": 8.5,
-          "shipping": 0,
-          "total": 8.5,
-          "itemWebUrl": "https://www.ebay.com/itm/397770147161",
-          "imageUrl": "https://i.ebayimg.com/images/g/RMUAAeSw63BpxwbC/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/e6cAAeSwjStpxwbE/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "mendota1418",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 559
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 33.5,
-            "netExit": 144.61,
-            "profit": 111.11,
-            "roi": 3.3167,
-            "roiPercent": 331.67
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 45.93,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
-          "itemId": "v1|287268829674|0",
-          "title": "One Piece Card Game Card Holo Jewelry Bonney OP12-118 SEC FR",
-          "price": 11.09,
-          "shipping": 0,
-          "total": 11.09,
-          "itemWebUrl": "https://www.ebay.com/itm/287268829674",
-          "imageUrl": "https://i.ebayimg.com/images/g/hewAAeSwoH1p3CRg/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/h60AAeSwAV9p3CRu/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "discount_2013",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 1009
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 36.09,
-            "netExit": 144.61,
-            "profit": 108.52,
-            "roi": 3.0069,
-            "roiPercent": 300.69
-          },
-          "rankMeta": {
-            "score": 85.7,
-            "priceEdgePercent": 29.45,
-            "sellerFeedbackPct": 100
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
-    },
-    {
       "code": "OP05-060",
       "name": "Monkey.D.Luffy (SPR)",
       "setName": "Extra Booster: Anime 25th Collection",
@@ -398,13 +291,31 @@
       "rawMarket": 1241,
       "psa10Market": 5021.14,
       "netPsa10Exit": 4418.6,
-      "costBasis": 1266,
-      "profit": 3152.6,
-      "roi": 2.4902,
-      "roiPercent": 249.02,
+      "costBasis": 1274,
+      "profit": 3144.6,
+      "roi": 2.4683,
+      "roiPercent": 246.83,
       "collectrLink": "https://app.getcollectr.com/explore/product/629171",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629171.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "EB01-006",
+      "name": "Tony Tony.Chopper",
+      "setName": "Extra Booster: Memorial Collection",
+      "productId": "544530",
+      "rawMarket": 20.21,
+      "psa10Market": 204.5,
+      "netPsa10Exit": 179.96,
+      "costBasis": 53.21,
+      "profit": 126.75,
+      "roi": 2.3821,
+      "roiPercent": 238.21,
+      "collectrLink": "https://app.getcollectr.com/explore/product/544530",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544530.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -416,10 +327,10 @@
       "rawMarket": 426.9,
       "psa10Market": 1701.65,
       "netPsa10Exit": 1497.45,
-      "costBasis": 451.9,
-      "profit": 1045.55,
-      "roi": 2.3137,
-      "roiPercent": 231.37,
+      "costBasis": 459.9,
+      "profit": 1037.55,
+      "roi": 2.256,
+      "roiPercent": 225.6,
       "collectrLink": "https://app.getcollectr.com/explore/product/629173",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629173.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -434,10 +345,10 @@
       "rawMarket": 814.75,
       "psa10Market": 3051,
       "netPsa10Exit": 2684.88,
-      "costBasis": 839.75,
-      "profit": 1845.13,
-      "roi": 2.1972,
-      "roiPercent": 219.72,
+      "costBasis": 847.75,
+      "profit": 1837.13,
+      "roi": 2.1671,
+      "roiPercent": 216.71,
       "collectrLink": "https://app.getcollectr.com/explore/product/629185",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629185.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -452,10 +363,10 @@
       "rawMarket": 86.72,
       "psa10Market": 405.33,
       "netPsa10Exit": 356.69,
-      "costBasis": 111.72,
-      "profit": 244.97,
-      "roi": 2.1927,
-      "roiPercent": 219.27,
+      "costBasis": 119.72,
+      "profit": 236.97,
+      "roi": 1.9794,
+      "roiPercent": 197.94,
       "collectrLink": "https://app.getcollectr.com/explore/product/541659",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541659.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -484,14 +395,15 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 67,
+            "costBasis": 75,
             "netExit": 356.69,
-            "profit": 289.69,
-            "roi": 4.3237,
-            "roiPercent": 432.37
+            "profit": 281.69,
+            "roi": 3.7559,
+            "roiPercent": 375.59
           },
           "rankMeta": {
             "score": 78.9,
@@ -503,6 +415,137 @@
       "ebayCandidateCount": 1
     },
     {
+      "code": "OP12-118",
+      "name": "Jewelry Bonney (118)",
+      "setName": "Legacy of the Master",
+      "productId": "643865",
+      "rawMarket": 15.72,
+      "psa10Market": 164.33,
+      "netPsa10Exit": 144.61,
+      "costBasis": 48.72,
+      "profit": 95.89,
+      "roi": 1.9682,
+      "roiPercent": 196.82,
+      "collectrLink": "https://app.getcollectr.com/explore/product/643865",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643865.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|397770147161|0",
+          "title": "Jewelry Bonney SEC OP12-118 Legacy of the Master One Piece jap ",
+          "price": 8.5,
+          "shipping": 0,
+          "total": 8.5,
+          "itemWebUrl": "https://www.ebay.com/itm/397770147161",
+          "imageUrl": "https://i.ebayimg.com/images/g/RMUAAeSw63BpxwbC/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/e6cAAeSwjStpxwbE/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mendota1418",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 559
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 41.5,
+            "netExit": 144.61,
+            "profit": 103.11,
+            "roi": 2.4846,
+            "roiPercent": 248.46
+          },
+          "rankMeta": {
+            "score": 82.1,
+            "priceEdgePercent": 45.93,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|287268829674|0",
+          "title": "One Piece Card Game Card Holo Jewelry Bonney OP12-118 SEC FR",
+          "price": 11.09,
+          "shipping": 0,
+          "total": 11.09,
+          "itemWebUrl": "https://www.ebay.com/itm/287268829674",
+          "imageUrl": "https://i.ebayimg.com/images/g/hewAAeSwoH1p3CRg/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/h60AAeSwAV9p3CRu/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "discount_2013",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 1009
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 44.09,
+            "netExit": 144.61,
+            "profit": 100.52,
+            "roi": 2.2799,
+            "roiPercent": 227.99
+          },
+          "rankMeta": {
+            "score": 79.2,
+            "priceEdgePercent": 29.45,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
+    },
+    {
+      "code": "OP06-021",
+      "name": "Perona (SPR)",
+      "setName": "Extra Booster: Anime 25th Collection",
+      "productId": "629175",
+      "rawMarket": 421.52,
+      "psa10Market": 1499.99,
+      "netPsa10Exit": 1319.99,
+      "costBasis": 454.52,
+      "profit": 865.47,
+      "roi": 1.9041,
+      "roiPercent": 190.41,
+      "collectrLink": "https://app.getcollectr.com/explore/product/629175",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629175.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP06-022",
+      "name": "Yamato (SPR)",
+      "setName": "Extra Booster: Anime 25th Collection",
+      "productId": "629176",
+      "rawMarket": 577.32,
+      "psa10Market": 2000,
+      "netPsa10Exit": 1760,
+      "costBasis": 610.32,
+      "profit": 1149.68,
+      "roi": 1.8837,
+      "roiPercent": 188.37,
+      "collectrLink": "https://app.getcollectr.com/explore/product/629176",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629176.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
       "code": "EB01-006",
       "name": "Tony Tony.Chopper (Alternate Art)",
       "setName": "Extra Booster: Memorial Collection",
@@ -510,10 +553,10 @@
       "rawMarket": 60.4,
       "psa10Market": 301.33,
       "netPsa10Exit": 265.17,
-      "costBasis": 85.4,
-      "profit": 179.77,
-      "roi": 2.1051,
-      "roiPercent": 210.51,
+      "costBasis": 93.4,
+      "profit": 171.77,
+      "roi": 1.8391,
+      "roiPercent": 183.91,
       "collectrLink": "https://app.getcollectr.com/explore/product/544531",
       "collectrPsa10At": "2026-04-19T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544531.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -540,17 +583,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 85,
+            "costBasis": 93,
             "netExit": 265.17,
-            "profit": 180.17,
-            "roi": 2.1197,
-            "roiPercent": 211.97
+            "profit": 172.17,
+            "roi": 1.8513,
+            "roiPercent": 185.13
           },
           "rankMeta": {
-            "score": 60.9,
+            "score": 57.6,
             "priceEdgePercent": 0.66,
             "sellerFeedbackPct": 100
           }
@@ -566,10 +610,10 @@
       "rawMarket": 54.31,
       "psa10Market": 275,
       "netPsa10Exit": 242,
-      "costBasis": 79.31,
-      "profit": 162.69,
-      "roi": 2.0513,
-      "roiPercent": 205.13,
+      "costBasis": 87.31,
+      "profit": 154.69,
+      "roi": 1.7717,
+      "roiPercent": 177.17,
       "collectrLink": "https://app.getcollectr.com/explore/product/544584",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544584.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -577,38 +621,56 @@
       "ebayCandidateCount": 0
     },
     {
-      "code": "OP06-021",
-      "name": "Perona (SPR)",
+      "code": "OP05-001",
+      "name": "Sabo (SPR)",
       "setName": "Extra Booster: Anime 25th Collection",
-      "productId": "629175",
-      "rawMarket": 421.52,
-      "psa10Market": 1499.99,
-      "netPsa10Exit": 1319.99,
-      "costBasis": 446.52,
-      "profit": 873.47,
-      "roi": 1.9562,
-      "roiPercent": 195.62,
-      "collectrLink": "https://app.getcollectr.com/explore/product/629175",
+      "productId": "629168",
+      "rawMarket": 334.94,
+      "psa10Market": 1146.11,
+      "netPsa10Exit": 1008.58,
+      "costBasis": 367.94,
+      "profit": 640.64,
+      "roi": 1.7412,
+      "roiPercent": 174.12,
+      "collectrLink": "https://app.getcollectr.com/explore/product/629168",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629175.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629168.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
     {
-      "code": "OP06-022",
-      "name": "Yamato (SPR)",
-      "setName": "Extra Booster: Anime 25th Collection",
-      "productId": "629176",
-      "rawMarket": 577.32,
-      "psa10Market": 2000,
-      "netPsa10Exit": 1760,
-      "costBasis": 602.32,
-      "profit": 1157.68,
-      "roi": 1.922,
-      "roiPercent": 192.2,
-      "collectrLink": "https://app.getcollectr.com/explore/product/629176",
+      "code": "OP13-118",
+      "name": "Monkey.D.Luffy (118) (3rd Anniversary)",
+      "setName": "Carrying On His Will",
+      "productId": "657401",
+      "rawMarket": 8489.98,
+      "psa10Market": 25514.43,
+      "netPsa10Exit": 22452.7,
+      "costBasis": 8522.98,
+      "profit": 13929.72,
+      "roi": 1.6344,
+      "roiPercent": 163.44,
+      "collectrLink": "https://app.getcollectr.com/explore/product/657401",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629176.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_657401.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "EB03-026",
+      "name": "Boa Hancock (Alternate Art)",
+      "setName": "Extra Booster: One Piece Heroine's Edition",
+      "productId": "672772",
+      "rawMarket": 33.6,
+      "psa10Market": 191.07,
+      "netPsa10Exit": 168.14,
+      "costBasis": 66.6,
+      "profit": 101.54,
+      "roi": 1.5246,
+      "roiPercent": 152.46,
+      "collectrLink": "https://app.getcollectr.com/explore/product/672772",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672772.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -620,10 +682,10 @@
       "rawMarket": 19.28,
       "psa10Market": 146.89,
       "netPsa10Exit": 129.26,
-      "costBasis": 44.28,
-      "profit": 84.98,
-      "roi": 1.9192,
-      "roiPercent": 191.92,
+      "costBasis": 52.28,
+      "profit": 76.98,
+      "roi": 1.4725,
+      "roiPercent": 147.25,
       "collectrLink": "https://app.getcollectr.com/explore/product/632498",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632498.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -642,7 +704,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102449
+            "feedbackScore": 102452
           },
           "photoScore": {
             "score": 50,
@@ -650,59 +712,24 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 33.98,
+            "costBasis": 41.98,
             "netExit": 129.26,
-            "profit": 95.28,
-            "roi": 2.8041,
-            "roiPercent": 280.41
+            "profit": 87.28,
+            "roi": 2.0791,
+            "roiPercent": 207.91
           },
           "rankMeta": {
-            "score": 83,
+            "score": 74,
             "priceEdgePercent": 53.42,
             "sellerFeedbackPct": 99.9
           }
         }
       ],
       "ebayCandidateCount": 1
-    },
-    {
-      "code": "EB03-026",
-      "name": "Boa Hancock (Alternate Art)",
-      "setName": "Extra Booster: One Piece Heroine's Edition",
-      "productId": "672772",
-      "rawMarket": 33.6,
-      "psa10Market": 191.07,
-      "netPsa10Exit": 168.14,
-      "costBasis": 58.6,
-      "profit": 109.54,
-      "roi": 1.8693,
-      "roiPercent": 186.93,
-      "collectrLink": "https://app.getcollectr.com/explore/product/672772",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672772.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP05-001",
-      "name": "Sabo (SPR)",
-      "setName": "Extra Booster: Anime 25th Collection",
-      "productId": "629168",
-      "rawMarket": 334.94,
-      "psa10Market": 1146.11,
-      "netPsa10Exit": 1008.58,
-      "costBasis": 359.94,
-      "profit": 648.64,
-      "roi": 1.8021,
-      "roiPercent": 180.21,
-      "collectrLink": "https://app.getcollectr.com/explore/product/629168",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629168.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
     },
     {
       "code": "OP02-059",
@@ -712,49 +739,13 @@
       "rawMarket": 26.43,
       "psa10Market": 160,
       "netPsa10Exit": 140.8,
-      "costBasis": 51.43,
-      "profit": 89.37,
-      "roi": 1.7377,
-      "roiPercent": 173.77,
+      "costBasis": 59.43,
+      "profit": 81.37,
+      "roi": 1.3692,
+      "roiPercent": 136.92,
       "collectrLink": "https://app.getcollectr.com/explore/product/485237",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_485237.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP02-041",
-      "name": "Monkey.D.Luffy (041) (Alternate Art)",
-      "setName": "Paramount War",
-      "productId": "482337",
-      "rawMarket": 22.61,
-      "psa10Market": 145,
-      "netPsa10Exit": 127.6,
-      "costBasis": 47.61,
-      "profit": 79.99,
-      "roi": 1.6801,
-      "roiPercent": 168.01,
-      "collectrLink": "https://app.getcollectr.com/explore/product/482337",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_482337.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP13-118",
-      "name": "Monkey.D.Luffy (118) (3rd Anniversary)",
-      "setName": "Carrying On His Will",
-      "productId": "657401",
-      "rawMarket": 8489.98,
-      "psa10Market": 25514.43,
-      "netPsa10Exit": 22452.7,
-      "costBasis": 8514.98,
-      "profit": 13937.72,
-      "roi": 1.6368,
-      "roiPercent": 163.68,
-      "collectrLink": "https://app.getcollectr.com/explore/product/657401",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_657401.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -766,198 +757,49 @@
       "rawMarket": 33.49,
       "psa10Market": 174.44,
       "netPsa10Exit": 153.51,
-      "costBasis": 58.49,
-      "profit": 95.02,
-      "roi": 1.6245,
-      "roiPercent": 162.45,
+      "costBasis": 66.49,
+      "profit": 87.02,
+      "roi": 1.3088,
+      "roiPercent": 130.88,
       "collectrLink": "https://app.getcollectr.com/explore/product/597053",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597053.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|365095754841|0",
-          "title": "Nico Robin OP09-107 R Parallel Emperors in the New World One Piece Card/A3",
-          "price": 15.7,
-          "shipping": 5,
-          "total": 20.7,
-          "itemWebUrl": "https://www.ebay.com/itm/365095754841?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdzqc%2Bb3KDIceMlt%2B42DWbJJvdCMiUr0GbrZsmym2RUiKrnrcj2%2BVx4OmyWhM%2FY0VCZGH00rt83t9hzHnPn15WCMyEoMV3wM%2BNLTGSUzlNBelHNm77FJzEh9c105JRYiz2xMdtyh5AJzOx92XoILuwrvnf3oamoX0SXb8D7V%2BRVQHg0mTksepXTHXc6pexjJc%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/-YIAAOSwrgNm773F/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/~yoAAOSwrlBm773G/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/JtIAAOSwJrhm773R/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/E3AAAOSwJq1m773R/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "card-japan777",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 3715
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 45.7,
-            "netExit": 153.51,
-            "profit": 107.81,
-            "roi": 2.359,
-            "roiPercent": 235.9
-          },
-          "rankMeta": {
-            "score": 78,
-            "priceEdgePercent": 38.19,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
-          "itemId": "v1|315713746738|0",
-          "title": "Nico Robin OP09-107 R Parallel Emperors in the New World ONE PIECE Card",
-          "price": 12.8,
-          "shipping": 10,
-          "total": 22.8,
-          "itemWebUrl": "https://www.ebay.com/itm/315713746738?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBBEr1ezmVzIV%2FRw1genjik%2FDTXdNmtphp5vVbF6yGXL4LMGUDsb%2Bsf7IXmvgUlsIGTnZTKubBU1vDk%2BAkRqSwLOFKtJhiHStK%2B4Z9h%2Bju95U89dJ8tX%2BOPPl8POmQeKchFQOwiHx%2BhRYkVFsM0zjKU4hTHaQY2woqd%2FhpOTzj7Wpi3WWk%2BRsBh7wM60aVT4ck%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/ofkAAOSwtUBm0xQA/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/CM0AAeSwfm5opU0p/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/vcQAAOSwfjZm2FlE/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "e-life_japan",
-            "feedbackPercentage": "99.4",
-            "feedbackScore": 11637
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 47.8,
-            "netExit": 153.51,
-            "profit": 105.71,
-            "roi": 2.2114,
-            "roiPercent": 221.14
-          },
-          "rankMeta": {
-            "score": 73.6,
-            "priceEdgePercent": 31.92,
-            "sellerFeedbackPct": 99.4
-          }
-        }
-      ],
-      "ebayCandidateCount": 2
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
-      "code": "OP09-069",
-      "name": "Trafalgar Law (069) (Parallel)",
-      "setName": "Emperors in the New World",
-      "productId": "597008",
-      "rawMarket": 15.41,
-      "psa10Market": 118.3,
-      "netPsa10Exit": 104.1,
-      "costBasis": 40.41,
-      "profit": 63.69,
-      "roi": 1.5762,
-      "roiPercent": 157.62,
-      "collectrLink": "https://app.getcollectr.com/explore/product/597008",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597008.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|286225336852|0",
-          "title": "Trafalgar Law OP09-069 (Parallel) - Emperors in the New World (OP09) Jap",
-          "price": 10.99,
-          "shipping": 0,
-          "total": 10.99,
-          "itemWebUrl": "https://www.ebay.com/itm/286225336852",
-          "imageUrl": "https://i.ebayimg.com/images/g/MTAAAOSw5KJnZk-P/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "infinitepacksbya",
-            "feedbackPercentage": "94.9",
-            "feedbackScore": 445
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 35.99,
-            "netExit": 104.1,
-            "profit": 68.11,
-            "roi": 1.8926,
-            "roiPercent": 189.26
-          },
-          "rankMeta": {
-            "score": 65.7,
-            "priceEdgePercent": 28.68,
-            "sellerFeedbackPct": 94.9
-          }
-        },
-        {
-          "itemId": "v1|387785286914|0",
-          "title": "Trafalgar Law (069) (Parallel) OP09-069 Emperors in the New World Foil",
-          "price": 9.99,
-          "shipping": 1.59,
-          "total": 11.58,
-          "itemWebUrl": "https://www.ebay.com/itm/387785286914",
-          "imageUrl": "https://i.ebayimg.com/images/g/cocAAOSwlbRndebu/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "heyu_collection",
-            "feedbackPercentage": "75.0",
-            "feedbackScore": 39
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 36.58,
-            "netExit": 104.1,
-            "profit": 67.52,
-            "roi": 1.8459,
-            "roiPercent": 184.59
-          },
-          "rankMeta": {
-            "score": 49.5,
-            "priceEdgePercent": 24.85,
-            "sellerFeedbackPct": 75
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
+      "code": "OP02-041",
+      "name": "Monkey.D.Luffy (041) (Alternate Art)",
+      "setName": "Paramount War",
+      "productId": "482337",
+      "rawMarket": 22.61,
+      "psa10Market": 145,
+      "netPsa10Exit": 127.6,
+      "costBasis": 55.61,
+      "profit": 71.99,
+      "roi": 1.2946,
+      "roiPercent": 129.46,
+      "collectrLink": "https://app.getcollectr.com/explore/product/482337",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_482337.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
-      "code": "OP09-119",
-      "name": "Monkey.D.Luffy (119) (Alternate Art)",
-      "setName": "Emperors in the New World",
-      "productId": "597069",
-      "rawMarket": 25.81,
-      "psa10Market": 145.45,
-      "netPsa10Exit": 128,
-      "costBasis": 50.81,
-      "profit": 77.19,
-      "roi": 1.5191,
-      "roiPercent": 151.91,
-      "collectrLink": "https://app.getcollectr.com/explore/product/597069",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597069.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "code": "OP08-001",
+      "name": "Tony Tony.Chopper (001) (Parallel)",
+      "setName": "Two Legends",
+      "productId": "558022",
+      "rawMarket": 60.06,
+      "psa10Market": 240.78,
+      "netPsa10Exit": 211.89,
+      "costBasis": 93.06,
+      "profit": 118.83,
+      "roi": 1.2769,
+      "roiPercent": 127.69,
+      "collectrLink": "https://app.getcollectr.com/explore/product/558022",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558022.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -969,10 +811,10 @@
       "rawMarket": 34.89,
       "psa10Market": 171.25,
       "netPsa10Exit": 150.7,
-      "costBasis": 59.89,
-      "profit": 90.81,
-      "roi": 1.5162,
-      "roiPercent": 151.62,
+      "costBasis": 67.89,
+      "profit": 82.81,
+      "roi": 1.2198,
+      "roiPercent": 121.98,
       "collectrLink": "https://app.getcollectr.com/explore/product/541060",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541060.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -983,7 +825,7 @@
           "price": 34.91,
           "shipping": 4.95,
           "total": 39.86,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLWvcDqmbvM327mhblesWsJRdXdCPO3vm1AnG9IEyp%2BFrpWuT83GAA84g8rRn0FcjjD%2Fz7pQCSuzniaUV4dQMxs9yQ%2FR0ReAhe0hmf6lOQ%2FkTaZFj8ltv5STaa4%2BQsjw9mIaTRn3LO0VV%2B0pbybicjPA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbhKcfFukvXKo0Zr30fKiCiYjTL%2Feno8wW5%2F9lu%2FxXDdob9dO%2FXIFZN7O%2Fl0EVhi%2BPjKJPq%2Bohs1vjiI3unGYAqM4GOlDwFue3vx6PBTx%2F7bNrsCqLFP293UJvBVFq0FcKc7MXsG4UaQM14kByLhSJM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -999,17 +841,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 64.86,
+            "costBasis": 72.86,
             "netExit": 150.7,
-            "profit": 85.84,
-            "roi": 1.3235,
-            "roiPercent": 132.35
+            "profit": 77.84,
+            "roi": 1.0684,
+            "roiPercent": 106.84
           },
           "rankMeta": {
-            "score": 41.9,
+            "score": 38.7,
             "priceEdgePercent": -14.24,
             "sellerFeedbackPct": 100
           }
@@ -1018,62 +861,40 @@
       "ebayCandidateCount": 1
     },
     {
-      "code": "OP08-001",
-      "name": "Tony Tony.Chopper (001) (Parallel)",
-      "setName": "Two Legends",
-      "productId": "558022",
-      "rawMarket": 60.06,
-      "psa10Market": 240.78,
-      "netPsa10Exit": 211.88,
-      "costBasis": 85.06,
-      "profit": 126.82,
-      "roi": 1.491,
-      "roiPercent": 149.1,
-      "collectrLink": "https://app.getcollectr.com/explore/product/558022",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558022.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|358126675895|0",
-          "title": "One Piece card OP08-001 Tony Tony Chopper L Parallel Limited Card Collection ",
-          "price": 32.99,
-          "shipping": 0,
-          "total": 32.99,
-          "itemWebUrl": "https://www.ebay.com/itm/358126675895?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX7fkqyNOsVWU8x53P6XS3jW%2FxQ%2FM%2FOqFGxjY9aphLMsY%2F35dNtUZGd%2Ft1Xr1NhCu9dvE56wy31Srw1Oh%2BjITYKY7zemnNTD9f2LCRyrtGiU8%2F89MmwzkOBF7bqwHa1%2Flgd3QCOCWMTfhvvsonYZaojwqT%2F0u6Zyl7XTB3qwmmgXiVqdj6nC4fLw%2BY1pwHchs%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/-OcAAeSwWP1pa80u/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/t10AAOSwz91i2rIW/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/H1sAAOSwC2llWsfS/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/tmUAAOSwGO1lWsfe/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "ma-chanz",
-            "feedbackPercentage": "99.8",
-            "feedbackScore": 19329
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 57.99,
-            "netExit": 211.89,
-            "profit": 153.9,
-            "roi": 2.6538,
-            "roiPercent": 265.38
-          },
-          "rankMeta": {
-            "score": 84.2,
-            "priceEdgePercent": 45.07,
-            "sellerFeedbackPct": 99.8
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
+      "code": "OP09-119",
+      "name": "Monkey.D.Luffy (119) (Alternate Art)",
+      "setName": "Emperors in the New World",
+      "productId": "597069",
+      "rawMarket": 25.81,
+      "psa10Market": 145.45,
+      "netPsa10Exit": 128,
+      "costBasis": 58.81,
+      "profit": 69.19,
+      "roi": 1.1765,
+      "roiPercent": 117.65,
+      "collectrLink": "https://app.getcollectr.com/explore/product/597069",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597069.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP09-069",
+      "name": "Trafalgar Law (069) (Parallel)",
+      "setName": "Emperors in the New World",
+      "productId": "597008",
+      "rawMarket": 15.41,
+      "psa10Market": 118.3,
+      "netPsa10Exit": 104.1,
+      "costBasis": 48.41,
+      "profit": 55.69,
+      "roi": 1.1504,
+      "roiPercent": 115.04,
+      "collectrLink": "https://app.getcollectr.com/explore/product/597008",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597008.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP12-087",
@@ -1082,32 +903,14 @@
       "productId": "643831",
       "rawMarket": 32.77,
       "psa10Market": 158.04,
-      "netPsa10Exit": 139.07,
-      "costBasis": 57.77,
-      "profit": 81.3,
-      "roi": 1.4074,
-      "roiPercent": 140.74,
+      "netPsa10Exit": 139.08,
+      "costBasis": 65.77,
+      "profit": 73.31,
+      "roi": 1.1146,
+      "roiPercent": 111.46,
       "collectrLink": "https://app.getcollectr.com/explore/product/643831",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643831.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP09-015",
-      "name": "Lucky.Roux (TR)",
-      "setName": "A Fist of Divine Speed",
-      "productId": "632773",
-      "rawMarket": 20.44,
-      "psa10Market": 121.14,
-      "netPsa10Exit": 106.6,
-      "costBasis": 45.44,
-      "profit": 61.16,
-      "roi": 1.346,
-      "roiPercent": 134.6,
-      "collectrLink": "https://app.getcollectr.com/explore/product/632773",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632773.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -1119,10 +922,10 @@
       "rawMarket": 30.72,
       "psa10Market": 146.03,
       "netPsa10Exit": 128.51,
-      "costBasis": 55.72,
-      "profit": 72.79,
-      "roi": 1.3063,
-      "roiPercent": 130.63,
+      "costBasis": 63.72,
+      "profit": 64.79,
+      "roi": 1.0168,
+      "roiPercent": 101.68,
       "collectrLink": "https://app.getcollectr.com/explore/product/644882",
       "collectrPsa10At": "2026-04-19T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_644882.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1130,113 +933,20 @@
       "ebayCandidateCount": 0
     },
     {
-      "code": "OP12-031",
-      "name": "Tashigi (Alternate Art)",
-      "setName": "Legacy of the Master",
-      "productId": "643761",
-      "rawMarket": 18.05,
-      "psa10Market": 107.92,
-      "netPsa10Exit": 94.97,
-      "costBasis": 43.05,
-      "profit": 51.92,
-      "roi": 1.206,
-      "roiPercent": 120.6,
-      "collectrLink": "https://app.getcollectr.com/explore/product/643761",
+      "code": "OP09-015",
+      "name": "Lucky.Roux (TR)",
+      "setName": "A Fist of Divine Speed",
+      "productId": "632773",
+      "rawMarket": 20.44,
+      "psa10Market": 121.14,
+      "netPsa10Exit": 106.6,
+      "costBasis": 53.44,
+      "profit": 53.16,
+      "roi": 0.9948,
+      "roiPercent": 99.48,
+      "collectrLink": "https://app.getcollectr.com/explore/product/632773",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643761.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|206033468100|0",
-          "title": "One Piece TCG Tashigi Alternate Art OP12-031 Legacy of the Master SR",
-          "price": 17.49,
-          "shipping": 0,
-          "total": 17.49,
-          "itemWebUrl": "https://www.ebay.com/itm/206033468100",
-          "imageUrl": "https://i.ebayimg.com/images/g/w-IAAeSweW9penRf/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/xXAAAeSwL95penRf/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "eastsidetcg",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 15
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 42.49,
-            "netExit": 94.97,
-            "profit": 52.48,
-            "roi": 1.2351,
-            "roiPercent": 123.51
-          },
-          "rankMeta": {
-            "score": 48.5,
-            "priceEdgePercent": 3.1,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
-          "itemId": "v1|147079470721|0",
-          "title": "Tashigi OP12-031 (Alternate Art) - One Piece Legacy of the Master (OP12)",
-          "price": 19.99,
-          "shipping": 0,
-          "total": 19.99,
-          "itemWebUrl": "https://www.ebay.com/itm/147079470721",
-          "imageUrl": "https://i.ebayimg.com/images/g/HoQAAeSwEJVpXr53/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/nWsAAeSwdvRpXr6E/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "vortex.tcg",
-            "feedbackPercentage": "98.5",
-            "feedbackScore": 188
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.99,
-            "netExit": 94.97,
-            "profit": 49.98,
-            "roi": 1.1109,
-            "roiPercent": 111.09
-          },
-          "rankMeta": {
-            "score": 42.3,
-            "priceEdgePercent": -10.75,
-            "sellerFeedbackPct": 98.5
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
-    },
-    {
-      "code": "OP11-058",
-      "name": "Monkey.D.Luffy - OP11-058 (TR)",
-      "setName": "Carrying On His Will",
-      "productId": "659982",
-      "rawMarket": 36.56,
-      "psa10Market": 152.64,
-      "netPsa10Exit": 134.33,
-      "costBasis": 61.56,
-      "profit": 72.77,
-      "roi": 1.182,
-      "roiPercent": 118.2,
-      "collectrLink": "https://app.getcollectr.com/explore/product/659982",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_659982.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632773.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -1248,10 +958,10 @@
       "rawMarket": 58.55,
       "psa10Market": 206.66,
       "netPsa10Exit": 181.86,
-      "costBasis": 83.55,
-      "profit": 98.31,
-      "roi": 1.1767,
-      "roiPercent": 117.67,
+      "costBasis": 91.55,
+      "profit": 90.31,
+      "roi": 0.9865,
+      "roiPercent": 98.65,
       "collectrLink": "https://app.getcollectr.com/explore/product/482429",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_482429.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1262,7 +972,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEOGZzB9M90OtOv2L8twyxCOYXJUPEkU2BKD0W02sp5cIqpFsx9mwwwFPLYN6wutasnvfMWPqkfJMFy1WaJTsZ0Rka8xepX5Pf94OlZOZeCLEcUjRS52dXKTIIa9c6%2BTJUL3Y62PDbtodlh7LPWgcFMk%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvED3zL8Jho3z5n9LTpfre3xZzxYfxzCf6EcT%2Fm08LcvnIN1KVtSNSS3z3620IBF0MXFIGDc6glbPEKwXMB8YFez3B%2BEpdqR8N%2FdwmJLvJAkWZ%2BxJWc8CqKX7Bv4YgZ%2BUmPbGhAw4Pyyya4zNauTnwOto%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1274,7 +984,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 18986
+            "feedbackScore": 18987
           },
           "photoScore": {
             "score": 50,
@@ -1282,505 +992,24 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 52.99,
+            "costBasis": 60.99,
             "netExit": 181.86,
-            "profit": 128.87,
-            "roi": 2.432,
-            "roiPercent": 243.2
+            "profit": 120.87,
+            "roi": 1.9818,
+            "roiPercent": 198.18
           },
           "rankMeta": {
-            "score": 81.4,
+            "score": 75.8,
             "priceEdgePercent": 52.19,
             "sellerFeedbackPct": 100
           }
         }
       ],
       "ebayCandidateCount": 1
-    },
-    {
-      "code": "OP02-062",
-      "name": "Monkey.D.Luffy (062) (Alternate Art)",
-      "setName": "Paramount War",
-      "productId": "485814",
-      "rawMarket": 56.09,
-      "psa10Market": 200,
-      "netPsa10Exit": 176,
-      "costBasis": 81.09,
-      "profit": 94.91,
-      "roi": 1.1704,
-      "roiPercent": 117.04,
-      "collectrLink": "https://app.getcollectr.com/explore/product/485814",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_485814.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP09-004",
-      "name": "Shanks (004) (Alternate Art)",
-      "setName": "Emperors in the New World",
-      "productId": "596926",
-      "rawMarket": 20.86,
-      "psa10Market": 112.45,
-      "netPsa10Exit": 98.95,
-      "costBasis": 45.86,
-      "profit": 53.09,
-      "roi": 1.1577,
-      "roiPercent": 115.77,
-      "collectrLink": "https://app.getcollectr.com/explore/product/596926",
-      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596926.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|117089629246|0",
-          "title": "Shanks (004) (Alternate Art) OP09-004 Emperors in the New World Foil",
-          "price": 20,
-          "shipping": 0,
-          "total": 20,
-          "itemWebUrl": "https://www.ebay.com/itm/117089629246",
-          "imageUrl": "https://i.ebayimg.com/images/g/O-UAAeSwGSRptd~w/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/3QoAAeSwZX9pr32w/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "raid13az",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 248
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 45,
-            "netExit": 98.96,
-            "profit": 53.96,
-            "roi": 1.199,
-            "roiPercent": 119.9
-          },
-          "rankMeta": {
-            "score": 52.2,
-            "priceEdgePercent": 4.12,
-            "sellerFeedbackPct": 100
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
-    },
-    {
-      "code": "OP02-071",
-      "name": "Magellan (Alternate Art)",
-      "setName": "Paramount War",
-      "productId": "484134",
-      "rawMarket": 49.03,
-      "psa10Market": 180,
-      "netPsa10Exit": 158.4,
-      "costBasis": 74.03,
-      "profit": 84.37,
-      "roi": 1.1397,
-      "roiPercent": 113.97,
-      "collectrLink": "https://app.getcollectr.com/explore/product/484134",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_484134.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|136583325270|435281398760",
-          "title": "Magellan - OP02-071 - Leader Alt Art - Paramount War - MGC 10",
-          "price": 47.07,
-          "shipping": 0,
-          "total": 47.07,
-          "itemWebUrl": "https://www.ebay.com/itm/136583325270?var=435281398760",
-          "imageUrl": "https://i.ebayimg.com/images/g/Y6AAAeSw4NBpUaCD/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "eddys_emporium",
-            "feedbackPercentage": "99.8",
-            "feedbackScore": 557
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 72.07,
-            "netExit": 158.4,
-            "profit": 86.33,
-            "roi": 1.1979,
-            "roiPercent": 119.79
-          },
-          "rankMeta": {
-            "score": 53,
-            "priceEdgePercent": 4,
-            "sellerFeedbackPct": 99.8
-          }
-        },
-        {
-          "itemId": "v1|178060803479|0",
-          "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
-          "price": 53.19,
-          "shipping": 0,
-          "total": 53.19,
-          "itemWebUrl": "https://www.ebay.com/itm/178060803479",
-          "imageUrl": "https://i.ebayimg.com/images/g/1DAAAeSwhIJp5IIn/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/TBwAAeSwntxp5IIq/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "jfc_bricks",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 1182
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 78.19,
-            "netExit": 158.4,
-            "profit": 80.21,
-            "roi": 1.0258,
-            "roiPercent": 102.58
-          },
-          "rankMeta": {
-            "score": 44.6,
-            "priceEdgePercent": -8.48,
-            "sellerFeedbackPct": 100
-          }
-        }
-      ],
-      "ebayCandidateCount": 2
-    },
-    {
-      "code": "OP06-119",
-      "name": "Sanji (Alternate Art)",
-      "setName": "Wings of the Captain",
-      "productId": "541663",
-      "rawMarket": 26.49,
-      "psa10Market": 125,
-      "netPsa10Exit": 110,
-      "costBasis": 51.49,
-      "profit": 58.51,
-      "roi": 1.1363,
-      "roiPercent": 113.63,
-      "collectrLink": "https://app.getcollectr.com/explore/product/541663",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541663.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|267644797231|0",
-          "title": "Sanji (Alternate Art) [OP06 - OP06-119] - NM [Foil] TCG One Piece",
-          "price": 29,
-          "shipping": 0.99,
-          "total": 29.99,
-          "itemWebUrl": "https://www.ebay.com/itm/267644797231",
-          "imageUrl": "https://i.ebayimg.com/images/g/Ga0AAeSwJyRp5Up7/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "fabricatorsforge",
-            "feedbackPercentage": "99.8",
-            "feedbackScore": 14209
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 54.99,
-            "netExit": 110,
-            "profit": 55.01,
-            "roi": 1.0004,
-            "roiPercent": 100.04
-          },
-          "rankMeta": {
-            "score": 41.4,
-            "priceEdgePercent": -13.21,
-            "sellerFeedbackPct": 99.8
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
-    },
-    {
-      "code": "OP08-106",
-      "name": "Nami (Parallel)",
-      "setName": "Two Legends",
-      "productId": "558146",
-      "rawMarket": 24.2,
-      "psa10Market": 117,
-      "netPsa10Exit": 102.96,
-      "costBasis": 49.2,
-      "profit": 53.76,
-      "roi": 1.0927,
-      "roiPercent": 109.27,
-      "collectrLink": "https://app.getcollectr.com/explore/product/558146",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558146.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|127815007541|0",
-          "title": "One Piece Nami (OP08-106/171) OP08 Two Legends NM FOIL- Parallel",
-          "price": 26.95,
-          "shipping": 0,
-          "total": 26.95,
-          "itemWebUrl": "https://www.ebay.com/itm/127815007541",
-          "imageUrl": "https://i.ebayimg.com/images/g/70EAAeSw~o5p4iCw/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "ninetyfive",
-            "feedbackPercentage": "99.7",
-            "feedbackScore": 81511
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 51.95,
-            "netExit": 102.96,
-            "profit": 51.01,
-            "roi": 0.9819,
-            "roiPercent": 98.19
-          },
-          "rankMeta": {
-            "score": 42.6,
-            "priceEdgePercent": -11.36,
-            "sellerFeedbackPct": 99.7
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
-    },
-    {
-      "code": "OP09-042",
-      "name": "Buggy (042) (Parallel)",
-      "setName": "Emperors in the New World",
-      "productId": "596971",
-      "rawMarket": 29.45,
-      "psa10Market": 125.49,
-      "netPsa10Exit": 110.43,
-      "costBasis": 54.45,
-      "profit": 55.98,
-      "roi": 1.0282,
-      "roiPercent": 102.82,
-      "collectrLink": "https://app.getcollectr.com/explore/product/596971",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596971.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|397681257414|0",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD BUGGY OP09-042 L PARALLEL CCG L28",
-          "price": 11.9,
-          "shipping": 7.9,
-          "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmll5Q92ShwFFIGUcaTm3W6IJJqWhkY8juxWtDHbj0VEoHKgpVDfLbdklymmY1RRgaUaek7sfqvL2X%2BM8IE9dGOzpr2TflFDkMO8tEW%2BX%2FMOLqnrc4S%2Beb9kZnHCNCbGROK0ms9h8SKNy4RcBAESw9%2F08%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/ZQ8AAeSwMENpqon0/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/H18AAeSwQvppp8LZ/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/MUEAAeSwKO1pp8LY/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/KU0AAeSw4v9pp8La/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/KSUAAeSw0y9pp8La/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "photocardtoday",
-            "feedbackPercentage": "98.8",
-            "feedbackScore": 4666
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.8,
-            "netExit": 110.43,
-            "profit": 65.63,
-            "roi": 1.465,
-            "roiPercent": 146.5
-          },
-          "rankMeta": {
-            "score": 65,
-            "priceEdgePercent": 32.77,
-            "sellerFeedbackPct": 98.8
-          }
-        },
-        {
-          "itemId": "v1|397603131169|665964389652",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD BUGGY OP09-042 L PARALLEL L28",
-          "price": 11.9,
-          "shipping": 7.9,
-          "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603131169?var=665964389652&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDxQvaBoOLnhLT1INUsSJf8ngK%2BX5j%2FotfaR7ijdd1SJkFy3p0VlqWq2fDPUTB8vmmZn1DUmVLfJMrYddtK4zDTWHQQr2mAmvdbEzLsGVFsdU%2B6UYc0E%2FcnAAIUyQY8%2BiS9zFC%2FUiDod0GjJWfqA3rMB%2Fx97RSR5F9sD9GSIE9PtWpJIvDQfSG8zWM6cVTJUY0%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/iRoAAeSw0uRpjt5n/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/TxEAAeSwmOFpjt5e/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
-          ],
-          "seller": {
-            "username": "photocardtoday",
-            "feedbackPercentage": "98.8",
-            "feedbackScore": 4666
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.8,
-            "netExit": 110.43,
-            "profit": 65.63,
-            "roi": 1.465,
-            "roiPercent": 146.5
-          },
-          "rankMeta": {
-            "score": 65,
-            "priceEdgePercent": 32.77,
-            "sellerFeedbackPct": 98.8
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
-    },
-    {
-      "code": "EB01-056",
-      "name": "Charlotte Flampe (Alternate Art)",
-      "setName": "Extra Booster: Memorial Collection",
-      "productId": "544595",
-      "rawMarket": 27.05,
-      "psa10Market": 119.47,
-      "netPsa10Exit": 105.13,
-      "costBasis": 52.05,
-      "profit": 53.08,
-      "roi": 1.0199,
-      "roiPercent": 101.99,
-      "collectrLink": "https://app.getcollectr.com/explore/product/544595",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544595.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP06-069",
-      "name": "Vinsmoke Reiju (069) (Alternate Art)",
-      "setName": "Wings of the Captain",
-      "productId": "541064",
-      "rawMarket": 17.1,
-      "psa10Market": 96,
-      "netPsa10Exit": 84.48,
-      "costBasis": 42.1,
-      "profit": 42.38,
-      "roi": 1.0067,
-      "roiPercent": 100.67,
-      "collectrLink": "https://app.getcollectr.com/explore/product/541064",
-      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541064.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|277717211209|0",
-          "title": "Vinsmoke Reiju (069) (Alternate Art) OP06-069 Wings of the Captain Foil",
-          "price": 7.99,
-          "shipping": 0,
-          "total": 7.99,
-          "itemWebUrl": "https://www.ebay.com/itm/277717211209",
-          "imageUrl": "https://i.ebayimg.com/images/g/TMsAAeSwbFlpi8-s/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/MFIAAeSwThVpi8-t/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SVsAAeSwN6dpi8-t/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/EtUAAeSwbmhpi8-t/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "mustangman123586",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 351
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 32.99,
-            "netExit": 84.48,
-            "profit": 51.49,
-            "roi": 1.5608,
-            "roiPercent": 156.08
-          },
-          "rankMeta": {
-            "score": 70.1,
-            "priceEdgePercent": 53.27,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
-          "itemId": "v1|298219738124|0",
-          "title": "One Piece Vinsmoke Reiju - OP06-069 - SR - Foil - Alternate Art, Near Mint Wings",
-          "price": 17.45,
-          "shipping": 0,
-          "total": 17.45,
-          "itemWebUrl": "https://www.ebay.com/itm/298219738124",
-          "imageUrl": "https://i.ebayimg.com/images/g/7nYAAeSwq8Npsdi5/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "capefeargames",
-            "feedbackPercentage": "99.9",
-            "feedbackScore": 53597
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 42.45,
-            "netExit": 84.48,
-            "profit": 42.03,
-            "roi": 0.9901,
-            "roiPercent": 99.01
-          },
-          "rankMeta": {
-            "score": 47.4,
-            "priceEdgePercent": -2.05,
-            "sellerFeedbackPct": 99.9
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
     },
     {
       "code": "OP05-119",
@@ -1790,13 +1019,31 @@
       "rawMarket": 3150,
       "psa10Market": 7176.86,
       "netPsa10Exit": 6315.64,
-      "costBasis": 3175,
-      "profit": 3140.64,
-      "roi": 0.9892,
-      "roiPercent": 98.92,
+      "costBasis": 3183,
+      "profit": 3132.64,
+      "roi": 0.9842,
+      "roiPercent": 98.42,
       "collectrLink": "https://app.getcollectr.com/explore/product/632503",
       "collectrPsa10At": "2026-04-23T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632503.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP02-062",
+      "name": "Monkey.D.Luffy (062) (Alternate Art)",
+      "setName": "Paramount War",
+      "productId": "485814",
+      "rawMarket": 56.09,
+      "psa10Market": 200,
+      "netPsa10Exit": 176,
+      "costBasis": 89.09,
+      "profit": 86.91,
+      "roi": 0.9755,
+      "roiPercent": 97.55,
+      "collectrLink": "https://app.getcollectr.com/explore/product/485814",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_485814.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -1808,10 +1055,10 @@
       "rawMarket": 1899.74,
       "psa10Market": 4328.95,
       "netPsa10Exit": 3809.48,
-      "costBasis": 1924.74,
-      "profit": 1884.74,
-      "roi": 0.9792,
-      "roiPercent": 97.92,
+      "costBasis": 1932.74,
+      "profit": 1876.74,
+      "roi": 0.971,
+      "roiPercent": 97.1,
       "collectrLink": "https://app.getcollectr.com/explore/product/541660",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541660.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1838,17 +1085,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 1105,
+            "costBasis": 1113,
             "netExit": 3809.48,
-            "profit": 2704.48,
-            "roi": 2.4475,
-            "roiPercent": 244.75
+            "profit": 2696.48,
+            "roi": 2.4227,
+            "roiPercent": 242.27
           },
           "rankMeta": {
-            "score": 66.5,
+            "score": 66.2,
             "priceEdgePercent": 43.15,
             "sellerFeedbackPct": 100
           }
@@ -1864,13 +1112,349 @@
       "rawMarket": 1490.61,
       "psa10Market": 3404.08,
       "netPsa10Exit": 2995.59,
-      "costBasis": 1515.61,
-      "profit": 1479.98,
-      "roi": 0.9765,
-      "roiPercent": 97.65,
+      "costBasis": 1523.61,
+      "profit": 1471.98,
+      "roi": 0.9661,
+      "roiPercent": 96.61,
       "collectrLink": "https://app.getcollectr.com/explore/product/485862",
       "collectrPsa10At": "2026-04-23T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_485862.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP11-058",
+      "name": "Monkey.D.Luffy - OP11-058 (TR)",
+      "setName": "Carrying On His Will",
+      "productId": "659982",
+      "rawMarket": 36.56,
+      "psa10Market": 152.64,
+      "netPsa10Exit": 134.32,
+      "costBasis": 69.56,
+      "profit": 64.76,
+      "roi": 0.931,
+      "roiPercent": 93.1,
+      "collectrLink": "https://app.getcollectr.com/explore/product/659982",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_659982.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP02-071",
+      "name": "Magellan (Alternate Art)",
+      "setName": "Paramount War",
+      "productId": "484134",
+      "rawMarket": 49.03,
+      "psa10Market": 180,
+      "netPsa10Exit": 158.4,
+      "costBasis": 82.03,
+      "profit": 76.37,
+      "roi": 0.931,
+      "roiPercent": 93.1,
+      "collectrLink": "https://app.getcollectr.com/explore/product/484134",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_484134.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|178060803479|0",
+          "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
+          "price": 53.19,
+          "shipping": 0,
+          "total": 53.19,
+          "itemWebUrl": "https://www.ebay.com/itm/178060803479",
+          "imageUrl": "https://i.ebayimg.com/images/g/1DAAAeSwhIJp5IIn/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/TBwAAeSwntxp5IIq/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "jfc_bricks",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 1182
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 86.19,
+            "netExit": 158.4,
+            "profit": 72.21,
+            "roi": 0.8378,
+            "roiPercent": 83.78
+          },
+          "rankMeta": {
+            "score": 42.2,
+            "priceEdgePercent": -8.48,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
+    },
+    {
+      "code": "OP09-093",
+      "name": "Marshall.D.Teach (093) (Manga)",
+      "setName": "Emperors in the New World",
+      "productId": "597035",
+      "rawMarket": 1194.35,
+      "psa10Market": 2652.85,
+      "netPsa10Exit": 2334.51,
+      "costBasis": 1227.35,
+      "profit": 1107.16,
+      "roi": 0.9021,
+      "roiPercent": 90.21,
+      "collectrLink": "https://app.getcollectr.com/explore/product/597035",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597035.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP12-031",
+      "name": "Tashigi (Alternate Art)",
+      "setName": "Legacy of the Master",
+      "productId": "643761",
+      "rawMarket": 18.05,
+      "psa10Market": 107.92,
+      "netPsa10Exit": 94.97,
+      "costBasis": 51.05,
+      "profit": 43.92,
+      "roi": 0.8603,
+      "roiPercent": 86.03,
+      "collectrLink": "https://app.getcollectr.com/explore/product/643761",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_643761.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|206033468100|0",
+          "title": "One Piece TCG Tashigi Alternate Art OP12-031 Legacy of the Master SR",
+          "price": 17.49,
+          "shipping": 0,
+          "total": 17.49,
+          "itemWebUrl": "https://www.ebay.com/itm/206033468100",
+          "imageUrl": "https://i.ebayimg.com/images/g/w-IAAeSweW9penRf/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/xXAAAeSwL95penRf/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "eastsidetcg",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 15
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 50.49,
+            "netExit": 94.97,
+            "profit": 44.48,
+            "roi": 0.881,
+            "roiPercent": 88.1
+          },
+          "rankMeta": {
+            "score": 44.1,
+            "priceEdgePercent": 3.1,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|147079470721|0",
+          "title": "Tashigi OP12-031 (Alternate Art) - One Piece Legacy of the Master (OP12)",
+          "price": 19.99,
+          "shipping": 0,
+          "total": 19.99,
+          "itemWebUrl": "https://www.ebay.com/itm/147079470721",
+          "imageUrl": "https://i.ebayimg.com/images/g/HoQAAeSwEJVpXr53/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/nWsAAeSwdvRpXr6E/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "vortex.tcg",
+            "feedbackPercentage": "98.5",
+            "feedbackScore": 188
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 52.99,
+            "netExit": 94.97,
+            "profit": 41.98,
+            "roi": 0.7922,
+            "roiPercent": 79.22
+          },
+          "rankMeta": {
+            "score": 38.4,
+            "priceEdgePercent": -10.75,
+            "sellerFeedbackPct": 98.5
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
+    },
+    {
+      "code": "OP06-119",
+      "name": "Sanji (Alternate Art)",
+      "setName": "Wings of the Captain",
+      "productId": "541663",
+      "rawMarket": 26.49,
+      "psa10Market": 125,
+      "netPsa10Exit": 110,
+      "costBasis": 59.49,
+      "profit": 50.51,
+      "roi": 0.8491,
+      "roiPercent": 84.91,
+      "collectrLink": "https://app.getcollectr.com/explore/product/541663",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541663.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|267644797231|0",
+          "title": "Sanji (Alternate Art) [OP06 - OP06-119] - NM [Foil] TCG One Piece",
+          "price": 29,
+          "shipping": 0.99,
+          "total": 29.99,
+          "itemWebUrl": "https://www.ebay.com/itm/267644797231",
+          "imageUrl": "https://i.ebayimg.com/images/g/Ga0AAeSwJyRp5Up7/s-l1600.jpg",
+          "additionalImages": [],
+          "seller": {
+            "username": "fabricatorsforge",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 14212
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 62.99,
+            "netExit": 110,
+            "profit": 47.01,
+            "roi": 0.7463,
+            "roiPercent": 74.63
+          },
+          "rankMeta": {
+            "score": 38.2,
+            "priceEdgePercent": -13.21,
+            "sellerFeedbackPct": 99.8
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
+    },
+    {
+      "code": "OP09-004",
+      "name": "Shanks (004) (Alternate Art)",
+      "setName": "Emperors in the New World",
+      "productId": "596926",
+      "rawMarket": 20.86,
+      "psa10Market": 112.45,
+      "netPsa10Exit": 98.96,
+      "costBasis": 53.86,
+      "profit": 45.1,
+      "roi": 0.8374,
+      "roiPercent": 83.74,
+      "collectrLink": "https://app.getcollectr.com/explore/product/596926",
+      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596926.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|117089629246|0",
+          "title": "Shanks (004) (Alternate Art) OP09-004 Emperors in the New World Foil",
+          "price": 20,
+          "shipping": 0,
+          "total": 20,
+          "itemWebUrl": "https://www.ebay.com/itm/117089629246",
+          "imageUrl": "https://i.ebayimg.com/images/g/O-UAAeSwGSRptd~w/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/3QoAAeSwZX9pr32w/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "raid13az",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 248
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 53,
+            "netExit": 98.96,
+            "profit": 45.96,
+            "roi": 0.8672,
+            "roiPercent": 86.72
+          },
+          "rankMeta": {
+            "score": 48.1,
+            "priceEdgePercent": 4.12,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
+    },
+    {
+      "code": "EB03-031",
+      "name": "Vinsmoke Reiju (SP)",
+      "setName": "Extra Booster: One Piece Heroine's Edition",
+      "productId": "672824",
+      "rawMarket": 193.49,
+      "psa10Market": 470,
+      "netPsa10Exit": 413.6,
+      "costBasis": 226.49,
+      "profit": 187.11,
+      "roi": 0.8261,
+      "roiPercent": 82.61,
+      "collectrLink": "https://app.getcollectr.com/explore/product/672824",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672824.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP09-119",
+      "name": "Monkey.D.Luffy (Manga)",
+      "setName": "Emperors in the New World",
+      "productId": "597068",
+      "rawMarket": 1965.18,
+      "psa10Market": 4113.81,
+      "netPsa10Exit": 3620.15,
+      "costBasis": 1998.18,
+      "profit": 1621.97,
+      "roi": 0.8117,
+      "roiPercent": 81.17,
+      "collectrLink": "https://app.getcollectr.com/explore/product/597068",
+      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597068.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "ebayCandidateCount": 0
     },
@@ -1882,55 +1466,33 @@
       "rawMarket": 63.17,
       "psa10Market": 197.98,
       "netPsa10Exit": 174.22,
-      "costBasis": 88.17,
-      "profit": 86.05,
-      "roi": 0.976,
-      "roiPercent": 97.6,
+      "costBasis": 96.17,
+      "profit": 78.05,
+      "roi": 0.8116,
+      "roiPercent": 81.16,
       "collectrLink": "https://app.getcollectr.com/explore/product/632507",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632507.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|317931326740|0",
-          "title": "One piece card (OP11)OP09-005 Silvers Rayleigh SP R A Fist of Divine Speed",
-          "price": 45,
-          "shipping": 0,
-          "total": 45,
-          "itemWebUrl": "https://www.ebay.com/itm/317931326740?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCtC5wg37TQTRZjSELwFkzJps7AWWvB7aP6W9L%2FJwcugMj6z0OSUn0MQdj5kvXG8wwPOE1o9R2Gikfp5UDCXYuxu%2FIRTyTwj%2BvYbC4xOH%2FIsopP95RVnzGZI8%2FveBaDm%2BLdQIEQfgeyBuNu594xdNHsXVC3eE6%2F6n1xrdTth1TglUqrK7an2mjItYS2UEvz2Cs%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/d8oAAeSwKQxpoa6f/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/HpUAAOSw7DRlUhqp/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/wPoAAOSwL9tlUhqw/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/hHkAAOSwhERlUhq3/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "saffron_store24",
-            "feedbackPercentage": "98.5",
-            "feedbackScore": 102
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 70,
-            "netExit": 174.22,
-            "profit": 104.22,
-            "roi": 1.4889,
-            "roiPercent": 148.89
-          },
-          "rankMeta": {
-            "score": 66,
-            "priceEdgePercent": 28.76,
-            "sellerFeedbackPct": 98.5
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP08-106",
+      "name": "Nami (Parallel)",
+      "setName": "Two Legends",
+      "productId": "558146",
+      "rawMarket": 24.2,
+      "psa10Market": 117,
+      "netPsa10Exit": 102.96,
+      "costBasis": 57.2,
+      "profit": 45.76,
+      "roi": 0.8,
+      "roiPercent": 80,
+      "collectrLink": "https://app.getcollectr.com/explore/product/558146",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_558146.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP11-018",
@@ -1940,10 +1502,10 @@
       "rawMarket": 51.64,
       "psa10Market": 170.19,
       "netPsa10Exit": 149.77,
-      "costBasis": 76.64,
-      "profit": 73.13,
-      "roi": 0.9542,
-      "roiPercent": 95.42,
+      "costBasis": 84.64,
+      "profit": 65.13,
+      "roi": 0.7695,
+      "roiPercent": 76.95,
       "collectrLink": "https://app.getcollectr.com/explore/product/632377",
       "collectrPsa10At": "2026-04-21T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632377.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -1971,17 +1533,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 74.9,
+            "costBasis": 82.9,
             "netExit": 149.77,
-            "profit": 74.87,
-            "roi": 0.9996,
-            "roiPercent": 99.96
+            "profit": 66.87,
+            "roi": 0.8066,
+            "roiPercent": 80.66
           },
           "rankMeta": {
-            "score": 25.1,
+            "score": 22.7,
             "priceEdgePercent": 3.37,
             "sellerFeedbackPct": 0
           }
@@ -1990,54 +1553,36 @@
       "ebayCandidateCount": 1
     },
     {
-      "code": "EB01-001",
-      "name": "Kouzuki Oden (Alternate Art)",
-      "setName": "Extra Booster: Memorial Collection",
-      "productId": "544524",
-      "rawMarket": 45.44,
-      "psa10Market": 155,
-      "netPsa10Exit": 136.4,
-      "costBasis": 70.44,
-      "profit": 65.96,
-      "roi": 0.9364,
-      "roiPercent": 93.64,
-      "collectrLink": "https://app.getcollectr.com/explore/product/544524",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544524.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP06-001",
-      "name": "Uta (Alternate Art)",
-      "setName": "Wings of the Captain",
-      "productId": "539285",
-      "rawMarket": 38.3,
-      "psa10Market": 138.3,
-      "netPsa10Exit": 121.7,
-      "costBasis": 63.3,
-      "profit": 58.4,
-      "roi": 0.9227,
-      "roiPercent": 92.27,
-      "collectrLink": "https://app.getcollectr.com/explore/product/539285",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_539285.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "code": "OP09-042",
+      "name": "Buggy (042) (Parallel)",
+      "setName": "Emperors in the New World",
+      "productId": "596971",
+      "rawMarket": 29.45,
+      "psa10Market": 125.49,
+      "netPsa10Exit": 110.43,
+      "costBasis": 62.45,
+      "profit": 47.98,
+      "roi": 0.7683,
+      "roiPercent": 76.83,
+      "collectrLink": "https://app.getcollectr.com/explore/product/596971",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596971.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
-          "itemId": "v1|406876520212|0",
-          "title": "Uta OP06-001 Leader Alternate Art One Piece Wings of the Captain Eng NM",
-          "price": 36.49,
-          "shipping": 0,
-          "total": 36.49,
-          "itemWebUrl": "https://www.ebay.com/itm/406876520212",
-          "imageUrl": "https://i.ebayimg.com/images/g/tWMAAeSw77xp3tmO/s-l1600.jpg",
+          "itemId": "v1|356010582463|0",
+          "title": "One Piece PL Buggy (Parallel) CARD NOT PLAYED OP09-042",
+          "price": 19.98,
+          "shipping": 6,
+          "total": 25.98,
+          "itemWebUrl": "https://www.ebay.com/itm/356010582463",
+          "imageUrl": "https://i.ebayimg.com/images/g/iRcAAOSwNcpm1ztv/s-l1600.jpg",
           "additionalImages": [
-            "https://i.ebayimg.com/images/g/IAUAAeSwNw1p3sdC/s-l1600.jpg"
+            "https://i.ebayimg.com/images/g/7b4AAOSwYytm1ztw/s-l1600.jpg"
           ],
           "seller": {
-            "username": "canuck.pluck",
+            "username": "morem57",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 45
+            "feedbackScore": 61
           },
           "photoScore": {
             "score": 50,
@@ -2045,78 +1590,24 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 61.49,
-            "netExit": 121.7,
-            "profit": 60.21,
-            "roi": 0.9792,
-            "roiPercent": 97.92
+            "costBasis": 58.98,
+            "netExit": 110.43,
+            "profit": 51.45,
+            "roi": 0.8723,
+            "roiPercent": 87.23
           },
           "rankMeta": {
-            "score": 47.6,
-            "priceEdgePercent": 4.73,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
-          "itemId": "v1|397870421866|0",
-          "title": "One Piece Card, Uta OP06-001 Leader Alternate Art English",
-          "price": 39.99,
-          "shipping": 0,
-          "total": 39.99,
-          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2Boonul0URWBF4cKGazT4cvcWePJM5jHU1WLYu9%2F9Tg371p5D2fvocuF0dhEdPsd9RhnmgB67JBsn%2BP%2F4YkRD7A6z4zAo9kY4QOe%2BXAbw08ak9%2BGDwOLFdxI3pLmLhqUNFks2yUrVKnzc%2FV0KSIFpt6jKw%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/xLYAAeSwGwtp0sLQ/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/ud8AAeSwsl9p0sLQ/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "summoning_post",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 162
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 64.99,
-            "netExit": 121.7,
-            "profit": 56.71,
-            "roi": 0.8727,
-            "roiPercent": 87.27
-          },
-          "rankMeta": {
-            "score": 43.3,
-            "priceEdgePercent": -4.41,
+            "score": 47.2,
+            "priceEdgePercent": 11.78,
             "sellerFeedbackPct": 100
           }
         }
       ],
-      "ebayCandidateCount": 2
-    },
-    {
-      "code": "OP09-093",
-      "name": "Marshall.D.Teach (093) (Manga)",
-      "setName": "Emperors in the New World",
-      "productId": "597035",
-      "rawMarket": 1194.35,
-      "psa10Market": 2652.85,
-      "netPsa10Exit": 2334.51,
-      "costBasis": 1219.35,
-      "profit": 1115.16,
-      "roi": 0.9146,
-      "roiPercent": 91.46,
-      "collectrLink": "https://app.getcollectr.com/explore/product/597035",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597035.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 1
     },
     {
       "code": "OP13-118",
@@ -2126,56 +1617,14 @@
       "rawMarket": 84.31,
       "psa10Market": 235.53,
       "netPsa10Exit": 207.27,
-      "costBasis": 109.31,
-      "profit": 97.96,
-      "roi": 0.8962,
-      "roiPercent": 89.62,
+      "costBasis": 117.31,
+      "profit": 89.96,
+      "roi": 0.7669,
+      "roiPercent": 76.69,
       "collectrLink": "https://app.getcollectr.com/explore/product/657403",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_657403.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
-        {
-          "itemId": "v1|358067071421|0",
-          "title": "Monkey.D.Luffy (118) (Parallel) OP13-118 Carrying On His Will Foil",
-          "price": 58,
-          "shipping": 0,
-          "total": 58,
-          "itemWebUrl": "https://www.ebay.com/itm/358067071421",
-          "imageUrl": "https://i.ebayimg.com/images/g/5HwAAeSw4YFpTayX/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/yBkAAeSwW2VpTayx/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/4FQAAeSw3zlpTay0/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/0x4AAeSw7kZpTayy/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/tNoAAeSwL15pTay0/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/z3EAAeSwSzBpTay8/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/zoUAAeSwCiJpTay7/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "nekosenseijapan",
-            "feedbackPercentage": "0.0",
-            "feedbackScore": null
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 83,
-            "netExit": 207.27,
-            "profit": 124.27,
-            "roi": 1.4972,
-            "roiPercent": 149.72
-          },
-          "rankMeta": {
-            "score": 43.7,
-            "priceEdgePercent": 31.21,
-            "sellerFeedbackPct": 0
-          }
-        },
         {
           "itemId": "v1|366289689014|0",
           "title": "Monkey.D.Luffy (118) (Parallel) (OP13-118) - Carrying On His Will  NM One Piece",
@@ -2196,191 +1645,19 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 114.1,
+            "costBasis": 122.1,
             "netExit": 207.27,
-            "profit": 93.17,
-            "roi": 0.8165,
-            "roiPercent": 81.65
+            "profit": 85.17,
+            "roi": 0.6975,
+            "roiPercent": 69.75
           },
           "rankMeta": {
-            "score": 38.4,
+            "score": 36.9,
             "priceEdgePercent": -5.68,
-            "sellerFeedbackPct": 100
-          }
-        }
-      ],
-      "ebayCandidateCount": 2
-    },
-    {
-      "code": "OP09-001",
-      "name": "Shanks (001) (Parallel)",
-      "setName": "Emperors in the New World",
-      "productId": "596920",
-      "rawMarket": 28.77,
-      "psa10Market": 115.76,
-      "netPsa10Exit": 101.87,
-      "costBasis": 53.77,
-      "profit": 48.1,
-      "roi": 0.8946,
-      "roiPercent": 89.46,
-      "collectrLink": "https://app.getcollectr.com/explore/product/596920",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596920.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|397677796612|0",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC CASE CARD SHANKS OP09-001 L PARALLEL CCG L28",
-          "price": 11.9,
-          "shipping": 7.9,
-          "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9EPj9Gs4xAy9rLIkPudecEhV1Icu1zzBpTBgBdc0fOYOCTATzobDyNiA%2BfdpqYLXksOGVYPkCyEyxRiazfTZTt00fRHlhPPFfqxrI--kqf4wxcJ8ykf5nd%2BYfOBsKM4MLOevEnzvmJoblPJBsGzm5%2Bk%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/vtcAAeSwb6tpqV9F/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/JA0AAeSwRUtpmsP6/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/Tf4AAeSw7S9pp8NX/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/HpcAAeSwNC1pp8NX/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/Jh8AAeSwfbFpp8NY/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "photocardtoday",
-            "feedbackPercentage": "98.8",
-            "feedbackScore": 4666
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.8,
-            "netExit": 101.87,
-            "profit": 57.07,
-            "roi": 1.2739,
-            "roiPercent": 127.39
-          },
-          "rankMeta": {
-            "score": 62.6,
-            "priceEdgePercent": 31.18,
-            "sellerFeedbackPct": 98.8
-          }
-        },
-        {
-          "itemId": "v1|397603125487|665964274061",
-          "title": "ONE PIECE TCG EXTENDED ART ACRYLIC ALLOY CASE CARD SHANKS OP09-001 L PARALLEL",
-          "price": 11.9,
-          "shipping": 7.9,
-          "total": 19.8,
-          "itemWebUrl": "https://www.ebay.com/itm/397603125487?var=665964274061&amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXAyF4FZVq78Ig0lASvuSbmXT8ZuIsSjwPB%2Fg7D1VrX2MsqaXoUFIBXtFNwhpO0jQNpFoL5HePLTVGbvQTeFY9dOGH7%2FG%2FudNxfr8QuTnB%2BiUmcUZf8noMQZCUbstARQv8je4RqPBwHFI7uSdfU%2FooHKmLnhaiedmzkWQTK5mmvdpsDvwChN645%2B34CjgDxJo%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/SYMAAeSwPo5pjt18/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/eo8AAeSw09dpjt1y/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/ZlkAAeSwLClpeYPJ/s-l225.jpg",
-            "https://i.ebayimg.com/images/g/yFoAAeSw9nlpeYPJ/s-l225.jpg"
-          ],
-          "seller": {
-            "username": "photocardtoday",
-            "feedbackPercentage": "98.8",
-            "feedbackScore": 4666
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 44.8,
-            "netExit": 101.87,
-            "profit": 57.07,
-            "roi": 1.2739,
-            "roiPercent": 127.39
-          },
-          "rankMeta": {
-            "score": 62.6,
-            "priceEdgePercent": 31.18,
-            "sellerFeedbackPct": 98.8
-          }
-        }
-      ],
-      "ebayCandidateCount": 3
-    },
-    {
-      "code": "EB03-031",
-      "name": "Vinsmoke Reiju (SP)",
-      "setName": "Extra Booster: One Piece Heroine's Edition",
-      "productId": "672824",
-      "rawMarket": 193.49,
-      "psa10Market": 470,
-      "netPsa10Exit": 413.6,
-      "costBasis": 218.49,
-      "profit": 195.11,
-      "roi": 0.893,
-      "roiPercent": 89.3,
-      "collectrLink": "https://app.getcollectr.com/explore/product/672824",
-      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672824.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
-    },
-    {
-      "code": "OP11-114",
-      "name": "Gum-Gum Fire-Fist Pistol Red Hawk (Alternate Art)",
-      "setName": "A Fist of Divine Speed",
-      "productId": "632493",
-      "rawMarket": 46.91,
-      "psa10Market": 153.99,
-      "netPsa10Exit": 135.51,
-      "costBasis": 71.91,
-      "profit": 63.6,
-      "roi": 0.8845,
-      "roiPercent": 88.45,
-      "collectrLink": "https://app.getcollectr.com/explore/product/632493",
-      "collectrPsa10At": "2026-04-23T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632493.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|397859795825|0",
-          "title": "Gum-Gum Fire-Fist Pistol Red Hawk OP11-114 Alternate Art One Piece Card ENGLISH ",
-          "price": 52.5,
-          "shipping": 0,
-          "total": 52.5,
-          "itemWebUrl": "https://www.ebay.com/itm/397859795825",
-          "imageUrl": "https://i.ebayimg.com/images/g/ZaIAAeSwur5p5aYI/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/-OIAAeSwSihp5aYI/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/a~8AAeSwFO1p5aYH/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "anwel_6472",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 308
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 77.5,
-            "netExit": 135.51,
-            "profit": 58.01,
-            "roi": 0.7485,
-            "roiPercent": 74.85
-          },
-          "rankMeta": {
-            "score": 38.9,
-            "priceEdgePercent": -11.92,
             "sellerFeedbackPct": 100
           }
         }
@@ -2388,97 +1665,40 @@
       "ebayCandidateCount": 1
     },
     {
-      "code": "OP02-013",
-      "name": "Portgas.D.Ace (Parallel)",
-      "setName": "Paramount War",
-      "productId": "486333",
-      "rawMarket": 50.86,
-      "psa10Market": 162.33,
-      "netPsa10Exit": 142.85,
-      "costBasis": 75.86,
-      "profit": 66.99,
-      "roi": 0.8831,
-      "roiPercent": 88.31,
-      "collectrLink": "https://app.getcollectr.com/explore/product/486333",
-      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_486333.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|127571636720|0",
-          "title": "ONE PIECE Card Game Portgas D.Ace Parallel OP02-013 SR Paramount War",
-          "price": 30.23,
-          "shipping": 0,
-          "total": 30.23,
-          "itemWebUrl": "https://www.ebay.com/itm/127571636720?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgay0p7pgsrZPkhRkKtfwitcw5NxneNQ1B1Y8pScQZnHkik7OJzw%2B9P84sV6yUyNVrFcBxLd6%2BT57EpAvGkwbqoOTN5XdhQGYOpFEHABwmfhKOPBFw27qh1veMm%2FrZXWhV9RCil5U%2BQCR2dgQtZmuQIKAKeTMfO0ErdefLwxkTabGKfXdQP3DCJIS34XtuaCY%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/GUEAAeSwRw5pRQAL/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/nN8AAeSwRHFpRQAM/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "qptokio",
-            "feedbackPercentage": "99.7",
-            "feedbackScore": 2881
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 55.23,
-            "netExit": 142.85,
-            "profit": 87.62,
-            "roi": 1.5865,
-            "roiPercent": 158.65
-          },
-          "rankMeta": {
-            "score": 70.8,
-            "priceEdgePercent": 40.56,
-            "sellerFeedbackPct": 99.7
-          }
-        },
-        {
-          "itemId": "v1|336438926770|0",
-          "title": "Portgas D.Ace (Parallel) OP02-013 SR Paramount War - ONE PIECE Card Game",
-          "price": 30.3,
-          "shipping": 0,
-          "total": 30.3,
-          "itemWebUrl": "https://www.ebay.com/itm/336438926770?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBfxRnsgnGubppeadkpXbxOryZ%2FWlV4xcmYMuW%2FaBo%2BT0kUrDHeyLaa4h7uuA8bwPY1zkTBgOmt%2FqggabZUPLkckx4t1vIFYnUEcQoS4hrBJreCUrlxe9UPGsqn2jEzVN7bo9dOkOnZVmXP%2FUrLB66AWCQa53Me0nHgcogB2tseIFor5PC9zOKS8DVvxXQw5pA%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/JQUAAeSwDGVplB89/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/Sm0AAeSw17tplB8-/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "j-martselect",
-            "feedbackPercentage": "99.7",
-            "feedbackScore": 1738
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false
-          },
-          "roi": {
-            "costBasis": 55.3,
-            "netExit": 142.85,
-            "profit": 87.55,
-            "roi": 1.5832,
-            "roiPercent": 158.32
-          },
-          "rankMeta": {
-            "score": 70.8,
-            "priceEdgePercent": 40.42,
-            "sellerFeedbackPct": 99.7
-          }
-        }
-      ],
-      "ebayCandidateCount": 2
+      "code": "EB01-056",
+      "name": "Charlotte Flampe (Alternate Art)",
+      "setName": "Extra Booster: Memorial Collection",
+      "productId": "544595",
+      "rawMarket": 27.05,
+      "psa10Market": 119.47,
+      "netPsa10Exit": 105.13,
+      "costBasis": 60.05,
+      "profit": 45.08,
+      "roi": 0.7507,
+      "roiPercent": 75.07,
+      "collectrLink": "https://app.getcollectr.com/explore/product/544595",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544595.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "EB01-001",
+      "name": "Kouzuki Oden (Alternate Art)",
+      "setName": "Extra Booster: Memorial Collection",
+      "productId": "544524",
+      "rawMarket": 45.44,
+      "psa10Market": 155,
+      "netPsa10Exit": 136.4,
+      "costBasis": 78.44,
+      "profit": 57.96,
+      "roi": 0.7389,
+      "roiPercent": 73.89,
+      "collectrLink": "https://app.getcollectr.com/explore/product/544524",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_544524.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "EB03-055",
@@ -2488,10 +1708,10 @@
       "rawMarket": 73.04,
       "psa10Market": 207.15,
       "netPsa10Exit": 182.29,
-      "costBasis": 98.04,
-      "profit": 84.25,
-      "roi": 0.8593,
-      "roiPercent": 85.93,
+      "costBasis": 106.04,
+      "profit": 76.25,
+      "roi": 0.7191,
+      "roiPercent": 71.91,
       "collectrLink": "https://app.getcollectr.com/explore/product/672808",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672808.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -2502,7 +1722,7 @@
           "price": 45.5,
           "shipping": 0,
           "total": 45.5,
-          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpaPOqa1Z1t6Cy0U0N5xKJDxRMBliRCSVuFaI6Hya090oxn4SaUFG5lmQr%2BolSH2CStaTxV6GdwHjuri1KTseL%2F89Vb8IZ8Pik1gHSldTA90OPsWUTnYMJbokxTpOl%2BPmKL4XK0nurBdt53%2FVy5sYV6A%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpbrlZTHrNfUOD1LdHDcc3MRtwbKWCiy5kzgkIjGlY8NSygP2S%2FYoC6cKc9vlyQy1I%2F8XfooNoP%2B0k5TxPdJ5ckbj8W3oz%2FsRdGQJqyJ8OK97mzRdOaR5ZhlXFIYDCGhgSDY0%2F95pS7BInO%2BNb2COzMw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/rNcAAeSwdj5pzzDT/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/85YAAeSwr3JpzzDU/s-l1600.jpg"
@@ -2510,7 +1730,7 @@
           "seller": {
             "username": "cardninjaus",
             "feedbackPercentage": "99.5",
-            "feedbackScore": 6753
+            "feedbackScore": 6756
           },
           "photoScore": {
             "score": 50,
@@ -2518,17 +1738,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 70.5,
+            "costBasis": 78.5,
             "netExit": 182.29,
-            "profit": 111.79,
-            "roi": 1.5857,
-            "roiPercent": 158.57
+            "profit": 103.79,
+            "roi": 1.3222,
+            "roiPercent": 132.22
           },
           "rankMeta": {
-            "score": 70.8,
+            "score": 67.5,
             "priceEdgePercent": 37.71,
             "sellerFeedbackPct": 99.5
           }
@@ -2555,41 +1776,24 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 77,
+            "costBasis": 85,
             "netExit": 182.29,
-            "profit": 105.29,
-            "roi": 1.3674,
-            "roiPercent": 136.74
+            "profit": 97.29,
+            "roi": 1.1446,
+            "roiPercent": 114.46
           },
           "rankMeta": {
-            "score": 66.3,
+            "score": 63.5,
             "priceEdgePercent": 28.81,
             "sellerFeedbackPct": 100
           }
         }
       ],
-      "ebayCandidateCount": 3
-    },
-    {
-      "code": "OP09-119",
-      "name": "Monkey.D.Luffy (Manga)",
-      "setName": "Emperors in the New World",
-      "productId": "597068",
-      "rawMarket": 1965.18,
-      "psa10Market": 4113.81,
-      "netPsa10Exit": 3620.15,
-      "costBasis": 1990.18,
-      "profit": 1629.97,
-      "roi": 0.819,
-      "roiPercent": 81.9,
-      "collectrLink": "https://app.getcollectr.com/explore/product/597068",
-      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
-      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597068.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 2
     },
     {
       "code": "EB03-053",
@@ -2599,10 +1803,10 @@
       "rawMarket": 104.88,
       "psa10Market": 268.08,
       "netPsa10Exit": 235.91,
-      "costBasis": 129.88,
-      "profit": 106.03,
-      "roi": 0.8164,
-      "roiPercent": 81.64,
+      "costBasis": 137.88,
+      "profit": 98.03,
+      "roi": 0.711,
+      "roiPercent": 71.1,
       "collectrLink": "https://app.getcollectr.com/explore/product/672805",
       "collectrPsa10At": "2026-04-20T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_672805.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
@@ -2629,17 +1833,18 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 113,
+            "costBasis": 121,
             "netExit": 235.91,
-            "profit": 122.91,
-            "roi": 1.0877,
-            "roiPercent": 108.77
+            "profit": 114.91,
+            "roi": 0.9497,
+            "roiPercent": 94.97
           },
           "rankMeta": {
-            "score": 57.6,
+            "score": 55.9,
             "priceEdgePercent": 16.09,
             "sellerFeedbackPct": 100
           }
@@ -2668,23 +1873,351 @@
             "confidence": 20,
             "notes": "Photo score fallback used.",
             "visibleLanguage": "unknown",
-            "rejectForLanguage": false
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 130.94,
+            "costBasis": 138.94,
             "netExit": 235.91,
-            "profit": 104.97,
-            "roi": 0.8017,
-            "roiPercent": 80.17
+            "profit": 96.97,
+            "roi": 0.6979,
+            "roiPercent": 69.79
           },
           "rankMeta": {
-            "score": 42.5,
+            "score": 41.2,
             "priceEdgePercent": -1.01,
             "sellerFeedbackPct": 99.9
           }
         }
       ],
-      "ebayCandidateCount": 3
+      "ebayCandidateCount": 2
+    },
+    {
+      "code": "OP06-001",
+      "name": "Uta (Alternate Art)",
+      "setName": "Wings of the Captain",
+      "productId": "539285",
+      "rawMarket": 38.3,
+      "psa10Market": 138.3,
+      "netPsa10Exit": 121.7,
+      "costBasis": 71.3,
+      "profit": 50.4,
+      "roi": 0.7069,
+      "roiPercent": 70.69,
+      "collectrLink": "https://app.getcollectr.com/explore/product/539285",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_539285.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|406876520212|0",
+          "title": "Uta OP06-001 Leader Alternate Art One Piece Wings of the Captain Eng NM",
+          "price": 36.49,
+          "shipping": 0,
+          "total": 36.49,
+          "itemWebUrl": "https://www.ebay.com/itm/406876520212",
+          "imageUrl": "https://i.ebayimg.com/images/g/tWMAAeSw77xp3tmO/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/IAUAAeSwNw1p3sdC/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "canuck.pluck",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 45
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 69.49,
+            "netExit": 121.7,
+            "profit": 52.21,
+            "roi": 0.7513,
+            "roiPercent": 75.13
+          },
+          "rankMeta": {
+            "score": 44.7,
+            "priceEdgePercent": 4.73,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|397870421866|0",
+          "title": "One Piece Card, Uta OP06-001 Leader Alternate Art English",
+          "price": 39.99,
+          "shipping": 0,
+          "total": 39.99,
+          "itemWebUrl": "https://www.ebay.com/itm/397870421866?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCiL5BUFXYcM55xHTH3giYrxMwNuu1ZLSzjqUCzx1%2BoosTDyzHECETO6F6J8iGhqJ7ok4WufWsdT3jUoUQza1O90lN8gHMcR0fQxdRbHtdnLZiShUnPNBunc3HcLGUS28KBHYUpJfnyCYZURMVUCIS1ag8htP4Ijvts5mj6s%2B%2BFFzoMHIlXCVHseiYIprJgkmg%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/xLYAAeSwGwtp0sLQ/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/ud8AAeSwsl9p0sLQ/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "summoning_post",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 162
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 72.99,
+            "netExit": 121.7,
+            "profit": 48.71,
+            "roi": 0.6674,
+            "roiPercent": 66.74
+          },
+          "rankMeta": {
+            "score": 40.8,
+            "priceEdgePercent": -4.41,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
+    },
+    {
+      "code": "OP02-013",
+      "name": "Portgas.D.Ace (Parallel)",
+      "setName": "Paramount War",
+      "productId": "486333",
+      "rawMarket": 50.86,
+      "psa10Market": 162.33,
+      "netPsa10Exit": 142.85,
+      "costBasis": 83.86,
+      "profit": 58.99,
+      "roi": 0.7034,
+      "roiPercent": 70.34,
+      "collectrLink": "https://app.getcollectr.com/explore/product/486333",
+      "collectrPsa10At": "2026-04-22T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_486333.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
+    },
+    {
+      "code": "OP11-114",
+      "name": "Gum-Gum Fire-Fist Pistol Red Hawk (Alternate Art)",
+      "setName": "A Fist of Divine Speed",
+      "productId": "632493",
+      "rawMarket": 46.91,
+      "psa10Market": 153.99,
+      "netPsa10Exit": 135.51,
+      "costBasis": 79.91,
+      "profit": 55.6,
+      "roi": 0.6958,
+      "roiPercent": 69.58,
+      "collectrLink": "https://app.getcollectr.com/explore/product/632493",
+      "collectrPsa10At": "2026-04-23T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632493.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|397859795825|0",
+          "title": "Gum-Gum Fire-Fist Pistol Red Hawk OP11-114 Alternate Art One Piece Card ENGLISH ",
+          "price": 52.5,
+          "shipping": 0,
+          "total": 52.5,
+          "itemWebUrl": "https://www.ebay.com/itm/397859795825",
+          "imageUrl": "https://i.ebayimg.com/images/g/ZaIAAeSwur5p5aYI/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/-OIAAeSwSihp5aYI/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/a~8AAeSwFO1p5aYH/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "anwel_6472",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 308
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 85.5,
+            "netExit": 135.51,
+            "profit": 50.01,
+            "roi": 0.5849,
+            "roiPercent": 58.49
+          },
+          "rankMeta": {
+            "score": 36.8,
+            "priceEdgePercent": -11.92,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
+    },
+    {
+      "code": "OP06-069",
+      "name": "Vinsmoke Reiju (069) (Alternate Art)",
+      "setName": "Wings of the Captain",
+      "productId": "541064",
+      "rawMarket": 17.1,
+      "psa10Market": 96,
+      "netPsa10Exit": 84.48,
+      "costBasis": 50.1,
+      "profit": 34.38,
+      "roi": 0.6862,
+      "roiPercent": 68.62,
+      "collectrLink": "https://app.getcollectr.com/explore/product/541064",
+      "collectrPsa10At": "2026-04-20T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_541064.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|277717211209|0",
+          "title": "Vinsmoke Reiju (069) (Alternate Art) OP06-069 Wings of the Captain Foil",
+          "price": 7.99,
+          "shipping": 0,
+          "total": 7.99,
+          "itemWebUrl": "https://www.ebay.com/itm/277717211209",
+          "imageUrl": "https://i.ebayimg.com/images/g/TMsAAeSwbFlpi8-s/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/MFIAAeSwThVpi8-t/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/SVsAAeSwN6dpi8-t/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/EtUAAeSwbmhpi8-t/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "mustangman123586",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 351
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 40.99,
+            "netExit": 84.48,
+            "profit": 43.49,
+            "roi": 1.061,
+            "roiPercent": 106.1
+          },
+          "rankMeta": {
+            "score": 63.9,
+            "priceEdgePercent": 53.27,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|298219738124|0",
+          "title": "One Piece Vinsmoke Reiju - OP06-069 - SR - Foil - Alternate Art, Near Mint Wings",
+          "price": 17.45,
+          "shipping": 0,
+          "total": 17.45,
+          "itemWebUrl": "https://www.ebay.com/itm/298219738124",
+          "imageUrl": "https://i.ebayimg.com/images/g/7nYAAeSwq8Npsdi5/s-l1600.jpg",
+          "additionalImages": [],
+          "seller": {
+            "username": "capefeargames",
+            "feedbackPercentage": "99.9",
+            "feedbackScore": 53598
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 50.45,
+            "netExit": 84.48,
+            "profit": 34.03,
+            "roi": 0.6745,
+            "roiPercent": 67.45
+          },
+          "rankMeta": {
+            "score": 43.4,
+            "priceEdgePercent": -2.05,
+            "sellerFeedbackPct": 99.9
+          }
+        }
+      ],
+      "ebayCandidateCount": 2
+    },
+    {
+      "code": "OP09-001",
+      "name": "Shanks (001) (Parallel)",
+      "setName": "Emperors in the New World",
+      "productId": "596920",
+      "rawMarket": 28.77,
+      "psa10Market": 115.76,
+      "netPsa10Exit": 101.87,
+      "costBasis": 61.77,
+      "profit": 40.1,
+      "roi": 0.6492,
+      "roiPercent": 64.92,
+      "collectrLink": "https://app.getcollectr.com/explore/product/596920",
+      "collectrPsa10At": "2026-04-21T00:00:00.000Z",
+      "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596920.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
+      "ebayCandidates": [
+        {
+          "itemId": "v1|366218451567|0",
+          "title": "Shanks (001) (Parallel) OP09-001 Emperors in the New World NM One Piece Card TCG",
+          "price": 24.99,
+          "shipping": 0,
+          "total": 24.99,
+          "itemWebUrl": "https://www.ebay.com/itm/366218451567?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBhslHhVXWGj8BAnoGRWMuxoaoKlZjE2pHbEVL%2BIkbaeVs2soJ9LhiVPmWROYlm%2B6gXwglHjcIJ4Lcaoz%2B6y0gK6FRIrc71np0q3hFTHZcLlK5NMoa3qhrCKPBcLn1vdPDIRPlYIfi6GfV14LgNzdAMgo3Ilw9EY%2FX6n%2FGT3l0Tn6FGq9eMj1h4Rz4pZH0LNNY%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/oU0AAeSwy4Zpmg69/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/rL8AAeSw7QVpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/PnoAAeSwVrFpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/s7AAAeSwbmhpmg69/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/-S4AAeSwmItpmg68/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/n24AAeSwZThpmg68/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "hexikyu_tcg",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 18987
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 57.99,
+            "netExit": 101.87,
+            "profit": 43.88,
+            "roi": 0.7567,
+            "roiPercent": 75.67
+          },
+          "rankMeta": {
+            "score": 52,
+            "priceEdgePercent": 13.14,
+            "sellerFeedbackPct": 100
+          }
+        }
+      ],
+      "ebayCandidateCount": 1
     }
   ]
 }
