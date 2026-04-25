@@ -732,8 +732,10 @@
         <div class="stats">
         <div class="panel"><div class="stat-label">Qualified cards</div><div id="qualifiedCount" class="stat-value">-</div></div>
         <div class="panel"><div class="stat-label">Best ROI</div><div id="bestRoi" class="stat-value">-</div></div>
+        <div class="panel"><div class="stat-label">Max profit this week</div><div id="maxProfitWeek" class="stat-value">-</div></div>
+        <div class="panel"><div class="stat-label">Realistic profit this week</div><div id="realisticProfitWeek" class="stat-value">-</div></div>
         <div class="panel"><div class="stat-label">Generated</div><div id="generatedAt" class="stat-value" style="font-size:18px">-</div></div>
-        <div class="panel"><div class="stat-label">Rules</div><div class="stat-value" style="font-size:18px">80%+ ROI</div></div>
+        <div class="panel"><div class="stat-label">Rules</div><div id="rulesSummary" class="stat-value" style="font-size:18px">80%+ ROI</div></div>
         </div>
       </div>
       <div id="chipRow" class="chip-row">
@@ -971,6 +973,36 @@
       `).join('');
     }
 
+
+    function clampNumber(value, min, max) {
+      return Math.min(max, Math.max(min, value));
+    }
+
+    function candidateConfidenceWeight(row) {
+      const candidates = Array.isArray(row.ebayCandidates) ? row.ebayCandidates : [];
+      const candidateCount = Number(row.ebayCandidateCount ?? candidates.length ?? 0);
+      const avgPhotoScore = candidates.length
+        ? candidates.reduce((sum, candidate) => sum + Number(candidate?.photoScore?.score || 45), 0) / candidates.length
+        : 45;
+      const avgSeller = candidates.length
+        ? candidates.reduce((sum, candidate) => sum + Number(candidate?.seller?.feedbackPercentage || 98), 0) / candidates.length
+        : 98;
+      let weight = candidateCount >= 2 ? 0.72 : candidateCount === 1 ? 0.5 : 0.22;
+      if (avgPhotoScore >= 70) weight += 0.1;
+      else if (avgPhotoScore < 45) weight -= 0.08;
+      if (avgSeller < 98) weight -= 0.04;
+      if (Number(row.roiPercent || 0) >= 150) weight += 0.04;
+      return clampNumber(weight, 0.1, 0.9);
+    }
+
+    function updateTopProfitStats(rows) {
+      const validRows = Array.isArray(rows) ? rows : [];
+      const maxProfit = validRows.reduce((sum, row) => sum + Math.max(0, Number(row.profit || 0)), 0);
+      const realisticProfit = validRows.reduce((sum, row) => sum + (Math.max(0, Number(row.profit || 0)) * candidateConfidenceWeight(row)), 0);
+      document.getElementById('maxProfitWeek').textContent = fmtMoney(maxProfit);
+      document.getElementById('realisticProfitWeek').textContent = fmtMoney(realisticProfit);
+    }
+
     function renderLots(rows) {
       const container = document.getElementById('lotsResults');
       const meta = document.getElementById('lotsMeta');
@@ -1105,8 +1137,10 @@
       }
       document.getElementById('qualifiedCount').textContent = data.qualifiedCount ?? allRows.length;
       document.getElementById('bestRoi').textContent = allRows.length ? fmtPct(allRows[0].roiPercent) : '-';
+      updateTopProfitStats(allRows);
       document.getElementById('generatedAt').textContent = fmtDate(data.generatedAt);
-      document.getElementById('meta').textContent = `Source: ${data.filters?.source || 'Collectr'} | Grading: $${data.filters?.gradingCost ?? 25} | Haircut: ${Math.round((data.filters?.liquidityHaircut ?? 0.12) * 100)}%`;
+      document.getElementById('rulesSummary').textContent = `${data.filters?.minRoiPercent ?? 80}%+ ROI`;
+      document.getElementById('meta').textContent = `Source: ${data.filters?.source || 'Collectr'} | Grading: $${data.filters?.gradingCost ?? 33} | Haircut: ${Math.round((data.filters?.liquidityHaircut ?? 0.12) * 100)}%`;
       document.getElementById('tickerTrack').innerHTML = buildTickerRows(allRows);
       initTicker();
       initChips();
@@ -1118,6 +1152,8 @@
 
     boot().catch((error) => {
       document.getElementById('meta').textContent = error.message;
+      document.getElementById('maxProfitWeek').textContent = '-';
+      document.getElementById('realisticProfitWeek').textContent = '-';
       document.getElementById('results').innerHTML = '<div class="empty">No weekly scan data yet. Once the cron job runs, latest.json will appear here.</div>';
       document.getElementById('lotsMeta').textContent = 'Lot feed unavailable';
       document.getElementById('lotsResults').innerHTML = '<div class="empty">Lots will show up here once app-ready.json is published.</div>';
