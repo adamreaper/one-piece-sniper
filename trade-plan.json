@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-24T22:22:23.504Z",
-  "sourceFeedUpdatedAt": "2026-04-24T22:22:22.337Z",
+  "generatedAt": "2026-04-25T00:22:17.015Z",
+  "sourceFeedUpdatedAt": "2026-04-25T00:22:14.993Z",
   "sourceMode": "rows",
   "summary": {
     "totalPlans": 57,
     "buyNowCount": 8,
-    "manualReviewCount": 9,
-    "watchCount": 40
+    "manualReviewCount": 10,
+    "watchCount": 39
   },
   "plans": [
     {
@@ -208,7 +208,7 @@
       "compCount": 0,
       "ebayCandidateCount": 2,
       "bestListingTotal": 20.7,
-      "bestListingUrl": "https://www.ebay.com/itm/365095754841?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdzqc%2Bb3KDIceMlt%2B42DWbJJvdCMiUr0GbrZsmym2RUm0qMo8LX6OunKIHah2xp7Juazg5HuF777FJKqNHGuCA1jlu8kOQranYV3%2FnZHYzJvrwfRR%2FZMCFquFk2x8eoLUYICLXUzsLSncYOAvfFR6qv8QiOYojGGmXNT7OHQhTPr9URnFCaiq3bM5jO%2B6btXg%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/365095754841?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDdzqc%2Bb3KDIceMlt%2B42DWbJJvdCMiUr0GbrZsmym2RUkALWxl1URFMA%2BzlOMOePdizqs5s2WUaGDVSmlPb7K6yXArKERtRqtaF2rPadEYEvvezC1nYYWfrs7p4Ij%2Bl0OlR95LXjJ6lB%2BPD2D3zMihwPwsJvvCGZnZI2hO0zdI3YdH2V%2BOY0--FMqdUbjyQNQg%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 5,
@@ -239,7 +239,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 32.99,
-      "bestListingUrl": "https://www.ebay.com/itm/358126675895?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX7fkqyNOsVWU8x53P6XS3jW%2FxQ%2FM%2FOqFGxjY9aphLMptB3P2hBvOwLEL16DJ%2FZ7G64SNWhP0tAZX5dBwkiYq7%2B7ODte71jsyzfQavaY9tUt%2BdFMoP8g4rNzUe08eipZOtc1jPcyOK1RwaCCwma94WZUO5XeojOxsYdq5f%2FAPwW78xbc2K5NoU4HcxmxvgxkA%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/358126675895?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCX7fkqyNOsVWU8x53P6XS3jW%2FxQ%2FM%2FOqFGxjY9aphLMm%2ByeC5mqRC2O4TA6txu6QPtrwcYrs48JL0PBqnWqShWq9eftJLe2Lym2VpRsZ9EHQBs6H9MxAu%2FxzwNm1O%2Ba0%2BZE%2BOls8fTlaaFix34%2Fs261lc%2B8h2g%2FEonD5p7cAGDXVl%2B3wmTO%2FdX%2BMRxvVlup10%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 99.8,
       "bestShipping": 0,
@@ -270,7 +270,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 27.99,
-      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEOsHXeXZG5vNsSmg7fS%2FWCuNHsNpB4xRMOXC72UckDz0vaZ%2B9VF9uD%2FyJG3iRa%2FXGrbNwhQ%2F4k%2BwubJwArG%2Fpkfrtt51bT5tkrhcZHDdWAx8shahsYfXyH1LjLnYrY4uZIDmJKvedE4w1tnRUMlcBTU%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEOpSltq%2BGmCk43j0F42Pza7lSgXEtLzhuyROh3UJ%2BjPHbibO6ZtuKA5pn%2BhIkK3ox8IT7V%2F3C8OOnReF2SmtWXfIqhlkpcsCz92bVwpjJNV8gRlWwRHywDvMRl6gyKV8X%2FzmzvmCeIglY5tvdpKsZWA%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 0,
@@ -288,6 +288,37 @@
       "rank": 9
     },
     {
+      "sourceRank": 28,
+      "name": "Nico Robin (Alternate Art)",
+      "code": "OP12-087",
+      "setName": "Legacy of the Master",
+      "rawMarket": 32.77,
+      "psa10Market": 158.04,
+      "costBasis": 40.5,
+      "netPsa10Exit": 139.08,
+      "expectedPsaNet": 98.58,
+      "roiPercent": 243.4,
+      "compCount": 0,
+      "ebayCandidateCount": 1,
+      "bestListingTotal": 15.5,
+      "bestListingUrl": "https://www.ebay.com/itm/389903137275",
+      "bestListingPhotoScore": 50,
+      "bestSellerFeedbackPercent": 100,
+      "bestShipping": 0,
+      "candidateRankScore": 81.4,
+      "collectrLink": "https://app.getcollectr.com/explore/product/643831",
+      "priceEdgePercent": 52.7,
+      "buyScore": 71.5,
+      "confidenceTier": "B",
+      "action": "manual-review",
+      "riskFlags": [
+        "weak_photos",
+        "collectr_only_psa_signal",
+        "strong_live_discount"
+      ],
+      "rank": 10
+    },
+    {
       "sourceRank": 55,
       "name": "Nico Robin (055) (Alternate Art)",
       "code": "EB03-055",
@@ -301,7 +332,7 @@
       "compCount": 0,
       "ebayCandidateCount": 3,
       "bestListingTotal": 45.5,
-      "bestListingUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpZEbWrQ%2Bf2jQXYOm1xK6cB%2BuxIWrwf84r8I4%2FBc8YVvOCTryNl%2FpAwPoYlwuWR7Wn3N3gfpsNBIj4NZQRyO89kPm%2BaLLQ%2BLEDJsosrbouEyvt1XTRGEErpnjmW8MN3kuYeO%2FL2SALoavWXWclbjM5Aw%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/168282877112?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCGKgvqh2Z8aFEr0gw%2FW1YKbI92Upjo9CYSKB%2FJW89LpXuDATMHNsPrX2wd0KwV%2F4oIbuIrs6rqxCqlYxPMUGPa8gx2uGhyC%2BcIg9I8R9lQltSJqesBU8378TUT8fr8tGsXQepWg0Q0nWzzi3Fck1wXmVEL5m6EysyLCZuwuIKvFxpl6vc3Ckmny0ojvcUN%2FJw%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 99.5,
       "bestShipping": 0,
@@ -316,7 +347,7 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "sourceRank": 41,
@@ -347,7 +378,7 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "sourceRank": 54,
@@ -363,7 +394,7 @@
       "compCount": 0,
       "ebayCandidateCount": 2,
       "bestListingTotal": 30.23,
-      "bestListingUrl": "https://www.ebay.com/itm/127571636720?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgay0p7pgsrZPkhRkKtfwitcw5NxneNQ1B1Y8pScQZnJX2u9FopniUsQM%2FAU7ZFfdZBn4igEqfL18vlP0eACZwlC6SCGfnu5ruBG0dkrFoQHH5mMLQQ4kb3aIZ0Nbm4Fxyn77cMOhPMiw2vQLu%2BYimoGvUXNFkz8IMZaH0cxW6Eozh1PHV%2FOOaCQlcHyLTr4M%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/127571636720?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBgay0p7pgsrZPkhRkKtfwitcw5NxneNQ1B1Y8pScQZnEwil36mVsz3A6irjZDUll%2BnOMaRcvUbSIsgXAh9corUJ8wdCM%2Boldwxd1zGTunyXt0d3ie%2BFeyNS4xr3sQiDYVTVY4X9QSb95iFXnyBkCp5FUIL1lNQrRlctSZpq8khpvx0z90SgDlDujT4gWB1E3s%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 99.7,
       "bestShipping": 0,
@@ -378,7 +409,7 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "sourceRank": 39,
@@ -394,7 +425,7 @@
       "compCount": 0,
       "ebayCandidateCount": 3,
       "bestListingTotal": 19.8,
-      "bestListingUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmlsNdl8QJhd7VhNW8v53gEE%2FRBi%2FlWQLTAWc53ZRphjKfp2MTpfDgw51fuq9UtaOMZwuv%2FZOcWXwIrmLVt%2BciADRnOuwyg8xyiYB2VHjJtSKb7vfMhBEIiWInpp%2FL1kq2vuHOKQoAb8W7kfTXNjZATxQ%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/397681257414?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2BTJh1nvGehG0XK6G5RD4LlNOZdWlOb2Cj2F1OIPmlrwup9DqTnt%2FEXxXMQ%2Fx%2FViWF7J3eVGSQU26eJT3ZQLXd7mxfJkfW3kiRzaNcV%2Fgq0ViKVcWnnX4eMciW2XRr8qDKsHzfKIPhHTJPCZr8ezmoPD7FpwcKrh%2FqWRyBgvPwUx4NOFZ5Qktbnp6m8gOcxo%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 98.8,
       "bestShipping": 7.9,
@@ -410,7 +441,7 @@
         "high_shipping",
         "strong_live_discount"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "sourceRank": 51,
@@ -426,7 +457,7 @@
       "compCount": 0,
       "ebayCandidateCount": 3,
       "bestListingTotal": 19.8,
-      "bestListingUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9K%2BO%2BWW%2F%2BirZyCSrIGL2yJpJ1QwEWlWeojc2e9CB3rpagEI2YmCzIOSWx25kSTTRX6LP6%2Fq06%2F5Dp14ByiswqJj%2FPCfSquN8AaQ1rWvdIzAPuqeKpl%2BCeMeUC2BHhyto7pyvK5cDyu0hVPwSmCizh6I%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/397677796612?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBZ2I6moHYtClJvYMQZGo1ImfuIpfj51Lb4GxXiUFEh9MfIM3Z0zmsvbiiCpZsJjinU1G7%2BH%2FbyR5ui2%2FOPfkzqfX3rBfPLqsZRsKjtjJEYCXZGiKBZuKJUTc%2F0t6a0thfNnV9Ujg%2BtOZ5JUgeL7FKz3S7M%2BXoRMTKbMHDJSHgT736kB9XZ7OO%2F5XRuVovUizo%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 98.8,
       "bestShipping": 7.9,
@@ -442,7 +473,7 @@
         "high_shipping",
         "strong_live_discount"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "sourceRank": 24,
@@ -474,7 +505,7 @@
         "seller_feedback_below_98",
         "strong_live_discount"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "sourceRank": 45,
@@ -490,7 +521,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 45,
-      "bestListingUrl": "https://www.ebay.com/itm/317931326740?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCtC5wg37TQTRZjSELwFkzJps7AWWvB7aP6W9L%2FJwcugL7OTmdGl3n3pFUP6VgfwrEOfTe1%2BsnR2VcFOhn75zU6%2F4eIsFwfZ7xXxRgojXBymn2NaxbkF69CDfgfnmBrkBT7cBFQjLIDyhmNL1Ie3dJh5%2BolFFsfUUWjO4eWoFVIt5OlRWkswPX5%2Fl5dNNQXlFY%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/317931326740?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCtC5wg37TQTRZjSELwFkzJps7AWWvB7aP6W9L%2FJwcugCU8ce3n4An%2BiqdwmTBSOr9uR1x0FgO8Q%2FUJo9zPeYNSuZo6gBlV2XbcwIxyEFDQ5kKeWIpzwvShxwt9POaw2KH8q%2F%2BfaApLz6JUa7UOqwGezExTvmcKkIYFWiPb4kXjwM8pTk5UyKh%2FdlyC37O6fBg%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 98.5,
       "bestShipping": 0,
@@ -505,7 +536,7 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "sourceRank": 57,
@@ -535,7 +566,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "sourceRank": 13,
@@ -565,7 +596,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "sourceRank": 4,
@@ -595,7 +626,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "sourceRank": 50,
@@ -626,7 +657,7 @@
         "collectr_only_psa_signal",
         "strong_live_discount"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "sourceRank": 31,
@@ -656,7 +687,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "sourceRank": 36,
@@ -686,7 +717,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "sourceRank": 48,
@@ -716,7 +747,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "sourceRank": 35,
@@ -746,7 +777,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "sourceRank": 26,
@@ -762,7 +793,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 39.86,
-      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbjz3oYluQ5HFeaC45s9NREf9EJjjFrpjB2jVmZelw5suVlkXnQqAq3a8DY3pXoKuz%2Fr9rFphlqlSAEH1ppcj6OlR3NB0G0GPd1XfGiIjeo3IIRuKfeHFNFcjFCItzuV7cgL4I7e7VKkKirPqqsV1eg%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLZ1AmyP68GMjiTJulo08VfXAX5JIivbyW9CLjVyRSHnzUSmcZpNDk2a3IS9S2ruLYjpEl4RHI8d%2FvGaLxPoKhTMid2rG3%2BlsNyBZ1pzHBQwwpO8Tj51mA6RT%2FxRkFT88oMnWI1g80fstlJUb9LSTGfA%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 4.95,
@@ -777,7 +808,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "sourceRank": 46,
@@ -807,7 +838,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "sourceRank": 3,
@@ -837,7 +868,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "sourceRank": 38,
@@ -868,7 +899,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "sourceRank": 37,
@@ -899,7 +930,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "sourceRank": 2,
@@ -929,7 +960,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "sourceRank": 53,
@@ -960,7 +991,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "sourceRank": 9,
@@ -990,7 +1021,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "sourceRank": 11,
@@ -1020,7 +1051,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "sourceRank": 10,
@@ -1050,7 +1081,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "sourceRank": 16,
@@ -1080,7 +1111,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "sourceRank": 22,
@@ -1110,7 +1141,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "sourceRank": 5,
@@ -1140,7 +1171,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "sourceRank": 15,
@@ -1170,7 +1201,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "sourceRank": 6,
@@ -1200,7 +1231,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 39
+      "rank": 40
     },
     {
       "sourceRank": 42,
@@ -1230,7 +1261,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 40
+      "rank": 41
     },
     {
       "sourceRank": 44,
@@ -1260,7 +1291,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 41
+      "rank": 42
     },
     {
       "sourceRank": 19,
@@ -1290,7 +1321,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 42
+      "rank": 43
     },
     {
       "sourceRank": 56,
@@ -1320,7 +1351,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 43
+      "rank": 44
     },
     {
       "sourceRank": 49,
@@ -1350,7 +1381,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 44
+      "rank": 45
     },
     {
       "sourceRank": 14,
@@ -1380,7 +1411,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 45
+      "rank": 46
     },
     {
       "sourceRank": 18,
@@ -1410,7 +1441,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 46
+      "rank": 47
     },
     {
       "sourceRank": 20,
@@ -1440,7 +1471,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 47
+      "rank": 48
     },
     {
       "sourceRank": 21,
@@ -1470,7 +1501,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 48
+      "rank": 49
     },
     {
       "sourceRank": 25,
@@ -1492,36 +1523,6 @@
       "bestShipping": 0,
       "candidateRankScore": 0,
       "collectrLink": "https://app.getcollectr.com/explore/product/597069",
-      "priceEdgePercent": 0,
-      "buyScore": 0,
-      "confidenceTier": "D",
-      "action": "watch",
-      "riskFlags": [
-        "no_live_listing",
-        "collectr_only_psa_signal"
-      ],
-      "rank": 49
-    },
-    {
-      "sourceRank": 28,
-      "name": "Nico Robin (Alternate Art)",
-      "code": "OP12-087",
-      "setName": "Legacy of the Master",
-      "rawMarket": 32.77,
-      "psa10Market": 158.04,
-      "costBasis": 57.77,
-      "netPsa10Exit": 139.07,
-      "expectedPsaNet": 81.3,
-      "roiPercent": 140.74,
-      "compCount": 0,
-      "ebayCandidateCount": 0,
-      "bestListingTotal": 0,
-      "bestListingUrl": null,
-      "bestListingPhotoScore": 0,
-      "bestSellerFeedbackPercent": 0,
-      "bestShipping": 0,
-      "candidateRankScore": 0,
-      "collectrLink": "https://app.getcollectr.com/explore/product/643831",
       "priceEdgePercent": 0,
       "buyScore": 0,
       "confidenceTier": "D",
