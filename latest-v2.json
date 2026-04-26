@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T04:21:47.041Z",
+  "generatedAt": "2026-04-26T06:21:50.913Z",
   "dateStamp": "2026-04-25",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -35,7 +35,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXaP8ed5zsmpDDvAsjZwcn2XCAjIfRIRj3UcbgDJg5%2FhqnbvbDUzp%2FtE49rYHoa7MHLTgL0naW6gTBHc9lB8SRpMlB%2BG%2F0Pln%2FB5iHgeG7VK3wQvg6Fco1Ow5F29AATUftm2RZTooVMjaulvgJh7ldPQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXQX2xboNZX34QInTmZTgw5OGeFtsKbuhLO1im61YD6%2BUC9XPtnAVIbv0nZ2bML1Mjo9SiVT8t%2B7Y%2BPrJRSEmmR%2FNlcy3w8x8YkvCmoSvzVnEjrxV2wcQ5ORLijTXxJ0djRLlw9H8k97VsNIUbnXxJcw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -47,7 +47,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19049
+            "feedbackScore": 19052
           },
           "photoScore": {
             "score": 50,
@@ -77,7 +77,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyFgHtv4%2FIl52yq4wTxX5kCFXHlavNi65tx5k%2F64cfxBZdiZPIoz6cN4zBqvrHA1neQNddURBwzS0JiyYnMO1TuBwNamrLdNhuwvWmY1R1A4s0SJdicqxBOv1kipQ86luMimSKWLFTDeGhTlM7NElm0U%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyLHgim8y4jPHyUW0HGyikV1l0FQBJk5PApxzqUwUQt3gxHAjGXVWjO8qY%2Bqvo9iiUUfa8gNCu5Ww%2F%2BAhgCCjSgb9gQsH31f3NPNwTuuHDJZCCHufCdxaaQX1uw8t9E8M7u7Pjej2Ndgadn2QdRpI%2FB0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -89,7 +89,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19049
+            "feedbackScore": 19052
           },
           "photoScore": {
             "score": 50,
@@ -458,7 +458,7 @@
           "seller": {
             "username": "cjp2732",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 108
+            "feedbackScore": 109
           },
           "photoScore": {
             "score": 50,
@@ -540,9 +540,9 @@
         {
           "itemId": "v1|267644820202|0",
           "title": "2025 One Piece Monkey D. Luffy A Fist of Divine Speed Alternate Art #OP11-118",
-          "price": 2.99,
+          "price": 5.5,
           "shipping": 5.99,
-          "total": 8.98,
+          "total": 11.49,
           "itemWebUrl": "https://www.ebay.com/itm/267644820202",
           "imageUrl": "https://i.ebayimg.com/images/g/GuEAAeSwKnpp5VMR/s-l1600.jpg",
           "additionalImages": [
@@ -563,15 +563,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 41.98,
+            "costBasis": 44.49,
             "netExit": 129.26,
-            "profit": 87.28,
-            "roi": 2.0791,
-            "roiPercent": 207.91
+            "profit": 84.77,
+            "roi": 1.9054,
+            "roiPercent": 190.54
           },
           "rankMeta": {
-            "score": 74,
-            "priceEdgePercent": 53.5,
+            "score": 71.8,
+            "priceEdgePercent": 40.5,
             "sellerFeedbackPct": 99.9
           }
         }
@@ -606,7 +606,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14359
+            "feedbackScore": 14360
           },
           "photoScore": {
             "score": 50,
@@ -774,7 +774,7 @@
           "price": 32.99,
           "shipping": 4.95,
           "total": 37.94,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLZ1Q6M2xJ64sEQ9oUt9Z%2Bl7JmerYn4q1j3C4lsu2BHCrl2FPcvbQCCt5H5VKH%2F0wZFU1vnQMCGXNrVW29kVMtObzwq6lcsyO1XhHmzHdFmRGSLK3vjpKrmilutQjTrv057hiZRw4DFTTBHkoKF%2FuM1s%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLe3f5TDqudEjFjHxB9uIdP%2Bc4EM6qk4vebKQCrlnTcqxEGMg5gnV1DRXAwne2XKEgfD1zHjDhxp51sENtz1pa%2Bfj9I1mrH3T6cP9WwenuO4c0ss1bKOJhPzfEWBfBEGvIlJ8jrHoX12i0N2bU20ijw0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -1050,7 +1050,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEE7ZSoEAr8wUKQpZuMjTNh8lXkuFi8mxnJIObL3KlthTSAmUtWjZFo5JidwXrHETkA03G37RZA7eO7h%2BEpBfRjPYBw9cn4enNENK5gz2sCgn8yarwRlHbvEUNZPWJzr6YC0t3KRfKlXK1SH7JGnOemg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEMH%2BqZunXkUx67xzAkl0cuWMFM%2FSXY7WTCXx36eTzZe5YL0RRnD0StYpE4rKHJkoX2lYH8c6F5CJ4mKK%2BTphzH2KPklDJbehYH3pXjAZFgkBigwYFGul%2Br6l1Y7yWROD%2BSKLVZgednfxzvagpWD7UPQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1062,7 +1062,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19049
+            "feedbackScore": 19052
           },
           "photoScore": {
             "score": 50,
@@ -1106,6 +1106,44 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_484134.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
+          "itemId": "v1|397881527008|0",
+          "title": "Magellan Alternate Art [OP02-071] One Piece - Paramount War English",
+          "price": 38.62,
+          "shipping": 0,
+          "total": 38.62,
+          "itemWebUrl": "https://www.ebay.com/itm/397881527008",
+          "imageUrl": "https://i.ebayimg.com/images/g/ygkAAeSwi69p7aPZ/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/b7sAAeSwDeVp7aPg/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "jacofifiel-0",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 75
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 71.62,
+            "netExit": 158.4,
+            "profit": 86.78,
+            "roi": 1.2117,
+            "roiPercent": 121.17
+          },
+          "rankMeta": {
+            "score": 58.7,
+            "priceEdgePercent": 19.94,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
           "itemId": "v1|178060803479|0",
           "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
           "price": 53.45,
@@ -1144,7 +1182,7 @@
           }
         }
       ],
-      "ebayCandidateCount": 1
+      "ebayCandidateCount": 2
     },
     {
       "code": "OP12-031",
@@ -1269,7 +1307,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14359
+            "feedbackScore": 14360
           },
           "photoScore": {
             "score": 50,
