@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T08:21:49.778Z",
+  "generatedAt": "2026-04-26T10:21:58.802Z",
   "dateStamp": "2026-04-25",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -35,7 +35,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXdF7qOCN8%2B55l2iAEf5c%2FW2gex6J7Vy2mCxDr8CAFZK3mii6ZXaxMscC0DHpRbVw2gsDhP6k%2BhhuLufSaniDM%2BfX%2Ft6o4KWGwvt%2FDGeVe6yrhNLXXrJoTtCEEC4k%2BHJiTJePU6zzLqSCb1L9vJTR28s%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXcnchjNqLuU%2BBBVKhHVFnYV33XQ1cBIXe%2FCLaup0tonRI6gOamvh53B1QpVfm2MXr%2Bag873dcFH0fR%2BaBAo0z3KkJOcVqFyBzlPT5%2Bg%2Fovn%2FiqA4ZgKafWuVJvRD1NRiirRmQTRNWcKT2lyPNAOToUs%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -77,7 +77,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyLRyzrjMqPpOzTMhT77L6Fmbew3vd9yQOKge4KK7HXLvTgQpt4HNsUddZND9JfkKfw8tFsi0gaaclRdjItJf9BC4S1Y4rNTSkRPP%2F5fsWlHtXvYB29xm7mUCwoBk9IdxerdAe%2BLpqHlRkEIOE7%2FSn0E%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyOQfLjo9nhjJ9rhniekXVZj5fpECsm39969GwNiRzbaa%2Bdpd7gf3Bxa8OvArDnvVVRDZEpJGMqIO3nkoTs2yBQC2pi4uaV8TEqrP5eBxGVF1juNcyuXQzJAAUUghGrWPZ7IIx7W%2FBg18R9RVF3DG%2BJg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -551,7 +551,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102571
+            "feedbackScore": 102572
           },
           "photoScore": {
             "score": 50,
@@ -597,16 +597,16 @@
         {
           "itemId": "v1|267644796223|0",
           "title": "Boa Hancock (Alternate Art) [EB-03 - EB03-026] - NM [Foil] TCG One Piece",
-          "price": 39.9,
+          "price": 40,
           "shipping": 0.99,
-          "total": 40.89,
+          "total": 40.99,
           "itemWebUrl": "https://www.ebay.com/itm/267644796223",
           "imageUrl": "https://i.ebayimg.com/images/g/iiYAAeSwuhVp5UoE/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14361
+            "feedbackScore": 14362
           },
           "photoScore": {
             "score": 50,
@@ -618,15 +618,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 73.89,
+            "costBasis": 73.99,
             "netExit": 168.14,
-            "profit": 94.25,
-            "roi": 1.2755,
-            "roiPercent": 127.55
+            "profit": 94.15,
+            "roi": 1.2725,
+            "roiPercent": 127.25
           },
           "rankMeta": {
-            "score": 44.2,
-            "priceEdgePercent": -14.54,
+            "score": 44,
+            "priceEdgePercent": -14.82,
             "sellerFeedbackPct": 99.8
           }
         }
@@ -774,7 +774,7 @@
           "price": 32.99,
           "shipping": 4.95,
           "total": 37.94,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLTsCph%2BimX9EW1CigYzjLL%2FLVCtkBmwG49EwCZ%2FtUuIR7UN2L%2BwcR8q%2Fz25mO9rJMSGAG7yyMO%2FoZ7S%2FhwZOSMup66Srnz9SZD66ed%2FX4oX4j5iTOI6bRMQp2e8h6cxgxKQSa8cBFQKJ%2FEexRqmLnqs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLb5nCd5mM9FoyXcx2l720Z0rf0rF2%2FeCrmf03HC1q%2BoMhVv2CP1t4Iu%2BJXyOj5uLpuav%2FwRS%2FtCae0%2BkAQEdNsP4yRyTXOj0cVe2aLAL4B0yLsfDY%2FssnpxZuBzG8fkPBfXrTbHtzFpu1yPxSf2g5Ag%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -1050,7 +1050,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEAyugk0skX%2BSysmBJR15eZ6mME71KJM49PbRgnUlCjQsrToYCXq0W8glm%2F5exvw1mPVmlrwvNpBB03%2FgGUy1Jtm3BBvGEwfdGyc1V6w1uM1pWzzfhtg0xFQrMSJRUYgnT%2FzwZZAlSlMlFvBT8m6eSxQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEFjXYFrsxLpUGdZR4Shn0o4VVipQUiOIN3nUat%2F%2B14AEw%2BNIFwfCTsmLUMdKh5kP0FiJRzs5AtnD14taNfPxnbmrbdNRLSxj9MCTGPEDtvSEJxX7CSNXNV%2B9sI9ocVbW8yhzl7EaOFPCqUHB3tJ8w%2F4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1146,9 +1146,9 @@
         {
           "itemId": "v1|178060803479|0",
           "title": "Magellan Alternate Art - One Piece Card Game - Paramount War - OP02-071 English",
-          "price": 53.45,
+          "price": 50.75,
           "shipping": 0,
-          "total": 53.45,
+          "total": 50.75,
           "itemWebUrl": "https://www.ebay.com/itm/178060803479",
           "imageUrl": "https://i.ebayimg.com/images/g/1DAAAeSwhIJp5IIn/s-l1600.jpg",
           "additionalImages": [
@@ -1169,15 +1169,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 86.45,
+            "costBasis": 83.75,
             "netExit": 158.4,
-            "profit": 71.95,
-            "roi": 0.8323,
-            "roiPercent": 83.23
+            "profit": 74.65,
+            "roi": 0.8913,
+            "roiPercent": 89.13
           },
           "rankMeta": {
-            "score": 41,
-            "priceEdgePercent": -10.8,
+            "score": 44.5,
+            "priceEdgePercent": -5.2,
             "sellerFeedbackPct": 100
           }
         }
@@ -1298,16 +1298,16 @@
         {
           "itemId": "v1|267644797231|0",
           "title": "Sanji (Alternate Art) [OP06 - OP06-119] - NM [Foil] TCG One Piece",
-          "price": 28.5,
+          "price": 28.2,
           "shipping": 0.99,
-          "total": 29.49,
+          "total": 29.19,
           "itemWebUrl": "https://www.ebay.com/itm/267644797231",
           "imageUrl": "https://i.ebayimg.com/images/g/Ga0AAeSwJyRp5Up7/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14361
+            "feedbackScore": 14362
           },
           "photoScore": {
             "score": 50,
@@ -1319,15 +1319,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 62.49,
+            "costBasis": 62.19,
             "netExit": 110,
-            "profit": 47.51,
-            "roi": 0.7603,
-            "roiPercent": 76.03
+            "profit": 47.81,
+            "roi": 0.7688,
+            "roiPercent": 76.88
           },
           "rankMeta": {
-            "score": 38.9,
-            "priceEdgePercent": -12.13,
+            "score": 39.6,
+            "priceEdgePercent": -10.99,
             "sellerFeedbackPct": 99.8
           }
         }
