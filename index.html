@@ -351,6 +351,12 @@
         linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.025)),
         var(--panel);
     }
+    .card.review-available {
+      box-shadow: inset 0 0 0 1px rgba(255, 162, 0, 0.45), 0 0 0 1px rgba(255, 162, 0, 0.12);
+      background:
+        linear-gradient(180deg, rgba(255,193,7,.08), rgba(255,255,255,.025)),
+        var(--panel);
+    }
     .media {
       width: 100%;
       aspect-ratio: 1 / 1.35;
@@ -472,6 +478,11 @@
     .badge-risk {
       background: rgba(255,255,255,.04);
       color: var(--muted);
+    }
+    .badge-manual-review {
+      background: rgba(255, 162, 0, 0.14);
+      color: #ffd27a;
+      border-color: rgba(255, 162, 0, 0.35);
     }
     .watch-note {
       margin-top: 8px;
@@ -764,6 +775,7 @@
         <button class="chip active" data-filter="all">All cards</button>
         <button class="chip" data-filter="double">2 candidates</button>
         <button class="chip" data-filter="single">1 candidate</button>
+        <button class="chip" data-filter="review">Manual review</button>
         <button class="chip" data-filter="none">No candidates</button>
         <button class="chip" data-filter="heat">Hot ROI</button>
       </div>
@@ -970,10 +982,15 @@
       return '';
     }
 
+    function hasReviewCandidates(row) {
+      return Array.isArray(row.reviewCandidates) && row.reviewCandidates.length > 0;
+    }
+
     function matchesQuickFilter(row, filter) {
       const count = Array.isArray(row.ebayCandidates) ? row.ebayCandidates.length : 0;
       if (filter === 'double') return count >= 2;
       if (filter === 'single') return count === 1;
+      if (filter === 'review') return hasReviewCandidates(row);
       if (filter === 'none') return count === 0;
       if (filter === 'heat') return Number(row.roiPercent || 0) >= 200;
       return true;
@@ -986,7 +1003,7 @@
         return;
       }
       container.innerHTML = rows.map((row, index) => `
-        <article class="card">
+        <article class="card ${hasReviewCandidates(row) ? 'review-available' : ''}">
           <div class="media ${mediaRingClass(row)}">
             <img
               src="${productImageUrl(row.productId, 'jpg')}"
@@ -1003,6 +1020,7 @@
                 <div class="title">${row.code} ${row.name}</div>
                 <div class="subtitle">${row.setName || 'Unknown set'}</div>
                 ${renderStatusRow(row)}
+                ${hasReviewCandidates(row) ? '<div class="status-row"><span class="badge badge-manual-review">Manual review available</span></div>' : ''}
               </div>
             </div>
             <div class="roi">${fmtPct(row.roiPercent)}</div>
