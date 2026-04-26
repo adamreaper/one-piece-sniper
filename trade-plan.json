@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-26T02:21:56.276Z",
-  "sourceFeedUpdatedAt": "2026-04-26T02:21:53.845Z",
+  "generatedAt": "2026-04-26T04:21:47.854Z",
+  "sourceFeedUpdatedAt": "2026-04-26T04:21:47.041Z",
   "sourceMode": "rows",
   "summary": {
     "totalPlans": 45,
     "buyNowCount": 2,
-    "manualReviewCount": 4,
-    "watchCount": 39
+    "manualReviewCount": 3,
+    "watchCount": 40
   },
   "plans": [
     {
@@ -86,7 +86,7 @@
       "compCount": 0,
       "ebayCandidateCount": 2,
       "bestListingTotal": 14.99,
-      "bestListingUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXe1R38EK%2BPIl03OxDOjkRVl94xn8mwFM372Ko0ydIL9p7vc0ruVVkI5j3xjn9zzY4arjT1jeXoT9hjRaUkhK3dwe0oriUgcLxwaROoK%2FXYXDr9rK%2BuT6EqHUugh75NElvtKbF6JLb67emogeun2Cyfk%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXaP8ed5zsmpDDvAsjZwcn2XCAjIfRIRj3UcbgDJg5%2FhqnbvbDUzp%2FtE49rYHoa7MHLTgL0naW6gTBHc9lB8SRpMlB%2BG%2F0Pln%2FB5iHgeG7VK3wQvg6Fco1Ow5F29AATUftm2RZTooVMjaulvgJh7ldPQ%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 0,
@@ -147,7 +147,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 27.99,
-      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEBzL9bePBWa1VRKwg81YnJA%2Fd9iBALj9zd9TZw%2FyXflYs%2FIgJrnyNOem6t3WAynMF3s%2FsnPEDTtrMcVZEerP8AxWXTQOKbuenzn%2FPJMbuQZ3v55ok7q9jkuL9DPRI7426CEN7s5lqbbcVFO6sQYVQrg%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEE7ZSoEAr8wUKQpZuMjTNh8lXkuFi8mxnJIObL3KlthTSAmUtWjZFo5JidwXrHETkA03G37RZA7eO7h%2BEpBfRjPYBw9cn4enNENK5gz2sCgn8yarwRlHbvEUNZPWJzr6YC0t3KRfKlXK1SH7JGnOemg%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 0,
@@ -163,37 +163,6 @@
         "strong_live_discount"
       ],
       "rank": 5
-    },
-    {
-      "sourceRank": 6,
-      "name": "Vinsmoke Reiju (SPR)",
-      "code": "OP06-042",
-      "setName": "Extra Booster: Anime 25th Collection",
-      "rawMarket": 523.67,
-      "psa10Market": 2250,
-      "costBasis": 596.36,
-      "netPsa10Exit": 1980,
-      "expectedPsaNet": 1383.64,
-      "roiPercent": 232.01,
-      "compCount": 0,
-      "ebayCandidateCount": 1,
-      "bestListingTotal": 563.36,
-      "bestListingUrl": "https://www.ebay.com/itm/397856320936",
-      "bestListingPhotoScore": 50,
-      "bestSellerFeedbackPercent": 100,
-      "bestShipping": 0,
-      "candidateRankScore": 56.1,
-      "collectrLink": "https://app.getcollectr.com/explore/product/629177",
-      "priceEdgePercent": -7.58,
-      "buyScore": 60.9,
-      "confidenceTier": "B",
-      "action": "manual-review",
-      "riskFlags": [
-        "weak_photos",
-        "collectr_only_psa_signal",
-        "listing_above_collectr_raw"
-      ],
-      "rank": 6
     },
     {
       "sourceRank": 3,
@@ -223,7 +192,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "sourceRank": 15,
@@ -253,7 +222,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 8
+      "rank": 7
     },
     {
       "sourceRank": 37,
@@ -283,7 +252,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 9
+      "rank": 8
     },
     {
       "sourceRank": 39,
@@ -313,7 +282,7 @@
         "weak_photos",
         "collectr_only_psa_signal"
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "sourceRank": 22,
@@ -344,7 +313,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 11
+      "rank": 10
     },
     {
       "sourceRank": 24,
@@ -360,7 +329,7 @@
       "compCount": 0,
       "ebayCandidateCount": 1,
       "bestListingTotal": 37.94,
-      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbLqWRRwmOaYOGDOponTwv9cRVgB82Lzr0Xx7UQa3c8JHn0j%2FSkAlS622FjgElnEHxZ%2Fh51DeevgCwgnigqtUkulQiVAlEpy5iLkURNjJDkzI8IM4eynVrGz9orYFBD8NggsIho3DrczYc8I1FHC3%2B4%3D",
+      "bestListingUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLZ1Q6M2xJ64sEQ9oUt9Z%2Bl7JmerYn4q1j3C4lsu2BHCrl2FPcvbQCCt5H5VKH%2F0wZFU1vnQMCGXNrVW29kVMtObzwq6lcsyO1XhHmzHdFmRGSLK3vjpKrmilutQjTrv057hiZRw4DFTTBHkoKF%2FuM1s%3D",
       "bestListingPhotoScore": 50,
       "bestSellerFeedbackPercent": 100,
       "bestShipping": 4.95,
@@ -375,7 +344,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 12
+      "rank": 11
     },
     {
       "sourceRank": 19,
@@ -406,7 +375,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 13
+      "rank": 12
     },
     {
       "sourceRank": 2,
@@ -436,7 +405,7 @@
         "no_live_listing",
         "collectr_only_psa_signal"
       ],
-      "rank": 14
+      "rank": 13
     },
     {
       "sourceRank": 36,
@@ -467,7 +436,7 @@
         "collectr_only_psa_signal",
         "listing_above_collectr_raw"
       ],
-      "rank": 15
+      "rank": 14
     },
     {
       "sourceRank": 4,
@@ -491,6 +460,36 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/629086",
       "priceEdgePercent": 0,
       "buyScore": 24.1,
+      "confidenceTier": "D",
+      "action": "watch",
+      "riskFlags": [
+        "no_live_listing",
+        "collectr_only_psa_signal"
+      ],
+      "rank": 15
+    },
+    {
+      "sourceRank": 6,
+      "name": "Vinsmoke Reiju (SPR)",
+      "code": "OP06-042",
+      "setName": "Extra Booster: Anime 25th Collection",
+      "rawMarket": 523.67,
+      "psa10Market": 2250,
+      "costBasis": 556.67,
+      "netPsa10Exit": 1980,
+      "expectedPsaNet": 1423.33,
+      "roiPercent": 255.69,
+      "compCount": 0,
+      "ebayCandidateCount": 0,
+      "bestListingTotal": 0,
+      "bestListingUrl": null,
+      "bestListingPhotoScore": 0,
+      "bestSellerFeedbackPercent": 0,
+      "bestShipping": 0,
+      "candidateRankScore": 0,
+      "collectrLink": "https://app.getcollectr.com/explore/product/629177",
+      "priceEdgePercent": 0,
+      "buyScore": 23.6,
       "confidenceTier": "D",
       "action": "watch",
       "riskFlags": [
