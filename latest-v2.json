@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T02:21:53.845Z",
+  "generatedAt": "2026-04-26T04:21:47.041Z",
   "dateStamp": "2026-04-25",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -10,7 +10,7 @@
   },
   "sourceResults": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
   "rowsWithEbayField": 45,
-  "rowsWithEbayCandidates": 15,
+  "rowsWithEbayCandidates": 14,
   "qualifiedCount": 45,
   "rows": [
     {
@@ -35,7 +35,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXe1R38EK%2BPIl03OxDOjkRVl94xn8mwFM372Ko0ydIL9p7vc0ruVVkI5j3xjn9zzY4arjT1jeXoT9hjRaUkhK3dwe0oriUgcLxwaROoK%2FXYXDr9rK%2BuT6EqHUugh75NElvtKbF6JLb67emogeun2Cyfk%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583291?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHFCmsBTTtyqm27GsoRrJVsw4lacpSkLYF7TxqHHfZXaP8ed5zsmpDDvAsjZwcn2XCAjIfRIRj3UcbgDJg5%2FhqnbvbDUzp%2FtE49rYHoa7MHLTgL0naW6gTBHc9lB8SRpMlB%2BG%2F0Pln%2FB5iHgeG7VK3wQvg6Fco1Ow5F29AATUftm2RZTooVMjaulvgJh7ldPQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/txMAAeSw8fBp67Ha/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/MDwAAeSwzmBp67Ha/s-l1600.jpg",
@@ -47,7 +47,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19046
+            "feedbackScore": 19049
           },
           "photoScore": {
             "score": 50,
@@ -77,7 +77,7 @@
           "price": 14.99,
           "shipping": 0,
           "total": 14.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyFsCysBEmPAD5Q1rMGSZftUBKo6xe%2F6u%2BCXLqeWh6Os3LqkRQoHqE09XvB0k0Vl2ZifGKRaK954DHVsj0rDd%2BGcud4jEHLPXEK6p6Q5RfCc8hzl4TJE79mYl7cFAqwilZQjN1syz5%2FXfxbxR87D1Auc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366367583294?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA1iLu9QdWWOt4ODF64Va79esjvwGFMOUuaUHBs9ZTdyFgHtv4%2FIl52yq4wTxX5kCFXHlavNi65tx5k%2F64cfxBZdiZPIoz6cN4zBqvrHA1neQNddURBwzS0JiyYnMO1TuBwNamrLdNhuwvWmY1R1A4s0SJdicqxBOv1kipQ86luMimSKWLFTDeGhTlM7NElm0U%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/9JsAAeSwDgxp67Hg/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/JKIAAeSw0rNp67Hg/s-l1600.jpg",
@@ -89,7 +89,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19046
+            "feedbackScore": 19049
           },
           "photoScore": {
             "score": 50,
@@ -240,51 +240,8 @@
       "collectrLink": "https://app.getcollectr.com/explore/product/629177",
       "collectrPsa10At": "2026-04-22T00:00:00.000Z",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629177.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
-      "ebayCandidates": [
-        {
-          "itemId": "v1|397856320936|0",
-          "title": "2025 One Piece EB02 EN OP06-042 Vinsmoke Reiju SPR",
-          "price": 563.36,
-          "shipping": 0,
-          "total": 563.36,
-          "itemWebUrl": "https://www.ebay.com/itm/397856320936",
-          "imageUrl": "https://i.ebayimg.com/images/g/W80AAeSwG6dp5FXc/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/RcgAAeSw4ABp5FXc/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/FlwAAeSwXBNp5FXc/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/P0MAAeSwMc9p5FXc/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/3NMAAeSwCfZp5FXd/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/NFcAAeSwpFxp5FXd/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "ca2015_ernd",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 9
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 596.36,
-            "netExit": 1980,
-            "profit": 1383.64,
-            "roi": 2.3201,
-            "roiPercent": 232.01
-          },
-          "rankMeta": {
-            "score": 56.1,
-            "priceEdgePercent": -7.58,
-            "sellerFeedbackPct": 100
-          }
-        }
-      ],
-      "ebayCandidateCount": 1
+      "ebayCandidates": [],
+      "ebayCandidateCount": 0
     },
     {
       "code": "OP05-060",
@@ -594,7 +551,7 @@
           "seller": {
             "username": "5_star_cards",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 102567
+            "feedbackScore": 102570
           },
           "photoScore": {
             "score": 50,
@@ -649,7 +606,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14353
+            "feedbackScore": 14359
           },
           "photoScore": {
             "score": 50,
@@ -817,7 +774,7 @@
           "price": 32.99,
           "shipping": 4.95,
           "total": 37.94,
-          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLbLqWRRwmOaYOGDOponTwv9cRVgB82Lzr0Xx7UQa3c8JHn0j%2FSkAlS622FjgElnEHxZ%2Fh51DeevgCwgnigqtUkulQiVAlEpy5iLkURNjJDkzI8IM4eynVrGz9orYFBD8NggsIho3DrczYc8I1FHC3%2B4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406868836480?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyUBVKExugm2ALkil%2BbLWWJbrgmTqkb3vb93FXLJxdLZ1Q6M2xJ64sEQ9oUt9Z%2Bl7JmerYn4q1j3C4lsu2BHCrl2FPcvbQCCt5H5VKH%2F0wZFU1vnQMCGXNrVW29kVMtObzwq6lcsyO1XhHmzHdFmRGSLK3vjpKrmilutQjTrv057hiZRw4DFTTBHkoKF%2FuM1s%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/5AAAAeSwTFBp5FSR/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/toUAAeSwJSpp5FSR/s-l1600.jpg"
@@ -1093,7 +1050,7 @@
           "price": 27.99,
           "shipping": 0,
           "total": 27.99,
-          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEBzL9bePBWa1VRKwg81YnJA%2Fd9iBALj9zd9TZw%2FyXflYs%2FIgJrnyNOem6t3WAynMF3s%2FsnPEDTtrMcVZEerP8AxWXTQOKbuenzn%2FPJMbuQZ3v55ok7q9jkuL9DPRI7426CEN7s5lqbbcVFO6sQYVQrg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/366248832469?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDBwo5atoaJ3Iw%2BQoRY1dYO6z5ac%2BBDh4HzUOSHXvHvEE7ZSoEAr8wUKQpZuMjTNh8lXkuFi8mxnJIObL3KlthTSAmUtWjZFo5JidwXrHETkA03G37RZA7eO7h%2BEpBfRjPYBw9cn4enNENK5gz2sCgn8yarwRlHbvEUNZPWJzr6YC0t3KRfKlXK1SH7JGnOemg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/C~cAAeSw5GFpqfCH/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AAYAAeSwyAtpqfCH/s-l1600.jpg",
@@ -1105,7 +1062,7 @@
           "seller": {
             "username": "hexikyu_tcg",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 19046
+            "feedbackScore": 19049
           },
           "photoScore": {
             "score": 50,
@@ -1312,7 +1269,7 @@
           "seller": {
             "username": "fabricatorsforge",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 14353
+            "feedbackScore": 14359
           },
           "photoScore": {
             "score": 50,
@@ -1369,7 +1326,7 @@
           "seller": {
             "username": "raid13az",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 248
+            "feedbackScore": 249
           },
           "photoScore": {
             "score": 50,
