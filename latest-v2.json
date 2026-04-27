@@ -1,23 +1,16 @@
 {
-  "generatedAt": "2026-04-26T18:28:29.001Z",
+  "generatedAt": "2026-04-27T15:35:00.175Z",
   "dateStamp": "2026-04-26",
   "filters": {
-    "source": "PriceCharting English One Piece full-price guide + eBay photo-enriched raw candidates",
-    "gradingCostBase": 33,
-    "gradingCostHighEnd": 79.99,
-    "gradingCostHighEndThreshold": 500,
+    "source": "Collectr API v2 raw + grade_id 12",
+    "gradingCost": 33,
     "liquidityHaircut": 0.12,
     "minRoiPercent": 80,
-    "minPsa10Sales": 5,
-    "rawFloor": 100,
     "testMode": true
   },
-  "ebayScoutSkipped": false,
-  "publishMode": "full",
+  "sourceResults": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
   "rowsWithEbayField": 7,
   "rowsWithEbayCandidates": 0,
-  "weeklyBaseJson": "/home/deck/.openclaw/workspace/one-piece-sniper/weekly-base.json",
-  "reusedExistingBoard": null,
   "qualifiedCount": 7,
   "rows": [
     {
@@ -47,7 +40,25 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629189.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "reviewCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
+        {
+          "stage": "search",
+          "query": "\"Charlotte Pudding\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP08-058\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Charlotte Pudding\" \"Anime 25th Collection\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        }
+      ]
     },
     {
       "code": "OP09-118",
@@ -63,10 +74,10 @@
       "psa10Market": 14837.75,
       "netPsa10Exit": 13057.22,
       "gradingCost": 79.99,
-      "costBasis": 4579.99,
-      "profit": 8477.23,
-      "roi": 1.8509,
-      "roiPercent": 185.09,
+      "costBasis": 4533,
+      "profit": 8524.22,
+      "roi": 1.8805,
+      "roiPercent": 188.05,
       "psa10SalesCount": 30,
       "ungradedSalesCount": 38,
       "bgs10SalesCount": 30,
@@ -76,7 +87,25 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597065.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "reviewCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
+        {
+          "stage": "search",
+          "query": "\"Gol.D.Roger\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP09-118\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Gol.D.Roger\" \"Emperors in the New World\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        }
+      ]
     },
     {
       "code": "EB02-061",
@@ -92,10 +121,10 @@
       "psa10Market": 6937.5,
       "netPsa10Exit": 6105,
       "gradingCost": 79.99,
-      "costBasis": 2604.99,
-      "profit": 3500.01,
-      "roi": 1.3436,
-      "roiPercent": 134.36,
+      "costBasis": 2558,
+      "profit": 3547,
+      "roi": 1.3866,
+      "roiPercent": 138.66,
       "psa10SalesCount": 30,
       "ungradedSalesCount": 40,
       "bgs10SalesCount": 17,
@@ -104,85 +133,26 @@
       "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/extra-booster-anime-25th-collection?cardType=cards&groupId=23834&sortType=price&sortOrder=desc",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629167.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
-      "reviewCandidates": [
+      "reviewCandidates": [],
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
         {
-          "itemId": "v1|397401320935|0",
-          "title": "One Piece Card Game - Monkey D. Luffy Manga EB02-061",
-          "price": 1137.49,
-          "shipping": 0,
-          "total": 1137.49,
-          "itemWebUrl": "https://www.ebay.com/itm/397401320935",
-          "imageUrl": "https://i.ebayimg.com/images/g/F3YAAeSwSqVpOoEX/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "pokevalut8",
-            "feedbackPercentage": "99.6",
-            "feedbackScore": 520
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 79.99,
-            "costBasis": 1217.48,
-            "netExit": 6105,
-            "profit": 4887.52,
-            "roi": 4.0145,
-            "roiPercent": 401.45
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 54.95,
-            "sellerFeedbackPct": 99.6
-          },
-          "reviewReason": "Manual review: visible language = unknown"
+          "stage": "search",
+          "query": "\"Monkey.D.Luffy\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
         },
         {
-          "itemId": "v1|397401315202|0",
-          "title": "One Piece Card Game - Monkey D. Luffy Manga EB02-061",
-          "price": 1138.49,
-          "shipping": 0,
-          "total": 1138.49,
-          "itemWebUrl": "https://www.ebay.com/itm/397401315202?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAzl0CRsFGj6oeKg99ijGJBSNxhGaOyZWuQ0Ujo5tVs5vCkQFpENkxF358Qc1Kw3NJMI4NX3TAubjIWLWLU5D1r6SlZoiXJM%2FNd3IglTnpO1t7CVUoziVyc6oFFYBkXeRM3zJ600NzTKwii%2Fs0O0NtITN3Q589bDiHVJ84aXpSX7YFEAgd%2Bf5ogXmAWQY5kKr0%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/F3YAAeSwSqVpOoEX/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "fiwp5548",
-            "feedbackPercentage": "99.5",
-            "feedbackScore": 421
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 79.99,
-            "costBasis": 1218.48,
-            "netExit": 6105,
-            "profit": 4886.52,
-            "roi": 4.0103,
-            "roiPercent": 401.03
-          },
-          "rankMeta": {
-            "score": 85.9,
-            "priceEdgePercent": 54.91,
-            "sellerFeedbackPct": 99.5
-          },
-          "reviewReason": "Manual review: visible language = unknown"
+          "stage": "search",
+          "query": "\"EB02-061\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Monkey.D.Luffy\" \"Anime 25th Collection\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
         }
-      ],
-      "ebayCandidateCount": 0
+      ]
     },
     {
       "code": "OP09-051",
@@ -198,10 +168,10 @@
       "psa10Market": 2056.5,
       "netPsa10Exit": 1809.72,
       "gradingCost": 79.99,
-      "costBasis": 885.38,
-      "profit": 924.34,
-      "roi": 1.044,
-      "roiPercent": 104.4,
+      "costBasis": 838.39,
+      "profit": 971.33,
+      "roi": 1.1586,
+      "roiPercent": 115.86,
       "psa10SalesCount": 30,
       "ungradedSalesCount": 43,
       "bgs10SalesCount": 12,
@@ -211,7 +181,25 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_596984.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "reviewCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
+        {
+          "stage": "search",
+          "query": "\"Buggy\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP09-051\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Buggy\" \"Emperors in the New World\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        }
+      ]
     },
     {
       "code": "OP06-001",
@@ -227,10 +215,10 @@
       "psa10Market": 1776.73,
       "netPsa10Exit": 1563.52,
       "gradingCost": 79.99,
-      "costBasis": 779.99,
-      "profit": 783.53,
-      "roi": 1.0045,
-      "roiPercent": 100.45,
+      "costBasis": 733,
+      "profit": 830.52,
+      "roi": 1.133,
+      "roiPercent": 113.3,
       "psa10SalesCount": 5,
       "ungradedSalesCount": 23,
       "bgs10SalesCount": 2,
@@ -240,7 +228,25 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629173.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "reviewCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
+        {
+          "stage": "search",
+          "query": "\"Uta\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP06-001\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Uta\" \"Anime 25th Collection\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        }
+      ]
     },
     {
       "code": "OP05-119",
@@ -256,10 +262,10 @@
       "psa10Market": 6808,
       "netPsa10Exit": 5991.04,
       "gradingCost": 79.99,
-      "costBasis": 3073.17,
-      "profit": 2917.87,
-      "roi": 0.9495,
-      "roiPercent": 94.95,
+      "costBasis": 3026.18,
+      "profit": 2964.86,
+      "roi": 0.9797,
+      "roiPercent": 97.97,
       "psa10SalesCount": 30,
       "ungradedSalesCount": 23,
       "bgs10SalesCount": 20,
@@ -269,7 +275,25 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632503.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
       "reviewCandidates": [],
-      "ebayCandidateCount": 0
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
+        {
+          "stage": "search",
+          "query": "\"Monkey.D.Luffy\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP05-119\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Monkey.D.Luffy\" \"A Fist of Divine Speed\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        }
+      ]
     },
     {
       "code": "OP09-093",
@@ -285,10 +309,10 @@
       "psa10Market": 2577.57,
       "netPsa10Exit": 2268.26,
       "gradingCost": 79.99,
-      "costBasis": 1234.99,
-      "profit": 1033.27,
-      "roi": 0.8367,
-      "roiPercent": 83.67,
+      "costBasis": 1188,
+      "profit": 1080.26,
+      "roi": 0.9093,
+      "roiPercent": 90.93,
       "psa10SalesCount": 30,
       "ungradedSalesCount": 48,
       "bgs10SalesCount": 12,
@@ -297,49 +321,26 @@
       "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/emperors-in-the-new-world?cardType=cards&groupId=23589&sortType=price&sortOrder=desc",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597035.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [],
-      "reviewCandidates": [
+      "reviewCandidates": [],
+      "ebayCandidateCount": 0,
+      "ebayLookupDegraded": true,
+      "ebayLookupErrors": [
         {
-          "itemId": "v1|366338499840|0",
-          "title": "2024 One Piece MARSHALL D. TEACH #OP09-093 Emperors in the New World Manga ENG",
-          "price": 1082.56,
-          "shipping": 0,
-          "total": 1082.56,
-          "itemWebUrl": "https://www.ebay.com/itm/366338499840",
-          "imageUrl": "https://i.ebayimg.com/images/g/ae4AAeSwpHBp2qh3/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/FSQAAeSwOqpp2Njc/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "tcg.heych",
-            "feedbackPercentage": "98.9",
-            "feedbackScore": 98
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 79.99,
-            "costBasis": 1162.55,
-            "netExit": 2268.26,
-            "profit": 1105.71,
-            "roi": 0.9511,
-            "roiPercent": 95.11
-          },
-          "rankMeta": {
-            "score": 48.8,
-            "priceEdgePercent": 6.27,
-            "sellerFeedbackPct": 98.9
-          },
-          "reviewReason": "Manual review: visible language = unknown"
+          "stage": "search",
+          "query": "\"Marshall.D.Teach\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"OP09-093\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
+        },
+        {
+          "stage": "search",
+          "query": "\"Marshall.D.Teach\" \"Emperors in the New World\" \"One Piece\"",
+          "error": "Request timeout for api.ebay.com"
         }
-      ],
-      "ebayCandidateCount": 0
+      ]
     }
   ]
 }
