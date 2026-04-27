@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T15:44:45.385Z",
+  "generatedAt": "2026-04-27T15:47:47.806Z",
   "dateStamp": "2026-04-26",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -51,12 +51,12 @@
         {
           "stage": "search",
           "query": "\"OP08-058\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Charlotte Pudding\" \"Anime 25th Collection\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -93,17 +93,17 @@
         {
           "stage": "search",
           "query": "\"Gol.D.Roger\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"OP09-118\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Gol.D.Roger\" \"Emperors in the New World\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -140,17 +140,17 @@
         {
           "stage": "search",
           "query": "\"Monkey.D.Luffy\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"EB02-061\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Monkey.D.Luffy\" \"Anime 25th Collection\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -187,17 +187,17 @@
         {
           "stage": "search",
           "query": "\"Buggy\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"OP09-051\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Buggy\" \"Emperors in the New World\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -234,17 +234,17 @@
         {
           "stage": "search",
           "query": "\"Uta\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"OP06-001\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Uta\" \"Anime 25th Collection\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -281,17 +281,17 @@
         {
           "stage": "search",
           "query": "\"Monkey.D.Luffy\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"OP05-119\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Monkey.D.Luffy\" \"A Fist of Divine Speed\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     },
@@ -328,17 +328,17 @@
         {
           "stage": "search",
           "query": "\"Marshall.D.Teach\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"OP09-093\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         },
         {
           "stage": "search",
           "query": "\"Marshall.D.Teach\" \"Emperors in the New World\" \"One Piece\"",
-          "error": "Request timeout for api.ebay.com"
+          "error": "eBay API unreachable from this host: Request timeout for api.ebay.com"
         }
       ]
     }
