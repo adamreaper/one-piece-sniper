@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T14:03:38.194Z",
+  "generatedAt": "2026-04-28T15:32:49.862Z",
   "dateStamp": "2026-04-26",
   "filters": {
     "source": "Collectr API v2 raw + grade_id 12",
@@ -45,7 +45,7 @@
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/267646032749?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xChANvNo84AZTko8hsT83%2B%2F1nnZ7w%2BRgb7f%2BJ%2B5pMR4apqrCtqwDIpePtJibS1lnosrQsqeK8RV9oboyh1KpJiKQ8CBja%2Fk%2F7a3jbj6Mmg%2F3FW0BHTuHO%2FyKCh%2Fzl2nXPy%2Fpigx8FXf1%2FkF3izd0QUBRJ9mHyY4yTJml8WnyQBD9CAll8B2hz20V2wG%2BXjxbzw%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/267646032749?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xChANvNo84AZTko8hsT83%2B%2F1nnZ7w%2BRgb7f%2BJ%2B5pMR4auj%2Fijt9XR87%2FNlYFdYZgAEogNfCPxEEx6OHDl%2FFuTPbNvkMBvFkXXQQaN1YyXaE%2FUOIxQKawSFPud7iORPPderVphvLzG7TqONGPCAdoDjhpFnbZ7JS4sLc9GASlkwFUTlt4ODoA3C622O%2FgrUbAPY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/x4AAAeSwEpNp5u0W/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AVAAAeSwVRdp5u0W/s-l1600.jpg"
@@ -83,7 +83,7 @@
           "price": 5,
           "shipping": 0,
           "total": 5,
-          "itemWebUrl": "https://www.ebay.com/itm/136819763804?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC%2Fqyx9bBrBq%2FB1duPrxVBI%2B%2BTobDQb6O%2F6dVVRWlLgSs1XsG4A7f7cWb340MrTUQSimAoJlgg6QmssvgTdKkUUIMcmec50aFU2WSts2Adk3f3na5MVLpDBpWQ6vsSzzKfJeEuiuV%2B3TR8%2FplaCNz16smg4UJ6VthaiyZt5Bc%2BISezjncZI0SGURdViyQcTWs8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819763804?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC%2Fqyx9bBrBq%2FB1duPrxVBI%2B%2BTobDQb6O%2F6dVVRWlLgSpB%2FRclM22%2FmUOev1LhlEniNIuOI2Ju6O5AdFTOoTqj5jtqUGTHOVsSQl69zFvOq1vyQO3UPRu6%2FaUUgc3LXTuNNR8ha98rnq7NorR5a8vMozv0F0%2BnTXwAFvoIlpXMnh0c32mMJsr4QqwAM9Ua4xIc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/IH0AAOSwKNVnwfnh/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/~uIAAOSwcJ5nwfnB/s-l1600.jpg",
@@ -92,7 +92,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -238,7 +238,7 @@
           "price": 120,
           "shipping": 0,
           "total": 120,
-          "itemWebUrl": "https://www.ebay.com/itm/389935858829?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCWE9jhoImz%2B%2BjKP0Xj0DCxKJeoCzDFiqOKaugo2K7vIma%2BWssOrl4eHFPYp1ytYR5C4FQdvgAZqUtDtqcwOJx7c3Beeh2n0H4gFShFxT2XhnBIGdpfkOdwBV9yuZrNGRLaoSojPUcZP37PagOFp6J0Zcl6rfqzAUaXjpxLZS947d3tfqsLj%2Fzp1Vj3V%2Fkr75A%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/389935858829?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCWE9jhoImz%2B%2BjKP0Xj0DCxKJeoCzDFiqOKaugo2K7vIsetWZz%2BgEsyNYx5wVzWEmzZX%2FbsWE24KhU%2FJB%2FJBC5iT0JdK7EdMjTajgel%2BDHmpHfk4aKIRRMEN9lnYEQ%2FVjLCVRIQ%2BbbMeRGom2LMrvA3V1HbwupCcf4k0pcXa1sjvu3jxa85yK7w70qHG6Bl5Lg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/abYAAeSwEpNp7HXe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/abwAAeSwEpNp7HXf/s-l1600.jpg"
@@ -271,48 +271,12 @@
           }
         },
         {
-          "itemId": "v1|147232543023|0",
-          "title": "One Piece Charlotte Pudding OP06-047 Wings Captain Rare Foil Character Bandai",
-          "price": 2.1,
-          "shipping": 0,
-          "total": 2.1,
-          "itemWebUrl": "https://www.ebay.com/itm/147232543023",
-          "imageUrl": "https://i.ebayimg.com/images/g/OYUAAeSwMdJpkCuE/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "kjcd.oak",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 270
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 35.1,
-            "netExit": 1342,
-            "profit": 1306.9,
-            "roi": 37.2336,
-            "roiPercent": 3723.36
-          },
-          "rankMeta": {
-            "score": 85.3,
-            "priceEdgePercent": 98.81,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
           "itemId": "v1|397740816677|0",
           "title": "Charlotte Pudding Winner Pack 2024 Oct.-Dec. One Piece Promo Card OP03-112",
           "price": 11.99,
           "shipping": 1.48,
           "total": 13.47,
-          "itemWebUrl": "https://www.ebay.com/itm/397740816677?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA3tHx0yAoFxCmD1eqWjsZmc1GCfMrsTFW%2FMPJeumYSM5gzuxaht5Q3Y9ZzInvaX26q%2Fg%2FhGXqa%2FR7Rbo24yiu%2Bp522m1Wn0ys0CBeVRlll5yyMQCIezaVaUFcpEAoqEGPRHiCP4alG%2FgJdkPivnfTUQxuu%2Fx%2BIarbQfOMumKAEGS0SAyqjcs5qrrr85tg0p8s%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397740816677?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA3tHx0yAoFxCmD1eqWjsZmc1GCfMrsTFW%2FMPJeumYSM75BmU7niGd4PwypdomFlfDmR7C3fis6izJ58Z53j6G%2B0KzEnX5p01GlYjBG%2BG291LU%2FCgBusErPo5kloNi4Q41hZAznfw4cm8DmN0w65HGuZ8LNQFxIsVmw%2F987ZWuLI6%2BGLhXXhIt5hhaLAjAa3m4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/1aoAAeSw3glpirsr/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/QygAAeSwpvlppTL4/s-l1600.jpg",
@@ -321,7 +285,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -418,6 +382,44 @@
           "rankMeta": {
             "score": 84.5,
             "priceEdgePercent": 27.74,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|327126900506|0",
+          "title": "Charlotte Pudding OP06-047 Rare Wings of the Captain One Piece Near Mint",
+          "price": 2.99,
+          "shipping": 0,
+          "total": 2.99,
+          "itemWebUrl": "https://www.ebay.com/itm/327126900506",
+          "imageUrl": "https://i.ebayimg.com/images/g/kWcAAeSw6oxp8AlF/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/2mUAAeSw129p8AlF/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "card_flocc",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 77
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 35.99,
+            "netExit": 1342,
+            "profit": 1306.01,
+            "roi": 36.2881,
+            "roiPercent": 3628.81
+          },
+          "rankMeta": {
+            "score": 83.7,
+            "priceEdgePercent": 98.31,
             "sellerFeedbackPct": 100
           }
         }
@@ -429,7 +431,7 @@
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/267646032749?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xChANvNo84AZTko8hsT83%2B%2F1nnZ7w%2BRgb7f%2BJ%2B5pMR4apqrCtqwDIpePtJibS1lnosrQsqeK8RV9oboyh1KpJiKQ8CBja%2Fk%2F7a3jbj6Mmg%2F3FW0BHTuHO%2FyKCh%2Fzl2nXPy%2Fpigx8FXf1%2FkF3izd0QUBRJ9mHyY4yTJml8WnyQBD9CAll8B2hz20V2wG%2BXjxbzw%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/267646032749?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xChANvNo84AZTko8hsT83%2B%2F1nnZ7w%2BRgb7f%2BJ%2B5pMR4auj%2Fijt9XR87%2FNlYFdYZgAEogNfCPxEEx6OHDl%2FFuTPbNvkMBvFkXXQQaN1YyXaE%2FUOIxQKawSFPud7iORPPderVphvLzG7TqONGPCAdoDjhpFnbZ7JS4sLc9GASlkwFUTlt4ODoA3C622O%2FgrUbAPY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/x4AAAeSwEpNp5u0W/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/AVAAAeSwVRdp5u0W/s-l1600.jpg"
@@ -469,7 +471,7 @@
           "price": 5,
           "shipping": 0,
           "total": 5,
-          "itemWebUrl": "https://www.ebay.com/itm/136819763804?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC%2Fqyx9bBrBq%2FB1duPrxVBI%2B%2BTobDQb6O%2F6dVVRWlLgSs1XsG4A7f7cWb340MrTUQSimAoJlgg6QmssvgTdKkUUIMcmec50aFU2WSts2Adk3f3na5MVLpDBpWQ6vsSzzKfJeEuiuV%2B3TR8%2FplaCNz16smg4UJ6VthaiyZt5Bc%2BISezjncZI0SGURdViyQcTWs8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819763804?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xC%2Fqyx9bBrBq%2FB1duPrxVBI%2B%2BTobDQb6O%2F6dVVRWlLgSpB%2FRclM22%2FmUOev1LhlEniNIuOI2Ju6O5AdFTOoTqj5jtqUGTHOVsSQl69zFvOq1vyQO3UPRu6%2FaUUgc3LXTuNNR8ha98rnq7NorR5a8vMozv0F0%2BnTXwAFvoIlpXMnh0c32mMJsr4QqwAM9Ua4xIc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/IH0AAOSwKNVnwfnh/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/~uIAAOSwcJ5nwfnB/s-l1600.jpg",
@@ -478,7 +480,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -632,7 +634,7 @@
           "price": 120,
           "shipping": 0,
           "total": 120,
-          "itemWebUrl": "https://www.ebay.com/itm/389935858829?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCWE9jhoImz%2B%2BjKP0Xj0DCxKJeoCzDFiqOKaugo2K7vIma%2BWssOrl4eHFPYp1ytYR5C4FQdvgAZqUtDtqcwOJx7c3Beeh2n0H4gFShFxT2XhnBIGdpfkOdwBV9yuZrNGRLaoSojPUcZP37PagOFp6J0Zcl6rfqzAUaXjpxLZS947d3tfqsLj%2Fzp1Vj3V%2Fkr75A%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/389935858829?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCWE9jhoImz%2B%2BjKP0Xj0DCxKJeoCzDFiqOKaugo2K7vIsetWZz%2BgEsyNYx5wVzWEmzZX%2FbsWE24KhU%2FJB%2FJBC5iT0JdK7EdMjTajgel%2BDHmpHfk4aKIRRMEN9lnYEQ%2FVjLCVRIQ%2BbbMeRGom2LMrvA3V1HbwupCcf4k0pcXa1sjvu3jxa85yK7w70qHG6Bl5Lg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/abYAAeSwEpNp7HXe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/abwAAeSwEpNp7HXf/s-l1600.jpg"
@@ -667,50 +669,12 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|147232543023|0",
-          "title": "One Piece Charlotte Pudding OP06-047 Wings Captain Rare Foil Character Bandai",
-          "price": 2.1,
-          "shipping": 0,
-          "total": 2.1,
-          "itemWebUrl": "https://www.ebay.com/itm/147232543023",
-          "imageUrl": "https://i.ebayimg.com/images/g/OYUAAeSwMdJpkCuE/s-l1600.jpg",
-          "additionalImages": [],
-          "seller": {
-            "username": "kjcd.oak",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 270
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 33,
-            "costBasis": 35.1,
-            "netExit": 1342,
-            "profit": 1306.9,
-            "roi": 37.2336,
-            "roiPercent": 3723.36
-          },
-          "rankMeta": {
-            "score": 85.3,
-            "priceEdgePercent": 98.81,
-            "sellerFeedbackPct": 100
-          },
-          "reviewReason": "Manual review: visible language = unknown"
-        },
-        {
           "itemId": "v1|397740816677|0",
           "title": "Charlotte Pudding Winner Pack 2024 Oct.-Dec. One Piece Promo Card OP03-112",
           "price": 11.99,
           "shipping": 1.48,
           "total": 13.47,
-          "itemWebUrl": "https://www.ebay.com/itm/397740816677?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA3tHx0yAoFxCmD1eqWjsZmc1GCfMrsTFW%2FMPJeumYSM5gzuxaht5Q3Y9ZzInvaX26q%2Fg%2FhGXqa%2FR7Rbo24yiu%2Bp522m1Wn0ys0CBeVRlll5yyMQCIezaVaUFcpEAoqEGPRHiCP4alG%2FgJdkPivnfTUQxuu%2Fx%2BIarbQfOMumKAEGS0SAyqjcs5qrrr85tg0p8s%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397740816677?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA3tHx0yAoFxCmD1eqWjsZmc1GCfMrsTFW%2FMPJeumYSM75BmU7niGd4PwypdomFlfDmR7C3fis6izJ58Z53j6G%2B0KzEnX5p01GlYjBG%2BG291LU%2FCgBusErPo5kloNi4Q41hZAznfw4cm8DmN0w65HGuZ8LNQFxIsVmw%2F987ZWuLI6%2BGLhXXhIt5hhaLAjAa3m4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/1aoAAeSw3glpirsr/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/QygAAeSwpvlppTL4/s-l1600.jpg",
@@ -719,7 +683,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -821,6 +785,46 @@
           "rankMeta": {
             "score": 84.5,
             "priceEdgePercent": 27.74,
+            "sellerFeedbackPct": 100
+          },
+          "reviewReason": "Manual review: visible language = unknown"
+        },
+        {
+          "itemId": "v1|327126900506|0",
+          "title": "Charlotte Pudding OP06-047 Rare Wings of the Captain One Piece Near Mint",
+          "price": 2.99,
+          "shipping": 0,
+          "total": 2.99,
+          "itemWebUrl": "https://www.ebay.com/itm/327126900506",
+          "imageUrl": "https://i.ebayimg.com/images/g/kWcAAeSw6oxp8AlF/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/2mUAAeSw129p8AlF/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "card_flocc",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 77
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "gradingCost": 33,
+            "costBasis": 35.99,
+            "netExit": 1342,
+            "profit": 1306.01,
+            "roi": 36.2881,
+            "roiPercent": 3628.81
+          },
+          "rankMeta": {
+            "score": 83.7,
+            "priceEdgePercent": 98.31,
             "sellerFeedbackPct": 100
           },
           "reviewReason": "Manual review: visible language = unknown"
@@ -856,6 +860,45 @@
       "collectrSetUrl": "https://app.getcollectr.com/sets/category/68/emperors-in-the-new-world?cardType=cards&groupId=23589&sortType=price&sortOrder=desc",
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_597065.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
+        {
+          "itemId": "v1|136819759686|0",
+          "title": "Gol D.Roger OP09-118 (Secret) Emperors in the New World ONE PIECE Card Japan NM",
+          "price": 10.99,
+          "shipping": 0,
+          "total": 10.99,
+          "itemWebUrl": "https://www.ebay.com/itm/136819759686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDVbRMD%2FO8vrWEtf%2BXpdCRIotLhX478xUQ5V0dWb9%2B1%2Baee0puaoouDSSdPRyMq%2B2EX0LNYzPSVn64JlApNKgtVeVJSARyrNgyX07OzttfL4jsZ5OnhBbIDT%2BwVSEvV3zIOFnGfV18byTbKfE%2FoESq2LyE%2Bu8mz2X36iNTtgG8dQgRDe1Tc0DqZz2%2BNigcwd9k%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/C5UAAOSwc4tm0hCE/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/6tUAAOSwEGpm0hBv/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/KIYAAeSwpI9o3O4g/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 43.99,
+            "netExit": 13057.22,
+            "profit": 13013.23,
+            "roi": 295.8225,
+            "roiPercent": 29582.25
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.76,
+            "sellerFeedbackPct": 99.8
+          }
+        },
         {
           "itemId": "v1|236777323111|0",
           "title": "GOL D. ROGER One Piece OP13-064 - Alt Art English Carrying On His Will Card Foil",
@@ -900,7 +943,7 @@
           "price": 46.95,
           "shipping": 0,
           "total": 46.95,
-          "itemWebUrl": "https://www.ebay.com/itm/406879352717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCOfuhjvi5jYT%2FDPouuEbUW9D2mBdfMgCE9C1FC5iOzHFgQ73LtLsXcsZpPn5khFv%2FHGJhecl8xoWrANc0AzFtFpSqcF3YziyyAfOS5vVVJ1m5N%2BrTNjZoh8iRy2kMZ2r%2FOcPFcV3Pov1A34U0WKtSqOM%2BCgPUhb1c%2BNXI%2FrE2LyEsITHizJBnfCYE5xknWeTo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406879352717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCOfuhjvi5jYT%2FDPouuEbUW9D2mBdfMgCE9C1FC5iOzHCaWCnSZ9VIY2piA%2BQuiv%2FpjGDzPgZD0bdsud57wgWnmCgwIJqt5LbWRlypXK%2FUWIvK9rcz6KjJ%2BCYESix%2F8SLYsTkcqQber%2Fbbu5CGvaYbS0UIjaZHdVGNTZ5ZgCXYUqyrW8hQT%2B3z%2FdkGxasPUIAA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/PDYAAeSwUg1p6Wg7/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/Js4AAeSwtppp6Wg7/s-l1600.jpg",
@@ -930,7 +973,7 @@
           "seller": {
             "username": "kanon._22",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 1175
+            "feedbackScore": 1176
           },
           "photoScore": {
             "score": 50,
@@ -960,7 +1003,7 @@
           "price": 0.99,
           "shipping": 0.74,
           "total": 1.73,
-          "itemWebUrl": "https://www.ebay.com/itm/227075917373?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBGVQg88ZEkpsbKhMqKzV2XPdLDlyo116PjBC1OvZVa%2BNgJ5sb8lJjfPR2cx3iPhKG2XuG0q8r%2BRR6mIxd%2FTGHBPFOP5AyJ0EzJY7wXh6dG1iFWqCP5rlCHU%2BosUCN%2BSgiOBklRqCE7GGQofrZp%2F9nKbij5m%2BJ%2F8WTia1%2Ftb1iF7QrruHWWu%2F9iGF4O7OO8eEs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/227075917373?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBGVQg88ZEkpsbKhMqKzV2XPdLDlyo116PjBC1OvZVa%2BA2R1OgyDxy0D6GZg25EMi3B%2BzGx%2BCP58xNnKo%2BgI828V%2B5erqAb8Xxg9BGZGzFHvF1qkq6fz8APT5v9lbYGThVb1610Z6PY4L2SIgaLHQ4au5D0WJMxRMZuLIeaE7V2EJ0FawbzcSzNjtyC9qX5U0Q%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/TsoAAeSw14tpFp9S/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/lKkAAeSwUNdpFp9S/s-l1600.jpg"
@@ -998,7 +1041,7 @@
           "price": 2.95,
           "shipping": 1,
           "total": 3.95,
-          "itemWebUrl": "https://www.ebay.com/itm/277628878258?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2FOQux0BkZUn87k0%2B2AOOBVGfRpOnfb2Z3OoKp8M%2FGmwELyF6JAzmqyAulSF7KjREIPsLQ%2FzMansafvIhq9q889rkDUpWNWYgkEiVosDh0KXkUailbft3EGTQF%2FC10TYEL1BxmahMId0wJZoe7ZAwlejCxrkuWTNLu9D7Nio7rJ%2BKi3OAVN0YPqXlwlT3BHI%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/277628878258?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2FOQux0BkZUn87k0%2B2AOOBVGfRpOnfb2Z3OoKp8M%2FGuvokJagAviqX65Qn6TL61CfMAvDyFZvJLXDLWs4eFdqMd%2BJM62EnG8T9FQH62oTYlEsmmHK6n%2BIirHRTa9M1uw2eHnNtph%2B9q1WGujtkP6SA4SZGeUm4i6JMi7qMcLwZaXc%2BJYaPQ6KaKrX3Psoa7U%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HQcAAeSwGWlpWzPp/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -1006,7 +1049,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -1150,7 +1193,7 @@
           "price": 125,
           "shipping": 0,
           "total": 125,
-          "itemWebUrl": "https://www.ebay.com/itm/157850239004?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xATi9zij4BKHx%2F2%2B4j8SAtJX3kOFw2PEEX8hn%2BiP0Fn8VOsCm9uctx7NzyFs7rrpy1lfLiEG14bDHoS3POA8tGe8CpfmW%2FTncqis7g6vBHIdpJMk1ICcw3bJICGPXMKE%2F%2B6qa8x4l5Y6EWV8ltl%2B4CkQHKj3%2BQ7yVV%2Bhnn81CsJ30q1aZv55ExGWChHOfzZV74%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/157850239004?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xATi9zij4BKHx%2F2%2B4j8SAtJX3kOFw2PEEX8hn%2BiP0Fn8dKPC0ZBduPfl0VoREN2BbeCwlIOHrIWcu7RM%2FXeGBiVRMtb6GjpVkGKPaJaHjPf4qiZ0ZG52nsgFyu7s7V3cJBoAAXzFrqdkO5Lu%2FCEJHyPgRdX7G2sb9GrbOYceQRFeHzN5mCjMeNdCK4BsQkCtIc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/~l0AAeSwEpNp553k/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/h-QAAeSwWz1p553k/s-l1600.jpg",
@@ -1187,52 +1230,12 @@
           }
         },
         {
-          "itemId": "v1|397595945932|0",
-          "title": "One Piece Gol. D Roger Tamashii Bandai Figuarts Zero Statue Battle Pose",
-          "price": 200,
-          "shipping": 15,
-          "total": 215,
-          "itemWebUrl": "https://www.ebay.com/itm/397595945932?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBzboHIOk0ryHZ3KR8Gl0urYY9O9qIYU2952GZTlC2OaUfTVY4xBKHb%2BtirjhOasVtxJE62tcLv8NwYZg43xj3R4wC2nY19chSxjvL0iOBniBg78UNCwhHsMDTqKrr5i41RpBS3W7CsQy%2BwixhUP2g3z3gVfrly298yQNZ1bM8fAvEz%2FiQW4f33nWQYVKr4ByA%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/1scAAOSwGO5ktsuC/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/b0oAAOSwT4pktsuF/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/QNwAAOSwjUVktsuI/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/g~MAAOSwittktsuM/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "round_itall",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 63
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 248,
-            "netExit": 13057.22,
-            "profit": 12809.22,
-            "roi": 51.6501,
-            "roiPercent": 5165.01
-          },
-          "rankMeta": {
-            "score": 75.9,
-            "priceEdgePercent": 95.22,
-            "sellerFeedbackPct": 100
-          }
-        },
-        {
           "itemId": "v1|236771373716|0",
           "title": "Funko Pop! One Piece Gol D. Roger Small Cover Case #1379",
           "price": 550,
           "shipping": 10,
           "total": 560,
-          "itemWebUrl": "https://www.ebay.com/itm/236771373716?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDgYkWpx4LuUxhanLryAvbDbLSXkNzOzyq4r%2FJS2u8jy%2Fej1hK0Hr%2Bh41IdMxRMqY6qys9tYy0%2FR01Gq5FU%2FHjlsG%2FGZ8Y6HOeJZnEj%2FOhz3WeeGrj9%2FBO1zHMhyNiTiGzulOBlmg9LBmflyVGEavGWbShrz97jmU0GEoTQFvFI0%2FL6KdZjJHnmKvdo6yMBycc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/236771373716?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDgYkWpx4LuUxhanLryAvbDbLSXkNzOzyq4r%2FJS2u8jyyG1Awvt380TgHmsoAadBdTzqsNxDJzKXQiKIir9XAwIbyPg4hehc9B%2F5oHCzbeKbyXdPiSVKrDMXDLZzPHfOq3VtNHTaR2vOcGyyNOD7EVNGUs%2BneLGPLJLN9CDW8DtlRzGkY1cnWHGos40KMtpiNQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/epAAAeSwXOZoUjrq/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/d14AAeSw0thoUjrr/s-l1600.jpg",
@@ -1271,6 +1274,47 @@
       ],
       "reviewCandidates": [
         {
+          "itemId": "v1|136819759686|0",
+          "title": "Gol D.Roger OP09-118 (Secret) Emperors in the New World ONE PIECE Card Japan NM",
+          "price": 10.99,
+          "shipping": 0,
+          "total": 10.99,
+          "itemWebUrl": "https://www.ebay.com/itm/136819759686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDVbRMD%2FO8vrWEtf%2BXpdCRIotLhX478xUQ5V0dWb9%2B1%2Baee0puaoouDSSdPRyMq%2B2EX0LNYzPSVn64JlApNKgtVeVJSARyrNgyX07OzttfL4jsZ5OnhBbIDT%2BwVSEvV3zIOFnGfV18byTbKfE%2FoESq2LyE%2Bu8mz2X36iNTtgG8dQgRDe1Tc0DqZz2%2BNigcwd9k%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/C5UAAOSwc4tm0hCE/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/6tUAAOSwEGpm0hBv/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/KIYAAeSwpI9o3O4g/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "gradingCost": 33,
+            "costBasis": 43.99,
+            "netExit": 13057.22,
+            "profit": 13013.23,
+            "roi": 295.8225,
+            "roiPercent": 29582.25
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.76,
+            "sellerFeedbackPct": 99.8
+          },
+          "reviewReason": "Manual review: visible language = unknown"
+        },
+        {
           "itemId": "v1|236777323111|0",
           "title": "GOL D. ROGER One Piece OP13-064 - Alt Art English Carrying On His Will Card Foil",
           "price": 24.99,
@@ -1316,7 +1360,7 @@
           "price": 46.95,
           "shipping": 0,
           "total": 46.95,
-          "itemWebUrl": "https://www.ebay.com/itm/406879352717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCOfuhjvi5jYT%2FDPouuEbUW9D2mBdfMgCE9C1FC5iOzHFgQ73LtLsXcsZpPn5khFv%2FHGJhecl8xoWrANc0AzFtFpSqcF3YziyyAfOS5vVVJ1m5N%2BrTNjZoh8iRy2kMZ2r%2FOcPFcV3Pov1A34U0WKtSqOM%2BCgPUhb1c%2BNXI%2FrE2LyEsITHizJBnfCYE5xknWeTo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406879352717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCOfuhjvi5jYT%2FDPouuEbUW9D2mBdfMgCE9C1FC5iOzHCaWCnSZ9VIY2piA%2BQuiv%2FpjGDzPgZD0bdsud57wgWnmCgwIJqt5LbWRlypXK%2FUWIvK9rcz6KjJ%2BCYESix%2F8SLYsTkcqQber%2Fbbu5CGvaYbS0UIjaZHdVGNTZ5ZgCXYUqyrW8hQT%2B3z%2FdkGxasPUIAA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/PDYAAeSwUg1p6Wg7/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/Js4AAeSwtppp6Wg7/s-l1600.jpg",
@@ -1346,7 +1390,7 @@
           "seller": {
             "username": "kanon._22",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 1175
+            "feedbackScore": 1176
           },
           "photoScore": {
             "score": 50,
@@ -1378,7 +1422,7 @@
           "price": 0.99,
           "shipping": 0.74,
           "total": 1.73,
-          "itemWebUrl": "https://www.ebay.com/itm/227075917373?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBGVQg88ZEkpsbKhMqKzV2XPdLDlyo116PjBC1OvZVa%2BNgJ5sb8lJjfPR2cx3iPhKG2XuG0q8r%2BRR6mIxd%2FTGHBPFOP5AyJ0EzJY7wXh6dG1iFWqCP5rlCHU%2BosUCN%2BSgiOBklRqCE7GGQofrZp%2F9nKbij5m%2BJ%2F8WTia1%2Ftb1iF7QrruHWWu%2F9iGF4O7OO8eEs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/227075917373?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBGVQg88ZEkpsbKhMqKzV2XPdLDlyo116PjBC1OvZVa%2BA2R1OgyDxy0D6GZg25EMi3B%2BzGx%2BCP58xNnKo%2BgI828V%2B5erqAb8Xxg9BGZGzFHvF1qkq6fz8APT5v9lbYGThVb1610Z6PY4L2SIgaLHQ4au5D0WJMxRMZuLIeaE7V2EJ0FawbzcSzNjtyC9qX5U0Q%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/TsoAAeSw14tpFp9S/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/lKkAAeSwUNdpFp9S/s-l1600.jpg"
@@ -1418,7 +1462,7 @@
           "price": 2.95,
           "shipping": 1,
           "total": 3.95,
-          "itemWebUrl": "https://www.ebay.com/itm/277628878258?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2FOQux0BkZUn87k0%2B2AOOBVGfRpOnfb2Z3OoKp8M%2FGmwELyF6JAzmqyAulSF7KjREIPsLQ%2FzMansafvIhq9q889rkDUpWNWYgkEiVosDh0KXkUailbft3EGTQF%2FC10TYEL1BxmahMId0wJZoe7ZAwlejCxrkuWTNLu9D7Nio7rJ%2BKi3OAVN0YPqXlwlT3BHI%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/277628878258?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCu%2FOQux0BkZUn87k0%2B2AOOBVGfRpOnfb2Z3OoKp8M%2FGuvokJagAviqX65Qn6TL61CfMAvDyFZvJLXDLWs4eFdqMd%2BJM62EnG8T9FQH62oTYlEsmmHK6n%2BIirHRTa9M1uw2eHnNtph%2B9q1WGujtkP6SA4SZGeUm4i6JMi7qMcLwZaXc%2BJYaPQ6KaKrX3Psoa7U%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HQcAAeSwGWlpWzPp/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -1426,7 +1470,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -1578,7 +1622,7 @@
           "price": 125,
           "shipping": 0,
           "total": 125,
-          "itemWebUrl": "https://www.ebay.com/itm/157850239004?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xATi9zij4BKHx%2F2%2B4j8SAtJX3kOFw2PEEX8hn%2BiP0Fn8VOsCm9uctx7NzyFs7rrpy1lfLiEG14bDHoS3POA8tGe8CpfmW%2FTncqis7g6vBHIdpJMk1ICcw3bJICGPXMKE%2F%2B6qa8x4l5Y6EWV8ltl%2B4CkQHKj3%2BQ7yVV%2Bhnn81CsJ30q1aZv55ExGWChHOfzZV74%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/157850239004?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xATi9zij4BKHx%2F2%2B4j8SAtJX3kOFw2PEEX8hn%2BiP0Fn8dKPC0ZBduPfl0VoREN2BbeCwlIOHrIWcu7RM%2FXeGBiVRMtb6GjpVkGKPaJaHjPf4qiZ0ZG52nsgFyu7s7V3cJBoAAXzFrqdkO5Lu%2FCEJHyPgRdX7G2sb9GrbOYceQRFeHzN5mCjMeNdCK4BsQkCtIc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/~l0AAeSwEpNp553k/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/h-QAAeSwWz1p553k/s-l1600.jpg",
@@ -1617,54 +1661,12 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|397595945932|0",
-          "title": "One Piece Gol. D Roger Tamashii Bandai Figuarts Zero Statue Battle Pose",
-          "price": 200,
-          "shipping": 15,
-          "total": 215,
-          "itemWebUrl": "https://www.ebay.com/itm/397595945932?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBzboHIOk0ryHZ3KR8Gl0urYY9O9qIYU2952GZTlC2OaUfTVY4xBKHb%2BtirjhOasVtxJE62tcLv8NwYZg43xj3R4wC2nY19chSxjvL0iOBniBg78UNCwhHsMDTqKrr5i41RpBS3W7CsQy%2BwixhUP2g3z3gVfrly298yQNZ1bM8fAvEz%2FiQW4f33nWQYVKr4ByA%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/1scAAOSwGO5ktsuC/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/b0oAAOSwT4pktsuF/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/QNwAAOSwjUVktsuI/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/g~MAAOSwittktsuM/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "round_itall",
-            "feedbackPercentage": "100.0",
-            "feedbackScore": 63
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 33,
-            "costBasis": 248,
-            "netExit": 13057.22,
-            "profit": 12809.22,
-            "roi": 51.6501,
-            "roiPercent": 5165.01
-          },
-          "rankMeta": {
-            "score": 75.9,
-            "priceEdgePercent": 95.22,
-            "sellerFeedbackPct": 100
-          },
-          "reviewReason": "Manual review: visible language = unknown"
-        },
-        {
           "itemId": "v1|236771373716|0",
           "title": "Funko Pop! One Piece Gol D. Roger Small Cover Case #1379",
           "price": 550,
           "shipping": 10,
           "total": 560,
-          "itemWebUrl": "https://www.ebay.com/itm/236771373716?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDgYkWpx4LuUxhanLryAvbDbLSXkNzOzyq4r%2FJS2u8jy%2Fej1hK0Hr%2Bh41IdMxRMqY6qys9tYy0%2FR01Gq5FU%2FHjlsG%2FGZ8Y6HOeJZnEj%2FOhz3WeeGrj9%2FBO1zHMhyNiTiGzulOBlmg9LBmflyVGEavGWbShrz97jmU0GEoTQFvFI0%2FL6KdZjJHnmKvdo6yMBycc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/236771373716?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDgYkWpx4LuUxhanLryAvbDbLSXkNzOzyq4r%2FJS2u8jyyG1Awvt380TgHmsoAadBdTzqsNxDJzKXQiKIir9XAwIbyPg4hehc9B%2F5oHCzbeKbyXdPiSVKrDMXDLZzPHfOq3VtNHTaR2vOcGyyNOD7EVNGUs%2BneLGPLJLN9CDW8DtlRzGkY1cnWHGos40KMtpiNQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/epAAAeSwXOZoUjrq/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/d14AAeSw0thoUjrr/s-l1600.jpg",
@@ -1734,12 +1736,51 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_629167.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
+          "itemId": "v1|136819765477|0",
+          "title": "Monkey D Luffy ST10-006 (Super Rare) The Three Captains ONE PIECE Card Japan NM",
+          "price": 1.65,
+          "shipping": 0,
+          "total": 1.65,
+          "itemWebUrl": "https://www.ebay.com/itm/136819765477?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHwmlYjJm9O2BOPcUki4oBX4lkIUWuOzOURX7YHjj2ZEVsqFJPtCpSQJ3oFFyB5C47lCgQUdHJ9OnIPzGmufw%2FoKTuQnFX5MwERgRfuPjbJPeyo0dNH%2B7i4IsWUgUMjSQQKWKa56Yff7Pa6yUJ6y8WNe223WDZ4b%2BFls5PY4k%2FPZqrMfCqGWe1vrjZ80%2FQt1Q%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/tqUAAOSwbk9mPC1e/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/VxEAAOSwnUVln-wc/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/6C0AAeSwb69o8KXP/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 34.65,
+            "netExit": 6105,
+            "profit": 6070.35,
+            "roi": 175.1905,
+            "roiPercent": 17519.05
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.93,
+            "sellerFeedbackPct": 99.8
+          }
+        },
+        {
           "itemId": "v1|137182627158|0",
           "title": "Monkey D. Luffy P-061 P - ONE PIECE FILM RED Encore Pack Promo Card Japan NM",
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj8eC24JNXO9KYsVq4rn%2BCtS2qX3GocBE63krG0YsP%2FFTLneUp9U4%2B5bvyLPwWvEqceN6xGvqP2FBzkzkwtXSr8z1Abn3ug5zmj8QfonfeYdfYjjBvt07T7n4KhlWhPd6RSpy%2BqdpyKwWvm%2BZI%2Bqmv0U%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj%2BvtXYstA8FitmvmeU4bV%2FTqtpcLw%2BrGoedUbFLD%2BmlBqdGGDqGdXXQrbBN2VWtsGWYjLPc8%2B78zDnd4KBCfYn8B%2BR1M%2BNUoAc--rl2vTs%2FFFfn8a%2B01phuv%2Fl69lViy5fodKIf8flFUuVn9t68gpNU%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XxwAAeSwYrZpy0IW/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/fn0AAeSwzP9py0IW/s-l1600.jpg",
@@ -1748,7 +1789,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -1778,7 +1819,7 @@
           "price": 4.98,
           "shipping": 0,
           "total": 4.98,
-          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF8iIgRI0AnMHRcLOMLFdEZBV2sMBBX7MA787BqtCwH7cevIHGFksBCSRFlA9ZVY2%2FoMGy7GvEnhYHbDNU3DHElZrpt808m4NWoZXeejDXQNFF%2F0eBf0D6z1BsqmiDgLRU%2BIp8nhSvN1PjclKQ779rxE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF%2BoQSUUlGgI%2FED%2F5iTqjHf80WsJKgoUNFEq6H59vRz7pdqx5jsYggIWsCASb5AYRCJgOHxuhcyeAe%2Biv2P2C0R7sW7lwTMq7pg9myyEZa9qpQzPSkMUy9PDT0RzzGFsEYX4bHVpeIPIbHdrieZGUpQM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJoAAeSwwVtpmB5A/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PVwAAeSwBWNpmB4~/s-l1600.jpg"
@@ -1786,7 +1827,7 @@
           "seller": {
             "username": "nerdyness1002",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 4549
+            "feedbackScore": 4550
           },
           "photoScore": {
             "score": 50,
@@ -1816,7 +1857,7 @@
           "price": 7.99,
           "shipping": 0,
           "total": 7.99,
-          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjpu%2FjkvpOhcYKGrDpeBibA8%2BJ%2FyVwZxKLnT9OyBVdpe83e9SR0XHaYPnS2jxxUHj1UGjLN%2FBtGF8Y5sUDrDViZnJFKnEM%2FwtGnI7RZ09sb2imD22tvaR1%2BXgjWBxQFoKnqvx7oJjjXRyBJYM4FWv1zU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjnuetWgZT6%2BiTaOrAtVaSXL3zhhPX4HJlwxpW4lnaIyq0Iz7jQF%2FuvuD8vMMdI%2BIBASmxg22uBBMtmoGd1SXHfibmwcgsZEC253DkpazQh%2FxsTOzuLe4n7v%2BM%2BsOXNkt3V%2FNTQ44hq8rwBs0a%2FLVhIA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HekAAeSw8xFpRc4S/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
@@ -1847,51 +1888,12 @@
           }
         },
         {
-          "itemId": "v1|306670510641|0",
-          "title": "Monkey.D.Luffy OP01-024 - One Piece TCG - SR Near-Mint Super Rare English",
-          "price": 12.47,
-          "shipping": 0,
-          "total": 12.47,
-          "itemWebUrl": "https://www.ebay.com/itm/306670510641?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnLlltIJ4eVu6BnEjGGAiJfhlqGIJesJ6B1dUPfLTp4pj3E%2FzigQZB3W6iyAofya3y3URvSsRZPbkJcSvloacEcKZfEdY8bVUlaJa79J95qWb70wNsTyPl6fJ2xcg7V%2Ft9iEWmnPTfgiZ6qXFu0C4emIsBqVk0RQie5bdCnyckYwzkepT57KHhXwBlPO2G%2F%2BU%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/fOwAAeSw8lFpOQPs/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/0KAAAeSw1hxpOQPs/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SykAAeSwOJtpOQPr/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "refreshops",
-            "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 45.47,
-            "netExit": 6105,
-            "profit": 6059.53,
-            "roi": 133.2644,
-            "roiPercent": 13326.44
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 99.51,
-            "sellerFeedbackPct": 99.4
-          }
-        },
-        {
           "itemId": "v1|306717177389|0",
           "title": "ONE PIECE TCG MONKEY D. LUFFY RARE 3RD ANNIVERSARY PROMO ALT ART NM",
           "price": 14.44,
           "shipping": 0,
           "total": 14.44,
-          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPpmyz1nwy6j1In17tJtv1nMbrNJ58ugFWv5r7XKcQS6zaD3ZR8qMwXeKf3UIb36lR6zOAc6Zs49gikIdcDwqVhR756MIno5vOUCdGL%2FitUncnkn8he6eN1q1n7gH3JVIrrXmqcMOmrmSOQbqIUq%2BLkrM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPpvAGOcrvUO25UqUJ7eH8thzFcA9dckb7KC4wUMMGdVgjEJ0xmLvHOSIn5XvOy7opzmhCdOV8TeYqDvu71nNcqmANAD4saZQE8sE8%2BLA7jp3lymBZo0TuyjJWBR7MhQootrWWgneKqEdYNcqKdXckfHQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SaAAAeSwC4lpbG6s/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/SREAAeSwngNpbG6s/s-l1600.jpg",
@@ -1900,7 +1902,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -1925,18 +1927,21 @@
           }
         },
         {
-          "itemId": "v1|177824208419|0",
-          "title": "One Piece Monkey D Luffy Alternate Art OP04-090 English LP",
-          "price": 40,
+          "itemId": "v1|168321632964|0",
+          "title": "One Piece Monkey D Luffy US Voyage College Basketball Collectible",
+          "price": 221.99,
           "shipping": 0,
-          "total": 40,
-          "itemWebUrl": "https://www.ebay.com/itm/177824208419?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDDVIgePB0SKGrE2D7zBo29QWfLFoesHXSaPA%2BBIdOECnw6Kgu0bWQFmacDNj%2FiEGvlW52tDASdAtJ8%2BECjxMcHNeYKjV6cfwdv%2Fp7%2FTKt5ojLUzW%2BqMSYPw%2F1t9IuKJHcOcutACYpLZY7hP4NP2c4Vafci%2BBuFI1JzDZCBoxsewd0Aa624Ghy51xtcUVsNxxw%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/GHkAAeSwi4VpPYHv/s-l1600.jpg",
-          "additionalImages": [],
+          "total": 221.99,
+          "itemWebUrl": "https://www.ebay.com/itm/168321632964?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQgwNDy%2F8b%2F21IgLW3JlBXTFrRrRlCQOGnC4J722wSP9qwM5dCZSs4oiRsIlkaMW1VvMU84Pcxjhe1cekXDDcYxhUDQb9OtSLd8T%2FPbGu%2FHMbA927EMDAJSoCeIUDp3hsNSxRRXzVn2tgoERAuA9PPxUwpKB9vPmkCf8ZuYvlBKvNtPwlQD2CHrfoZd2A07pM%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/~1IAAeSwnflp7vea/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/wEoAAeSwSx9p7veZ/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/JZsAAeSwzGVp7vea/s-l1600.jpg"
+          ],
           "seller": {
-            "username": "bundleupbricks-tcg",
+            "username": "8ten1944",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 762
+            "feedbackScore": 346147
           },
           "photoScore": {
             "score": 50,
@@ -1948,15 +1953,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 73,
+            "costBasis": 254.99,
             "netExit": 6105,
-            "profit": 6032,
-            "roi": 82.6301,
-            "roiPercent": 8263.01
+            "profit": 5850.01,
+            "roi": 22.9421,
+            "roiPercent": 2294.21
           },
           "rankMeta": {
             "score": 86,
-            "priceEdgePercent": 98.42,
+            "priceEdgePercent": 91.21,
             "sellerFeedbackPct": 99.8
           }
         },
@@ -2004,7 +2009,7 @@
           "price": 259.99,
           "shipping": 45,
           "total": 304.99,
-          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhj%2FYjD2lpeAd%2B6d7rj9anqSD4KvtmY9jzUx%2FYrcWjwjmTB5CWPucpfPaSJZPdNEuap8YRjx2fyjae80c2kKJlKhBIwXlVYFWzRH8%2BmQwb0FUoBK7KQYVoPitY8AKB8hQ9O0LT6hU4BOGkeMmbNsWyy4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhgGGxpjZKobEVmDxE6c%2FYHsY9QnDktIVoBNUrfMPuxgh7ll9XE4d5MMtdZFpVDPjN9mYCAo894Vy9rtnRdAlQAOm4c09z9NczywwEczFG5zjGwuGjdjm8tdmJ9GsibvxSJScP6vGhhpxFJF%2Bb%2Bk82H4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJAAAOSwrlBm9CNe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/locAAOSwIvpm9CN2/s-l1600.jpg",
@@ -2059,15 +2064,15 @@
           "price": 75.36,
           "shipping": 0,
           "total": 75.36,
-          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd97P13M07U24g8B9nizuSUbLiSg7Pe23EK7w7NnjTUsrUNElpuoIG9ByeH0HYwde%2BKTvM18ImGEcvtl5RxUiWKDvWfGmWCzJYXRFUUI3hI2UfHaJLDAuIIBacdciSrLcbIXx9MtScsEZ8KRWjIBX0O94%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd9zSNpOE6urtFMfzzMnDPE1G1kX6jMamzWLaskW78%2FN9y9f3%2BWyU7ey94LAD2hQf2x5zCrPd6mFyQ%2FNzmi76rSGkvsRAUxk45OtFVLykRpf3%2FdzPshgMs0k1JTIM8SU55S5aV7YPmE0qiVSYjikI9W%2BI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/d28AAeSw9MVpmI2T/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/88QAAeSwVZJpmI2h/s-l1600.jpg"
           ],
           "seller": {
             "username": "shrfdtgjykuh7",
-            "feedbackPercentage": "0.0",
-            "feedbackScore": -2
+            "feedbackPercentage": "33.3",
+            "feedbackScore": -1
           },
           "photoScore": {
             "score": 50,
@@ -2088,18 +2093,59 @@
           "rankMeta": {
             "score": 60,
             "priceEdgePercent": 97.02,
-            "sellerFeedbackPct": 0
+            "sellerFeedbackPct": 33.3
           }
         }
       ],
       "reviewCandidates": [
         {
+          "itemId": "v1|136819765477|0",
+          "title": "Monkey D Luffy ST10-006 (Super Rare) The Three Captains ONE PIECE Card Japan NM",
+          "price": 1.65,
+          "shipping": 0,
+          "total": 1.65,
+          "itemWebUrl": "https://www.ebay.com/itm/136819765477?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHwmlYjJm9O2BOPcUki4oBX4lkIUWuOzOURX7YHjj2ZEVsqFJPtCpSQJ3oFFyB5C47lCgQUdHJ9OnIPzGmufw%2FoKTuQnFX5MwERgRfuPjbJPeyo0dNH%2B7i4IsWUgUMjSQQKWKa56Yff7Pa6yUJ6y8WNe223WDZ4b%2BFls5PY4k%2FPZqrMfCqGWe1vrjZ80%2FQt1Q%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/tqUAAOSwbk9mPC1e/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/VxEAAOSwnUVln-wc/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/6C0AAeSwb69o8KXP/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "gradingCost": 33,
+            "costBasis": 34.65,
+            "netExit": 6105,
+            "profit": 6070.35,
+            "roi": 175.1905,
+            "roiPercent": 17519.05
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.93,
+            "sellerFeedbackPct": 99.8
+          },
+          "reviewReason": "Manual review: visible language = unknown"
+        },
+        {
           "itemId": "v1|137182627158|0",
           "title": "Monkey D. Luffy P-061 P - ONE PIECE FILM RED Encore Pack Promo Card Japan NM",
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj8eC24JNXO9KYsVq4rn%2BCtS2qX3GocBE63krG0YsP%2FFTLneUp9U4%2B5bvyLPwWvEqceN6xGvqP2FBzkzkwtXSr8z1Abn3ug5zmj8QfonfeYdfYjjBvt07T7n4KhlWhPd6RSpy%2BqdpyKwWvm%2BZI%2Bqmv0U%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj%2BvtXYstA8FitmvmeU4bV%2FTqtpcLw%2BrGoedUbFLD%2BmlBqdGGDqGdXXQrbBN2VWtsGWYjLPc8%2B78zDnd4KBCfYn8B%2BR1M%2BNUoAc--rl2vTs%2FFFfn8a%2B01phuv%2Fl69lViy5fodKIf8flFUuVn9t68gpNU%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XxwAAeSwYrZpy0IW/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/fn0AAeSwzP9py0IW/s-l1600.jpg",
@@ -2108,7 +2154,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -2140,7 +2186,7 @@
           "price": 4.98,
           "shipping": 0,
           "total": 4.98,
-          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF8iIgRI0AnMHRcLOMLFdEZBV2sMBBX7MA787BqtCwH7cevIHGFksBCSRFlA9ZVY2%2FoMGy7GvEnhYHbDNU3DHElZrpt808m4NWoZXeejDXQNFF%2F0eBf0D6z1BsqmiDgLRU%2BIp8nhSvN1PjclKQ779rxE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF%2BoQSUUlGgI%2FED%2F5iTqjHf80WsJKgoUNFEq6H59vRz7pdqx5jsYggIWsCASb5AYRCJgOHxuhcyeAe%2Biv2P2C0R7sW7lwTMq7pg9myyEZa9qpQzPSkMUy9PDT0RzzGFsEYX4bHVpeIPIbHdrieZGUpQM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJoAAeSwwVtpmB5A/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PVwAAeSwBWNpmB4~/s-l1600.jpg"
@@ -2148,7 +2194,7 @@
           "seller": {
             "username": "nerdyness1002",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 4549
+            "feedbackScore": 4550
           },
           "photoScore": {
             "score": 50,
@@ -2180,7 +2226,7 @@
           "price": 7.99,
           "shipping": 0,
           "total": 7.99,
-          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjpu%2FjkvpOhcYKGrDpeBibA8%2BJ%2FyVwZxKLnT9OyBVdpe83e9SR0XHaYPnS2jxxUHj1UGjLN%2FBtGF8Y5sUDrDViZnJFKnEM%2FwtGnI7RZ09sb2imD22tvaR1%2BXgjWBxQFoKnqvx7oJjjXRyBJYM4FWv1zU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjnuetWgZT6%2BiTaOrAtVaSXL3zhhPX4HJlwxpW4lnaIyq0Iz7jQF%2FuvuD8vMMdI%2BIBASmxg22uBBMtmoGd1SXHfibmwcgsZEC253DkpazQh%2FxsTOzuLe4n7v%2BM%2BsOXNkt3V%2FNTQ44hq8rwBs0a%2FLVhIA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HekAAeSw8xFpRc4S/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
@@ -2213,53 +2259,12 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|306670510641|0",
-          "title": "Monkey.D.Luffy OP01-024 - One Piece TCG - SR Near-Mint Super Rare English",
-          "price": 12.47,
-          "shipping": 0,
-          "total": 12.47,
-          "itemWebUrl": "https://www.ebay.com/itm/306670510641?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnLlltIJ4eVu6BnEjGGAiJfhlqGIJesJ6B1dUPfLTp4pj3E%2FzigQZB3W6iyAofya3y3URvSsRZPbkJcSvloacEcKZfEdY8bVUlaJa79J95qWb70wNsTyPl6fJ2xcg7V%2Ft9iEWmnPTfgiZ6qXFu0C4emIsBqVk0RQie5bdCnyckYwzkepT57KHhXwBlPO2G%2F%2BU%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/fOwAAeSw8lFpOQPs/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/0KAAAeSw1hxpOQPs/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SykAAeSwOJtpOQPr/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "refreshops",
-            "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 33,
-            "costBasis": 45.47,
-            "netExit": 6105,
-            "profit": 6059.53,
-            "roi": 133.2644,
-            "roiPercent": 13326.44
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 99.51,
-            "sellerFeedbackPct": 99.4
-          },
-          "reviewReason": "Manual review: visible language = unknown"
-        },
-        {
           "itemId": "v1|306717177389|0",
           "title": "ONE PIECE TCG MONKEY D. LUFFY RARE 3RD ANNIVERSARY PROMO ALT ART NM",
           "price": 14.44,
           "shipping": 0,
           "total": 14.44,
-          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPpmyz1nwy6j1In17tJtv1nMbrNJ58ugFWv5r7XKcQS6zaD3ZR8qMwXeKf3UIb36lR6zOAc6Zs49gikIdcDwqVhR756MIno5vOUCdGL%2FitUncnkn8he6eN1q1n7gH3JVIrrXmqcMOmrmSOQbqIUq%2BLkrM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPpvAGOcrvUO25UqUJ7eH8thzFcA9dckb7KC4wUMMGdVgjEJ0xmLvHOSIn5XvOy7opzmhCdOV8TeYqDvu71nNcqmANAD4saZQE8sE8%2BLA7jp3lymBZo0TuyjJWBR7MhQootrWWgneKqEdYNcqKdXckfHQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SaAAAeSwC4lpbG6s/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/SREAAeSwngNpbG6s/s-l1600.jpg",
@@ -2268,7 +2273,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -2295,18 +2300,21 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|177824208419|0",
-          "title": "One Piece Monkey D Luffy Alternate Art OP04-090 English LP",
-          "price": 40,
+          "itemId": "v1|168321632964|0",
+          "title": "One Piece Monkey D Luffy US Voyage College Basketball Collectible",
+          "price": 221.99,
           "shipping": 0,
-          "total": 40,
-          "itemWebUrl": "https://www.ebay.com/itm/177824208419?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDDVIgePB0SKGrE2D7zBo29QWfLFoesHXSaPA%2BBIdOECnw6Kgu0bWQFmacDNj%2FiEGvlW52tDASdAtJ8%2BECjxMcHNeYKjV6cfwdv%2Fp7%2FTKt5ojLUzW%2BqMSYPw%2F1t9IuKJHcOcutACYpLZY7hP4NP2c4Vafci%2BBuFI1JzDZCBoxsewd0Aa624Ghy51xtcUVsNxxw%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/GHkAAeSwi4VpPYHv/s-l1600.jpg",
-          "additionalImages": [],
+          "total": 221.99,
+          "itemWebUrl": "https://www.ebay.com/itm/168321632964?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQgwNDy%2F8b%2F21IgLW3JlBXTFrRrRlCQOGnC4J722wSP9qwM5dCZSs4oiRsIlkaMW1VvMU84Pcxjhe1cekXDDcYxhUDQb9OtSLd8T%2FPbGu%2FHMbA927EMDAJSoCeIUDp3hsNSxRRXzVn2tgoERAuA9PPxUwpKB9vPmkCf8ZuYvlBKvNtPwlQD2CHrfoZd2A07pM%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/~1IAAeSwnflp7vea/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/wEoAAeSwSx9p7veZ/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/JZsAAeSwzGVp7vea/s-l1600.jpg"
+          ],
           "seller": {
-            "username": "bundleupbricks-tcg",
+            "username": "8ten1944",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 762
+            "feedbackScore": 346147
           },
           "photoScore": {
             "score": 50,
@@ -2319,15 +2327,15 @@
           },
           "roi": {
             "gradingCost": 33,
-            "costBasis": 73,
+            "costBasis": 254.99,
             "netExit": 6105,
-            "profit": 6032,
-            "roi": 82.6301,
-            "roiPercent": 8263.01
+            "profit": 5850.01,
+            "roi": 22.9421,
+            "roiPercent": 2294.21
           },
           "rankMeta": {
             "score": 86,
-            "priceEdgePercent": 98.42,
+            "priceEdgePercent": 91.21,
             "sellerFeedbackPct": 99.8
           },
           "reviewReason": "Manual review: visible language = unknown"
@@ -2378,7 +2386,7 @@
           "price": 259.99,
           "shipping": 45,
           "total": 304.99,
-          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhj%2FYjD2lpeAd%2B6d7rj9anqSD4KvtmY9jzUx%2FYrcWjwjmTB5CWPucpfPaSJZPdNEuap8YRjx2fyjae80c2kKJlKhBIwXlVYFWzRH8%2BmQwb0FUoBK7KQYVoPitY8AKB8hQ9O0LT6hU4BOGkeMmbNsWyy4%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhgGGxpjZKobEVmDxE6c%2FYHsY9QnDktIVoBNUrfMPuxgh7ll9XE4d5MMtdZFpVDPjN9mYCAo894Vy9rtnRdAlQAOm4c09z9NczywwEczFG5zjGwuGjdjm8tdmJ9GsibvxSJScP6vGhhpxFJF%2Bb%2Bk82H4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJAAAOSwrlBm9CNe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/locAAOSwIvpm9CN2/s-l1600.jpg",
@@ -2435,15 +2443,15 @@
           "price": 75.36,
           "shipping": 0,
           "total": 75.36,
-          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd97P13M07U24g8B9nizuSUbLiSg7Pe23EK7w7NnjTUsrUNElpuoIG9ByeH0HYwde%2BKTvM18ImGEcvtl5RxUiWKDvWfGmWCzJYXRFUUI3hI2UfHaJLDAuIIBacdciSrLcbIXx9MtScsEZ8KRWjIBX0O94%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd9zSNpOE6urtFMfzzMnDPE1G1kX6jMamzWLaskW78%2FN9y9f3%2BWyU7ey94LAD2hQf2x5zCrPd6mFyQ%2FNzmi76rSGkvsRAUxk45OtFVLykRpf3%2FdzPshgMs0k1JTIM8SU55S5aV7YPmE0qiVSYjikI9W%2BI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/d28AAeSw9MVpmI2T/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/88QAAeSwVZJpmI2h/s-l1600.jpg"
           ],
           "seller": {
             "username": "shrfdtgjykuh7",
-            "feedbackPercentage": "0.0",
-            "feedbackScore": -2
+            "feedbackPercentage": "33.3",
+            "feedbackScore": -1
           },
           "photoScore": {
             "score": 50,
@@ -2465,7 +2473,7 @@
           "rankMeta": {
             "score": 60,
             "priceEdgePercent": 97.02,
-            "sellerFeedbackPct": 0
+            "sellerFeedbackPct": 33.3
           },
           "reviewReason": "Manual review: visible language = unknown"
         }
@@ -2542,7 +2550,7 @@
           "price": 5.99,
           "shipping": 0,
           "total": 5.99,
-          "itemWebUrl": "https://www.ebay.com/itm/136819761527?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBCN0j2M7Pq%2Fzky7uHFcR9WM%2BjQhN21eNhIs8qdO%2FpUumK1CzZrN3rFCDOt%2F1Qw3JC1F5x54EfIh0sxthwbhIfVECu%2FQsF3iXXpY%2BGLkie8KD6lafE5OkcX36WOgxS4k7fTgXq%2BFK%2FYwPH5oKhOO35F8mw3IWhqpA3Hg2qqX84PO84Q%2BbFJZuMXiTGG2riBaoA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819761527?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBCN0j2M7Pq%2Fzky7uHFcR9WM%2BjQhN21eNhIs8qdO%2FpUulv4BTePtaTS44CqqWabu8U%2Br0t1COF30oz%2BXpic6M7oSGvE5D4vUYfh3a8EDqtOGUZ2DTGCiFE4NWQzOGQ--wEL8O8XcJaD0%2FnFKY51kxP5kBxjX99DAQqI3cr7umEFKfAHHdkiy%2FE2blym8xaO7TM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/PhMAAOSwK~lnKflh/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/LL8AAOSwx45nKfl2/s-l1600.jpg",
@@ -2551,7 +2559,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -2581,7 +2589,7 @@
           "price": 9.99,
           "shipping": 0,
           "total": 9.99,
-          "itemWebUrl": "https://www.ebay.com/itm/136819753821?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDhzAtMyPZx1KXmCcnItpS%2F6MoFvZedO4Jh%2B3Zv%2BoxTQWco%2Fwr8nGlUb6l9qus1ZIQ550fe39gF9bFeX--m35mwk2D4gyaK7weayhQAFFxqgCIFtDvhTupX5o0qR0cJ6GBOG5vVI83OEqAWvOurn4pAz46QkdGeZihffBEvNR1jh22oGsWkwhKZo6yhtaVvTRo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819753821?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDhzAtMyPZx1KXmCcnItpS%2F6MoFvZedO4Jh%2B3Zv%2BoxTQYJZaKwnStRh4b%2BmG9iQxb8%2B7G%2FYaEVC4n34R%2F1ZNcke3DzoqIWtjQeT1HBz6NxFK9nmo9OtineV2WSE4tlVsdHOuP2JX%2FrhIyhqfX1WCUb%2BOg7l%2F6U%2BA025Hx2M07OpbtD%2FQE7zyN%2FoeTNcIzyeFHc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SjMAAOSwR8lm0gaQ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/EUAAAOSw~bFm0gZ3/s-l1600.jpg",
@@ -2590,7 +2598,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -2620,7 +2628,7 @@
           "price": 19.99,
           "shipping": 0,
           "total": 19.99,
-          "itemWebUrl": "https://www.ebay.com/itm/326260404509?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9mhsUGvWBkxNj4Y3NdznbGx1oUbJ60yZqinB44uyGnEROdCx2GjbLOeWl2XlA5aK1dsOUjgzBDdv8buCXTGojtaHUGJXzAur51PwfGiYpJOFGuKDbYXjPqN3MABiWrd1ruvk%2F6xp1MJI%2Btes%2BnfMl2G2cxnz%2FocTo3boTvl9a6e%2FQGYSwGMpy1PDhoISAVio%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/326260404509?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9mhsUGvWBkxNj4Y3NdznbGx1oUbJ60yZqinB44uyGnE%2FnPoc8avbO5wGyDXB0r0bytl91igQd1tUYYmckH2JAspk6IbVB2BPAQXzprC%2BovVhaNvASAyq8KFNIfcXsqo669Hd0Tjkh97cX836Lg%2FFALwscbRvB1DQx2aXHrmBSf%2BkCIGnbV7JLtkIKYttONqA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/bV4AAOSw8z5m24kZ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/If0AAOSwwfdm24kZ/s-l1600.jpg",
@@ -2631,7 +2639,7 @@
           "seller": {
             "username": "chalicecollectibles",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 62313
+            "feedbackScore": 62321
           },
           "photoScore": {
             "score": 50,
@@ -2661,7 +2669,7 @@
           "price": 2.5,
           "shipping": 1,
           "total": 3.5,
-          "itemWebUrl": "https://www.ebay.com/itm/286699741599?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQWR5TpdQK9%2FR2q37iIx69g5KrhFmaov6WrzOtKUu%2FyA0%2BpDL06CrAiqwxLaR210KRJvAxfq%2F13SMCsPjMch%2Ft3eiQM33V3QRIIXxpb4St2JzuYlENMUYMjRJXmwgbTgtJo0WBEyvZkJPFpP37J9wtsysGEYiBAXe6KqzhTTurIGGHIzBvbPiZKKCuvtYjPSQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286699741599?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQWR5TpdQK9%2FR2q37iIx69g5KrhFmaov6WrzOtKUu%2FyFfWglFCO3x5r9o39ZSUDSrOZ72kG211bra9ltRe8xCXztqo255TVCR80GYl99MvKCiNt43T156mvsLoteGcuof1zD6%2FyGwPKbTr4zeYRnDuNaJo2DDwPLD%2FnAkRyu9qXF4DZErkF46JXhCQc2%2FHSOY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/LEkAAeSwwCBocBws/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/2TcAAOSwejJniz9S/s-l1600.jpg"
@@ -2669,7 +2677,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -2707,7 +2715,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -2737,7 +2745,7 @@
           "price": 64.99,
           "shipping": 0,
           "total": 64.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318015926578?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXZeok3ch2jxXMqguO7DarMmuSW93xyWmjz%2FVIOoVbCUGi0ypq2nVydVLbTNRL3ePo4v%2FLGK7cHFIeurgSU%2FJn2tA7IUdIp18afDAD6mSOmgkrhxZI3qqW6M%2Fj4AsQ9Mz791%2FTLzXZwp%2BIU2%2BYUHNsDWjQZCdKYSK3d1a%2BkwIDgdj7%2B%2BIGhIe1JFoBs8Q3AhY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318015926578?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXZeok3ch2jxXMqguO7DarMmuSW93xyWmjz%2FVIOoVbCeQ34IS9VF%2FBucxyvUqU9GBbIOnf0rG05cBwUGiRfZTnY600Ch8PDa3MjspV8ZPwHdHevexCRAKxfFl2ggbcLIoZKo06vBHD2ZFYDfuV7U4RoLnXwMviXNsRk4gYoaChmSKzQPLUXsvFbx%2BdkpzSTQ0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/eBsAAeSw-RRpuLs7/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/HC4AAeSwMcVpuLs7/s-l1600.jpg",
@@ -2856,7 +2864,7 @@
           "price": 51,
           "shipping": 0,
           "total": 51,
-          "itemWebUrl": "https://www.ebay.com/itm/397838638357?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDK90psnvCOwVY%2F8yqW7MXN%2Fegv8mcUmpVbe7x1SIYbDJcFjvvv%2BbXfmXE%2FfDasKVuqB9bFE8Vg%2B%2FFqQUp5A71MBQcrRctMuQCrQEjBY%2Bj7lCeeK%2BHV8HKC6D1HJ%2BxBu84A4tDHMqL7Bzqh%2F9AnOWQPasqHkyfSPgy9e8PYPN0quU1rdWFoNXRDcGmZupfyGDs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397838638357?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDK90psnvCOwVY%2F8yqW7MXN%2Fegv8mcUmpVbe7x1SIYbDBgOjM428yzefjD%2FDERiPnPGNQfyn5jJtrqR2M47dXzEb2Kvk2kkLc8TDM94nfEKVwznQhsI5MIzf0O1bYwthbGbpcZDo97Ol5d4MITAAg8XlUAT5aMr7oDnYk2lXGQ7BWgc4XgF2rmQfqD2XirNs%2BQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Tt4AAeSwZgVpwfqL/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PuEAAeSwY0hpwfqd/s-l1600.jpg",
@@ -2867,8 +2875,8 @@
           ],
           "seller": {
             "username": "mir_1613",
-            "feedbackPercentage": "96.2",
-            "feedbackScore": 24
+            "feedbackPercentage": "96.3",
+            "feedbackScore": 25
           },
           "photoScore": {
             "score": 50,
@@ -2887,9 +2895,9 @@
             "roiPercent": 2054.43
           },
           "rankMeta": {
-            "score": 76.5,
+            "score": 76.8,
             "priceEdgePercent": 93.67,
-            "sellerFeedbackPct": 96.2
+            "sellerFeedbackPct": 96.3
           }
         }
       ],
@@ -2938,7 +2946,7 @@
           "price": 5.99,
           "shipping": 0,
           "total": 5.99,
-          "itemWebUrl": "https://www.ebay.com/itm/136819761527?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBCN0j2M7Pq%2Fzky7uHFcR9WM%2BjQhN21eNhIs8qdO%2FpUumK1CzZrN3rFCDOt%2F1Qw3JC1F5x54EfIh0sxthwbhIfVECu%2FQsF3iXXpY%2BGLkie8KD6lafE5OkcX36WOgxS4k7fTgXq%2BFK%2FYwPH5oKhOO35F8mw3IWhqpA3Hg2qqX84PO84Q%2BbFJZuMXiTGG2riBaoA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819761527?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBCN0j2M7Pq%2Fzky7uHFcR9WM%2BjQhN21eNhIs8qdO%2FpUulv4BTePtaTS44CqqWabu8U%2Br0t1COF30oz%2BXpic6M7oSGvE5D4vUYfh3a8EDqtOGUZ2DTGCiFE4NWQzOGQ--wEL8O8XcJaD0%2FnFKY51kxP5kBxjX99DAQqI3cr7umEFKfAHHdkiy%2FE2blym8xaO7TM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/PhMAAOSwK~lnKflh/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/LL8AAOSwx45nKfl2/s-l1600.jpg",
@@ -2947,7 +2955,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -2979,7 +2987,7 @@
           "price": 9.99,
           "shipping": 0,
           "total": 9.99,
-          "itemWebUrl": "https://www.ebay.com/itm/136819753821?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDhzAtMyPZx1KXmCcnItpS%2F6MoFvZedO4Jh%2B3Zv%2BoxTQWco%2Fwr8nGlUb6l9qus1ZIQ550fe39gF9bFeX--m35mwk2D4gyaK7weayhQAFFxqgCIFtDvhTupX5o0qR0cJ6GBOG5vVI83OEqAWvOurn4pAz46QkdGeZihffBEvNR1jh22oGsWkwhKZo6yhtaVvTRo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819753821?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDhzAtMyPZx1KXmCcnItpS%2F6MoFvZedO4Jh%2B3Zv%2BoxTQYJZaKwnStRh4b%2BmG9iQxb8%2B7G%2FYaEVC4n34R%2F1ZNcke3DzoqIWtjQeT1HBz6NxFK9nmo9OtineV2WSE4tlVsdHOuP2JX%2FrhIyhqfX1WCUb%2BOg7l%2F6U%2BA025Hx2M07OpbtD%2FQE7zyN%2FoeTNcIzyeFHc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SjMAAOSwR8lm0gaQ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/EUAAAOSw~bFm0gZ3/s-l1600.jpg",
@@ -2988,7 +2996,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -3020,7 +3028,7 @@
           "price": 19.99,
           "shipping": 0,
           "total": 19.99,
-          "itemWebUrl": "https://www.ebay.com/itm/326260404509?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9mhsUGvWBkxNj4Y3NdznbGx1oUbJ60yZqinB44uyGnEROdCx2GjbLOeWl2XlA5aK1dsOUjgzBDdv8buCXTGojtaHUGJXzAur51PwfGiYpJOFGuKDbYXjPqN3MABiWrd1ruvk%2F6xp1MJI%2Btes%2BnfMl2G2cxnz%2FocTo3boTvl9a6e%2FQGYSwGMpy1PDhoISAVio%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/326260404509?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xA9mhsUGvWBkxNj4Y3NdznbGx1oUbJ60yZqinB44uyGnE%2FnPoc8avbO5wGyDXB0r0bytl91igQd1tUYYmckH2JAspk6IbVB2BPAQXzprC%2BovVhaNvASAyq8KFNIfcXsqo669Hd0Tjkh97cX836Lg%2FFALwscbRvB1DQx2aXHrmBSf%2BkCIGnbV7JLtkIKYttONqA%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/bV4AAOSw8z5m24kZ/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/If0AAOSwwfdm24kZ/s-l1600.jpg",
@@ -3031,7 +3039,7 @@
           "seller": {
             "username": "chalicecollectibles",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 62313
+            "feedbackScore": 62321
           },
           "photoScore": {
             "score": 50,
@@ -3063,7 +3071,7 @@
           "price": 2.5,
           "shipping": 1,
           "total": 3.5,
-          "itemWebUrl": "https://www.ebay.com/itm/286699741599?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQWR5TpdQK9%2FR2q37iIx69g5KrhFmaov6WrzOtKUu%2FyA0%2BpDL06CrAiqwxLaR210KRJvAxfq%2F13SMCsPjMch%2Ft3eiQM33V3QRIIXxpb4St2JzuYlENMUYMjRJXmwgbTgtJo0WBEyvZkJPFpP37J9wtsysGEYiBAXe6KqzhTTurIGGHIzBvbPiZKKCuvtYjPSQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286699741599?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQWR5TpdQK9%2FR2q37iIx69g5KrhFmaov6WrzOtKUu%2FyFfWglFCO3x5r9o39ZSUDSrOZ72kG211bra9ltRe8xCXztqo255TVCR80GYl99MvKCiNt43T156mvsLoteGcuof1zD6%2FyGwPKbTr4zeYRnDuNaJo2DDwPLD%2FnAkRyu9qXF4DZErkF46JXhCQc2%2FHSOY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/LEkAAeSwwCBocBws/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/2TcAAOSwejJniz9S/s-l1600.jpg"
@@ -3071,7 +3079,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -3111,7 +3119,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -3143,7 +3151,7 @@
           "price": 64.99,
           "shipping": 0,
           "total": 64.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318015926578?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXZeok3ch2jxXMqguO7DarMmuSW93xyWmjz%2FVIOoVbCUGi0ypq2nVydVLbTNRL3ePo4v%2FLGK7cHFIeurgSU%2FJn2tA7IUdIp18afDAD6mSOmgkrhxZI3qqW6M%2Fj4AsQ9Mz791%2FTLzXZwp%2BIU2%2BYUHNsDWjQZCdKYSK3d1a%2BkwIDgdj7%2B%2BIGhIe1JFoBs8Q3AhY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318015926578?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAXZeok3ch2jxXMqguO7DarMmuSW93xyWmjz%2FVIOoVbCeQ34IS9VF%2FBucxyvUqU9GBbIOnf0rG05cBwUGiRfZTnY600Ch8PDa3MjspV8ZPwHdHevexCRAKxfFl2ggbcLIoZKo06vBHD2ZFYDfuV7U4RoLnXwMviXNsRk4gYoaChmSKzQPLUXsvFbx%2BdkpzSTQ0%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/eBsAAeSw-RRpuLs7/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/HC4AAeSwMcVpuLs7/s-l1600.jpg",
@@ -3268,7 +3276,7 @@
           "price": 51,
           "shipping": 0,
           "total": 51,
-          "itemWebUrl": "https://www.ebay.com/itm/397838638357?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDK90psnvCOwVY%2F8yqW7MXN%2Fegv8mcUmpVbe7x1SIYbDJcFjvvv%2BbXfmXE%2FfDasKVuqB9bFE8Vg%2B%2FFqQUp5A71MBQcrRctMuQCrQEjBY%2Bj7lCeeK%2BHV8HKC6D1HJ%2BxBu84A4tDHMqL7Bzqh%2F9AnOWQPasqHkyfSPgy9e8PYPN0quU1rdWFoNXRDcGmZupfyGDs%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397838638357?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDK90psnvCOwVY%2F8yqW7MXN%2Fegv8mcUmpVbe7x1SIYbDBgOjM428yzefjD%2FDERiPnPGNQfyn5jJtrqR2M47dXzEb2Kvk2kkLc8TDM94nfEKVwznQhsI5MIzf0O1bYwthbGbpcZDo97Ol5d4MITAAg8XlUAT5aMr7oDnYk2lXGQ7BWgc4XgF2rmQfqD2XirNs%2BQ%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Tt4AAeSwZgVpwfqL/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PuEAAeSwY0hpwfqd/s-l1600.jpg",
@@ -3279,8 +3287,8 @@
           ],
           "seller": {
             "username": "mir_1613",
-            "feedbackPercentage": "96.2",
-            "feedbackScore": 24
+            "feedbackPercentage": "96.3",
+            "feedbackScore": 25
           },
           "photoScore": {
             "score": 50,
@@ -3300,9 +3308,9 @@
             "roiPercent": 2054.43
           },
           "rankMeta": {
-            "score": 76.5,
+            "score": 76.8,
             "priceEdgePercent": 93.67,
-            "sellerFeedbackPct": 96.2
+            "sellerFeedbackPct": 96.3
           },
           "reviewReason": "Manual review: visible language = unknown"
         }
@@ -3343,7 +3351,7 @@
           "price": 2.62,
           "shipping": 0,
           "total": 2.62,
-          "itemWebUrl": "https://www.ebay.com/itm/136819759585?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDbQXx6BSxWWde8HLGqIB7HHSHuX2U6%2Bn636rLAtT%2FK95kFvKQdLQ00Q13Pv2OwGhzSp%2B6TMNGRyaJFW%2FG4uOMsUz1dLudDtNuHk7BzYOEkOYBi%2BZXBBhqd1i0gagSrCcyED4mXU9RWbYCe6r9bM8cqqJ8gx9uCi0wcTty9sbabwUEsymJuzHh4NWSkrUVhtNg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819759585?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDbQXx6BSxWWde8HLGqIB7HHSHuX2U6%2Bn636rLAtT%2FK99nXb4Qn%2B3REEk1XE3Ny3c9nBEkyLsjY8gODtG%2FgAwk6rPM6W36XSm7vWw%2FpsPMOyrdlrSOgRe7Z1Szr3gYHaWSLwdajj601bcsTgmsSWVwptB9Otblascazd3V9nYQUDFG4mJmeb5gnR3vfRUppL9M%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/7FsAAOSwLHRlzytN/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/dRkAAOSwFEllq2yS/s-l1600.jpg",
@@ -3352,7 +3360,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -3382,7 +3390,7 @@
           "price": 9.4,
           "shipping": 0,
           "total": 9.4,
-          "itemWebUrl": "https://www.ebay.com/itm/136819753725?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAaeaEJ3akCX%2BgUBUVBc12yUhiI0jzKz%2B09CacXvlcB2ukkW6ApqAXWyF4EETlS2wQR6MDGP%2F8eVlasG53u15bFWfVsLFtNJZEZgaGkGc3BopHrXeDQTT5LlKEd1U3PzIIDBcKFxx872RmU2F4QtPDPha6MXFkm5Kuv1KOItLqojVtjzpeRcJxCFzgQH%2Bob3og%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819753725?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAaeaEJ3akCX%2BgUBUVBc12yUhiI0jzKz%2B09CacXvlcB2h8KZnKCPID621gqpKtZOHFd6GTqbiucOAmS3%2Fy0rbwSdoOG9FS4CqiEQEN8onom5HRdOgj5Aw2nEVUa2PH2yf74V3582zGGTuojwljQ9pLh7XxTkG3qD8%2Fol%2FF3ODSKogB8EOtDjZ%2FHDS6zDCOF4%2B4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Lb4AAOSw8jxmTJN-/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/1vUAAOSwY2hl3Fb~/s-l1600.jpg",
@@ -3391,7 +3399,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -3421,7 +3429,7 @@
           "price": 1.95,
           "shipping": 1,
           "total": 2.95,
-          "itemWebUrl": "https://www.ebay.com/itm/286838986997?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAg4k%2FK8YNAqJ2sLirwF6MxaGsGbGnlHFncXqokcOVCo7sIyNoKbTrZ9rxMI8lVt6TsrHzJXL4Qh5RFpDI5Xh2n6vr1QQRvb46NplCSzzPwFV%2FbK8TsQMfDW7NtwVVHzw5pKix5xGdl5O1Pmxrjjv4WN2vbRMdWdeB%2FihAi46auBzdQjcxZYlkgbUUigIGgUv0%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286838986997?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAg4k%2FK8YNAqJ2sLirwF6MxaGsGbGnlHFncXqokcOVCo%2BZ29omj4h9y9fmz2gozl0Ulzn5R2MARcSFFkAlDW%2Bm0k6VtvXauFGxIAUCVsNprvqf4P0wpxNBH0uC1FPJ%2F0RaV519u2J5PGfxinVbQZOM%2FqxZURvYz3nDjHlB1f6mkhboHBbcV7zExB%2BnuZ3ppw2c%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/DXwAAeSwMlNo1KOp/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -3429,7 +3437,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -3459,7 +3467,7 @@
           "price": 2.25,
           "shipping": 1,
           "total": 3.25,
-          "itemWebUrl": "https://www.ebay.com/itm/286988339580?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCSpnmwcjAlg3sukIyZZOpTlhj7BSC51TbSMusT9XRr2IiRMUDXpKp67cQVx7CFqGAj3FNrH1TqvfKzw7VhJkztBLGqVR835Rd7K7a9aWWpRWb4SHR%2Fo0vysAUZFH3Xbp6gyPpr%2FtJydJRaxabJTcjhedCeYs5d1MKNyx2r9ngnpsukkpD8258Js7MfyTqh0yQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286988339580?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCSpnmwcjAlg3sukIyZZOpTlhj7BSC51TbSMusT9XRr2N6zpo3%2BuQExP5UBBiI%2FUxdSXGiivW0XLpcaqUvqfO%2FYdyVFiOYrNOLcHqnYk3BuRVO3EARSBgcqRXZ4tlzUI3ands1trhZ3zkj38B9VTfzd4Q8yvwUEeULnFMuzNZVxuhelwrW4tzeChzkfWM91%2BtY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XUEAAeSwN2RpMR6w/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -3467,7 +3475,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -3497,7 +3505,7 @@
           "price": 9,
           "shipping": 0,
           "total": 9,
-          "itemWebUrl": "https://www.ebay.com/itm/406889040815?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV3oI6dzY0IFOBazkW5pqD69rUgsL2seWQKT5ObW%2FhxlY%2BFvOjm%2FzULXMd4wbHp8%2Fqj%2FMtMJ3eau3bmF1CX56wFEE4eciBNXPSpMPCSaTWQvLqpl%2BHGX99IoHmLMVZeG5mUFc9AruSojt74yQ9%2FrRxNUOX4NFzRN6kBUjZFvbv%2BS5pb7qhTN%2B31oS7Kmuco70%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406889040815?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV3oI6dzY0IFOBazkW5pqD69rUgsL2seWQKT5ObW%2FhxsCsLHqQQKVfJWDW09g4rcP5dhtQYWbKeuxHGvPe115%2Fs%2B2RLre84mL%2FXQRJhPbag3U4n37p7ZOChIjYWVz%2BLnh8nFrtT78dSGfWcc%2B1u3Lx2%2BFpCsGsvGRteGpoeuV80eJ92%2BM32vrUIIkCoYIKiSw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/pJYAAeSw3uFp79Sm/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/UEgAAeSwdJBp79Sm/s-l1600.jpg"
@@ -3535,7 +3543,7 @@
           "price": 300,
           "shipping": 0,
           "total": 300,
-          "itemWebUrl": "https://www.ebay.com/itm/168242476470?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCi8E7of%2FeBrjTsFSIxly6%2F5hV%2BliwJibEwEaOP3Lf5OTPg42fZheHq3XKhXDFKUlvFztYKSubPJinbo6AzfTqMhHTd7VnP%2B92lTMmGhdqWjIOv8mPkPxOuS7C3IthNJp%2BC7W0--cx2yFuMTdXcMc%2BIX4qRMAdioB392sIPP37XGM1pRgzMW4ILX6s0L%2Fgm%2FtM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168242476470?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCi8E7of%2FeBrjTsFSIxly6%2F5hV%2BliwJibEwEaOP3Lf5OS3QLAsZ6T6pPQJ6WO3tNo%2FK5%2FneWdjeO%2BTYKFMg5C1lVuQedwuiL0baw%2FttMTryiNxjq%2FA%2BskIYPbQ51mSu0OCHhEnDahw24sLI4A5DBWO8Lk5xxaCyc1r2yCdur6UVAqt3hInBTBD6Z2lSJH%2FHZSI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Ki8AAeSwx0VpugAe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/~JwAAeSwK9ZpugAl/s-l1600.jpg"
@@ -3568,50 +3576,12 @@
           }
         },
         {
-          "itemId": "v1|277887320375|0",
-          "title": "1x One Piece Film Red Uta Promo Pack Sealed",
-          "price": 9.99,
-          "shipping": 5.5,
-          "total": 15.49,
-          "itemWebUrl": "https://www.ebay.com/itm/277887320375",
-          "imageUrl": "https://i.ebayimg.com/images/g/Q8MAAeSw-PJp2-kD/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/Qv8AAeSwzLlp2-kD/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "kaijucollectibles17",
-            "feedbackPercentage": "99.7",
-            "feedbackScore": 3790
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 48.49,
-            "netExit": 1563.52,
-            "profit": 1515.03,
-            "roi": 31.2442,
-            "roiPercent": 3124.42
-          },
-          "rankMeta": {
-            "score": 83.3,
-            "priceEdgePercent": 97.79,
-            "sellerFeedbackPct": 99.7
-          }
-        },
-        {
           "itemId": "v1|397114055686|0",
           "title": "MegaHouse P.O.P. ONE PIECE RE-MAXIMUM Uta. Used But In Good Condition. Box Inclu",
           "price": 330,
           "shipping": 0,
           "total": 330,
-          "itemWebUrl": "https://www.ebay.com/itm/397114055686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDtuEaXn6gBbcySpf7FjdqTThVwwvi%2BXDLjp2GT02sLCfIFoNRI%2FpXbmxp7JcjYwVIJSa4PeIyb9vA9WBVb6p321mEQWWMYVW8qlxSBqJHd3oYL5zT49IQBsVri9WcXtiXrKB9%2ByULfsPUc3%2F8XJJgGBW3V0u%2BWESORbn0ElMZwNiaItDKfkwc9nVjuiNiSHhY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397114055686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDtuEaXn6gBbcySpf7FjdqTThVwwvi%2BXDLjp2GT02sLCcll9K9%2BexpFZLOSeGkSvGP8pe2eomdmSE1RewQ6hlcoGOTUNVZ1NRF3%2BfopEMfIB0aRSPQrxZaiJO40bRgElsEHTSh5ee12BxInoYX0IOyjFulybUl97c8o7QKrpl174bfApLoi2RpLuwSuiJDyIVI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/AtwAAeSwkBdo3dKx/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/GiQAAeSwKR9o3dKp/s-l1600.jpg",
@@ -3644,6 +3614,47 @@
           "rankMeta": {
             "score": 82.6,
             "priceEdgePercent": 52.86,
+            "sellerFeedbackPct": 100
+          }
+        },
+        {
+          "itemId": "v1|366372968647|0",
+          "title": "Uta (003) (SP) EB03-003 Extra Booster: One Piece Heroines Edition Foil",
+          "price": 240,
+          "shipping": 0,
+          "total": 240,
+          "itemWebUrl": "https://www.ebay.com/itm/366372968647",
+          "imageUrl": "https://i.ebayimg.com/images/g/CRsAAeSw7LZp76y8/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/Y~gAAeSwm5Bp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/EiAAAeSwE2Fp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/pzUAAeSwVJVp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/XrQAAeSwr9dp76y8/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "monkey.d.cam",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 6
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 273,
+            "netExit": 1563.52,
+            "profit": 1290.52,
+            "roi": 4.7272,
+            "roiPercent": 472.72
+          },
+          "rankMeta": {
+            "score": 80.3,
+            "priceEdgePercent": 65.71,
             "sellerFeedbackPct": 100
           }
         },
@@ -3694,7 +3705,7 @@
           "price": 158.53,
           "shipping": 0,
           "total": 158.53,
-          "itemWebUrl": "https://www.ebay.com/itm/336507148802?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2CBzGcwWzcPBi7DbIVZoiI%2FagtprteOQifXd0xg%2FesVP%2Bq6gz4tsZIzBkMSk1ehMw0Y4YEvRIP18EcAAvjxFHsOrB9xRBGoFY1obwB1ixnipHH4gPmVPQTgLwbB85dntanMGsZbpl0aEOlr9rtP6Ff7d51IKLhaxZmuU%2FgSEeGyNqDtp4f7%2FIwxtj35tg3XM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/336507148802?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2CBzGcwWzcPBi7DbIVZoiI%2FagtprteOQifXd0xg%2FesW7p6vpdGPAIbLsSHi%2FZRJTv0ynnYwy%2FmGkB6o9GTa6X20VaIlryExgiwW%2F9aiggn4BIee2szneCBmLUR0PMpydJasrkyIxvm2eJHzuz402Cqgm%2F3GPUnIrHmw32qcUEoGfIPeUCl%2FcByYfn1GbwlF8%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/U~0AAeSwWyhpyT8r/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/m4oAAeSwYrZpyT8s/s-l1600.jpg"
@@ -3734,7 +3745,7 @@
           "price": 2.62,
           "shipping": 0,
           "total": 2.62,
-          "itemWebUrl": "https://www.ebay.com/itm/136819759585?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDbQXx6BSxWWde8HLGqIB7HHSHuX2U6%2Bn636rLAtT%2FK95kFvKQdLQ00Q13Pv2OwGhzSp%2B6TMNGRyaJFW%2FG4uOMsUz1dLudDtNuHk7BzYOEkOYBi%2BZXBBhqd1i0gagSrCcyED4mXU9RWbYCe6r9bM8cqqJ8gx9uCi0wcTty9sbabwUEsymJuzHh4NWSkrUVhtNg%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819759585?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDbQXx6BSxWWde8HLGqIB7HHSHuX2U6%2Bn636rLAtT%2FK99nXb4Qn%2B3REEk1XE3Ny3c9nBEkyLsjY8gODtG%2FgAwk6rPM6W36XSm7vWw%2FpsPMOyrdlrSOgRe7Z1Szr3gYHaWSLwdajj601bcsTgmsSWVwptB9Otblascazd3V9nYQUDFG4mJmeb5gnR3vfRUppL9M%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/7FsAAOSwLHRlzytN/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/dRkAAOSwFEllq2yS/s-l1600.jpg",
@@ -3743,7 +3754,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -3775,7 +3786,7 @@
           "price": 9.4,
           "shipping": 0,
           "total": 9.4,
-          "itemWebUrl": "https://www.ebay.com/itm/136819753725?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAaeaEJ3akCX%2BgUBUVBc12yUhiI0jzKz%2B09CacXvlcB2ukkW6ApqAXWyF4EETlS2wQR6MDGP%2F8eVlasG53u15bFWfVsLFtNJZEZgaGkGc3BopHrXeDQTT5LlKEd1U3PzIIDBcKFxx872RmU2F4QtPDPha6MXFkm5Kuv1KOItLqojVtjzpeRcJxCFzgQH%2Bob3og%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/136819753725?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAaeaEJ3akCX%2BgUBUVBc12yUhiI0jzKz%2B09CacXvlcB2h8KZnKCPID621gqpKtZOHFd6GTqbiucOAmS3%2Fy0rbwSdoOG9FS4CqiEQEN8onom5HRdOgj5Aw2nEVUa2PH2yf74V3582zGGTuojwljQ9pLh7XxTkG3qD8%2Fol%2FF3ODSKogB8EOtDjZ%2FHDS6zDCOF4%2B4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Lb4AAOSw8jxmTJN-/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/1vUAAOSwY2hl3Fb~/s-l1600.jpg",
@@ -3784,7 +3795,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -3816,7 +3827,7 @@
           "price": 1.95,
           "shipping": 1,
           "total": 2.95,
-          "itemWebUrl": "https://www.ebay.com/itm/286838986997?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAg4k%2FK8YNAqJ2sLirwF6MxaGsGbGnlHFncXqokcOVCo7sIyNoKbTrZ9rxMI8lVt6TsrHzJXL4Qh5RFpDI5Xh2n6vr1QQRvb46NplCSzzPwFV%2FbK8TsQMfDW7NtwVVHzw5pKix5xGdl5O1Pmxrjjv4WN2vbRMdWdeB%2FihAi46auBzdQjcxZYlkgbUUigIGgUv0%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286838986997?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAg4k%2FK8YNAqJ2sLirwF6MxaGsGbGnlHFncXqokcOVCo%2BZ29omj4h9y9fmz2gozl0Ulzn5R2MARcSFFkAlDW%2Bm0k6VtvXauFGxIAUCVsNprvqf4P0wpxNBH0uC1FPJ%2F0RaV519u2J5PGfxinVbQZOM%2FqxZURvYz3nDjHlB1f6mkhboHBbcV7zExB%2BnuZ3ppw2c%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/DXwAAeSwMlNo1KOp/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -3824,7 +3835,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -3856,7 +3867,7 @@
           "price": 2.25,
           "shipping": 1,
           "total": 3.25,
-          "itemWebUrl": "https://www.ebay.com/itm/286988339580?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCSpnmwcjAlg3sukIyZZOpTlhj7BSC51TbSMusT9XRr2IiRMUDXpKp67cQVx7CFqGAj3FNrH1TqvfKzw7VhJkztBLGqVR835Rd7K7a9aWWpRWb4SHR%2Fo0vysAUZFH3Xbp6gyPpr%2FtJydJRaxabJTcjhedCeYs5d1MKNyx2r9ngnpsukkpD8258Js7MfyTqh0yQ%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286988339580?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCSpnmwcjAlg3sukIyZZOpTlhj7BSC51TbSMusT9XRr2N6zpo3%2BuQExP5UBBiI%2FUxdSXGiivW0XLpcaqUvqfO%2FYdyVFiOYrNOLcHqnYk3BuRVO3EARSBgcqRXZ4tlzUI3ands1trhZ3zkj38B9VTfzd4Q8yvwUEeULnFMuzNZVxuhelwrW4tzeChzkfWM91%2BtY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XUEAAeSwN2RpMR6w/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/oqUAAeSwmOdoza9F/s-l1600.jpg"
@@ -3864,7 +3875,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -3896,7 +3907,7 @@
           "price": 9,
           "shipping": 0,
           "total": 9,
-          "itemWebUrl": "https://www.ebay.com/itm/406889040815?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV3oI6dzY0IFOBazkW5pqD69rUgsL2seWQKT5ObW%2FhxlY%2BFvOjm%2FzULXMd4wbHp8%2Fqj%2FMtMJ3eau3bmF1CX56wFEE4eciBNXPSpMPCSaTWQvLqpl%2BHGX99IoHmLMVZeG5mUFc9AruSojt74yQ9%2FrRxNUOX4NFzRN6kBUjZFvbv%2BS5pb7qhTN%2B31oS7Kmuco70%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406889040815?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDV3oI6dzY0IFOBazkW5pqD69rUgsL2seWQKT5ObW%2FhxsCsLHqQQKVfJWDW09g4rcP5dhtQYWbKeuxHGvPe115%2Fs%2B2RLre84mL%2FXQRJhPbag3U4n37p7ZOChIjYWVz%2BLnh8nFrtT78dSGfWcc%2B1u3Lx2%2BFpCsGsvGRteGpoeuV80eJ92%2BM32vrUIIkCoYIKiSw%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/pJYAAeSw3uFp79Sm/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/UEgAAeSwdJBp79Sm/s-l1600.jpg"
@@ -3936,7 +3947,7 @@
           "price": 300,
           "shipping": 0,
           "total": 300,
-          "itemWebUrl": "https://www.ebay.com/itm/168242476470?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCi8E7of%2FeBrjTsFSIxly6%2F5hV%2BliwJibEwEaOP3Lf5OTPg42fZheHq3XKhXDFKUlvFztYKSubPJinbo6AzfTqMhHTd7VnP%2B92lTMmGhdqWjIOv8mPkPxOuS7C3IthNJp%2BC7W0--cx2yFuMTdXcMc%2BIX4qRMAdioB392sIPP37XGM1pRgzMW4ILX6s0L%2Fgm%2FtM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/168242476470?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCi8E7of%2FeBrjTsFSIxly6%2F5hV%2BliwJibEwEaOP3Lf5OS3QLAsZ6T6pPQJ6WO3tNo%2FK5%2FneWdjeO%2BTYKFMg5C1lVuQedwuiL0baw%2FttMTryiNxjq%2FA%2BskIYPbQ51mSu0OCHhEnDahw24sLI4A5DBWO8Lk5xxaCyc1r2yCdur6UVAqt3hInBTBD6Z2lSJH%2FHZSI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/Ki8AAeSwx0VpugAe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/~JwAAeSwK9ZpugAl/s-l1600.jpg"
@@ -3971,52 +3982,12 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|277887320375|0",
-          "title": "1x One Piece Film Red Uta Promo Pack Sealed",
-          "price": 9.99,
-          "shipping": 5.5,
-          "total": 15.49,
-          "itemWebUrl": "https://www.ebay.com/itm/277887320375",
-          "imageUrl": "https://i.ebayimg.com/images/g/Q8MAAeSw-PJp2-kD/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/Qv8AAeSwzLlp2-kD/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "kaijucollectibles17",
-            "feedbackPercentage": "99.7",
-            "feedbackScore": 3790
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 33,
-            "costBasis": 48.49,
-            "netExit": 1563.52,
-            "profit": 1515.03,
-            "roi": 31.2442,
-            "roiPercent": 3124.42
-          },
-          "rankMeta": {
-            "score": 83.3,
-            "priceEdgePercent": 97.79,
-            "sellerFeedbackPct": 99.7
-          },
-          "reviewReason": "Manual review: visible language = unknown"
-        },
-        {
           "itemId": "v1|397114055686|0",
           "title": "MegaHouse P.O.P. ONE PIECE RE-MAXIMUM Uta. Used But In Good Condition. Box Inclu",
           "price": 330,
           "shipping": 0,
           "total": 330,
-          "itemWebUrl": "https://www.ebay.com/itm/397114055686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDtuEaXn6gBbcySpf7FjdqTThVwwvi%2BXDLjp2GT02sLCfIFoNRI%2FpXbmxp7JcjYwVIJSa4PeIyb9vA9WBVb6p321mEQWWMYVW8qlxSBqJHd3oYL5zT49IQBsVri9WcXtiXrKB9%2ByULfsPUc3%2F8XJJgGBW3V0u%2BWESORbn0ElMZwNiaItDKfkwc9nVjuiNiSHhY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397114055686?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDtuEaXn6gBbcySpf7FjdqTThVwwvi%2BXDLjp2GT02sLCcll9K9%2BexpFZLOSeGkSvGP8pe2eomdmSE1RewQ6hlcoGOTUNVZ1NRF3%2BfopEMfIB0aRSPQrxZaiJO40bRgElsEHTSh5ee12BxInoYX0IOyjFulybUl97c8o7QKrpl174bfApLoi2RpLuwSuiJDyIVI%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/AtwAAeSwkBdo3dKx/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/GiQAAeSwKR9o3dKp/s-l1600.jpg",
@@ -4050,6 +4021,49 @@
           "rankMeta": {
             "score": 82.6,
             "priceEdgePercent": 52.86,
+            "sellerFeedbackPct": 100
+          },
+          "reviewReason": "Manual review: visible language = unknown"
+        },
+        {
+          "itemId": "v1|366372968647|0",
+          "title": "Uta (003) (SP) EB03-003 Extra Booster: One Piece Heroines Edition Foil",
+          "price": 240,
+          "shipping": 0,
+          "total": 240,
+          "itemWebUrl": "https://www.ebay.com/itm/366372968647",
+          "imageUrl": "https://i.ebayimg.com/images/g/CRsAAeSw7LZp76y8/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/Y~gAAeSwm5Bp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/EiAAAeSwE2Fp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/pzUAAeSwVJVp76y8/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/XrQAAeSwr9dp76y8/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "monkey.d.cam",
+            "feedbackPercentage": "100.0",
+            "feedbackScore": 6
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "gradingCost": 33,
+            "costBasis": 273,
+            "netExit": 1563.52,
+            "profit": 1290.52,
+            "roi": 4.7272,
+            "roiPercent": 472.72
+          },
+          "rankMeta": {
+            "score": 80.3,
+            "priceEdgePercent": 65.71,
             "sellerFeedbackPct": 100
           },
           "reviewReason": "Manual review: visible language = unknown"
@@ -4103,7 +4117,7 @@
           "price": 158.53,
           "shipping": 0,
           "total": 158.53,
-          "itemWebUrl": "https://www.ebay.com/itm/336507148802?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2CBzGcwWzcPBi7DbIVZoiI%2FagtprteOQifXd0xg%2FesVP%2Bq6gz4tsZIzBkMSk1ehMw0Y4YEvRIP18EcAAvjxFHsOrB9xRBGoFY1obwB1ixnipHH4gPmVPQTgLwbB85dntanMGsZbpl0aEOlr9rtP6Ff7d51IKLhaxZmuU%2FgSEeGyNqDtp4f7%2FIwxtj35tg3XM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/336507148802?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xB2CBzGcwWzcPBi7DbIVZoiI%2FagtprteOQifXd0xg%2FesW7p6vpdGPAIbLsSHi%2FZRJTv0ynnYwy%2FmGkB6o9GTa6X20VaIlryExgiwW%2F9aiggn4BIee2szneCBmLUR0PMpydJasrkyIxvm2eJHzuz402Cqgm%2F3GPUnIrHmw32qcUEoGfIPeUCl%2FcByYfn1GbwlF8%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/U~0AAeSwWyhpyT8r/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/m4oAAeSwYrZpyT8s/s-l1600.jpg"
@@ -4169,12 +4183,51 @@
       "collectrImageUrl": "https://public.getcollectr.com/public-assets/products/product_632503.jpg?optimizer=image&format=webp&width=1200&quality=80&strip=metadata",
       "ebayCandidates": [
         {
+          "itemId": "v1|136819765477|0",
+          "title": "Monkey D Luffy ST10-006 (Super Rare) The Three Captains ONE PIECE Card Japan NM",
+          "price": 1.65,
+          "shipping": 0,
+          "total": 1.65,
+          "itemWebUrl": "https://www.ebay.com/itm/136819765477?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHwmlYjJm9O2BOPcUki4oBX4lkIUWuOzOURX7YHjj2ZIyMD3J0yZ%2Bk852F9It6Ns9HAqYZ1jUnB%2FjLsJcucCYUocSqZAEe%2FqYdvbt49Uc0nGLZfgq%2BZBUBcYEIJgWbsCr550cWB0IdBKjVFS3AGURtOIY1kkqhyQPln0qiuu1ePi2su9hCuWil6efJefMENjY%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/tqUAAOSwbk9mPC1e/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/VxEAAOSwnUVln-wc/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/6C0AAeSwb69o8KXP/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "costBasis": 34.65,
+            "netExit": 5991.04,
+            "profit": 5956.39,
+            "roi": 171.9016,
+            "roiPercent": 17190.16
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.94,
+            "sellerFeedbackPct": 99.8
+          }
+        },
+        {
           "itemId": "v1|137182627158|0",
           "title": "Monkey D. Luffy P-061 P - ONE PIECE FILM RED Encore Pack Promo Card Japan NM",
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj0BT5Gn%2Ffc6Px3GpOSZEzl6yheY23eYX4OORa2G1OyQ3wQQ6%2BEAcgGR%2BUeedgEZtCrl6rWy%2FJD0hr9zcfzb%2B6kIn6f3DEE01MaDmm3kLdB%2F8j%2FEvMVGL5xe%2FWEceHHRlIpYbPfq%2F8cNqY1mXXjYwEt8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj9WWgCMpOipaHLgGmuRwLI8xJ1lBU4rf1Rjj7EVWkmYRQ1iwOb9WIMkbAKKyZ7snvpEfgfK6PqyzG3eW3k43%2BC0yZ6je62K37gTPhwCI7au1GDqoaMVEskGpz6YULDo4EhYwgBULUEQuJx18E9KaSOM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XxwAAeSwYrZpy0IW/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/fn0AAeSwzP9py0IW/s-l1600.jpg",
@@ -4183,7 +4236,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -4213,7 +4266,7 @@
           "price": 4.98,
           "shipping": 0,
           "total": 4.98,
-          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF38ZNirHSUD5WWOYckQxiYsXFEFRj5F9paQZp90S8SGBEQ5CDw3fvz4cItmiZpgfXzTWyxRmO%2FyxetghpLlHaed2NxQx64r%2FPmVirilLWbofP9IbE5XTtnbquJYo8qAR4eNbB3b48awGpVLRWaeLMbA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF4zNZ7YkfEeSUgsMa35d5O6XyeVBPfkRJKLA5y3ykFGE2HQmgfOn%2BR33%2BZ29B8au9xZ94Eloe0Wgkx6ZyvOYHM9jRnXzdlbPe%2Fx1ej8ZX5iiEwNdncxiG4tYuS1nWKtkCG8eQAqTLoFWlBzDF7fuZAg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJoAAeSwwVtpmB5A/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PVwAAeSwBWNpmB4~/s-l1600.jpg"
@@ -4221,7 +4274,7 @@
           "seller": {
             "username": "nerdyness1002",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 4549
+            "feedbackScore": 4550
           },
           "photoScore": {
             "score": 50,
@@ -4251,7 +4304,7 @@
           "price": 7.99,
           "shipping": 0,
           "total": 7.99,
-          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjnRLOKUukrtwIZHT3arnctpWStBLN0m6f1Q4GhPxaEP7Q32x8V04rarPhlbz57L9xHjqmelwluJeRd8j3q%2F6%2Be84KDJ8TYQjsMeqx7oyRu4ufgKKo%2FqDZnAUXpCzb%2BrhNMneTP5PAVfiulmP6%2BYSywU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjpRi5hagYDjI9mT%2F8PXPhj%2BQBvnk3k6iTztqwTL4S4Rdn6fzab3afGtuL5obJy9VvpJbhq1Sb4LBQyTXvGOJfSLMIqy5MvD8PoguFm1vKoxQ7YLZ4fIhpH6xGNwhE%2FqDYB2y86X3XfGZkpZ4VnwMiNk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HekAAeSw8xFpRc4S/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
@@ -4282,51 +4335,12 @@
           }
         },
         {
-          "itemId": "v1|306670510641|0",
-          "title": "Monkey.D.Luffy OP01-024 - One Piece TCG - SR Near-Mint Super Rare English",
-          "price": 12.47,
-          "shipping": 0,
-          "total": 12.47,
-          "itemWebUrl": "https://www.ebay.com/itm/306670510641?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnLlltIJ4eVu6BnEjGGAiJfhlqGIJesJ6B1dUPfLTp4iURIG%2BXuVPR%2Bk6V%2BDBgeTLRY0jtEteqULIQGRcC1L6Am1pHHYX5j%2B02JbKw60jKgT0Fzz6f2sLbBTsXwKQD8sKA0Vvb6oWSNHRyB5jNbChe3qV2qLxwHjIexD4gYspNUi32mBZawyMRc5lNnbIfF2Y%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/fOwAAeSw8lFpOQPs/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/0KAAAeSw1hxpOQPs/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SykAAeSwOJtpOQPr/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "refreshops",
-            "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "costBasis": 45.47,
-            "netExit": 5991.04,
-            "profit": 5945.57,
-            "roi": 130.7581,
-            "roiPercent": 13075.81
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 99.58,
-            "sellerFeedbackPct": 99.4
-          }
-        },
-        {
           "itemId": "v1|306717177389|0",
           "title": "ONE PIECE TCG MONKEY D. LUFFY RARE 3RD ANNIVERSARY PROMO ALT ART NM",
           "price": 14.44,
           "shipping": 0,
           "total": 14.44,
-          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPplvUzZKyJnx3TRWc8HgwtjDngnaVc6I2FSaeaB7xWjId0wO3DLaNkuOu9vauV6JTspby79vcoXD5KfK2KmcxAvzcDUyB5uthr%2BNOcwVdl6dxocRfmOFnfev%2Ff13aQIdLx1ZsDdaiv7O8wzBWhPOnZSo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPphvOfZUd6Kx1iXPKh0LtNGpeCvNkPer%2FSnTOWAGhFJB8LmZLORZ3lt8qc6jESI%2FPXIgtUh7ObQoYCuzyMMHpNbPjarn3Fg6Z6bHCPC98m7WhSAKQL6%2BqMjKAr5JS%2B2LYPcEWDm%2Fqi%2BbGhQj33n1MGPs%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SaAAAeSwC4lpbG6s/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/SREAAeSwngNpbG6s/s-l1600.jpg",
@@ -4335,7 +4349,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -4360,18 +4374,21 @@
           }
         },
         {
-          "itemId": "v1|177824208419|0",
-          "title": "One Piece Monkey D Luffy Alternate Art OP04-090 English LP",
-          "price": 40,
+          "itemId": "v1|168321632964|0",
+          "title": "One Piece Monkey D Luffy US Voyage College Basketball Collectible",
+          "price": 221.99,
           "shipping": 0,
-          "total": 40,
-          "itemWebUrl": "https://www.ebay.com/itm/177824208419?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDDVIgePB0SKGrE2D7zBo29QWfLFoesHXSaPA%2BBIdOECoykBZnE28dyuegIHzUjjcBwMea%2FkRlPbk9fFzdkvuzPWt4wykTHmSCggteFW54ZH9vnLbvY714Ac7c8YtpH5Bt7ZevVz1k40Li3HUfGDLCKYk9tK24HDoHx40H%2Bm7pDmsFf2WbHPUbOkgsLEXfmcFQ%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/GHkAAeSwi4VpPYHv/s-l1600.jpg",
-          "additionalImages": [],
+          "total": 221.99,
+          "itemWebUrl": "https://www.ebay.com/itm/168321632964?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQgwNDy%2F8b%2F21IgLW3JlBXTFrRrRlCQOGnC4J722wSPxZ3vpTcuSUjfg00YJa3DlM8zeCc84Rh%2FJuexqfGH6B9ejEJxMHiOZvKOegsXfwbeAAV5y6pTaw3wmxtoZCozliDLpMvqSDSMDyOFj8L%2B2BKxwAOj0pW4xqtd9sQsOHcnrc6%2BI3RoRC2ycceT%2BrU3nY%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/~1IAAeSwnflp7vea/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/wEoAAeSwSx9p7veZ/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/JZsAAeSwzGVp7vea/s-l1600.jpg"
+          ],
           "seller": {
-            "username": "bundleupbricks-tcg",
+            "username": "8ten1944",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 762
+            "feedbackScore": 346147
           },
           "photoScore": {
             "score": 50,
@@ -4383,15 +4400,15 @@
             "rejectForStockImage": false
           },
           "roi": {
-            "costBasis": 73,
+            "costBasis": 254.99,
             "netExit": 5991.04,
-            "profit": 5918.04,
-            "roi": 81.069,
-            "roiPercent": 8106.9
+            "profit": 5736.05,
+            "roi": 22.4952,
+            "roiPercent": 2249.52
           },
           "rankMeta": {
             "score": 86,
-            "priceEdgePercent": 98.66,
+            "priceEdgePercent": 92.58,
             "sellerFeedbackPct": 99.8
           }
         },
@@ -4439,7 +4456,7 @@
           "price": 259.99,
           "shipping": 45,
           "total": 304.99,
-          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhp94ZkQ3gJLHWQTGC2eiQkW%2BiLr033z4JLfp0SCk%2B%2Fu0KbS7x79pMVdFzvbltNrw4xjoLKlKaEA2a9HQMl8mf5nDljsKOdLPW9X1Tn8iGm8ziJe3aGoy9x45FtRwOahbj6eVTOhuPyzU2H99GjgMFPc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhhfBozovRap9bv5x%2Bwp1sJHqsGHRyehhVXqGAunl18yxBkcHh53uoi7ofFIo44tq6n4%2BEyNm5tmxX0TnjV8Om9KHiOcbZSqdx1Wc0iIHX0ozzhDKtnqCOWBysBNge4rjfooL4LLrpy1O8%2BqcFljRIag%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJAAAOSwrlBm9CNe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/locAAOSwIvpm9CN2/s-l1600.jpg",
@@ -4494,15 +4511,15 @@
           "price": 75.36,
           "shipping": 0,
           "total": 75.36,
-          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd90TM42CBlgYSnuF3K66jNzaFQaxhstKlktkEqSzph6VLS8V8pSebyEAa4%2BYtW1oqVeV9VVrXOHUmDKo5HZIoPCLMOjC4ySn9Bye7n22YbEsPzTlzlFBzFReh5rD2vgdol%2BqaLSM2XA42mVbFEXrtnsE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd9%2Fs1W6okqMZZOE4apjpq0Opco%2Brhyii1efM0QScXF6E9KecAoqA5CpEaCDT22Rogg6E2LwDxW5bVYmPFFsWSrst9IYJvA9lPULfZi67CjYua%2BpMt4JUwo%2Bbkq4D4HzsOlcvJGQsNSlPDNPa4k%2F8KLV4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/d28AAeSw9MVpmI2T/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/88QAAeSwVZJpmI2h/s-l1600.jpg"
           ],
           "seller": {
             "username": "shrfdtgjykuh7",
-            "feedbackPercentage": "0.0",
-            "feedbackScore": -2
+            "feedbackPercentage": "33.3",
+            "feedbackScore": -1
           },
           "photoScore": {
             "score": 50,
@@ -4523,18 +4540,59 @@
           "rankMeta": {
             "score": 60,
             "priceEdgePercent": 97.48,
-            "sellerFeedbackPct": 0
+            "sellerFeedbackPct": 33.3
           }
         }
       ],
       "reviewCandidates": [
         {
+          "itemId": "v1|136819765477|0",
+          "title": "Monkey D Luffy ST10-006 (Super Rare) The Three Captains ONE PIECE Card Japan NM",
+          "price": 1.65,
+          "shipping": 0,
+          "total": 1.65,
+          "itemWebUrl": "https://www.ebay.com/itm/136819765477?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBHwmlYjJm9O2BOPcUki4oBX4lkIUWuOzOURX7YHjj2ZIyMD3J0yZ%2Bk852F9It6Ns9HAqYZ1jUnB%2FjLsJcucCYUocSqZAEe%2FqYdvbt49Uc0nGLZfgq%2BZBUBcYEIJgWbsCr550cWB0IdBKjVFS3AGURtOIY1kkqhyQPln0qiuu1ePi2su9hCuWil6efJefMENjY%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/tqUAAOSwbk9mPC1e/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/VxEAAOSwnUVln-wc/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/6C0AAeSwb69o8KXP/s-l1600.jpg"
+          ],
+          "seller": {
+            "username": "sakura_shipping",
+            "feedbackPercentage": "99.8",
+            "feedbackScore": 4432
+          },
+          "photoScore": {
+            "score": 50,
+            "psa10Probability": 50,
+            "confidence": 20,
+            "notes": "Photo score fallback used.",
+            "visibleLanguage": "unknown",
+            "rejectForLanguage": false,
+            "rejectForStockImage": false
+          },
+          "roi": {
+            "gradingCost": 33,
+            "costBasis": 34.65,
+            "netExit": 5991.04,
+            "profit": 5956.39,
+            "roi": 171.9016,
+            "roiPercent": 17190.16
+          },
+          "rankMeta": {
+            "score": 86,
+            "priceEdgePercent": 99.94,
+            "sellerFeedbackPct": 99.8
+          },
+          "reviewReason": "Manual review: visible language = unknown"
+        },
+        {
           "itemId": "v1|137182627158|0",
           "title": "Monkey D. Luffy P-061 P - ONE PIECE FILM RED Encore Pack Promo Card Japan NM",
           "price": 1.99,
           "shipping": 0,
           "total": 1.99,
-          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj0BT5Gn%2Ffc6Px3GpOSZEzl6yheY23eYX4OORa2G1OyQ3wQQ6%2BEAcgGR%2BUeedgEZtCrl6rWy%2FJD0hr9zcfzb%2B6kIn6f3DEE01MaDmm3kLdB%2F8j%2FEvMVGL5xe%2FWEceHHRlIpYbPfq%2F8cNqY1mXXjYwEt8%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/137182627158?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBATF3Oau%2FZ5%2F8EwyvHJCEO9IcjhrL4LL1fKzfzSvVvj9WWgCMpOipaHLgGmuRwLI8xJ1lBU4rf1Rjj7EVWkmYRQ1iwOb9WIMkbAKKyZ7snvpEfgfK6PqyzG3eW3k43%2BC0yZ6je62K37gTPhwCI7au1GDqoaMVEskGpz6YULDo4EhYwgBULUEQuJx18E9KaSOM%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/XxwAAeSwYrZpy0IW/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/fn0AAeSwzP9py0IW/s-l1600.jpg",
@@ -4543,7 +4601,7 @@
           "seller": {
             "username": "sakura_shipping",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 4429
+            "feedbackScore": 4432
           },
           "photoScore": {
             "score": 50,
@@ -4575,7 +4633,7 @@
           "price": 4.98,
           "shipping": 0,
           "total": 4.98,
-          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF38ZNirHSUD5WWOYckQxiYsXFEFRj5F9paQZp90S8SGBEQ5CDw3fvz4cItmiZpgfXzTWyxRmO%2FyxetghpLlHaed2NxQx64r%2FPmVirilLWbofP9IbE5XTtnbquJYo8qAR4eNbB3b48awGpVLRWaeLMbA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/178047447631?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCmxp9CrwCJsujTQPsUlj6757Sc2iFcVuq4z4AtS%2BeCF4zNZ7YkfEeSUgsMa35d5O6XyeVBPfkRJKLA5y3ykFGE2HQmgfOn%2BR33%2BZ29B8au9xZ94Eloe0Wgkx6ZyvOYHM9jRnXzdlbPe%2Fx1ej8ZX5iiEwNdncxiG4tYuS1nWKtkCG8eQAqTLoFWlBzDF7fuZAg%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJoAAeSwwVtpmB5A/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/PVwAAeSwBWNpmB4~/s-l1600.jpg"
@@ -4583,7 +4641,7 @@
           "seller": {
             "username": "nerdyness1002",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 4549
+            "feedbackScore": 4550
           },
           "photoScore": {
             "score": 50,
@@ -4615,7 +4673,7 @@
           "price": 7.99,
           "shipping": 0,
           "total": 7.99,
-          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjnRLOKUukrtwIZHT3arnctpWStBLN0m6f1Q4GhPxaEP7Q32x8V04rarPhlbz57L9xHjqmelwluJeRd8j3q%2F6%2Be84KDJ8TYQjsMeqx7oyRu4ufgKKo%2FqDZnAUXpCzb%2BrhNMneTP5PAVfiulmP6%2BYSywU%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/406499161242?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAdgGg5PbGhCFj3qXhidryuujXf868YqS4PbS8WT%2B2qjpRi5hagYDjI9mT%2F8PXPhj%2BQBvnk3k6iTztqwTL4S4Rdn6fzab3afGtuL5obJy9VvpJbhq1Sb4LBQyTXvGOJfSLMIqy5MvD8PoguFm1vKoxQ7YLZ4fIhpH6xGNwhE%2FqDYB2y86X3XfGZkpZ4VnwMiNk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/HekAAeSw8xFpRc4S/s-l1600.jpg",
           "additionalImages": [],
           "seller": {
@@ -4648,53 +4706,12 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|306670510641|0",
-          "title": "Monkey.D.Luffy OP01-024 - One Piece TCG - SR Near-Mint Super Rare English",
-          "price": 12.47,
-          "shipping": 0,
-          "total": 12.47,
-          "itemWebUrl": "https://www.ebay.com/itm/306670510641?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAnLlltIJ4eVu6BnEjGGAiJfhlqGIJesJ6B1dUPfLTp4iURIG%2BXuVPR%2Bk6V%2BDBgeTLRY0jtEteqULIQGRcC1L6Am1pHHYX5j%2B02JbKw60jKgT0Fzz6f2sLbBTsXwKQD8sKA0Vvb6oWSNHRyB5jNbChe3qV2qLxwHjIexD4gYspNUi32mBZawyMRc5lNnbIfF2Y%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/fOwAAeSw8lFpOQPs/s-l1600.jpg",
-          "additionalImages": [
-            "https://i.ebayimg.com/images/g/0KAAAeSw1hxpOQPs/s-l1600.jpg",
-            "https://i.ebayimg.com/images/g/SykAAeSwOJtpOQPr/s-l1600.jpg"
-          ],
-          "seller": {
-            "username": "refreshops",
-            "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
-          },
-          "photoScore": {
-            "score": 50,
-            "psa10Probability": 50,
-            "confidence": 20,
-            "notes": "Photo score fallback used.",
-            "visibleLanguage": "unknown",
-            "rejectForLanguage": false,
-            "rejectForStockImage": false
-          },
-          "roi": {
-            "gradingCost": 33,
-            "costBasis": 45.47,
-            "netExit": 5991.04,
-            "profit": 5945.57,
-            "roi": 130.7581,
-            "roiPercent": 13075.81
-          },
-          "rankMeta": {
-            "score": 86,
-            "priceEdgePercent": 99.58,
-            "sellerFeedbackPct": 99.4
-          },
-          "reviewReason": "Manual review: visible language = unknown"
-        },
-        {
           "itemId": "v1|306717177389|0",
           "title": "ONE PIECE TCG MONKEY D. LUFFY RARE 3RD ANNIVERSARY PROMO ALT ART NM",
           "price": 14.44,
           "shipping": 0,
           "total": 14.44,
-          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPplvUzZKyJnx3TRWc8HgwtjDngnaVc6I2FSaeaB7xWjId0wO3DLaNkuOu9vauV6JTspby79vcoXD5KfK2KmcxAvzcDUyB5uthr%2BNOcwVdl6dxocRfmOFnfev%2Ff13aQIdLx1ZsDdaiv7O8wzBWhPOnZSo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306717177389?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCIaZu6jLp7GChV57pzaMAq0t2zm5hJDep4mJq9e3EPphvOfZUd6Kx1iXPKh0LtNGpeCvNkPer%2FSnTOWAGhFJB8LmZLORZ3lt8qc6jESI%2FPXIgtUh7ObQoYCuzyMMHpNbPjarn3Fg6Z6bHCPC98m7WhSAKQL6%2BqMjKAr5JS%2B2LYPcEWDm%2Fqi%2BbGhQj33n1MGPs%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/SaAAAeSwC4lpbG6s/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/SREAAeSwngNpbG6s/s-l1600.jpg",
@@ -4703,7 +4720,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -4730,18 +4747,21 @@
           "reviewReason": "Manual review: visible language = unknown"
         },
         {
-          "itemId": "v1|177824208419|0",
-          "title": "One Piece Monkey D Luffy Alternate Art OP04-090 English LP",
-          "price": 40,
+          "itemId": "v1|168321632964|0",
+          "title": "One Piece Monkey D Luffy US Voyage College Basketball Collectible",
+          "price": 221.99,
           "shipping": 0,
-          "total": 40,
-          "itemWebUrl": "https://www.ebay.com/itm/177824208419?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDDVIgePB0SKGrE2D7zBo29QWfLFoesHXSaPA%2BBIdOECoykBZnE28dyuegIHzUjjcBwMea%2FkRlPbk9fFzdkvuzPWt4wykTHmSCggteFW54ZH9vnLbvY714Ac7c8YtpH5Bt7ZevVz1k40Li3HUfGDLCKYk9tK24HDoHx40H%2Bm7pDmsFf2WbHPUbOkgsLEXfmcFQ%3D",
-          "imageUrl": "https://i.ebayimg.com/images/g/GHkAAeSwi4VpPYHv/s-l1600.jpg",
-          "additionalImages": [],
+          "total": 221.99,
+          "itemWebUrl": "https://www.ebay.com/itm/168321632964?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBQgwNDy%2F8b%2F21IgLW3JlBXTFrRrRlCQOGnC4J722wSPxZ3vpTcuSUjfg00YJa3DlM8zeCc84Rh%2FJuexqfGH6B9ejEJxMHiOZvKOegsXfwbeAAV5y6pTaw3wmxtoZCozliDLpMvqSDSMDyOFj8L%2B2BKxwAOj0pW4xqtd9sQsOHcnrc6%2BI3RoRC2ycceT%2BrU3nY%3D",
+          "imageUrl": "https://i.ebayimg.com/images/g/~1IAAeSwnflp7vea/s-l1600.jpg",
+          "additionalImages": [
+            "https://i.ebayimg.com/images/g/wEoAAeSwSx9p7veZ/s-l1600.jpg",
+            "https://i.ebayimg.com/images/g/JZsAAeSwzGVp7vea/s-l1600.jpg"
+          ],
           "seller": {
-            "username": "bundleupbricks-tcg",
+            "username": "8ten1944",
             "feedbackPercentage": "99.8",
-            "feedbackScore": 762
+            "feedbackScore": 346147
           },
           "photoScore": {
             "score": 50,
@@ -4754,15 +4774,15 @@
           },
           "roi": {
             "gradingCost": 33,
-            "costBasis": 73,
+            "costBasis": 254.99,
             "netExit": 5991.04,
-            "profit": 5918.04,
-            "roi": 81.069,
-            "roiPercent": 8106.9
+            "profit": 5736.05,
+            "roi": 22.4952,
+            "roiPercent": 2249.52
           },
           "rankMeta": {
             "score": 86,
-            "priceEdgePercent": 98.66,
+            "priceEdgePercent": 92.58,
             "sellerFeedbackPct": 99.8
           },
           "reviewReason": "Manual review: visible language = unknown"
@@ -4813,7 +4833,7 @@
           "price": 259.99,
           "shipping": 45,
           "total": 304.99,
-          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhp94ZkQ3gJLHWQTGC2eiQkW%2BiLr033z4JLfp0SCk%2B%2Fu0KbS7x79pMVdFzvbltNrw4xjoLKlKaEA2a9HQMl8mf5nDljsKOdLPW9X1Tn8iGm8ziJe3aGoy9x45FtRwOahbj6eVTOhuPyzU2H99GjgMFPc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286078252717?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAw7uAyfc2jGGZYYkL2Ppm13RKIYJAo77dNg2cBTfVvhhfBozovRap9bv5x%2Bwp1sJHqsGHRyehhVXqGAunl18yxBkcHh53uoi7ofFIo44tq6n4%2BEyNm5tmxX0TnjV8Om9KHiOcbZSqdx1Wc0iIHX0ozzhDKtnqCOWBysBNge4rjfooL4LLrpy1O8%2BqcFljRIag%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/dJAAAOSwrlBm9CNe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/locAAOSwIvpm9CN2/s-l1600.jpg",
@@ -4870,15 +4890,15 @@
           "price": 75.36,
           "shipping": 0,
           "total": 75.36,
-          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd90TM42CBlgYSnuF3K66jNzaFQaxhstKlktkEqSzph6VLS8V8pSebyEAa4%2BYtW1oqVeV9VVrXOHUmDKo5HZIoPCLMOjC4ySn9Bye7n22YbEsPzTlzlFBzFReh5rD2vgdol%2BqaLSM2XA42mVbFEXrtnsE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/298238232491?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDyMNWrfle3IAKTWRYJ%2BKsTjELeaKiyXNFaKk4KjtVd9%2Fs1W6okqMZZOE4apjpq0Opco%2Brhyii1efM0QScXF6E9KecAoqA5CpEaCDT22Rogg6E2LwDxW5bVYmPFFsWSrst9IYJvA9lPULfZi67CjYua%2BpMt4JUwo%2Bbkq4D4HzsOlcvJGQsNSlPDNPa4k%2F8KLV4%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/d28AAeSw9MVpmI2T/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/88QAAeSwVZJpmI2h/s-l1600.jpg"
           ],
           "seller": {
             "username": "shrfdtgjykuh7",
-            "feedbackPercentage": "0.0",
-            "feedbackScore": -2
+            "feedbackPercentage": "33.3",
+            "feedbackScore": -1
           },
           "photoScore": {
             "score": 50,
@@ -4900,7 +4920,7 @@
           "rankMeta": {
             "score": 60,
             "priceEdgePercent": 97.48,
-            "sellerFeedbackPct": 0
+            "sellerFeedbackPct": 33.3
           },
           "reviewReason": "Manual review: visible language = unknown"
         }
@@ -4941,7 +4961,7 @@
           "price": 1.89,
           "shipping": 0,
           "total": 1.89,
-          "itemWebUrl": "https://www.ebay.com/itm/116969131281?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAimgcUeDwJK322ecFOMrXjPCkG8Zm9i9%2FfQNXhsDQOVZhloJN3hksyc3EPAqCwm9umPnoqU2FxDGar73xHt%2FLqvp9YfoC%2BtvO3EG%2Buwherh45irZeF1niUyYFjVzwwtQt9%2BZYIIraFYJtln50khS0ttw%2FS689GOOp2hQUeTFo0LZ9EeSjql9Fsqyuksb9vBWA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/116969131281?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAimgcUeDwJK322ecFOMrXjPCkG8Zm9i9%2FfQNXhsDQOVZonrIjQl6fZT6PTma3AYnpOkn1ayA1yb5wgdR8ByEo4CQxodgECVge%2FKQQQG63MWmyZORMYAJfHR1JwumJgLPEznfjFybhdpvpuPjeSQuREpXS3bOFPXjiR5T0aP%2B5Jcp0rGU8n0gJO2wd9x2N2lvk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/cKsAAeSwQUZpXW6Q/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/WScAAeSwhodpXW6Q/s-l1600.jpg"
@@ -4979,7 +4999,7 @@
           "price": 7.65,
           "shipping": 0,
           "total": 7.65,
-          "itemWebUrl": "https://www.ebay.com/itm/205919246664?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAAvfq180IFyZ3a1UjbZhNivQCcwPP%2FsqdarrYA109kBatD07Mrb0%2FhHkr3oUTkjZLiuhGU2ArEXLLxXDnBZF4Uq9O8JtW%2BBy3E2FBuQJpSriGoeeKkHiJiWuruLTEB%2FKd3OPwHOrzrk9T5XKLrPhcDb2SozZoRqUETjhvm%2BKL6varbjzFF16qhj%2BbjG6BCdcE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/205919246664?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAAvfq180IFyZ3a1UjbZhNivQCcwPP%2FsqdarrYA109kBUZFzYwUAyuGQLOqbtl0zSYZv42EfsjKD69M8PmGznJ7LLZ%2F9%2B66Ck8O9H6wVFhac013Npdfg7HHEqoRGd7qIuCqLul0xbc%2BmscwQD5JylZeUIKzTwyZ0RjMObbfAJQKZ7XtBgYHKm3vcjxzefvwpDo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/owwAAeSw99lpPg0a/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/XowAAeSwmMtpPg0d/s-l1600.jpg",
@@ -4989,7 +5009,7 @@
           "seller": {
             "username": "pcsemporium",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 10553
+            "feedbackScore": 10555
           },
           "photoScore": {
             "score": 50,
@@ -5019,7 +5039,7 @@
           "price": 15.3,
           "shipping": 0,
           "total": 15.3,
-          "itemWebUrl": "https://www.ebay.com/itm/306702979518?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBOWzMWoUkMezPAwPP%2BXsU0PuXSDqa32b3smgy%2Bxj4miA1TSCnt1Wr5ZksPhwsHbfErWVc12hYIRrbwZ1lOd%2BKfxyOrDNfJy5X6p4q86bNXInH%2FpnHwRLQf2qIc1pCB07tkZZlKB1Q2l3j3S8SiFUa10apUYOezcbi2SZ%2B4pC4uz4UDp7sTv1R%2FJ6I2PiGZrKM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306702979518?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBOWzMWoUkMezPAwPP%2BXsU0PuXSDqa32b3smgy%2Bxj4miIId6v0EGVfvSG0Jyw7CluTYc9rmFZlaMFoKdCgG9f4Ct9F8FI%2FADFd1%2FWYG2jkJVFMOBVKJO9AoPITmQ%2FoJFF%2BUTn1NUPul0H0iEHKP9TkvIPbzl1m2uZcBvfvT%2F6LhJ7HJwBOkmYZKT02GIB52IEo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/s~4AAeSwjYppYdSX/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/dYkAAeSw-gZpYdSY/s-l1600.jpg",
@@ -5028,7 +5048,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -5058,7 +5078,7 @@
           "price": 45.99,
           "shipping": 0,
           "total": 45.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318182487763?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCnbUUFnEHgj823aWkkxdj2ddgA3Xp8PGOfnMXn%2Bx5z%2FBSMl4Z%2Fu6W9uUeuRvyIK3HmJvoTrYM4%2FllkA248nxSm1reqiHcpHkB5hacZRAQNEQdvCVVTeVp3NZCrlgcqAjsVyT%2BQFVX4N4UyVVAZrEzXm3gwVKPA03DmeNDPe0dZdlT%2B%2BMU%2B57eQtqtJWqtgxrY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318182487763?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCnbUUFnEHgj823aWkkxdj2ddgA3Xp8PGOfnMXn%2Bx5z%2FCFhSvmxa2Qv76o9yg2zcKJdy9UOeTlw2nE%2BDYElRfBaDvkAAzfHYkRFgSdpfhSFV9wEyRbBa9OIdEOEjIpQAlbp3u1o6zSVdpL6zKBYvqnG%2FErwYWO5NhCCM4rBPL4i5Cfd%2B9hBc1sEsCAw%2FknS7zc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/ercAAeSw3Wlp54gu/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/bfIAAeSwf5Np54gu/s-l1600.jpg"
@@ -5134,7 +5154,7 @@
           "price": 2.25,
           "shipping": 1,
           "total": 3.25,
-          "itemWebUrl": "https://www.ebay.com/itm/286868619296?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDvSSTb1VvK7W%2Fq40FazgMe4usjaz--kBNuKtnaJvBtRx7tghw31aF8EUa3qdlci2zRw8f2JJKTGDjh3Sq6gOHn79gFiSnMGjqWJXutbAkuY7q8TRlle8ni%2Bll%2FiVC5qCfT3gWNC3%2F5p8mZ3MgGJyICxnhDHtciNN3ssHCnvl6vu2L8dN%2B3XKXteAlon83h1b0%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286868619296?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDvSSTb1VvK7W%2Fq40FazgMe4usjaz--kBNuKtnaJvBtR8VvLe7sMKzi0aYmPA%2BPutfjcIX0hcH%2FsTCKfdAuI8l%2B2papM9gcDHXabdZMtiV5fjzClr%2FBlcA184GyshUsBoMTPqZOdO3346bea7qy67WyiU9HmgqAKfzcBazYpzjtvL%2BAw4bxeZ0pleAsI02Q4ZY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/VOIAAeSwgEBo6GtD/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/M0IAAeSwtM5o6Gqd/s-l1600.jpg"
@@ -5142,7 +5162,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -5172,7 +5192,7 @@
           "price": 2.5,
           "shipping": 1,
           "total": 3.5,
-          "itemWebUrl": "https://www.ebay.com/itm/286734088087?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAOcFmePaKXzr2JazJZRU7BibRmeuemV4bQhaeAdv1Yjk6%2BLVsJb0F3tBZOU1RCwJedTxSn83VIcWvKdfFXOd6%2FcAEvugq5TcHk6CiVeVl8Ri9rQaVhUnLkHIRTOFVfErWdTLBFwcV1mgdeq7uPtOSF1%2BbA1RH912Gr4CCxsaWKCwj4p37elwkKOY183lt6O6I%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286734088087?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAOcFmePaKXzr2JazJZRU7BibRmeuemV4bQhaeAdv1YjhhZhn9iKOtw5Pp9TP77EY7NIvqoCfpVXUoJIi2fsULEYrxRiZCR1FMjyx8EgC%2FRoMNHEDLPFgAMSb4AxKlWIJFH%2F0%2FAOe8pddOUDyEEJLLewFVBn9e6cDRxxPJs%2F%2BESFs7qk5%2FBdqj22pJSyj5A%2FSU%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/t0gAAeSwETNoho9p/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/2TcAAOSwejJniz9S/s-l1600.jpg"
@@ -5180,7 +5200,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -5210,7 +5230,7 @@
           "price": 3.99,
           "shipping": 1.48,
           "total": 5.47,
-          "itemWebUrl": "https://www.ebay.com/itm/397815179547?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBM2uGKXSigHVg1I%2FZSFifUqdwG%2FA9ByNZQ5zoffONQY5ArHBJKJTB%2BQEvbTGmKp4AV4Gc0ut2IZ4YukEME5vIOh7diTMT%2FCEoqOT98Xi28MIInGfW%2BD2X5h0f0UrBZyHde6JJ29F3%2B67zBhTLUykTUXHvy7XhZlaMlVLcEmyJ4L42%2FTl7NHtmGAAVGXv4VSOo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397815179547?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBM2uGKXSigHVg1I%2FZSFifUqdwG%2FA9ByNZQ5zoffONQY0dXT2RUJ408eUR5dSLlXvYwB9J1g1gVyFx1PUbp5kB6ECAKXAx3vrbUTbmE%2FrfMDckmnfQD5sEcH8o7W6iFbi5NoOLRAJw0vHeZdxWijiO8q6Kxb10299J6Uk6UjkwiMsyKT45BfiAYXnLclBOrI24%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/AQUAAeSw~pNpj8lv/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/DDsAAeSwKn9pj8l7/s-l1600.jpg"
@@ -5218,7 +5238,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -5286,7 +5306,7 @@
           "price": 79.99,
           "shipping": 0,
           "total": 79.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318004669372?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAB7F6pU%2FaCG5zwGEeXe%2FDbq7IPAg3924%2FI4ieLyI5yF99KJytozCdWK4DptcOdqNWCc%2FD%2BYBLH5qcMTlNTIhisHCZj45kUBx7XodcjSuNTkaB7saHdtd%2FqYyr5VUAbzf62IRWD1K6PBGPyjsXxxK6J%2Fv09cJs5kYsU0zdx6uhhyNDmzrvc9gmAt3MQMMLnEjc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318004669372?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAB7F6pU%2FaCG5zwGEeXe%2FDbq7IPAg3924%2FI4ieLyI5yF3L5jq4wb0DkCX4ilT7Vduu1nCCFIt0ZNu7zJ4RJVPG8tZhaEYhjQm236hKHjtzV7pPsuVgH5Qeo%2FCn7WLni8XMyIbX%2Bp9P5l3zU2jF3IHE5UXtO07o5hD2G4YqeHsVI1GCyfuuhXb1wsaxM5o%2BiQ2I%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/1r4AAeSwNC1ptcUe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/X-0AAeSwfKFptcUe/s-l1600.jpg",
@@ -5296,7 +5316,7 @@
           "seller": {
             "username": "ostrima",
             "feedbackPercentage": "96.5",
-            "feedbackScore": 814
+            "feedbackScore": 815
           },
           "photoScore": {
             "score": 50,
@@ -5328,7 +5348,7 @@
           "price": 1.89,
           "shipping": 0,
           "total": 1.89,
-          "itemWebUrl": "https://www.ebay.com/itm/116969131281?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAimgcUeDwJK322ecFOMrXjPCkG8Zm9i9%2FfQNXhsDQOVZhloJN3hksyc3EPAqCwm9umPnoqU2FxDGar73xHt%2FLqvp9YfoC%2BtvO3EG%2Buwherh45irZeF1niUyYFjVzwwtQt9%2BZYIIraFYJtln50khS0ttw%2FS689GOOp2hQUeTFo0LZ9EeSjql9Fsqyuksb9vBWA%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/116969131281?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAimgcUeDwJK322ecFOMrXjPCkG8Zm9i9%2FfQNXhsDQOVZonrIjQl6fZT6PTma3AYnpOkn1ayA1yb5wgdR8ByEo4CQxodgECVge%2FKQQQG63MWmyZORMYAJfHR1JwumJgLPEznfjFybhdpvpuPjeSQuREpXS3bOFPXjiR5T0aP%2B5Jcp0rGU8n0gJO2wd9x2N2lvk%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/cKsAAeSwQUZpXW6Q/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/WScAAeSwhodpXW6Q/s-l1600.jpg"
@@ -5368,7 +5388,7 @@
           "price": 7.65,
           "shipping": 0,
           "total": 7.65,
-          "itemWebUrl": "https://www.ebay.com/itm/205919246664?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAAvfq180IFyZ3a1UjbZhNivQCcwPP%2FsqdarrYA109kBatD07Mrb0%2FhHkr3oUTkjZLiuhGU2ArEXLLxXDnBZF4Uq9O8JtW%2BBy3E2FBuQJpSriGoeeKkHiJiWuruLTEB%2FKd3OPwHOrzrk9T5XKLrPhcDb2SozZoRqUETjhvm%2BKL6varbjzFF16qhj%2BbjG6BCdcE%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/205919246664?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAAvfq180IFyZ3a1UjbZhNivQCcwPP%2FsqdarrYA109kBUZFzYwUAyuGQLOqbtl0zSYZv42EfsjKD69M8PmGznJ7LLZ%2F9%2B66Ck8O9H6wVFhac013Npdfg7HHEqoRGd7qIuCqLul0xbc%2BmscwQD5JylZeUIKzTwyZ0RjMObbfAJQKZ7XtBgYHKm3vcjxzefvwpDo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/owwAAeSw99lpPg0a/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/XowAAeSwmMtpPg0d/s-l1600.jpg",
@@ -5378,7 +5398,7 @@
           "seller": {
             "username": "pcsemporium",
             "feedbackPercentage": "100.0",
-            "feedbackScore": 10553
+            "feedbackScore": 10555
           },
           "photoScore": {
             "score": 50,
@@ -5410,7 +5430,7 @@
           "price": 15.3,
           "shipping": 0,
           "total": 15.3,
-          "itemWebUrl": "https://www.ebay.com/itm/306702979518?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBOWzMWoUkMezPAwPP%2BXsU0PuXSDqa32b3smgy%2Bxj4miA1TSCnt1Wr5ZksPhwsHbfErWVc12hYIRrbwZ1lOd%2BKfxyOrDNfJy5X6p4q86bNXInH%2FpnHwRLQf2qIc1pCB07tkZZlKB1Q2l3j3S8SiFUa10apUYOezcbi2SZ%2B4pC4uz4UDp7sTv1R%2FJ6I2PiGZrKM%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/306702979518?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBOWzMWoUkMezPAwPP%2BXsU0PuXSDqa32b3smgy%2Bxj4miIId6v0EGVfvSG0Jyw7CluTYc9rmFZlaMFoKdCgG9f4Ct9F8FI%2FADFd1%2FWYG2jkJVFMOBVKJO9AoPITmQ%2FoJFF%2BUTn1NUPul0H0iEHKP9TkvIPbzl1m2uZcBvfvT%2F6LhJ7HJwBOkmYZKT02GIB52IEo%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/s~4AAeSwjYppYdSX/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/dYkAAeSw-gZpYdSY/s-l1600.jpg",
@@ -5419,7 +5439,7 @@
           "seller": {
             "username": "refreshops",
             "feedbackPercentage": "99.4",
-            "feedbackScore": 10773
+            "feedbackScore": 10776
           },
           "photoScore": {
             "score": 50,
@@ -5451,7 +5471,7 @@
           "price": 45.99,
           "shipping": 0,
           "total": 45.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318182487763?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCnbUUFnEHgj823aWkkxdj2ddgA3Xp8PGOfnMXn%2Bx5z%2FBSMl4Z%2Fu6W9uUeuRvyIK3HmJvoTrYM4%2FllkA248nxSm1reqiHcpHkB5hacZRAQNEQdvCVVTeVp3NZCrlgcqAjsVyT%2BQFVX4N4UyVVAZrEzXm3gwVKPA03DmeNDPe0dZdlT%2B%2BMU%2B57eQtqtJWqtgxrY%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318182487763?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xCnbUUFnEHgj823aWkkxdj2ddgA3Xp8PGOfnMXn%2Bx5z%2FCFhSvmxa2Qv76o9yg2zcKJdy9UOeTlw2nE%2BDYElRfBaDvkAAzfHYkRFgSdpfhSFV9wEyRbBa9OIdEOEjIpQAlbp3u1o6zSVdpL6zKBYvqnG%2FErwYWO5NhCCM4rBPL4i5Cfd%2B9hBc1sEsCAw%2FknS7zc%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/ercAAeSw3Wlp54gu/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/bfIAAeSwf5Np54gu/s-l1600.jpg"
@@ -5531,7 +5551,7 @@
           "price": 2.25,
           "shipping": 1,
           "total": 3.25,
-          "itemWebUrl": "https://www.ebay.com/itm/286868619296?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDvSSTb1VvK7W%2Fq40FazgMe4usjaz--kBNuKtnaJvBtRx7tghw31aF8EUa3qdlci2zRw8f2JJKTGDjh3Sq6gOHn79gFiSnMGjqWJXutbAkuY7q8TRlle8ni%2Bll%2FiVC5qCfT3gWNC3%2F5p8mZ3MgGJyICxnhDHtciNN3ssHCnvl6vu2L8dN%2B3XKXteAlon83h1b0%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286868619296?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xDvSSTb1VvK7W%2Fq40FazgMe4usjaz--kBNuKtnaJvBtR8VvLe7sMKzi0aYmPA%2BPutfjcIX0hcH%2FsTCKfdAuI8l%2B2papM9gcDHXabdZMtiV5fjzClr%2FBlcA184GyshUsBoMTPqZOdO3346bea7qy67WyiU9HmgqAKfzcBazYpzjtvL%2BAw4bxeZ0pleAsI02Q4ZY%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/VOIAAeSwgEBo6GtD/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/M0IAAeSwtM5o6Gqd/s-l1600.jpg"
@@ -5539,7 +5559,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -5571,7 +5591,7 @@
           "price": 2.5,
           "shipping": 1,
           "total": 3.5,
-          "itemWebUrl": "https://www.ebay.com/itm/286734088087?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAOcFmePaKXzr2JazJZRU7BibRmeuemV4bQhaeAdv1Yjk6%2BLVsJb0F3tBZOU1RCwJedTxSn83VIcWvKdfFXOd6%2FcAEvugq5TcHk6CiVeVl8Ri9rQaVhUnLkHIRTOFVfErWdTLBFwcV1mgdeq7uPtOSF1%2BbA1RH912Gr4CCxsaWKCwj4p37elwkKOY183lt6O6I%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/286734088087?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAOcFmePaKXzr2JazJZRU7BibRmeuemV4bQhaeAdv1YjhhZhn9iKOtw5Pp9TP77EY7NIvqoCfpVXUoJIi2fsULEYrxRiZCR1FMjyx8EgC%2FRoMNHEDLPFgAMSb4AxKlWIJFH%2F0%2FAOe8pddOUDyEEJLLewFVBn9e6cDRxxPJs%2F%2BESFs7qk5%2FBdqj22pJSyj5A%2FSU%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/t0gAAeSwETNoho9p/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/2TcAAOSwejJniz9S/s-l1600.jpg"
@@ -5579,7 +5599,7 @@
           "seller": {
             "username": "genovacards",
             "feedbackPercentage": "99.6",
-            "feedbackScore": 18300
+            "feedbackScore": 18301
           },
           "photoScore": {
             "score": 50,
@@ -5611,7 +5631,7 @@
           "price": 3.99,
           "shipping": 1.48,
           "total": 5.47,
-          "itemWebUrl": "https://www.ebay.com/itm/397815179547?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBM2uGKXSigHVg1I%2FZSFifUqdwG%2FA9ByNZQ5zoffONQY5ArHBJKJTB%2BQEvbTGmKp4AV4Gc0ut2IZ4YukEME5vIOh7diTMT%2FCEoqOT98Xi28MIInGfW%2BD2X5h0f0UrBZyHde6JJ29F3%2B67zBhTLUykTUXHvy7XhZlaMlVLcEmyJ4L42%2FTl7NHtmGAAVGXv4VSOo%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/397815179547?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xBM2uGKXSigHVg1I%2FZSFifUqdwG%2FA9ByNZQ5zoffONQY0dXT2RUJ408eUR5dSLlXvYwB9J1g1gVyFx1PUbp5kB6ECAKXAx3vrbUTbmE%2FrfMDckmnfQD5sEcH8o7W6iFbi5NoOLRAJw0vHeZdxWijiO8q6Kxb10299J6Uk6UjkwiMsyKT45BfiAYXnLclBOrI24%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/AQUAAeSw~pNpj8lv/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/DDsAAeSwKn9pj8l7/s-l1600.jpg"
@@ -5619,7 +5639,7 @@
           "seller": {
             "username": "alexanderj1",
             "feedbackPercentage": "99.9",
-            "feedbackScore": 3570
+            "feedbackScore": 3571
           },
           "photoScore": {
             "score": 50,
@@ -5691,7 +5711,7 @@
           "price": 79.99,
           "shipping": 0,
           "total": 79.99,
-          "itemWebUrl": "https://www.ebay.com/itm/318004669372?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAB7F6pU%2FaCG5zwGEeXe%2FDbq7IPAg3924%2FI4ieLyI5yF99KJytozCdWK4DptcOdqNWCc%2FD%2BYBLH5qcMTlNTIhisHCZj45kUBx7XodcjSuNTkaB7saHdtd%2FqYyr5VUAbzf62IRWD1K6PBGPyjsXxxK6J%2Fv09cJs5kYsU0zdx6uhhyNDmzrvc9gmAt3MQMMLnEjc%3D",
+          "itemWebUrl": "https://www.ebay.com/itm/318004669372?amdata=enc%3AAQALAAAAoGfYFPkwiKCW4ZNSs2u11xAB7F6pU%2FaCG5zwGEeXe%2FDbq7IPAg3924%2FI4ieLyI5yF3L5jq4wb0DkCX4ilT7Vduu1nCCFIt0ZNu7zJ4RJVPG8tZhaEYhjQm236hKHjtzV7pPsuVgH5Qeo%2FCn7WLni8XMyIbX%2Bp9P5l3zU2jF3IHE5UXtO07o5hD2G4YqeHsVI1GCyfuuhXb1wsaxM5o%2BiQ2I%3D",
           "imageUrl": "https://i.ebayimg.com/images/g/1r4AAeSwNC1ptcUe/s-l1600.jpg",
           "additionalImages": [
             "https://i.ebayimg.com/images/g/X-0AAeSwfKFptcUe/s-l1600.jpg",
@@ -5701,7 +5721,7 @@
           "seller": {
             "username": "ostrima",
             "feedbackPercentage": "96.5",
-            "feedbackScore": 814
+            "feedbackScore": 815
           },
           "photoScore": {
             "score": 50,
